@@ -1,5 +1,5 @@
 ---
-title: "Recipes"
+title: "Home"
 description: ""
 #image: ""
 date: 2023-07-19T13:24:19-04:00
@@ -8,6 +8,6 @@ keywords: ["unorthodoxdev"]
 toc: true
 menu: 
     main:
-        name: Recipes
-        weight: -90
+        name: Home
+        weight: -100
 ---

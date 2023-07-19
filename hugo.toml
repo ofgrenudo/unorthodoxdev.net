@@ -2,3 +2,9 @@ baseURL = 'https://unorthodoxdev.net'
 languageCode = 'en-us'
 title = 'Unorthodox Developer'
 theme = 'hugo-theme-stack'
+
+[[menu.social]]
+    url= "https://github.com/ofgrenudo"
+    name = "github"
+    [menu.social.params]
+        icon = "brand-github"
