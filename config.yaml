@@ -26,7 +26,7 @@ params:
         subtitle: My digital garden
         avatar:
             enabled: true
-            local: false
+            local: true
             src: img/pfp.png
 
     article:
