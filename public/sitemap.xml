@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unorthodoxdev.net/recipes/desserts/cowboy-cookies/</loc>
+    <lastmod>2023-07-19T14:06:29-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/</loc>
+    <lastmod>2023-07-19T14:06:29-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/entrees/tinga/</loc>
+    <lastmod>2023-07-19T13:57:24-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/entrees/</loc>
+    <lastmod>2023-07-19T13:25:00-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/desserts/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/accompaniments/</loc>
+    <lastmod>2023-07-19T13:24:29-04:00</lastmod>
+  </url><url>
     <loc>https://unorthodoxdev.net/recipes/</loc>
     <lastmod>2023-07-19T13:24:19-04:00</lastmod>
   </url><url>
@@ -9,9 +27,6 @@
     <lastmod>2023-07-19T12:31:03-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
-    <lastmod>2023-07-19T12:31:03-04:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/</loc>
     <lastmod>2023-07-19T12:31:03-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/migrating-ghost-blog-domain-names/</loc>
