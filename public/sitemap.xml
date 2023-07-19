@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://unorthodoxdev.net/recipes/</loc>
+    <lastmod>2023-07-19T13:24:19-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/custom-start-menu-layouts/</loc>
+    <lastmod>2023-07-19T12:31:03-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2023-07-19T12:31:03-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/</loc>
+    <lastmod>2023-07-19T12:31:03-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/migrating-ghost-blog-domain-names/</loc>
+    <lastmod>2023-07-19T12:20:21-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/menu/security/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/menu/software/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/menu/about/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/categories/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/menu/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/page/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/page/search/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Unorthodox Developer</title>
+        <link>https://unorthodoxdev.net/</link>
+        <description>Recent content on Unorthodox Developer</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 19 Jul 2023 12:31:03 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Recipes</title>
+        <link>https://unorthodoxdev.net/recipes/</link>
+        <pubDate>Wed, 19 Jul 2023 13:24:19 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/recipes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Custom Start Menu Layouts</title>
+        <link>https://unorthodoxdev.net/post/custom-start-menu-layouts/</link>
+        <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/custom-start-menu-layouts/</guid>
+        <description>&lt;p&gt;Windows 11 and Start Menus &lt;em&gt;suck.&lt;/em&gt; Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/post/custom-start-menu-layouts/start-menu-layouts.png&#34;
+	width=&#34;667&#34;
+	height=&#34;803&#34;
+	srcset=&#34;https://unorthodoxdev.net/post/custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/post/custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Start Menu Layouts&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;83&#34;
+		data-flex-basis=&#34;199px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;creating-a-new-layout&#34;&gt;Creating a new Layout&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;On a build PC configure your new layout.&lt;/li&gt;
+&lt;li&gt;run the &lt;code&gt;Export-StartLayout&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;Modify the &lt;code&gt;StartLayout&lt;/code&gt; file and change the &lt;code&gt;pinnedList&lt;/code&gt; to &lt;code&gt;primaryOEMPins&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy the JSON file to &lt;code&gt;C:\Users\Default\AppData\Local\Microsof\Windows\Shell&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Alternatively, windows holds an encrypted version of the startup file in the &lt;code&gt;%LocalAppData%\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState&lt;/code&gt; folder. Copying the &lt;code&gt;start.bin&lt;/code&gt; file to whatever computers same folder, will essentially do the same thing.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve also created a mini program that you can use to quickly do the above commands to quickly reproduce the steps above. I will put the latest version of the source blow, alternatively you can check my Github repository out here &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/confs/tree/main/scripts/start-layouts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ofgrenudo/confs/tree/main/scripts/start-layouts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Install.bat&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmd /c copy LayoutModification.json C:&lt;span style=&#34;color:#ae81ff&#34;&gt;\U&lt;/span&gt;sers&lt;span style=&#34;color:#ae81ff&#34;&gt;\D&lt;/span&gt;efault&lt;span style=&#34;color:#ae81ff&#34;&gt;\a&lt;/span&gt;ppdata&lt;span style=&#34;color:#ae81ff&#34;&gt;\l&lt;/span&gt;ocal&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;hell&lt;span style=&#34;color:#ae81ff&#34;&gt;\L&lt;/span&gt;ayoutModification.json /y 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmd /c copy start.bin C:&lt;span style=&#34;color:#ae81ff&#34;&gt;\U&lt;/span&gt;sers&lt;span style=&#34;color:#ae81ff&#34;&gt;\D&lt;/span&gt;efault&lt;span style=&#34;color:#ae81ff&#34;&gt;\A&lt;/span&gt;ppData&lt;span style=&#34;color:#ae81ff&#34;&gt;\L&lt;/span&gt;ocal&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;ackages&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy&lt;span style=&#34;color:#ae81ff&#34;&gt;\L&lt;/span&gt;ocalState
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;do-it-again.bat&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@echo off
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;powershell.exe Invoke-Command -scriptbloc &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Export-StartLayout -Path LayoutModifications.json&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmd /c copy %LocalAppdata%&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;ackages&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy&lt;span style=&#34;color:#ae81ff&#34;&gt;\L&lt;/span&gt;ocalState&lt;span style=&#34;color:#ae81ff&#34;&gt;\s&lt;/span&gt;tart.bin start.bin /y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmd /c copy %LocalAppdata%&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;ackages&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy&lt;span style=&#34;color:#ae81ff&#34;&gt;\L&lt;/span&gt;ocalState&lt;span style=&#34;color:#ae81ff&#34;&gt;\s&lt;/span&gt;tart2.bin start.bin /y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cls
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Echo Remember to Update pinnedList to primaryOEMPins
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pause
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Migrating Ghost Blog Domain Names</title>
+        <link>https://unorthodoxdev.net/post/migrating-ghost-blog-domain-names/</link>
+        <pubDate>Wed, 19 Jul 2023 12:20:21 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/migrating-ghost-blog-domain-names/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&amp;rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways. Or at least, double book blog posts somewhere just in case! (Truthfully most posts end up in my notebook to begin with, and end up polished on the website). Below are my steps to migrate my blogs DNS record.&lt;/p&gt;
+&lt;p&gt;Set your new DNS record, a day in advanced to the IP address of your server. In my case I was migrating from &lt;a class=&#34;link&#34; href=&#34;https://blog.unorthodoxdev.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.unorthodoxdev.net&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://unorthodoxdev.net&lt;/a&gt;. I created a ANAME record and allowed it to propagate overnight. In the morning, I did the below steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ghost config url {new_url}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm /etc/nginx/sites-enabled/*.conf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ghost setup ssl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ghost restart&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally you want to visit your website and check your cert and go from there!&lt;/p&gt;
+&lt;p&gt;I would also like to throw in that you might want to remove your ANAME record for whatever your website was before and upgrade it to a CNAME record. CNAME records are really just a redirect to whatever ANAME record you provide it.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://unorthodoxdev.net/menu/security/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/menu/security/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://unorthodoxdev.net/menu/software/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/menu/software/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About Me</title>
+        <link>https://unorthodoxdev.net/menu/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/menu/about/</guid>
+        <description>&lt;p&gt;Hello World! My name is Joshua.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://unorthodoxdev.net/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
