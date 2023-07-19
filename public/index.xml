@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Unorthodox Developer</title>
+        <title>Home on Unorthodox Developer</title>
         <link>https://unorthodoxdev.net/</link>
-        <description>Recent content on Unorthodox Developer</description>
+        <description>Recent content in Home on Unorthodox Developer</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Jul 2023 14:06:29 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Cowboy Cookies</title>
         <link>https://unorthodoxdev.net/recipes/desserts/cowboy-cookies/</link>
         <pubDate>Wed, 19 Jul 2023 14:06:29 -0400</pubDate>
