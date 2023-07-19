@@ -1,4 +1,4 @@
 baseURL = 'https://unorthodoxdev.net'
 languageCode = 'en-us'
 title = 'Unorthodox Developer'
-theme = 'hugo-book'
+theme = 'hugo-theme-stack'
