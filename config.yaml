@@ -27,7 +27,7 @@ params:
         avatar:
             enabled: true
             local: false
-            src: https://avatars.githubusercontent.com/u/117940901?s=400&u=4194e396b8bc6a5b29d08876b4598d1f9eb4a02f&v=4
+            src: img/pfp.png
 
     article:
         math: false
