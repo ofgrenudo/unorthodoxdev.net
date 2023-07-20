@@ -11,6 +11,8 @@ toc: true
 
 # Tattoo
 
+- https://github.com/ofgrenudo/tattoo/tree/master
+
 Tattoo is a program designed to automatically collect device information on run, and insert it into the registry of the device. This information is intended for archival purposes and will remain there for later inspection. Some of the bennifits of storing information in the registry is that it provides a static and proctected way to maintain information like,
 
 - The day the computer was deployed.
