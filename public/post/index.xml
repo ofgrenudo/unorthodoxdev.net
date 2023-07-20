@@ -6,7 +6,505 @@
         <description>Recent content in Posts on Unorthodox Developer</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Jul 2023 12:31:03 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Jul 2023 21:02:50 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MECM API</title>
+        <link>https://unorthodoxdev.net/post/mecm-api/</link>
+        <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/mecm-api/</guid>
+        <description>&lt;h2 id=&#34;the-basics&#34;&gt;The Basics&lt;/h2&gt;
+&lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
+&lt;h3 id=&#34;service&#34;&gt;Service&lt;/h3&gt;
+&lt;p&gt;You can check the status of the service in the console under &lt;strong&gt;\Monitoring\Overview\System Status\Component Status - SMS_REST_PROVIDER&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;read-only-query-basics&#34;&gt;Read-Only Query Basics&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Note: All queries in this section use a HTTP GET method. Also, everything is CASE SenSiTiVe.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Get all Devices &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get All Users &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_User&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get Device By ResourceID (same syntax for users) &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System(12345678)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get User By ResourceID &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_User(12345678)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Retrieve related class information. This example gets Operating System information for a specific device. &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System(12345678)/SMS_G_System_OPERATING_SYSTEM&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Tattoo</title>
+        <link>https://unorthodoxdev.net/post/tattoo/</link>
+        <pubDate>Wed, 19 Jul 2023 21:01:44 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/tattoo/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Workflow Status&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;tattoo&#34;&gt;Tattoo&lt;/h1&gt;
+&lt;p&gt;Tattoo is a program designed to automatically collect device information on run, and insert it into the registry of the device. This information is intended for archival purposes and will remain there for later inspection. Some of the bennifits of storing information in the registry is that it provides a static and proctected way to maintain information like,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The day the computer was deployed.&lt;/li&gt;
+&lt;li&gt;The task sequence used when you deployed the computer.&lt;/li&gt;
+&lt;li&gt;The asset tag assigned.&lt;/li&gt;
+&lt;li&gt;The device name when deployed.&lt;/li&gt;
+&lt;li&gt;The serial number of the device.&lt;/li&gt;
+&lt;li&gt;The device model.&lt;/li&gt;
+&lt;li&gt;The device make.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows &amp;gt;=10, or Windows Server 2016.&lt;/li&gt;
+&lt;li&gt;PowerShell 5.1 or later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;running&#34;&gt;Running&lt;/h2&gt;
+&lt;p&gt;In order to run tattoo.exe you will need at a minimum, the following file along side the executable.&lt;/p&gt;
+&lt;p&gt;tatto.exe.manifest&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34; standalone=&amp;#34;yes&amp;#34;?&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;assembly&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xmlns=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;urn:schemas-microsoft-com:asm.v1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;manifestVersion=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1.0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;assemblyIdentity&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;version=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1.0.0.0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;processorArchitecture=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;app&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;type=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;win32&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;dependentAssembly&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;assemblyIdentity&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;type=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;win32&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Microsoft.Windows.Common-Controls&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;version=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;6.0.0.0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;processorArchitecture=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;publicKeyToken=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;6595b64144ccf1df&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;language=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/dependentAssembly&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/assembly&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Otherwise it will throw an error &lt;code&gt;exit code: 0xc0000139, STATUS_ENTRYPOINT_NOT_FOUND&lt;/code&gt; when trying to run the program. This is a bug with the native windows gui API that has not been resolved.&lt;/p&gt;
+&lt;h2 id=&#34;example-screenshots&#34;&gt;Example Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/ofgrenudo/tattoo/master/docs/tattoo-ui.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;tattoo-ui&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ci Pipelines With Rust</title>
+        <link>https://unorthodoxdev.net/post/ci-pipelines-with-rust/</link>
+        <pubDate>Wed, 19 Jul 2023 21:01:12 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/ci-pipelines-with-rust/</guid>
+        <description>&lt;p&gt;&lt;em&gt;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;CI, Continuous onus Integration allows for each member of a team to integrate their changes into the main branch, multiple times a day.&lt;/p&gt;
+&lt;p&gt;Continuous Integration allows us to tighten the feed back loop. We are less likely to go off on your own and develop for days or weeks just to find out the approach you have taken isn&amp;rsquo;t working, or isn&amp;rsquo;t approved by peers. Continuous Integration forces you to work with your teammates earlier than when you feel is comfortable allowing for course correcting actions to be taken &lt;em&gt;before&lt;/em&gt; you have wasted your time. So how do we make Continuous Integration a reality?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tests&lt;/li&gt;
+&lt;li&gt;Code Coverage&lt;/li&gt;
+&lt;li&gt;Linting&lt;/li&gt;
+&lt;li&gt;Formatting&lt;/li&gt;
+&lt;li&gt;Security Vulnerabilities&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;tests&#34;&gt;Tests&lt;/h2&gt;
+&lt;p&gt;Tests in rust are a first-class concept. This being said rust allows you to easily leverage the rust ecosystem to run unit and integration tests using&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo test
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;cargo test&lt;/code&gt; also takes care of building the project before running tests saving you a command or two.&lt;/p&gt;
+&lt;h2 id=&#34;code-coverage&#34;&gt;Code Coverage&lt;/h2&gt;
+&lt;p&gt;Code coverage is a easy way to see if we have overlooked any section of the code base that have been poorly tested. The easiest way to measure code coverage of a rust project is via &lt;code&gt;cargo tarpaulin&lt;/code&gt; a cargo subcommand developed by xd009642. You can install tarpaulin with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo install cargo-tarpaulin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can run cargo-tarpaulin with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo tarpaulin --ignore-tests
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;linting&#34;&gt;Linting&lt;/h2&gt;
+&lt;p&gt;Rust maintains &lt;code&gt;clippy&lt;/code&gt; the official rust linter. Clippy is included in the set of components installed by rustup if you are using the default profile. You can run clippy with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo clippy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this CI pipeline we would like to fail the linter check if clippy emits any warnings. To do so we can run the following command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo clippy -- -D warnings
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note, from time to time clippy might suggest something you do not belive to be correct or desirable. You can mute these warnings with the following&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#[allow(clippy::lint_name)]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;formatting&#34;&gt;Formatting&lt;/h2&gt;
+&lt;p&gt;Let machines deal with formatting while reviewers focus on architecture, testing thoroughness, reliability, and observability. Automated formatting removes a distraction from the complex equation of the PR review process. You might dislike this or that formatting choice but the complete erasure of formatting bikeshedding is worth the minor discomfort.&lt;/p&gt;
+&lt;p&gt;Rust actually has a built in formatter called &lt;code&gt;rustfmt&lt;/code&gt;. &lt;code&gt;rustfmt&lt;/code&gt; should be included in the default rustup components but if you are missing it you can install it via&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rustup component add rustfmt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To format your whole project you can run&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo fmt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In the CI pipeline we will ad a formatting step.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo fmt -- --check
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will ultimately fail when a commit contains unformatted code, printing the difference to the console. You can tune a project with a configuration file &lt;code&gt;rustfmt.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;security-vulnerabilities&#34;&gt;Security Vulnerabilities&lt;/h2&gt;
+&lt;p&gt;Caro makes it very easy to leverage existing crates in the ecosystem to solve at hand. On the flip side, each of those crates might hide an exploitable vulnerability that could compromise the security posture of your software. The Rust Secure Code group maintains an &lt;em&gt;Advisory Database&lt;/em&gt; on reported vulnerabilities for crates published on crates.io. You can leverage this advisory database with a tool called cargo-audit. You can install it with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo install cargo-audit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To use it you can run&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo audit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;github-actions&#34;&gt;Github Actions&lt;/h1&gt;
+&lt;p&gt;Below are some github actions you can add to your CI routines. To use them you will want too create the github actions folder and drop each of these files inside.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir -p .github/workflows
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd .github/workflows
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;audit.yml&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Security audit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;on&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;schedule&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;cron&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;0 0 * * *&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;push&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;paths&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;**/Cargo.toml&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;**/Cargo.lock&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;jobs&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;security_audit&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;runs-on&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;actions/checkout@v3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;taiki-e/install-action@cargo-deny&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Scan for vulnerabilities&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;run&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;cargo deny check advisories&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;general.yml&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Rust&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;on&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;push&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;branches&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;pull_request&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;types&lt;/span&gt;: [ &lt;span style=&#34;color:#ae81ff&#34;&gt;opened, synchronize, reopened ]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;branches&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;env&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;CARGO_TERM_COLOR&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;always&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;SQLX_VERSION&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0.6.2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;SQLX_FEATURES&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rustls&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;jobs&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;test&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;runs-on&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;services&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;actions/checkout@v3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;dtolnay/rust-toolchain@stable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Swatinem/rust-cache@v2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Run tests&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;run&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;cargo test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;fmt&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Rustfmt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;runs-on&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;actions/checkout@v3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;dtolnay/rust-toolchain@stable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;with&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;components&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;rustfmt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Enforce formatting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;run&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;cargo fmt --check&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;clippy&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Clippy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;runs-on&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;services&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;postgres&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;postgres:14&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;env&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;POSTGRES_USER&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;postgres&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;POSTGRES_PASSWORD&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;password&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;POSTGRES_DB&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;postgres&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;ports&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          - &lt;span style=&#34;color:#ae81ff&#34;&gt;5432&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;5432&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;actions/checkout@v3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;dtolnay/rust-toolchain@stable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;with&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;components&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;clippy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Swatinem/rust-cache@v2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Linting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;run&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;cargo clippy -- -D warnings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;coverage&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Code coverage&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;runs-on&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ubuntu-latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;services&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Checkout repository&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;actions/checkout@v3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;dtolnay/rust-toolchain@stable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Generate code coverage&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;run&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;cargo tarpaulin --verbose --workspace&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Ublock Origin and More</title>
+        <link>https://unorthodoxdev.net/post/ublock-origin-and-more/</link>
+        <pubDate>Wed, 19 Jul 2023 21:00:06 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/ublock-origin-and-more/</guid>
+        <description>&lt;p&gt;Everybody knows about &lt;a class=&#34;link&#34; href=&#34;https://ublockorigin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;uBlock Origin&lt;/a&gt;. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.&lt;/p&gt;
+&lt;p&gt;Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you. These are really the same lists that DNS filters like pi-hole use.&lt;/p&gt;
+&lt;p&gt;A good website that has some of these lists are &lt;a class=&#34;link&#34; href=&#34;https://easylist.to&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://easylist.to&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Browse to the website, and find what ever list you want and then select the button &lt;strong&gt;add it to your blocker.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This will open a new tab, and then uBlock will prompt you to subscribe it it. Select &amp;lsquo;Subscribe&amp;rsquo; and then you will be live with that list.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Digital Gardens</title>
+        <link>https://unorthodoxdev.net/post/digital-gardens/</link>
+        <pubDate>Wed, 19 Jul 2023 20:59:39 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/digital-gardens/</guid>
+        <description>&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
+&lt;h3 id=&#34;what-is-a-digital-garden&#34;&gt;What is a Digital Garden?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A place for ideas to grow.&lt;/li&gt;
+&lt;li&gt;A place for critiques.&lt;/li&gt;
+&lt;li&gt;An exercise in learning in public.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Humility.&lt;/li&gt;
+&lt;li&gt;Honesty.&lt;/li&gt;
+&lt;li&gt;Generate Resources that you wish you had.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;work-in-public&#34;&gt;Work In Public&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Document Your Self.&lt;/li&gt;
+&lt;li&gt;Document Your Steps&lt;/li&gt;
+&lt;li&gt;Working In Public Forces you to Work your Metacognitive Mind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What is a digital garden? &lt;a class=&#34;link&#34; href=&#34;https://notes.joschua.io/50&amp;#43;Slipbox/Digital&amp;#43;garden&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://notes.joschua.io/50+Slipbox/Digital+garden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Work In Public &lt;a class=&#34;link&#34; href=&#34;https://nesslabs.com/work-in-public&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://nesslabs.com/work-in-public&lt;/a&gt;
+Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-in-public&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.swyx.io/learn-in-public&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pick Up What They Put Down &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/puwtpd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.swyx.io/puwtpd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Learn In Private &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-in-private&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.swyx.io/learn-in-private&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How do Rocket Scientists Learn &lt;a class=&#34;link&#34; href=&#34;https://www.govloop.com/community/blog/how-do-rocket-scientists-learn-aka-knowledge-management-lessons-learned-at-goddard-nasa/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.govloop.com/community/blog/how-do-rocket-scientists-learn-aka-knowledge-management-lessons-learned-at-goddard-nasa/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;what-is-a-digital-garden-1&#34;&gt;What is a Digital Garden?&lt;/h1&gt;
+&lt;p&gt;A digital garden to me is a place for for my ideas, projects, and thoughts to be planted in, and sprout and grow in the future. Besides a personal journal on my computer Ive decided to make it a publicly facing blog. Ive decided to so for a few reasons. A digital garden allows space for critiques from others. I don&amp;rsquo;t know everything, nor do I know the best way to do one thing. Posting things publicly allows for a criticism from netizens.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;As I grow, my notes will grow. They will mature from that seed to a full grown plant later in the future.&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://notes.joschua.io/50&amp;#43;Slipbox/Digital&amp;#43;garden&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(Digital Garden, Joschua)&lt;/a&gt; This is a practice of Working in Public.&lt;/p&gt;
+&lt;h2 id=&#34;working-in-public&#34;&gt;Working In Public&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://s18798.pcdn.co/motivationlab/wp-content/uploads/sites/6235/2023/02/two-routes-to-the-sr-oof-mot-and-goals.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Studies show that statistically, people are more likely to do stuff if they keep their intentions in private.&lt;/a&gt; But at times though that statement can seem counter intuitive. Often, people share their weight loss publicly on Facebook or Twitter or Instagram. Many report that doing so is a great way to stay motivated.&lt;/p&gt;
+&lt;p&gt;When you think about it, some of the reason, people post things online is because it provides a way for you to receive praise along the way. A quote that sticks with me is&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Become a documentarian of what you do&amp;rdquo; - Austin Kleon, Author of Show Your Work&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Becoming a documentarian means that you will develop very quickly&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Metacognition&lt;/li&gt;
+&lt;li&gt;Quick Feedback Loops on Content&lt;/li&gt;
+&lt;li&gt;Increased Creativity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By documenting your self, you are working your Metacognition. You are working on thinking of your thoughts. Should I have done that? Should I have done this instead. Why did I take that route? Was it because of an experience I had? Working your metacognition and &lt;em&gt;thinking&lt;/em&gt; about your thinking allows for you to quickly determine fallacies in your thought pattern. It also helps you explain in better depth, what you are working on.&lt;/p&gt;
+&lt;p&gt;Working in public also forces you to document not only your thoughts, but also your steps taken to get there. Doing this its self can help you identify un necessary steps and find better work flows.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Setting a Hostname on Linux</title>
+        <link>https://unorthodoxdev.net/post/setting-a-hostname-on-linux/</link>
+        <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/setting-a-hostname-on-linux/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;⚠️ Danger
+You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A hostname is a computers human readable address that allows you to communicate with it, regardless of weather or not you know what its IP address is. Hostnames are pratcial and easy to remember. For whatever reason if you need to reset your hostname on a linux machine, you can follow the below instructions&lt;/p&gt;
+&lt;p&gt;To view your current hostname type&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hostname
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When I do so on the current machine, I see that for whatever reason the machines name is set to localhost. This is a problem as localhost also happens to be an alias to &lt;a class=&#34;link&#34; href=&#34;http://localhost/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;127.0.0.1&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;temporarily&#34;&gt;Temporarily&lt;/h1&gt;
+&lt;p&gt;To temporarily reset the hostname of the machine I should do the following&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hostname changeme
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Again though, unfortunately this only keeps the hostname that way until the next reboot. This might be good for testing or even just to get a prod server off of a bearing load and replace it with a backup server. But for a more permanent and serious effect, we should do the following.&lt;/p&gt;
+&lt;h1 id=&#34;permanently&#34;&gt;Permanently&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hostnamectl set-hostname imstuck
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The above command should set the hostname immediately as well as it should stick beyond a reboot. To confirm that the name has been configured permanently we can check the following file &lt;code&gt;/etc/hostname&lt;/code&gt; and confirm the contents are what we are expecting. The thing I would do in this case is to reboot as soon as possible so that permanent hostname can really take affect and your DNS servers can update accordingly.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Linux Administration Tips and Tricks</title>
+        <link>https://unorthodoxdev.net/post/linux-administration-tips-and-tricks/</link>
+        <pubDate>Wed, 19 Jul 2023 20:58:00 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/linux-administration-tips-and-tricks/</guid>
+        <description>&lt;p&gt;These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&lt;/p&gt;
+&lt;h1 id=&#34;service-monitoring&#34;&gt;Service Monitoring&lt;/h1&gt;
+&lt;p&gt;Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?&lt;/p&gt;
+&lt;h2 id=&#34;system-services&#34;&gt;System Services&lt;/h2&gt;
+&lt;p&gt;This command in a very cute way, will display all of the services installed on your server, and then display them accordingly with + or - signs to indicate weather or not it is running.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;service --status-all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Using grep, you can highlight services that are running (+) or stopped (-) for easy identification.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;service --status-all | grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[ + ]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Grep can also help you identify a specific service given you know the name like &lt;code&gt;ssh&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;running-processs&#34;&gt;Running Process&amp;rsquo;s&lt;/h2&gt;
+&lt;p&gt;PS displays information about a selection of the active processes. It is an alternative to TOP that only prints once. By default &lt;code&gt;ps&lt;/code&gt; selects all processes with the same user id (EUID). It will show you the Process ID (PID) and the terminal associated with the process (TTY), the cumulated cpu time in [DD-]hh:mm:ss and the executable name (CMD).&lt;/p&gt;
+&lt;p&gt;The below command will display all processes initiated by the user.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ps
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you want to see a specific users processes you can do the following&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ps -U root -u root u
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you want to view every process on the system, you can do&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ps -e
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;network-related-services&#34;&gt;Network Related Services&lt;/h2&gt;
+&lt;p&gt;The below command will allow you to view all current connections and listening services on a system along with the processes and PIDs for each connection. It requires that you have the &lt;code&gt;net-tools&lt;/code&gt; package installed.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;netstat -tulpn
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Say I wanted to look at what process was running on port 22&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;netstat -tulpn | grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;22&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The above command will return an output of any port that has 22 in it. For me currently, I have two services listening on port 22. One for IPv4 and IPv6&lt;/p&gt;
+&lt;p&gt;Example Output&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ netsatat -tulpn | grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;22&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcp    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 0.0.0.0:22    0.0.0.0:*    LISTEN    -
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcp6   &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; :::22         :::*         LISTEN    -
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;networking-shenanigans&#34;&gt;Networking Shenanigans&lt;/h1&gt;
+&lt;p&gt;Soy baboon, hay problemas de redes; ooh ooh ahh ahh.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://thumbs.dreamstime.com/z/monkey-scratching-his-head-animal-began-to-think-139656229.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;i-am-a-monkey.jpg | 500&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;first-things-first&#34;&gt;First &lt;em&gt;things&lt;/em&gt; first&lt;/h2&gt;
+&lt;p&gt;Where am i on the subnet? The below tools will help you troubleshoot where your are on the subnet, what might be missing, and or misconfigured. To get a quick overview of all of your connected network cards, you can run the following command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;networkctl status
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will print out the following information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;State: Routable or Not&lt;/li&gt;
+&lt;li&gt;Online Status&lt;/li&gt;
+&lt;li&gt;Address (IPv4 and IPv6)&lt;/li&gt;
+&lt;li&gt;Gateway Address including the associated port.&lt;/li&gt;
+&lt;li&gt;DNS Servers&lt;/li&gt;
+&lt;li&gt;Domains&lt;/li&gt;
+&lt;li&gt;NTP Servers.&lt;/li&gt;
+&lt;li&gt;Network Card Configurations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If everything above looks good we can move on to looking more closely at our network cards.&lt;/p&gt;
+&lt;h2 id=&#34;whats-my-ip&#34;&gt;Whats my ip?&lt;/h2&gt;
+&lt;p&gt;The ip command allows you to show address information, manipulate routing, and display network devices, interfaces, and tunnels. It is a simple concept and hard tool to learn. There really five (5) modes to ip.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tunnel (Tunnel over IP)&lt;/li&gt;
+&lt;li&gt;Route (Routing table entry)&lt;/li&gt;
+&lt;li&gt;Rule (rule in routing policy database)&lt;/li&gt;
+&lt;li&gt;VRF (Manage virtual routing and forwarding devices)&lt;/li&gt;
+&lt;li&gt;XFRM (Manage IPSec policies)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To find the IP addresses assigned to your server, use&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ip address show
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will give you each interface, numbered from 1 to ♾️ including the status (UP or DOWN), IPv4 and IPv6 address, and subnet mask and broadcast address.&lt;/p&gt;
+&lt;p&gt;![[ip-address-show.png]]&lt;/p&gt;
+&lt;p&gt;To force a static IP address on a interface, you can do the following&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ip address add 10.66.10.9/16 dev eth0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you will want to reboot the network card.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ip link set eth0 down
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ip link set eth0 up
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Make sure for the above command you are physically connected to the server otherwise, you may lose connection if your actively using eth0.&lt;/p&gt;
+&lt;p&gt;If things are still looking good, we can move on too routes.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ip route
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will show all of routes advertised by our DHCP server as available as well as their weighted value identified by the metric lable. You should have a few things listed here. If not I would investigate that.&lt;/p&gt;
+&lt;h2 id=&#34;my-connection-is-getting-dropped-or-reset-somewhere-along-the-wire&#34;&gt;My connection is getting dropped, or reset somewhere along the wire.&lt;/h2&gt;
+&lt;p&gt;MTR (Matts Trace-route) is a program that allows you to diagnose issues like these. To use MTR, you will want to do the following&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mtr google.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;My favorite flag to use with this is &lt;code&gt;-b&lt;/code&gt; it shows the dns name as well as the IP side by side allowing for a quick analysis of the network having issues.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mtr -b google.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can also send a predetermined amount of pings with the &lt;code&gt;-c&lt;/code&gt; flag. Otherwise known as &lt;code&gt;count&lt;/code&gt; it allows you to select how many packets to send.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mtr -c &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt; -b google.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The final command you will need to know about with mtr is &lt;code&gt;-r&lt;/code&gt; or record. This allows you to output the information into a txt file for later usage.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mtr -r -c &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; google.com &amp;gt; mtr-google.log
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note that doing so will lock your terminal working on dumping that data so I would recommend a smaller count. If you really wanted to get something running and then do something else in the mean time, you could apply a ampersand (&amp;amp;) to the end of your command to have it run in the background. It will spit out a PID that you can search for later to see if its complete with&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ps -e | grep 15225
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;monitoring-network-traffic&#34;&gt;Monitoring network traffic&lt;/h2&gt;
+&lt;p&gt;So, everything looks good, but data is still coming back corrupted? Lets look at the raw packets.&lt;/p&gt;
+&lt;p&gt;The below command allows us to capture all traffic that comes or goes from this interface within the following ip and subnet range.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcpdump -i eth0 net 10.66.0.0/16
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We can also filter based on source (&lt;code&gt;src&lt;/code&gt;) or destination (&lt;code&gt;dst&lt;/code&gt;).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcpdump -i eth src net 10.1.0.0/24
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcpdump -i eth dst net 10.1.0.0/24
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Finally we can also capture traffic only coming or going from a specific port.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcpdump -i eth0 port &lt;span style=&#34;color:#ae81ff&#34;&gt;53&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Combining the port traffic with a specific host&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcpdump -i eth0 host 10.66.10.123 and port &lt;span style=&#34;color:#ae81ff&#34;&gt;53&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Dnf Cheat Sheet</title>
+        <link>https://unorthodoxdev.net/post/dnf-cheat-sheet/</link>
+        <pubDate>Wed, 19 Jul 2023 20:57:05 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/dnf-cheat-sheet/</guid>
+        <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Command&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf list installed&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Show all installed packages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf search package&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Search repositories for packages.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf info package&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;View more information on a particular package.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf install package&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Install package from available repositories.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf remove package&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Remove a specific package.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf repolist all&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Display all available and installed repositories.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf upgrade --refresh&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Update all packages available.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf check-update&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Check for updates across all enabled repositories. Does not install updates.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf autoremove&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Remove orphaned packages no longer required&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Dandified YUM&lt;/strong&gt; or &lt;strong&gt;Did Not Finish&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Wiki: &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/DNF_%28software%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://en.wikipedia.org/wiki/DNF_(software)&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Custom Start Menu Layouts</title>
         <link>https://unorthodoxdev.net/post/custom-start-menu-layouts/</link>
         <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>

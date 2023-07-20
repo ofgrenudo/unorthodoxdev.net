@@ -1,0 +1,217 @@
+---
+title: "Linux Administration Tips and Tricks"
+description: "Some tips and tricks for when administrating linux servers"
+#image: ""
+date: 2023-07-19T20:58:00-04:00
+draft: false
+keywords: ["unorthodoxdev"]
+toc: true
+---
+
+
+These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.
+
+# Service Monitoring
+
+Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?  
+
+## System Services
+
+This command in a very cute way, will display all of the services installed on your server, and then display them accordingly with + or - signs to indicate weather or not it is running. 
+
+```bash
+service --status-all
+```
+
+ Using grep, you can highlight services that are running (+) or stopped (-) for easy identification.
+
+```bash
+service --status-all | grep "[ + ]"
+```
+
+Grep can also help you identify a specific service given you know the name like `ssh`
+
+## Running Process's
+
+PS displays information about a selection of the active processes. It is an alternative to TOP that only prints once. By default `ps` selects all processes with the same user id (EUID). It will show you the Process ID (PID) and the terminal associated with the process (TTY), the cumulated cpu time in [DD-]hh:mm:ss and the executable name (CMD). 
+
+The below command will display all processes initiated by the user.
+
+```bash
+ps
+```
+
+If you want to see a specific users processes you can do the following
+
+```bash
+ps -U root -u root u
+```
+
+If you want to view every process on the system, you can do 
+
+```bash
+ps -e
+```
+
+## Network Related Services
+
+The below command will allow you to view all current connections and listening services on a system along with the processes and PIDs for each connection. It requires that you have the `net-tools` package installed.
+
+```bash
+netstat -tulpn
+```
+
+Say I wanted to look at what process was running on port 22
+
+```bash
+netstat -tulpn | grep "22"
+```
+
+The above command will return an output of any port that has 22 in it. For me currently, I have two services listening on port 22. One for IPv4 and IPv6
+
+Example Output
+```bash
+$ netsatat -tulpn | grep "22"
+tcp    0    0 0.0.0.0:22    0.0.0.0:*    LISTEN    -
+tcp6   0    0 :::22         :::*         LISTEN    -
+```
+
+
+<div style="page-break-after: always;"></div>
+
+# Networking Shenanigans
+
+Soy baboon, hay problemas de redes; ooh ooh ahh ahh.
+
+![i-am-a-monkey.jpg | 500](https://thumbs.dreamstime.com/z/monkey-scratching-his-head-animal-began-to-think-139656229.jpg) 
+
+## First *things* first
+
+Where am i on the subnet? The below tools will help you troubleshoot where your are on the subnet, what might be missing, and or misconfigured. To get a quick overview of all of your connected network cards, you can run the following command
+
+```bash
+networkctl status
+```
+
+It will print out the following information:
+
+- State: Routable or Not
+- Online Status
+- Address (IPv4 and IPv6)
+- Gateway Address including the associated port.
+- DNS Servers
+- Domains
+- NTP Servers.
+- Network Card Configurations.
+
+If everything above looks good we can move on to looking more closely at our network cards.
+
+## Whats my ip?
+
+The ip command allows you to show address information, manipulate routing, and display network devices, interfaces, and tunnels. It is a simple concept and hard tool to learn. There really five (5) modes to ip.
+
+- Tunnel (Tunnel over IP)
+- Route (Routing table entry)
+- Rule (rule in routing policy database)
+- VRF (Manage virtual routing and forwarding devices)
+- XFRM (Manage IPSec policies)
+
+To find the IP addresses assigned to your server, use 
+
+```bash
+ip address show
+```
+
+This will give you each interface, numbered from 1 to ♾️ including the status (UP or DOWN), IPv4 and IPv6 address, and subnet mask and broadcast address.
+
+![[ip-address-show.png]]
+
+To force a static IP address on a interface, you can do the following
+
+```bash
+ip address add 10.66.10.9/16 dev eth0
+```
+
+Then you will want to reboot the network card.
+
+```bash
+ip link set eth0 down
+ip link set eth0 up
+```
+
+Make sure for the above command you are physically connected to the server otherwise, you may lose connection if your actively using eth0.
+
+If things are still looking good, we can move on too routes.
+
+```bash
+ip route
+```
+
+This will show all of routes advertised by our DHCP server as available as well as their weighted value identified by the metric lable. You should have a few things listed here. If not I would investigate that.
+
+## My connection is getting dropped, or reset somewhere along the wire.
+
+MTR (Matts Trace-route) is a program that allows you to diagnose issues like these. To use MTR, you will want to do the following 
+
+```bash
+mtr google.com
+```
+
+My favorite flag to use with this is `-b` it shows the dns name as well as the IP side by side allowing for a quick analysis of the network having issues.
+
+```bash
+mtr -b google.com
+```
+
+You can also send a predetermined amount of pings with the `-c` flag. Otherwise known as `count` it allows you to select how many packets to send. 
+
+```bash
+mtr -c 100 -b google.com
+```
+
+The final command you will need to know about with mtr is `-r` or record. This allows you to output the information into a txt file for later usage.
+
+```bash
+mtr -r -c 20 google.com > mtr-google.log
+```
+
+Note that doing so will lock your terminal working on dumping that data so I would recommend a smaller count. If you really wanted to get something running and then do something else in the mean time, you could apply a ampersand (&) to the end of your command to have it run in the background. It will spit out a PID that you can search for later to see if its complete with
+
+```
+ps -e | grep 15225
+```
+
+## Monitoring network traffic
+
+So, everything looks good, but data is still coming back corrupted? Lets look at the raw packets.
+
+The below command allows us to capture all traffic that comes or goes from this interface within the following ip and subnet range.
+
+```bash
+tcpdump -i eth0 net 10.66.0.0/16
+```
+
+We can also filter based on source (`src`) or destination (`dst`).
+
+```bash
+tcpdump -i eth src net 10.1.0.0/24
+```
+
+or
+
+```bash
+tcpdump -i eth dst net 10.1.0.0/24
+```
+
+Finally we can also capture traffic only coming or going from a specific port.
+
+```bash
+tcpdump -i eth0 port 53
+```
+
+Combining the port traffic with a specific host
+
+```bash
+tcpdump -i eth0 host 10.66.10.123 and port 53
+```
+
