@@ -46,6 +46,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;tattoo&#34;&gt;Tattoo&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/tattoo/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ofgrenudo/tattoo/tree/master&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Tattoo is a program designed to automatically collect device information on run, and insert it into the registry of the device. This information is intended for archival purposes and will remain there for later inspection. Some of the bennifits of storing information in the registry is that it provides a static and proctected way to maintain information like,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The day the computer was deployed.&lt;/li&gt;
