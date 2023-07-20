@@ -10,18 +10,18 @@ toc: true
 
 ## Ingredients
 
-2 cups flour
-1/2 tsp baking powder
-1 tsp baking soda
-1/2 tsp salt
-1/2 cup butter
-1/2 cup vegetable oil
-1 cup backed light brown sugar
-1 cup white sugar
-2 eggs
-1 tsp vanilla extract
-2 cups quick cooking oats
-1 cup semi-sweet chocolate chips or other mix-ins
+- 2 cups flour
+- 1/2 tsp baking powder
+- 1 tsp baking soda
+- 1/2 tsp salt
+- 1/2 cup butter
+- 1/2 cup vegetable oil
+- 1 cup backed light brown sugar
+- 1 cup white sugar
+- 2 eggs
+- 1 tsp vanilla extract
+- 2 cups quick cooking oats
+- 1 cup semi-sweet chocolate chips or other mix-ins
 
 ## Directions
 

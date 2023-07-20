@@ -10,12 +10,12 @@ toc: true
 
 ## Ingredients
 
-1 cup packed brown sugar.
-1/2 c. butter (cubed).
-2 tubes (12 oz each) refigerated biscuts.
-1/2 c. sugar.
-1 tbsp ground cinnamon.
-1 package (8oz) cream cheese, cut into 20 cubes.
+- 1 cup packed brown sugar.
+- 1/2 c. butter (cubed).
+- 2 tubes (12 oz each) refigerated biscuts.
+- 1/2 c. sugar.
+- 1 tbsp ground cinnamon.
+- 1 package (8oz) cream cheese, cut into 20 cubes.
 
 ## Directions
 
