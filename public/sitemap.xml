@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unorthodoxdev.net/post/mecm-api/</loc>
-    <lastmod>2023-07-19T21:02:50-04:00</lastmod>
+    <loc>https://unorthodoxdev.net/post/new-blogging-system/new-bloging-system/</loc>
+    <lastmod>2023-07-21T10:58:35-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2023-07-21T10:58:35-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/read-the-damn-instructions/</loc>
+    <lastmod>2023-07-21T10:50:07-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/mecm-api/</loc>
     <lastmod>2023-07-19T21:02:50-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/tattoo/</loc>
@@ -83,8 +89,6 @@
     <loc>https://unorthodoxdev.net/menu/security/</loc>
   </url><url>
     <loc>https://unorthodoxdev.net/menu/software/</loc>
-  </url><url>
-    <loc>https://unorthodoxdev.net/menu/about/</loc>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/</loc>
   </url><url>

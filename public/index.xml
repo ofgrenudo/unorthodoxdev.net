@@ -7,6 +7,35 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>New Bloging System</title>
+        <link>https://unorthodoxdev.net/post/new-blogging-system/new-bloging-system/</link>
+        <pubDate>Fri, 21 Jul 2023 10:58:35 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/new-blogging-system/new-bloging-system/</guid>
+        <description>&lt;img src="https://unorthodoxdev.net/this-is-fine.png" alt="Featured image of post New Bloging System" /&gt;&lt;p&gt;Ive migrated my website from the ghost blogging platform to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo&lt;/a&gt; (go hugo, go hugo, go!). Its a little simpler and easier to manage. I also feel as though I have more controll. Currently, im using the hugo-stacked-theme as it looks the most appealing to me, and is not a massive website with insane overhead. It also comes with a indexing feature that allows me (and you ofcourse) to search my content for specific keywords.&lt;/p&gt;
+&lt;p&gt;Another great thing about it being simple is I dont have to constantly monitor that the ghost instance isnt taking too much resources as the web server just lives on a static nginx route. The only thing I &lt;strong&gt;will&lt;/strong&gt; have to get used to is making sure that before I push to the remote repository, that I have ran &lt;code&gt;hugo&lt;/code&gt; so that it can build each of my pages.&lt;/p&gt;
+&lt;p&gt;Currently I am manually logging into the web server and pulling the repostory whenever I feel like it. In the future, ideally id set a cron job for every 30 minutes or something like that.&lt;/p&gt;
+&lt;p&gt;ehhh either way this new cms seems to be working. Keep in touch as im hoping to release a new feature to my website soon :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Read the Damn Instructions</title>
+        <link>https://unorthodoxdev.net/post/read-the-damn-instructions/</link>
+        <pubDate>Fri, 21 Jul 2023 10:50:07 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/read-the-damn-instructions/</guid>
+        <description>&lt;p&gt;Read the damn instructions. Im working on a new project for the website, and Im trying to upload what I have to github (a simple readme nothing more).&lt;/p&gt;
+&lt;p&gt;I create an empty repository, init, add, and commit locally. Set the remote repository, and try to push to the remote&amp;hellip; And it fails? What have I done? What did I do? I have done this probably thousands of times. Where did I mess up? Will I have to recreate the folder? Should I re init the local repo?&lt;/p&gt;
+&lt;p&gt;What do i do?&lt;/p&gt;
+&lt;p&gt;immediately I search the error &lt;code&gt;error, failed to push some refs to the remote github repository.&lt;/code&gt;. I find some stack overflow repository, and I begin reading. I trust stack over flow, they got some smart guys on there. Alot smarter guys on there than me because theres always awnsers to my questions.&lt;/p&gt;
+&lt;p&gt;It doesnt work. It doesnt work, what did I do. I followed the advice of this internet stranger. They posted the awnser recently (2021) what have I done. This is a catosrophic faliure on my end. Ill never be able to recover from this.&lt;/p&gt;
+&lt;p&gt;I switch tabs back to my github repository after reading the advice one strange lonlely internet post, and I read the instructions given to me by github.&lt;/p&gt;
+&lt;p&gt;Oh&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Ive forgotten to set the primary branch. Maybe ive had too much coffee.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>MECM API</title>
         <link>https://unorthodoxdev.net/post/mecm-api/</link>
         <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
@@ -831,15 +860,6 @@ Drop by spoonfuls onto ungreased baking sheet, bake 10-12 minutes&lt;/p&gt;
         
         <guid>https://unorthodoxdev.net/menu/software/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>About Me</title>
-        <link>https://unorthodoxdev.net/menu/about/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/menu/about/</guid>
-        <description>&lt;p&gt;Hello World! My name is Joshua.&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Search</title>
