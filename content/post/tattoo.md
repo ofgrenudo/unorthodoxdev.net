@@ -7,11 +7,20 @@ draft: false
 keywords: ["unorthodoxdev"]
 toc: true
 ---
+
 ![Workflow Status](https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg)
 
-# Tattoo
+Repository: https://github.com/ofgrenudo/tattoo/tree/master 
 
-- https://github.com/ofgrenudo/tattoo/tree/master
+Tattoo is the first complete program that I have written in rust. It consists of two parts, a library and the binary. One of the challenges I experienced when writing this application was the lack of abbility to include files outside of module's folder that I was writing in. While I understand *now* why you should not do so and the kinds of compiler problems you would encounter. I think that forcing me to write a library to manage my goals was very benificial for me.
+
+This is the first library that I have had to write that actually does something. Something more than one plus one, or something simple you make when you learn C. This library was immediately applicable to my needs. It also helped me keep my programs logically seperate from eachother. The UI was allowed to get input from the UI and handle that. The backend was able to take the information from the UI and transcribe it into the database. This way of seperating the program made a dream like fusion for me when it came to keeping things clean.
+
+Writing the library also forced me to leverage the rust documentation feature. Really cementing the whole experience together.
+
+Overall, I really enjoyed the experience making this application and hope to have many more safe adventures with rust :)
+
+## Description
 
 Tattoo is a program designed to automatically collect device information on run, and insert it into the registry of the device. This information is intended for archival purposes and will remain there for later inspection. Some of the bennifits of storing information in the registry is that it provides a static and proctected way to maintain information like,
 

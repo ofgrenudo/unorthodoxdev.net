@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unorthodoxdev.net/post/mecm-api/</loc>
-    <lastmod>2023-07-19T21:02:50-04:00</lastmod>
+    <loc>https://unorthodoxdev.net/post/ghost-printers/</loc>
+    <lastmod>2023-07-20T16:03:40-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2023-07-20T16:03:40-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/mecm-api/</loc>
     <lastmod>2023-07-19T21:02:50-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/tattoo/</loc>
@@ -25,9 +28,6 @@
   </url><url>
     <loc>https://unorthodoxdev.net/post/linux-administration-tips-and-tricks/</loc>
     <lastmod>2023-07-19T20:58:00-04:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/post/dnf-cheat-sheet/</loc>
-    <lastmod>2023-07-19T20:57:05-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/desserts/gorilla-balls/</loc>
     <lastmod>2023-07-19T18:26:44-04:00</lastmod>
@@ -68,6 +68,9 @@
     <loc>https://unorthodoxdev.net/recipes/accompaniments/</loc>
     <lastmod>2023-07-19T13:24:29-04:00</lastmod>
   </url><url>
+    <loc>https://unorthodoxdev.net/comment/</loc>
+    <lastmod>2023-07-19T13:24:19-04:00</lastmod>
+  </url><url>
     <loc>https://unorthodoxdev.net/</loc>
     <lastmod>2023-07-19T13:24:19-04:00</lastmod>
   </url><url>
@@ -83,8 +86,6 @@
     <loc>https://unorthodoxdev.net/menu/security/</loc>
   </url><url>
     <loc>https://unorthodoxdev.net/menu/software/</loc>
-  </url><url>
-    <loc>https://unorthodoxdev.net/menu/about/</loc>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/</loc>
   </url><url>

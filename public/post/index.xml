@@ -6,13 +6,79 @@
         <description>Recent content in Posts on Unorthodox Developer</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Jul 2023 21:02:50 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 20 Jul 2023 16:03:40 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Ghost Printers</title>
+        <link>https://unorthodoxdev.net/post/ghost-printers/</link>
+        <pubDate>Thu, 20 Jul 2023 16:03:40 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/ghost-printers/</guid>
+        <description>&lt;p&gt;Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.dll handles it. But the amount of registry keys meant that windows kept recreating these keys. I dug a little bit more into the registry keys and it appears that each of these keys had the following properties assigned to them. Name “PRT-AWH-321-COLOR”, Driver “Xerox …” that was pretty much it. The rest of the fields were empty.&lt;/p&gt;
+&lt;p&gt;I started off looking into removing these printers via a script etc. Doing so I found the existence of a registry key we can create that would have windows remove the printers on exit. To enable this feature you would have to create a 32bit dWord key in the following location &lt;code&gt;&amp;quot;HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider&amp;quot;&lt;/code&gt; with the name &lt;code&gt;&amp;quot;RemovePrintersAtLogoff&amp;quot;&lt;/code&gt; and the value of 1.&lt;/p&gt;
+&lt;p&gt;After creating this key, when a user logs out it should clear out any installed printers, and apply the group policy user settings next time a user logs in. Well creating that key and then logging out seemed to work. But those xerox registry keys persisted for some reason. I grabbed one of the GUIDS from a ghost printer and ran a search for all the instances I could find it in regedit. I ran across quite a few instances and ended up writing a script.&lt;/p&gt;
+&lt;p&gt;We start by stopping the printer spooler, and then removing the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;onnections
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rinters
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;roviders
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\V&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt; Connections
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;ow6432Node&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;onnections
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;ow6432Node&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rinters
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;ow6432Node&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;roviders
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;ow6432Node&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rint&lt;span style=&#34;color:#ae81ff&#34;&gt;\V&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt; Connections
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKCU:&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rinters
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKCU:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;oftware&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows NT&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentVersion&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rinterPorts
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKEY_USERS&lt;span style=&#34;color:#ae81ff&#34;&gt;\.&lt;/span&gt;DEFAULT&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;rinters
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The following below you need a system user context to remove. You can do so by using PSExec from Windows PowerToys.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentControlSet&lt;span style=&#34;color:#ae81ff&#34;&gt;\E&lt;/span&gt;num&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;WD&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;RINTENUM 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentControlSet&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrol&lt;span style=&#34;color:#ae81ff&#34;&gt;\D&lt;/span&gt;eviceClasses&lt;span style=&#34;color:#ae81ff&#34;&gt;\{&lt;/span&gt;0ecef634-6ef0-472a-8085-5ad023ecbccd&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrolSet001&lt;span style=&#34;color:#ae81ff&#34;&gt;\E&lt;/span&gt;num&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;WD&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;RINTENUM    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrolSet001&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrol&lt;span style=&#34;color:#ae81ff&#34;&gt;\D&lt;/span&gt;eviceClasses&lt;span style=&#34;color:#ae81ff&#34;&gt;\{&lt;/span&gt;0ecef634-6ef0-472a-8085-5ad023ecbccd&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrolSet002&lt;span style=&#34;color:#ae81ff&#34;&gt;\E&lt;/span&gt;num&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;WD&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;RINTENUM    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrolSet002&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrol&lt;span style=&#34;color:#ae81ff&#34;&gt;\D&lt;/span&gt;eviceClasses&lt;span style=&#34;color:#ae81ff&#34;&gt;\{&lt;/span&gt;0ecef634-6ef0-472a-8085-5ad023ecbccd&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HKLM:&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentControlSet&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;ontrol&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;lass&lt;span style=&#34;color:#ae81ff&#34;&gt;\{&lt;/span&gt;1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After doing so, when you open up the control panel all the printers should be grayed out. Because these printers are being added via group policy, doing a reboot, should resolve any issues we had previously. Once the computer comes back up again, all of those printers should remain grey, and anything that gets installed via group policy should then fill in with color. But shortly after, it started happening again. I kept getting notifications of the printer installing, over and over and over again.&lt;/p&gt;
+&lt;p&gt;With that, its confirms that it is not some residual left over install, but narrows it down to one or two things. A messed up group policy or a bad driver. Looking at the group policy I could find anything wrong, so I decided to start at the driver. I took the computer off the domain, and downloaded the PCL, General, and PS, driver for the printer.&lt;/p&gt;
+&lt;p&gt;Once the computers off the domain, I remove all printers. And repeat the above steps. After doing so I started with the identical driver installed, the General driver. I setup the printer and as soon as the install finishes. I immediately get the same issue again.&lt;/p&gt;
+&lt;p&gt;Its no longer a group policy issue, its now a driver issue. Uninstall all the printers again and start from step one. Once I get to installing the printer I use the PCL driver. I had similar issues. Finally the Post Script (PS) driver ended up working for me and resolved in no issues.&lt;/p&gt;
+&lt;p&gt;Either way, cleaning up the ghost printers is a pain in my ass, and is nothing but manual labor. I ended up reimaging the comptuers after fixing the driver on the print server and going from there.&lt;/p&gt;
+&lt;p&gt;Since then its seemed to have been fixed.&lt;/p&gt;
+&lt;h2 id=&#34;scripts&#34;&gt;Scripts&lt;/h2&gt;
+&lt;p&gt;part-one.ps1&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Powershell&#34; data-lang=&#34;Powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;New-ItemProperty -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider&amp;#34;&lt;/span&gt; -Name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;RemovePrintersAtLogoff&amp;#34;&lt;/span&gt; -Value &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; -Force
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Restart-Computer -Force
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;part-two.ps1&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Powershell&#34; data-lang=&#34;Powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Stop-Service spooler -Force
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Connections&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Providers&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\V4 Connections&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\Connections&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\Providers&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\V4 Connections&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKCU:\Printers&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKCU:\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Registry::HKEY_USERS\.DEFAULT\Printers&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe /accepteula
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe powershell Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SYSTEM\CurrentControlSet\Enum\SWD\PRINTENUM&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe powershell Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SYSTEM\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}&amp;#34;&lt;/span&gt; -Recurse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe powershell Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SYSTEM\ControlSet001\Enum\SWD\PRINTENUM&amp;#34;&lt;/span&gt; -Recurse -ErrorAction SilentlyContinue
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe powershell Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SYSTEM\ControlSet001\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}&amp;#34;&lt;/span&gt; -Recurse -ErrorAction SilentlyContinue
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe powershell Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SYSTEM\ControlSet002\Enum\SWD\PRINTENUM&amp;#34;&lt;/span&gt; -Recurse -ErrorAction SilentlyContinue
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe powershell Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SYSTEM\ControlSet002\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}&amp;#34;&lt;/span&gt; -Recurse -ErrorAction SilentlyContinue
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.\PsExec.exe powershell Remove-Item -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HKLM:\SYSTEM\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}&amp;#34;&lt;/span&gt; -Recurse 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Restart-Computer -Force
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
         <title>MECM API</title>
         <link>https://unorthodoxdev.net/post/mecm-api/</link>
         <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/post/mecm-api/</guid>
-        <description>&lt;h2 id=&#34;the-basics&#34;&gt;The Basics&lt;/h2&gt;
+        <description>&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
+&lt;h2 id=&#34;the-basics&#34;&gt;The Basics&lt;/h2&gt;
 &lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
 &lt;h3 id=&#34;service&#34;&gt;Service&lt;/h3&gt;
 &lt;p&gt;You can check the status of the service in the console under &lt;strong&gt;\Monitoring\Overview\System Status\Component Status - SMS_REST_PROVIDER&lt;/strong&gt;&lt;/p&gt;
@@ -45,11 +111,13 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;h1 id=&#34;tattoo&#34;&gt;Tattoo&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/tattoo/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/ofgrenudo/tattoo/tree/master&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Repository: &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/tattoo/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ofgrenudo/tattoo/tree/master&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tattoo is the first complete program that I have written in rust. It consists of two parts, a library and the binary. One of the challenges I experienced when writing this application was the lack of abbility to include files outside of module&amp;rsquo;s folder that I was writing in. While I understand &lt;em&gt;now&lt;/em&gt; why you should not do so and the kinds of compiler problems you would encounter. I think that forcing me to write a library to manage my goals was very benificial for me.&lt;/p&gt;
+&lt;p&gt;This is the first library that I have had to write that actually does something. Something more than one plus one, or something simple you make when you learn C. This library was immediately applicable to my needs. It also helped me keep my programs logically seperate from eachother. The UI was allowed to get input from the UI and handle that. The backend was able to take the information from the UI and transcribe it into the database. This way of seperating the program made a dream like fusion for me when it came to keeping things clean.&lt;/p&gt;
+&lt;p&gt;Writing the library also forced me to leverage the rust documentation feature. Really cementing the whole experience together.&lt;/p&gt;
+&lt;p&gt;Overall, I really enjoyed the experience making this application and hope to have many more safe adventures with rust :)&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 &lt;p&gt;Tattoo is a program designed to automatically collect device information on run, and insert it into the registry of the device. This information is intended for archival purposes and will remain there for later inspection. Some of the bennifits of storing information in the registry is that it provides a static and proctected way to maintain information like,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The day the computer was deployed.&lt;/li&gt;
@@ -450,63 +518,6 @@ You will need administrative access to the device in question. Changing a hostna
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Combining the port traffic with a specific host&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcpdump -i eth0 host 10.66.10.123 and port &lt;span style=&#34;color:#ae81ff&#34;&gt;53&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Dnf Cheat Sheet</title>
-        <link>https://unorthodoxdev.net/post/dnf-cheat-sheet/</link>
-        <pubDate>Wed, 19 Jul 2023 20:57:05 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/post/dnf-cheat-sheet/</guid>
-        <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Command&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf list installed&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Show all installed packages&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf search package&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Search repositories for packages.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf info package&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;View more information on a particular package.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf install package&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Install package from available repositories.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf remove package&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Remove a specific package.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf repolist all&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Display all available and installed repositories.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf upgrade --refresh&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Update all packages available.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf check-update&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Check for updates across all enabled repositories. Does not install updates.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;dnf autoremove&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Remove orphaned packages no longer required&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Dandified YUM&lt;/strong&gt; or &lt;strong&gt;Did Not Finish&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Wiki: &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/DNF_%28software%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://en.wikipedia.org/wiki/DNF_(software)&lt;/a&gt;&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Custom Start Menu Layouts</title>

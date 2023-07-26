@@ -8,6 +8,8 @@ keywords: ["unorthodoxdev"]
 toc: true
 ---
 
+Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.
+
 ## The Basics
 
 The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.
