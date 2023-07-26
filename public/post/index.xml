@@ -6,7 +6,115 @@
         <description>Recent content in Posts on Unorthodox Developer</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 20 Jul 2023 16:03:40 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 21 Jul 2023 12:48:09 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Making a Comment Board Part 1</title>
+        <link>https://unorthodoxdev.net/post/making-a-comment-board-part-1/</link>
+        <pubDate>Fri, 21 Jul 2023 12:48:09 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/making-a-comment-board-part-1/</guid>
+        <description>&lt;h2 id=&#34;commentunorthodoxdevnet&#34;&gt;comment.unorthodoxdev.net&lt;/h2&gt;
+&lt;p&gt;Currently, my blog is made using hugo. The theme that I am using has the capability to enable comments, although they would all be hosted on a third party. Unfortunately for me, im unwilling to signup for said third parties. One saturday morning as I was drinking my coffee and browsing the blogs that I follow, landed on a favorite of mine: &lt;a class=&#34;link&#34; href=&#34;https://blog.ari-web.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.ari-web.xyz/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I really love ari&amp;rsquo;s blog. I think that Ari does what the web was supposed to do and really embodies the the nature of blogging. Something that I aspire to do. But am too introverted to even post things about my self online, personally I get too wrapped up in making sure everything is perfect, that when I do get the urge to post something I post it and avoid my computer for the rest of the day in fear of finding a misspelled word (which happens more often than not).&lt;/p&gt;
+&lt;p&gt;One of the features of Ari&amp;rsquo;s blog that I really like is the &lt;a class=&#34;link&#34; href=&#34;https://user.ari-web.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://user.ari-web.xyz/&lt;/a&gt; section. Its a comment board that anyone can post to anon or not. While i havent looked at what Ari&amp;rsquo;s comment section was written in, im planning on writing this comment section in rust. My goal for now is to seperate the project into two secions&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Binary&lt;/strong&gt;: comment.unorthodoxdev.net&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Library&lt;/strong&gt;: cmanager (Comments Manager)&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Binary&lt;/strong&gt; will contain the code related to the web hooks and buisness logic.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Library&lt;/strong&gt; will contain the code that will store said comments into a JSON file or whatever database I decide to use (a JSON file).&lt;/p&gt;
+&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
+&lt;p&gt;Of course, we always must start with the library. The first step to making this comment board is figuring out what kind of data structure we will use. For now I will avoid thinking about databases, and focus on just figuring out what our data is going to look like.&lt;/p&gt;
+&lt;p&gt;I start by imaginging that we have a html web page, that users connect to. There we will have a &lt;strong&gt;form&lt;/strong&gt; that allows users to input into the form, the following information&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User Name&lt;/li&gt;
+&lt;li&gt;Their Comment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From there, they will click submit and then it will create a &lt;strong&gt;post&lt;/strong&gt; or a &lt;strong&gt;put&lt;/strong&gt; to some backend service that will gather the following information&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;id&lt;/li&gt;
+&lt;li&gt;ip&lt;/li&gt;
+&lt;li&gt;username&lt;/li&gt;
+&lt;li&gt;comment&lt;/li&gt;
+&lt;li&gt;visible&lt;/li&gt;
+&lt;li&gt;time ( i just thought of this and will need to add it in the future)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From there it will do some kind of content filtering, checking that the string length is appropriate, checking that there arent any vulgar words, here we could have a filter list, Censored Words, and Banned Words. Banned Words will have the comment shown as hidden and be logged and stored, along with the banned word being censored. Censored words will just replace the word that is not allowed or approriate, and replace it with @@@@@. for example, &amp;ldquo;God i @@@@@@@ you joshua. I hope you die &amp;mdash; Anon&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Im sure I wont be able to catch all the possible ban able words and or censored words, but it will be a fun experiment to work on with word processing.&lt;/p&gt;
+&lt;p&gt;Where I have left off, you can currently create a new comment using &lt;code&gt;cmanager::new(ip, username, comment);&lt;/code&gt; the next step here is saving it. I initially wanted to do just a json file, but decided to go against that to get me comfortable with using SQL. So far, im hoping to use a sqlite database, since it can one file, uploaded with the repository, and! it doesnt make a lot of overhang on my project.&lt;/p&gt;
+&lt;p&gt;So far I have also done some content filtering in the data that &lt;code&gt;cmanager::new&lt;/code&gt; recieves. Currently limits are set at 500 characters for all values with the exclusion of the comment in which, I have allowed a small hate filled paragraph to be typed out and submitted on the comment board (10,000 characters). Anything more than that is one of two things, not worth reading, or an spam/advertisement.&lt;/p&gt;
+&lt;p&gt;The reason I bring this feature up is because there are no try fail, loops in rust. If someone where to buffer overload my program, it would just simply quit to a unrecoverable fail state where I would have to then manually log in and start the program. But whos to say someone isnt constantly submitting comments to my comment board, breaking my system. To prevent that kind of behaviour you can strongly type into the program the abbility to encounter those errors, and tell the compiler what to do.&lt;/p&gt;
+&lt;p&gt;For example, within the &lt;code&gt;cmanager::new()&lt;/code&gt; function, I have written an &lt;code&gt;if&lt;/code&gt; statement that checks the length of those values. It then returns a Enum containing a struct, that contains two parts. Information about the reason the program errored out. And a sample of the data that caused the error. This allows for me to log, what caused that error, and continue moving on as if it was intended behaviour.&lt;/p&gt;
+&lt;p&gt;Simply put, that error &lt;strong&gt;&lt;strong&gt;was intended behaviour&lt;/strong&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lib.rs&#34; data-lang=&#34;lib.rs&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#[derive(Debug)]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;pub&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Comment&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    id: &lt;span style=&#34;color:#a6e22e&#34;&gt;Uuid&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ip: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    username: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    comment: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    visible: &lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#[derive(Debug)]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;pub&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CommentError&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    error: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    comment: &lt;span style=&#34;color:#a6e22e&#34;&gt;Comment&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;enum&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CommentResult&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;Comment, CommentError&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Ok(Comment),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Err(CommentError),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; ip.len() &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; problem_comment &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Comment {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            id: &lt;span style=&#34;color:#a6e22e&#34;&gt;Uuid&lt;/span&gt;::new_v4(),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ip: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;error&amp;#34;&lt;/span&gt;.to_string(),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            username: &lt;span style=&#34;color:#a6e22e&#34;&gt;username&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            comment: &lt;span style=&#34;color:#a6e22e&#34;&gt;comment&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            visible: &lt;span style=&#34;color:#a6e22e&#34;&gt;false&lt;/span&gt;,        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; ip_too_long &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; CommentError {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            error: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Error, your ip address was over 500 characters, this attempt has been logged, and will be reviewed later. Pleas try again :)&amp;#34;&lt;/span&gt;.to_string(),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            comment: &lt;span style=&#34;color:#a6e22e&#34;&gt;problem_comment&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; Err(ip_too_long);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>New Bloging System</title>
+        <link>https://unorthodoxdev.net/post/new-blogging-system/</link>
+        <pubDate>Fri, 21 Jul 2023 10:58:35 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/new-blogging-system/</guid>
+        <description>&lt;img src="https://unorthodoxdev.net/post/new-blogging-system/this-is-fine.png" alt="Featured image of post New Bloging System" /&gt;&lt;p&gt;Ive migrated my website from the ghost blogging platform to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo&lt;/a&gt; (go hugo, go hugo, go!). Its a little simpler and easier to manage. I also feel as though I have more controll. Currently, im using the hugo-stacked-theme as it looks the most appealing to me, and is not a massive website with insane overhead. It also comes with a indexing feature that allows me (and you ofcourse) to search my content for specific keywords.&lt;/p&gt;
+&lt;p&gt;Another great thing about it being simple is I dont have to constantly monitor that the ghost instance isnt taking too much resources as the web server just lives on a static nginx route. The only thing I &lt;strong&gt;will&lt;/strong&gt; have to get used to is making sure that before I push to the remote repository, that I have ran &lt;code&gt;hugo&lt;/code&gt; so that it can build each of my pages.&lt;/p&gt;
+&lt;p&gt;Currently I am manually logging into the web server and pulling the repostory whenever I feel like it. In the future, ideally id set a cron job for every 30 minutes or something like that.&lt;/p&gt;
+&lt;p&gt;ehhh either way this new cms seems to be working. Keep in touch as im hoping to release a new feature to my website soon :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Read the Damn Instructions</title>
+        <link>https://unorthodoxdev.net/post/read-the-damn-instructions/</link>
+        <pubDate>Fri, 21 Jul 2023 10:50:07 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/read-the-damn-instructions/</guid>
+        <description>&lt;p&gt;Read the damn instructions. Im working on a new project for the website, and Im trying to upload what I have to github (a simple readme nothing more).&lt;/p&gt;
+&lt;p&gt;I create an empty repository, init, add, and commit locally. Set the remote repository, and try to push to the remote&amp;hellip; And it fails? What have I done? What did I do? I have done this probably thousands of times. Where did I mess up? Will I have to recreate the folder? Should I re init the local repo?&lt;/p&gt;
+&lt;p&gt;What do i do?&lt;/p&gt;
+&lt;p&gt;immediately I search the error &lt;code&gt;error, failed to push some refs to the remote github repository.&lt;/code&gt;. I find some stack overflow repository, and I begin reading. I trust stack over flow, they got some smart guys on there. Alot smarter guys on there than me because theres always awnsers to my questions.&lt;/p&gt;
+&lt;p&gt;It doesnt work. It doesnt work, what did I do. I followed the advice of this internet stranger. They posted the awnser recently (2021) what have I done. This is a catosrophic faliure on my end. Ill never be able to recover from this.&lt;/p&gt;
+&lt;p&gt;I switch tabs back to my github repository after reading the advice one strange lonlely internet post, and I read the instructions given to me by github.&lt;/p&gt;
+&lt;p&gt;Oh&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Ive forgotten to set the primary branch. Maybe ive had too much coffee.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Ghost Printers</title>
         <link>https://unorthodoxdev.net/post/ghost-printers/</link>
         <pubDate>Thu, 20 Jul 2023 16:03:40 -0400</pubDate>
