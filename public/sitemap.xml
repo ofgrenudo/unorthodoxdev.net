@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unorthodoxdev.net/post/making-a-comment-board-part-1/</loc>
-    <lastmod>2023-07-21T12:48:09-04:00</lastmod>
+    <loc>https://unorthodoxdev.net/post/making-a-comment-board-part-3/</loc>
+    <lastmod>2023-07-26T12:08:38-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2023-07-26T12:08:38-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/making-a-comment-board-part-2/</loc>
+    <lastmod>2023-07-24T10:11:15-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/making-a-comment-board-part-1/</loc>
     <lastmod>2023-07-21T12:48:09-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/new-blogging-system/</loc>

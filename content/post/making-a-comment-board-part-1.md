@@ -54,7 +54,7 @@ The reason I bring this feature up is because there are no try fail, loops in ru
 
 For example, within the `cmanager::new()` function, I have written an `if` statement that checks the length of those values. It then returns a Enum containing a struct, that contains two parts. Information about the reason the program errored out. And a sample of the data that caused the error. This allows for me to log, what caused that error, and continue moving on as if it was intended behaviour.
 
-Simply put, that error __**was intended behaviour**__.
+Simply put, that error, that previously crashed the program __**is now intended behaviour**__.
 
 ```lib.rs
 
