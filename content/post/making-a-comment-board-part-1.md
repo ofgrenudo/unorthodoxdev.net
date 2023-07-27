@@ -56,7 +56,7 @@ For example, within the `cmanager::new()` function, I have written an `if` state
 
 Simply put, that error, that previously crashed the program __**is now intended behaviour**__.
 
-```lib.rs
+```rust
 
 #[derive(Debug)]
 pub struct Comment {
@@ -97,4 +97,3 @@ if ip.len() > 500 {
 }
 
 ```
-
