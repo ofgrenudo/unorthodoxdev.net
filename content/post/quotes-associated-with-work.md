@@ -3,7 +3,7 @@ title: "Quotes Associated With Work"
 description: ""
 #image: ""
 date: 2023-07-27T09:47:54-04:00
-draft: true
+draft: false
 keywords: ["unorthodoxdev"]
 toc: true
 ---
@@ -46,4 +46,4 @@ Boss: Client, \n\n We are dong.
 
 Client to me: I think I may have a virus or something... I dont know it just stopped working... Y'know, things like porn creep up on you.
 
-CoWorker: All, \n After talking internally, please hold the reset button for 15 seconds. \n regards, coworker.
+CoWorker: All, \n After talking internally, please hold the reset button for 15 seconds. \n regards, coworker

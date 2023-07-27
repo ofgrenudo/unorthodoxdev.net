@@ -54,3 +54,5 @@ sudo systemctl restart nginx
 ```
 
 Now, kill your service, and run to the url to try to capture the error.
+
+![ill-be-back-soon.png](https://pasteboard.co/HtneDCu6qMmC.png)
