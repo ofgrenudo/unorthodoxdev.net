@@ -25,15 +25,15 @@ First we will go to our `/var/www/html` folder and create a page called `mainten
 </style>
 
 <article>
-    <h1>We&rsquo;ll be back soon!</h1>
+    <h1>I&rsquo;ll be back soon!</h1>
     <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:#">contact us</a>, otherwise I&rsquo;ll be back online shortly!</p>
+        <p>Sorry for the inconvenience but Im performing some maintenance at the moment. If you need to you can always <a href="mailto:joshuawintersbrown@gmail.com">contact me</a>, otherwise I&rsquo;ll be back online shortly!</p>
         <p>&mdash; Joshua Winters-Brown</p>
     </div>
 </article>
 ```
 
-Simple and sweet right? next, we have to edit our nginx default config. You can find that at `/etc/nginx/sites-available/default`. 
+Simple and sweet right? next, we have to edit our nginx default config. You can find that at `/etc/nginx/sites-available/default`.
 
 > Remember! You must edit this files as sudo!
 

@@ -44,7 +44,7 @@ Comment {
 
 You'll notice there are a few things here that I have added besides the username and comment. One of them being ID. That will be our entry's primary key. I plan on keeping the IP for governance reasons (issue bans, etc), as well as a timestamp, for historical records. The visible key, will be a simple 1 or 0. If it is 1 then it is visible. If it is 0 then it is hidden. Say I get a derogatory or inappropriate comment, I would't want to necessarily delete it these comments should be kept to be referenced to for example for a ban appeal.I would want to especially keep them if it were to say be life threatening etc. So to prevent displaying it, I will switch the visible to 0 and contact or inform the police of said threat. This way, I still have the comment but its not visible.
 
-## API
+### API
 
 From the requirements above, theres a few things we can already build out API wise.
 
