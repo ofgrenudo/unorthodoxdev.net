@@ -7,6 +7,52 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>In dire need of comments.</title>
+        <link>https://unorthodoxdev.net/post/comment-board/</link>
+        <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/comment-board/</guid>
+        <description>&lt;p&gt;I recently migrated my website from &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ghost blog&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo&lt;/a&gt; which is a static site generator compared to the all in one package you get with &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ghost blog&lt;/a&gt;. One of the reasons I decided to make this change was honestly, I had no need for all of the many features that ghost blog provided. Something like Hugo was simple, and effective. It also allowed me to write my documents in mark down, and store the entirety of it in a git repository. Making the portability of my website insanely simple, compared to managing the ghost blog.&lt;/p&gt;
+&lt;p&gt;One of the features I missed from ghost blog though, was the comment feature. Something I really enjoyed. With some Hugo blogs, they do enable you to add a comment feature, but requires that you have some kind of third party application that you sign up for. That pretty much was a no go for me. I don&amp;rsquo;t want to have my self or readers sign up for some ooey gooey third party provider. So because i&amp;rsquo;m lazy, I decided to create my own comment board.&lt;/p&gt;
+&lt;p&gt;Ive been learning rust for some time now so I settled on that language. It would be a good proof of concept and really help me get my foot in the door when it comes to getting confidence in the language.&lt;/p&gt;
+&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;
+&lt;p&gt;Lets break down how we are going to do this.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;User must reach URL.&lt;/li&gt;
+&lt;li&gt;User inputs the following, username, comment.&lt;/li&gt;
+&lt;li&gt;User submits comment.&lt;/li&gt;
+&lt;li&gt;Program submits comment to database after running it through some checks.&lt;/li&gt;
+&lt;li&gt;Comment board is updated.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now that we have a general road map there are quite a few things we can extrapolate from this. One, I can already imagine how my data will look. Two, we can create a general rest API from this point forward. Lets start with our data template&lt;/p&gt;
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+&lt;p&gt;I decided to go with sqlite because Im not sure that this website will ever get enough use that I will need to migrate away from an sqlite file. Although if it ever did, im sure it wouldn&amp;rsquo;t be too much more complicated to migrate to a MariaDB or a full fledged Sql database.&lt;/p&gt;
+&lt;p&gt;In general lets get what our data structure will look like&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Comment {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    id: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ip: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    username: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timestamp: String,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    visible: &lt;span style=&#34;color:#a6e22e&#34;&gt;int32&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You&amp;rsquo;ll notice there are a few things here that I have added besides the username and comment. One of them being ID. That will be our entry&amp;rsquo;s primary key. I plan on keeping the IP for governance reasons (issue bans, etc), as well as a timestamp, for historical records. The visible key, will be a simple 1 or 0. If it is 1 then it is visible. If it is 0 then it is hidden. Say I get a derogatory or inappropriate comment, I would&amp;rsquo;t want to necessarily delete it these comments should be kept to be referenced to for example for a ban appeal.I would want to especially keep them if it were to say be life threatening etc. So to prevent displaying it, I will switch the visible to 0 and contact or inform the police of said threat. This way, I still have the comment but its not visible.&lt;/p&gt;
+&lt;h2 id=&#34;api&#34;&gt;API&lt;/h2&gt;
+&lt;p&gt;From the requirements above, theres a few things we can already build out API wise.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;/comment/new&lt;/li&gt;
+&lt;li&gt;/comment/id/&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;/comment/ip/&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;/comment/username/&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Building out the API this way also allows us to tailor, how and what we write when we begin to create our program. I now know that I will need quite a few get functions that return data based off of 3 unique queries. I can also identify that I only need one query to create any data.&lt;/p&gt;
+&lt;p&gt;I hope that by now you can very clearly see the benefit of planning your program out, before actually typing any code. This will help you keep from getting lost while creating your program.&lt;/p&gt;
+&lt;p&gt;Thats about it for the theory on how this comment board will work. In the future, when i&amp;rsquo;ve got everything figured out. I may look into creating either a tutorial series on what i&amp;rsquo;ve done so far, or create youtube videos (as there are not many tutorials out on youtube for rust quite yet).&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Implementing a Sick 504 Page</title>
         <link>https://unorthodoxdev.net/post/implementing-a-sick-504-page/</link>
         <pubDate>Thu, 27 Jul 2023 12:09:39 -0400</pubDate>
@@ -55,37 +101,6 @@ location = /maintenance.html {
 	
 	
 &gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Quotes Associated With Work</title>
-        <link>https://unorthodoxdev.net/post/quotes-associated-with-work/</link>
-        <pubDate>Thu, 27 Jul 2023 09:47:54 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/post/quotes-associated-with-work/</guid>
-        <description>&lt;p&gt;Boss: You cannot joke like that, they we take serious and get cofunded.&lt;/p&gt;
-&lt;p&gt;Boss: Enjoy your hell burgers. (they had jalapenos in it).&lt;/p&gt;
-&lt;p&gt;Me: What did you give me&amp;hellip; What is in my mouth&amp;hellip;
-CoWorker 1: I feel like over the course of the year ive dranke one yankee candle.
-CoWorker 2: (Enters Office, chatting with another CoWorker) Yeah he came out of my butt 24 years ago.&lt;/p&gt;
-&lt;p&gt;Me: Wheres the boss?
-CoWorker: Hes out doing meat stuff.&lt;/p&gt;
-&lt;p&gt;Me: Wow! I really dont read!&lt;/p&gt;
-&lt;p&gt;CoWorker: Go get tea you&amp;rsquo;re an adult.&lt;/p&gt;
-&lt;p&gt;CoWorker: You;ve just touched 20 years of weird hands, germs, and possible wank.&lt;/p&gt;
-&lt;p&gt;CoWorker: Dont ride with him he basically maintains a blood alcohol level of .5.&lt;/p&gt;
-&lt;p&gt;Boss: Well I guess you and him can make a plan based on what they did or didnt say. Plus what your CoWorker knows.&lt;/p&gt;
-&lt;p&gt;Boss: Do she go to both places? Make sure we know what came from each place.&lt;/p&gt;
-&lt;p&gt;Boss: So any day you cant work on? (sends picture of schedule) or (sends picture thursday friday).
-Me: I will work as much as you want to schedule me. I have nothing going on and no friends.
-Boss: I am your friend.&lt;/p&gt;
-&lt;p&gt;CoWorker 1: The mood at the Pizza Party is like a bread line in the great depression.
-CoWorker 2: (Busting into the room) History.com has me fucked up this morning.&lt;/p&gt;
-&lt;p&gt;CoWorker: Babies are cute, but I wouldnt want to touch one.&lt;/p&gt;
-&lt;p&gt;Boss: Please make work order for dong. Put good notes in the josh log.&lt;/p&gt;
-&lt;p&gt;Boss: Client, \n\n We are dong.&lt;/p&gt;
-&lt;p&gt;Client to me: I think I may have a virus or something&amp;hellip; I dont know it just stopped working&amp;hellip; Y&amp;rsquo;know, things like porn creep up on you.&lt;/p&gt;
-&lt;p&gt;CoWorker: All, \n After talking internally, please hold the reset button for 15 seconds. \n regards, coworker&lt;/p&gt;
 </description>
         </item>
         <item>
