@@ -86,16 +86,16 @@
     &gt;Oso&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/about/oso.jpg&#34;
 	width=&#34;3024&#34;
-	height=&#34;4032&#34;
-	srcset=&#34;https://unorthodoxdev.net/about/oso_hu03fe35b734e5c0235ab846c3e0dbeff1_1648696_480x0_resize_q75_box.jpg 480w, https://unorthodoxdev.net/about/oso_hu03fe35b734e5c0235ab846c3e0dbeff1_1648696_1024x0_resize_q75_box.jpg 1024w&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://unorthodoxdev.net/about/oso_hu127335d058d03bd6df964b789f3860a2_924496_480x0_resize_q75_box.jpg 480w, https://unorthodoxdev.net/about/oso_hu127335d058d03bd6df964b789f3860a2_924496_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Oso tha dog&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;75&#34;
-		data-flex-basis=&#34;180px&#34;
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
