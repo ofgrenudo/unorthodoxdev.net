@@ -14,7 +14,7 @@ menu:
 
 Hello all!
 
-My name is Joshua Winters!
+My name is Joshua Winters-Brown!
 
 ## Work and Hobbies
 

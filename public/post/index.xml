@@ -6,7 +6,46 @@
         <description>Recent content in Posts on Unorthodox Developer</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 01 Aug 2023 10:07:32 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 07 Aug 2023 09:36:33 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Finding Things to Do...</title>
+        <link>https://unorthodoxdev.net/post/finding-things-to-do/</link>
+        <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/finding-things-to-do/</guid>
+        <description>&lt;p&gt;I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something. Sometimes, I may already have the end goal of my project or problem determined, but my issue is then, finding a way to complete it. Maybe not all the tools are there for me that I hope there would have been.&lt;/p&gt;
+&lt;p&gt;Lately I have been learning C. Not C++, not C#&amp;hellip; C. One thing I learned very quickly with C is that there is no hand holding. If you do not manage your memory, you&amp;rsquo;ve blown your program up. You don&amp;rsquo;t know how to do something, you&amp;rsquo;ve made your project 100 times harder now trying to include some foreign library, versus developing the solution your self. My initial Idea was to create a program, that pulls the API information from the local Transit station, and parses out the information into a pleasant way. This program in rust, hypothetically would be pretty quick, and i&amp;rsquo;ve already got an idea on how I would do it!&lt;/p&gt;
+&lt;p&gt;I would start by using &lt;a class=&#34;link&#34; href=&#34;github.com/actix/actix&#34; &gt;actix&lt;/a&gt; to pull the API get request. parse the JSON response using &lt;a class=&#34;link&#34; href=&#34;serde.rs&#34; &gt;serde&lt;/a&gt;. Then use  &lt;a class=&#34;link&#34; href=&#34;https://github.com/ratatui-org/ratatui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rata-tui&lt;/a&gt; to generate a beautiful text UI for it. All together, given I didn&amp;rsquo;t run into any hiccups, this project would probably be done in maybe~ 2 to 3 days If I used rust.&lt;/p&gt;
+&lt;p&gt;After almost a month of running through C projects and experiments. Ive found that, I am absolutely destroyed by the lack of features with C. My first challenge was making a get request to the Transit web api. I eventually resolved that issue using &lt;a class=&#34;link&#34; href=&#34;https://curl.se/libcurl/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;libcurl&lt;/a&gt; which is very terribly documented, and everything is just a pain in the ass to read an understand. But one other issue with using libcurl, is that it requires that the system the program is running on, &lt;strong&gt;contains&lt;/strong&gt; the application curl. That is an issue that I haven&amp;rsquo;t really ran into before when programming with rust. Everything is just code, that compiles to assembler that compiles to binary, that the machine understands and executes. Now i have to add another contingent, an application I cant/don&amp;rsquo;t want to package with my application.&lt;/p&gt;
+&lt;p&gt;Now I understand why applications ship with  DLLs. Or why the applications have underlying conditions when installing them. Regardless of how I felt about including libcurl, I moved forth and began to deal with my newly found string that contains the response from my API. After many &lt;code&gt;segfault&lt;/code&gt;&amp;rsquo;s I&amp;rsquo;ve got to parse this JSON string. Like I stated above, I would simply just use the serde library. But because C doesn&amp;rsquo;t have a JSON library (C was made way before the web, or JSON existed) I need to create my own parser.&lt;/p&gt;
+&lt;p&gt;The above two issues, is reason enough for me to understand why some hardcore C developers keep every piece of code they have. Because when they run into the same JSON parsing issue, they can look at the function, or file that they made last time, and implement the same function or file into the new program.Rust and most modern languages have provided such a standard, containing large standard libraries and easy to import and manage 3rd party libraries that It was hard for me to think of a time where that wasn&amp;rsquo;t an option.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/4exi8f.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;based&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The thing I like the most about C is that it forces me to think. To use my &lt;em&gt;smooth&lt;/em&gt; brain on how to parse a JSON element, what are the rules that JSON employs? How can I connect to a HTTP Web server, on port 80? How can I save the response? All of these thoughts come from a &lt;em&gt;rough&lt;/em&gt; brain. One with ridges and valleys and peaks. Not mine.&lt;/p&gt;
+&lt;p&gt;While, I think the Transit app i was planning on building with C was a bit too big for me to handle right now, my plan now is to finish it in Rust, and then In preparation for the 2023 Advent of Code, i would like to begin practicing my C solving those problems. Problems which are small and manageable, and I&amp;rsquo;m sure have plenty of resources online for the language that I will be using. Shoot, I&amp;rsquo;ve even found &lt;a class=&#34;link&#34; href=&#34;https://github.com/betaveros/noulith&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;a guy who created an entire language, for solving the Advent of Code problems&lt;/a&gt; conveniently in&amp;hellip;. Rust. So while i&amp;rsquo;ve completely changed the way I will handle my next app. I have added a completely other thing that I have dedicated my self to. Finding more things to do, when there is already so much.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/56pjdz.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;smooth brain&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>In dire need of comments.</title>
         <link>https://unorthodoxdev.net/post/comment-board/</link>
         <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>

@@ -7,6 +7,145 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Finding Things to Do...</title>
+        <link>https://unorthodoxdev.net/post/finding-things-to-do/</link>
+        <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/finding-things-to-do/</guid>
+        <description>&lt;p&gt;I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something. Sometimes, I may already have the end goal of my project or problem determined, but my issue is then, finding a way to complete it. Maybe not all the tools are there for me that I hope there would have been.&lt;/p&gt;
+&lt;p&gt;Lately I have been learning C. Not C++, not C#&amp;hellip; C. One thing I learned very quickly with C is that there is no hand holding. If you do not manage your memory, you&amp;rsquo;ve blown your program up. You don&amp;rsquo;t know how to do something, you&amp;rsquo;ve made your project 100 times harder now trying to include some foreign library, versus developing the solution your self. My initial Idea was to create a program, that pulls the API information from the local Transit station, and parses out the information into a pleasant way. This program in rust, hypothetically would be pretty quick, and i&amp;rsquo;ve already got an idea on how I would do it!&lt;/p&gt;
+&lt;p&gt;I would start by using &lt;a class=&#34;link&#34; href=&#34;github.com/actix/actix&#34; &gt;actix&lt;/a&gt; to pull the API get request. parse the JSON response using &lt;a class=&#34;link&#34; href=&#34;serde.rs&#34; &gt;serde&lt;/a&gt;. Then use  &lt;a class=&#34;link&#34; href=&#34;https://github.com/ratatui-org/ratatui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rata-tui&lt;/a&gt; to generate a beautiful text UI for it. All together, given I didn&amp;rsquo;t run into any hiccups, this project would probably be done in maybe~ 2 to 3 days If I used rust.&lt;/p&gt;
+&lt;p&gt;After almost a month of running through C projects and experiments. Ive found that, I am absolutely destroyed by the lack of features with C. My first challenge was making a get request to the Transit web api. I eventually resolved that issue using &lt;a class=&#34;link&#34; href=&#34;https://curl.se/libcurl/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;libcurl&lt;/a&gt; which is very terribly documented, and everything is just a pain in the ass to read an understand. But one other issue with using libcurl, is that it requires that the system the program is running on, &lt;strong&gt;contains&lt;/strong&gt; the application curl. That is an issue that I haven&amp;rsquo;t really ran into before when programming with rust. Everything is just code, that compiles to assembler that compiles to binary, that the machine understands and executes. Now i have to add another contingent, an application I cant/don&amp;rsquo;t want to package with my application.&lt;/p&gt;
+&lt;p&gt;Now I understand why applications ship with  DLLs. Or why the applications have underlying conditions when installing them. Regardless of how I felt about including libcurl, I moved forth and began to deal with my newly found string that contains the response from my API. After many &lt;code&gt;segfault&lt;/code&gt;&amp;rsquo;s I&amp;rsquo;ve got to parse this JSON string. Like I stated above, I would simply just use the serde library. But because C doesn&amp;rsquo;t have a JSON library (C was made way before the web, or JSON existed) I need to create my own parser.&lt;/p&gt;
+&lt;p&gt;The above two issues, is reason enough for me to understand why some hardcore C developers keep every piece of code they have. Because when they run into the same JSON parsing issue, they can look at the function, or file that they made last time, and implement the same function or file into the new program.Rust and most modern languages have provided such a standard, containing large standard libraries and easy to import and manage 3rd party libraries that It was hard for me to think of a time where that wasn&amp;rsquo;t an option.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/4exi8f.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;based&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The thing I like the most about C is that it forces me to think. To use my &lt;em&gt;smooth&lt;/em&gt; brain on how to parse a JSON element, what are the rules that JSON employs? How can I connect to a HTTP Web server, on port 80? How can I save the response? All of these thoughts come from a &lt;em&gt;rough&lt;/em&gt; brain. One with ridges and valleys and peaks. Not mine.&lt;/p&gt;
+&lt;p&gt;While, I think the Transit app i was planning on building with C was a bit too big for me to handle right now, my plan now is to finish it in Rust, and then In preparation for the 2023 Advent of Code, i would like to begin practicing my C solving those problems. Problems which are small and manageable, and I&amp;rsquo;m sure have plenty of resources online for the language that I will be using. Shoot, I&amp;rsquo;ve even found &lt;a class=&#34;link&#34; href=&#34;https://github.com/betaveros/noulith&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;a guy who created an entire language, for solving the Advent of Code problems&lt;/a&gt; conveniently in&amp;hellip;. Rust. So while i&amp;rsquo;ve completely changed the way I will handle my next app. I have added a completely other thing that I have dedicated my self to. Finding more things to do, when there is already so much.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/56pjdz.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;smooth brain&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://unorthodoxdev.net/about/</link>
+        <pubDate>Tue, 01 Aug 2023 12:50:24 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/about/</guid>
+        <description>&lt;p&gt;Hello all!&lt;/p&gt;
+&lt;p&gt;My name is Joshua Winters-Brown!&lt;/p&gt;
+&lt;h2 id=&#34;work-and-hobbies&#34;&gt;Work and Hobbies&lt;/h2&gt;
+&lt;p&gt;I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019 so roughly 4 to 5 years now (2023). Currently, i&amp;rsquo;ve been studying to take the CCNA, and Net+. I have been doing fairly well on my studying and am hoping to get the Net+ sometime before the end of 2024.&lt;/p&gt;
+&lt;p&gt;I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language for around one year or so (since 2022). Before rust, I did mostly everything in javascript with node.js but came to really dislike the async and promises the program provided. At this point in my journey I feel relatively confident with rust and have been so far been able to really apply my knowledge and build a few applications using it. Besides rust, some of the languages I know are as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Language&lt;/th&gt;
+&lt;th&gt;Expertise Level&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Rust&lt;/td&gt;
+&lt;td&gt;Intermediate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Javascript&lt;/td&gt;
+&lt;td&gt;Intermediate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Java&lt;/td&gt;
+&lt;td&gt;Intermediate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C/CPP&lt;/td&gt;
+&lt;td&gt;Beginner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;When i&amp;rsquo;m not developing, or working, I am mostly outside enjoying time with family or friends or my dog. For those who are interested, heres a photo of my dog, &lt;a class=&#34;link&#34; href=&#34;https://www.spanishdict.com/translate/Oso&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Oso&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/about/oso.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://unorthodoxdev.net/about/oso_hu03fe35b734e5c0235ab846c3e0dbeff1_1648696_480x0_resize_q75_box.jpg 480w, https://unorthodoxdev.net/about/oso_hu03fe35b734e5c0235ab846c3e0dbeff1_1648696_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Oso tha dog&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+&lt;p&gt;I also occasionally read, Im a big fan of horror. Not just horror books. But horror everything. I typically really enjoy foreign horror. So far some of my favorite books have been,&lt;/p&gt;
+&lt;h4 id=&#34;favorite-books&#34;&gt;Favorite Books&lt;/h4&gt;
+&lt;p&gt;A good book is a good book. Here I mostly read Manga, Horror Books, or Non fiction books or papers about whatever i&amp;rsquo;m interested in right now. Ill leave my top four books here for you all. These are mostly Manga, but there is at one book with words :). For Non fiction books, I typically am reading something about political theory, or about history. I am open to recommendation&amp;rsquo;s, but I may not stick with it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/22400695-uzumaki-vol-6?from_search=true&amp;amp;from_srp=true&amp;amp;qid=Lm2teT343Y&amp;amp;rank=9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Uzumaki, by Junji Ito&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/34235163-black-paradox?ref=nav_sb_ss_1_14&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Black Paradox, by Junji Ito&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/60585628-you-ve-lost-a-lot-of-blood&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;You&amp;rsquo;ve Lost a Lot of Blood, by Eric LaRocca&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/194746.No_Longer_Human&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;No Longer Human, by Dazai Osamu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;currently-reading&#34;&gt;Currently Reading&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/59523.Zapata_Of_Mexico&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Zapata Of Mexico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;movies&#34;&gt;Movies&lt;/h3&gt;
+&lt;p&gt;Im a pretty big fan of horror, so a lot of the movies and content I watch will be horror. I will also say, that I don&amp;rsquo;t watch too many movies; and I watch even less TV Shows, so this list may not be updated as often.&lt;/p&gt;
+&lt;h4 id=&#34;watchlist&#34;&gt;Watchlist&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt10638522/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Talk%2520to%2520me&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Talk to Me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt13405778/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Insidio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Insidious: The Red Door&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;current-favorites&#34;&gt;Current Favorites&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt9873892/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_They%2520Clon&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;They Cloned Tyrone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt11703244/?ref_=tt_tpks_tt_t_1_pd_detail_2_pbr_ic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Blackening&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tv-shows&#34;&gt;TV Shows&lt;/h3&gt;
+&lt;p&gt;There are too many TV Shows too keep track of. Here are what i am currently watching :)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt18974572/?ref_=fn_al_tt_2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Marked Heart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt18546730/?ref_=nv_sr_srsg_3_tt_8_nm_0_q_Walking%2520Dead&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Walking Dead City&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt1520211/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520Walking&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Walking Dead (ReWatching)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>In dire need of comments.</title>
         <link>https://unorthodoxdev.net/post/comment-board/</link>
         <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
