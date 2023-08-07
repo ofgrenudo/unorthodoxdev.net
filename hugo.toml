@@ -8,3 +8,5 @@ theme = 'hugo-theme-stack'
     name = "github"
     [menu.social.params]
         icon = "brand-github"
+
+staticDir = ['statics']

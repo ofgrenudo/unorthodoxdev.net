@@ -1,0 +1,31 @@
+---
+title: "Finding Things to Do..."
+description: "When you already have to many things going on. Heres one more thing you have too build"
+#image: ""
+date: 2023-08-07T09:36:33-04:00
+draft: false
+keywords: ["unorthodoxdev"]
+toc: true
+---
+
+I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something. Sometimes, I may already have the end goal of my project or problem determined, but my issue is then, finding a way to complete it. Maybe not all the tools are there for me that I hope there would have been.
+
+Lately I have been learning C. Not C++, not C#... C. One thing I learned very quickly with C is that there is no hand holding. If you do not manage your memory, you've blown your program up. You don't know how to do something, you've made your project 100 times harder now trying to include some foreign library, versus developing the solution your self. My initial Idea was to create a program, that pulls the API information from the local Transit station, and parses out the information into a pleasant way. This program in rust, hypothetically would be pretty quick, and i've already got an idea on how I would do it!
+
+I would start by using [actix](github.com/actix/actix) to pull the API get request. parse the JSON response using [serde](serde.rs). Then use  [rata-tui](https://github.com/ratatui-org/ratatui) to generate a beautiful text UI for it. All together, given I didn't run into any hiccups, this project would probably be done in maybe~ 2 to 3 days If I used rust.
+
+After almost a month of running through C projects and experiments. Ive found that, I am absolutely destroyed by the lack of features with C. My first challenge was making a get request to the Transit web api. I eventually resolved that issue using [libcurl](https://curl.se/libcurl/) which is very terribly documented, and everything is just a pain in the ass to read an understand. But one other issue with using libcurl, is that it requires that the system the program is running on, **contains** the application curl. That is an issue that I haven't really ran into before when programming with rust. Everything is just code, that compiles to assembler that compiles to binary, that the machine understands and executes. Now i have to add another contingent, an application I cant/don't want to package with my application.
+
+Now I understand why applications ship with  DLLs. Or why the applications have underlying conditions when installing them. Regardless of how I felt about including libcurl, I moved forth and began to deal with my newly found string that contains the response from my API. After many `segfault`'s I've got to parse this JSON string. Like I stated above, I would simply just use the serde library. But because C doesn't have a JSON library (C was made way before the web, or JSON existed) I need to create my own parser.
+
+
+The above two issues, is reason enough for me to understand why some hardcore C developers keep every piece of code they have. Because when they run into the same JSON parsing issue, they can look at the function, or file that they made last time, and implement the same function or file into the new program.Rust and most modern languages have provided such a standard, containing large standard libraries and easy to import and manage 3rd party libraries that It was hard for me to think of a time where that wasn't an option.
+
+![based](https://i.imgflip.com/4exi8f.jpg)
+
+The thing I like the most about C is that it forces me to think. To use my *smooth* brain on how to parse a JSON element, what are the rules that JSON employs? How can I connect to a HTTP Web server, on port 80? How can I save the response? All of these thoughts come from a *rough* brain. One with ridges and valleys and peaks. Not mine.
+
+
+While, I think the Transit app i was planning on building with C was a bit too big for me to handle right now, my plan now is to finish it in Rust, and then In preparation for the 2023 Advent of Code, i would like to begin practicing my C solving those problems. Problems which are small and manageable, and I'm sure have plenty of resources online for the language that I will be using. Shoot, I've even found [a guy who created an entire language, for solving the Advent of Code problems](https://github.com/betaveros/noulith) conveniently in.... Rust. So while i've completely changed the way I will handle my next app. I have added a completely other thing that I have dedicated my self to. Finding more things to do, when there is already so much.
+
+![smooth brain](https://i.imgflip.com/56pjdz.jpg)
