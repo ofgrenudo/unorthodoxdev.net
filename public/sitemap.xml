@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unorthodoxdev.net/post/network-troubleshooting-methodology/</loc>
-    <lastmod>2023-08-09T14:17:19-04:00</lastmod>
+    <loc>https://unorthodoxdev.net/post/advent-of-code/</loc>
+    <lastmod>2023-08-09T15:07:00-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2023-08-09T15:07:00-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/network-troubleshooting-methodology/</loc>
     <lastmod>2023-08-09T14:17:19-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/finding-things-to-do/</loc>
