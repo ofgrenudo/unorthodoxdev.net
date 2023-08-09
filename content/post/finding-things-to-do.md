@@ -25,7 +25,6 @@ The above two issues, is reason enough for me to understand why some hardcore C 
 
 The thing I like the most about C is that it forces me to think. To use my *smooth* brain on how to parse a JSON element, what are the rules that JSON employs? How can I connect to a HTTP Web server, on port 80? How can I save the response? All of these thoughts come from a *rough* brain. One with ridges and valleys and peaks. Not mine.
 
-
 While, I think the Transit app i was planning on building with C was a bit too big for me to handle right now, my plan now is to finish it in Rust, and then In preparation for the 2023 Advent of Code, i would like to begin practicing my C solving those problems. Problems which are small and manageable, and I'm sure have plenty of resources online for the language that I will be using. Shoot, I've even found [a guy who created an entire language, for solving the Advent of Code problems](https://github.com/betaveros/noulith) conveniently in.... Rust. So while i've completely changed the way I will handle my next app. I have added a completely other thing that I have dedicated my self to. Finding more things to do, when there is already so much.
 
 ![smooth brain](https://i.imgflip.com/56pjdz.jpg)

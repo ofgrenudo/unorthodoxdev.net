@@ -7,6 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Network Troubleshooting Methodology</title>
+        <link>https://unorthodoxdev.net/post/network-troubleshooting-methodology/</link>
+        <pubDate>Wed, 09 Aug 2023 14:17:19 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/network-troubleshooting-methodology/</guid>
+        <description>&lt;p&gt;This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I &lt;strong&gt;STOP&lt;/strong&gt;, and &lt;strong&gt;SLOWN DOWN&lt;/strong&gt; and think about the changes. Something else I enjoy about these instructions is they force me to think more about &lt;em&gt;change&lt;/em&gt; management. Something I need more practice with.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gather as much information as possible. If possible, duplicate the problem.&lt;/li&gt;
+&lt;li&gt;Break the problem down into meaningful bytes. What steps need to occur and in what order? a lot of people use this step as an opportunity to begin working their way &lt;strong&gt;up&lt;/strong&gt; or &lt;strong&gt;down&lt;/strong&gt; the OSI Model identifying the processes that take place.&lt;/li&gt;
+&lt;li&gt;Generate a few different hypothesis&amp;rsquo;s and the steps needed to take to resolve these issues. Document these issues somewhere publicly where you and your peers can look back at them.&lt;/li&gt;
+&lt;li&gt;When you begin making changes, document the steps taken to test your hypothesis and perform one change at a time. After you have completed the change, assess the situation and determine if the change has produced a favorable result.&lt;/li&gt;
+&lt;li&gt;Once you have confirmed that you have resolved the issue, reach out the customer and confirm that they are seeing the same behavior as you are.&lt;/li&gt;
+&lt;li&gt;Document, Document, Document everything.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Finding Things to Do...</title>
         <link>https://unorthodoxdev.net/post/finding-things-to-do/</link>
         <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
