@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Home on Unorthodox Developer</title>
+        <title>Home on Unorthodoxdev</title>
         <link>https://unorthodoxdev.net/</link>
-        <description>Recent content in Home on Unorthodox Developer</description>
+        <description>Recent content in Home on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
+        <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Network Troubleshooting Methodology</title>
         <link>https://unorthodoxdev.net/post/network-troubleshooting-methodology/</link>
@@ -69,9 +70,8 @@
         
         <guid>https://unorthodoxdev.net/about/</guid>
         <description>&lt;p&gt;Hello all!&lt;/p&gt;
-&lt;p&gt;My name is Joshua Winters-Brown!&lt;/p&gt;
+&lt;p&gt;My name is Joshua Winters-Brown! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019 so roughly 4 to 5 years now (2023). Currently, i&amp;rsquo;ve been studying to take the CCNA, and Net+. I have been doing fairly well on my studying and am hoping to get the Net+ sometime before the end of 2024.&lt;/p&gt;
 &lt;h2 id=&#34;work-and-hobbies&#34;&gt;Work and Hobbies&lt;/h2&gt;
-&lt;p&gt;I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019 so roughly 4 to 5 years now (2023). Currently, i&amp;rsquo;ve been studying to take the CCNA, and Net+. I have been doing fairly well on my studying and am hoping to get the Net+ sometime before the end of 2024.&lt;/p&gt;
 &lt;p&gt;I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language for around one year or so (since 2022). Before rust, I did mostly everything in javascript with node.js but came to really dislike the async and promises the program provided. At this point in my journey I feel relatively confident with rust and have been so far been able to really apply my knowledge and build a few applications using it. Besides rust, some of the languages I know are as follows:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;

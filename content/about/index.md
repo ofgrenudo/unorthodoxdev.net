@@ -14,13 +14,12 @@ menu:
 
 Hello all!
 
-My name is Joshua Winters-Brown!
+My name is Joshua Winters-Brown! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019 so roughly 4 to 5 years now (2023). Currently, i've been studying to take the CCNA, and Net+. I have been doing fairly well on my studying and am hoping to get the Net+ sometime before the end of 2024.
 
 ## Work and Hobbies
 
- I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019 so roughly 4 to 5 years now (2023). Currently, i've been studying to take the CCNA, and Net+. I have been doing fairly well on my studying and am hoping to get the Net+ sometime before the end of 2024.
  
- I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language for around one year or so (since 2022). Before rust, I did mostly everything in javascript with node.js but came to really dislike the async and promises the program provided. At this point in my journey I feel relatively confident with rust and have been so far been able to really apply my knowledge and build a few applications using it. Besides rust, some of the languages I know are as follows:
+I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language for around one year or so (since 2022). Before rust, I did mostly everything in javascript with node.js but came to really dislike the async and promises the program provided. At this point in my journey I feel relatively confident with rust and have been so far been able to really apply my knowledge and build a few applications using it. Besides rust, some of the languages I know are as follows:
 
 | Language | Expertise Level |
 | -------- | --------------- |

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Entrees on Unorthodox Developer</title>
+        <title>Entrees on Unorthodoxdev</title>
         <link>https://unorthodoxdev.net/recipes/entrees/</link>
-        <description>Recent content in Entrees on Unorthodox Developer</description>
+        <description>Recent content in Entrees on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
+        <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
         <lastBuildDate>Wed, 19 Jul 2023 13:25:00 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/recipes/entrees/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tinga</title>
         <link>https://unorthodoxdev.net/recipes/entrees/tinga/</link>

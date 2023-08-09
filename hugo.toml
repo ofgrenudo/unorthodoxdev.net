@@ -1,6 +1,11 @@
 baseURL = 'https://unorthodoxdev.net'
-languageCode = 'en-us'
-title = 'Unorthodox Developer'
+title = 'Unorthodoxdev'
+author = 'Joshua Winters-Brown'
+copyright = "© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)"
+paginate = 10
+languageCode = 'en'
+defaultContentLanguage = 'en'
+enableInlineShortcodes = true
 theme = 'hugo-theme-stack'
 
 [[menu.social]]
