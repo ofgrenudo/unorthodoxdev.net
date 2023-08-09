@@ -1,6 +1,6 @@
 ---
 title: "Network Troubleshooting Methodology"
-description: "Stop, Drop, and Roll"
+description: "Stop, Drop, and Troubleshoot"
 #image: ""
 date: 2023-08-09T14:17:19-04:00
 draft: false
