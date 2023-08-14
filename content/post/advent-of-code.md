@@ -14,4 +14,4 @@ Struggling to learn C, I decided to go through the AoC content from 2015 to curr
 
 I plan to go through at least one problem a day on my lunch break if not more given time permits and upload it to my [github repository](https://github.com/ofgrenudo/AoC). Depending on how I feel I may produce a write up of the problem, challenges I faced, my resolutions, how I could optimize, etc... I think that this will be a fun exercise and prep me for when the 2023 AoC comes around.
 
-Fun Fact! I did not know that people could prestige programming problems but I recently learned, that people have prestige AoC. I guess at the end of the day, it is a game :)
+> Fun Fact! I did not know that people could prestige programming problems but I recently learned, that people have prestige AoC. I guess at the end of the day, it is a game :)
