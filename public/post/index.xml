@@ -7,7 +7,120 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
-        <lastBuildDate>Wed, 09 Aug 2023 15:07:00 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 08 Sep 2023 07:55:32 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to search Text files with grep</title>
+        <link>https://unorthodoxdev.net/post/searching-text-files-with-grep/</link>
+        <pubDate>Fri, 08 Sep 2023 07:55:32 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/searching-text-files-with-grep/</guid>
+        <description>&lt;p&gt;Ever needed to find something in a directory filled with text files. Use grep. The command I enjoy to using is as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep -Ril &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;what the H E double hockey sticks&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Where am i on the network?</title>
+        <link>https://unorthodoxdev.net/post/where-am-i-on-the-network/</link>
+        <pubDate>Thu, 07 Sep 2023 16:51:44 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/where-am-i-on-the-network/</guid>
+        <description>&lt;p&gt;Ever wonder what port your connected to when plugged into a ethernet jack? Open up wireshark and apply a filter, searching for &lt;code&gt;cdp or lldp&lt;/code&gt; traffic. That will kick back:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The switches MAC Address.&lt;/li&gt;
+&lt;li&gt;The port description.&lt;/li&gt;
+&lt;li&gt;The switch system name.&lt;/li&gt;
+&lt;li&gt;Some information about the operating system running on the switch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t see any information populating? Most likely your network admins have disabled your switches from transmitting CDP or LLDP traffic. In this case, im sorry this wont work for you.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Have fun troubleshooting.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Vacation</title>
+        <link>https://unorthodoxdev.net/post/vacation/</link>
+        <pubDate>Thu, 07 Sep 2023 10:32:58 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/vacation/</guid>
+        <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg" alt="Featured image of post Vacation" /&gt;&lt;p&gt;Im back!&lt;/p&gt;
+&lt;p&gt;Ive been gone for a little while now. I went on vacation to mexico for about 21 days to visit friends. I had a blast. Everything there is vastly different than here in the states. Where I live, &lt;a class=&#34;link&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S0277953600000046&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;if you need anything other than beer&lt;/a&gt; you need to drive about 5-20 minutes to get whatever you need. In Druango Durango Mexico, If I need to go to the store, its about a 5 minute walk to a Ley; The equivalent of a walmart or meijers. If im in the mood for some chips and a soda, theres a conveince store, or Oxxo within 2 to 5 minutes. Hungry for a burger, theres a place that sells hamburgesas down the street. Come on lets walk its only 10 minutes away! I will tell you though, I was a little dissapointed in the hamburgessa. I was expecting a &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=MULhB5_COAU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;american hamburger&lt;/a&gt; but instead found, carne asada, a salchica split in two, hamon, lettuce tomatoe, onion, pickles, mayo, mustrard, ketchup all on a bun. It was decent, but wasnt what I was looking for.&lt;/p&gt;
+&lt;p&gt;Across the street from where I stayed was a community center. A place where the community can host classes to teach all kinds of things. On Tuesdays and Thursdays theres karate class. On fridays theres dance class teaching you how to perform traditional Aztecan and Mayan dances. On Mondays and Wednesdays theres Singing Class. Tuesday evening they show you how to use a sowing machine and make dresses. Theres a park, with soccer goals, baskeball hoops, playground equipment, etc available all the time. Theres washers and dryers available for those who need them, etc. Over all the community center is something very strange to me. There arent many things like that in america. The closest I could think of is boys and girls club, but im not even sure thats everywhere in the states and Its most definetly not as flexiable as the community center.&lt;/p&gt;
+&lt;p&gt;Over all I really enjoyed my trip and cant wait to go back. But for now, ive got school and work to focus on. Ill attach a few photos below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/church.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;church.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/paraguas.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;paraguas.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;scorpion-hand.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain-two.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;terrain-two.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;terrain.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/theater.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;theater.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/train-car.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;train-car.jpeg&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Advent of Code</title>
         <link>https://unorthodoxdev.net/post/advent-of-code/</link>
         <pubDate>Wed, 09 Aug 2023 15:07:00 -0400</pubDate>

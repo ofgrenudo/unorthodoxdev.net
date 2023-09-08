@@ -1,0 +1,15 @@
+---
+title: "How to search Text files with grep"
+description: "goddamnit, where did I leave that password?"
+#image: ""
+date: 2023-09-08T07:55:32-04:00
+draft: false
+keywords: ["unorthodoxdev"]
+toc: true
+---
+
+Ever needed to find something in a directory filled with text files. Use grep. The command I enjoy to using is as follows:
+
+```cmd
+grep -Ril "what the H E double hockey sticks"
+```
