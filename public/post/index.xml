@@ -7,7 +7,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
-        <lastBuildDate>Fri, 08 Sep 2023 07:55:32 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Sep 2023 17:36:35 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Organizational Behaviour Examples</title>
+        <link>https://unorthodoxdev.net/post/organizational-behaviour-examples/</link>
+        <pubDate>Tue, 19 Sep 2023 17:36:35 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/organizational-behaviour-examples/</guid>
+        <description>&lt;iframe width=&#34;100%&#34; height=&#34;700px&#34; src=&#34;https://www.youtube.com/embed/C-iaYYLK_oQ?si=pYwTBrfzrOqcDJtv&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;This clip is from the movie &lt;strong&gt;Free Guy&lt;/strong&gt;. It is a movie about a bank teller, who learns that he is a non-playable character or NPC in an open-world video game, akin to GTA. In the story, the character goes on to become the hero, and saving two real life peoples lives as they discover the code that is running his character was stolen from them. In the recorded scene, we witness many Organizational Behaviors exhibited by Antwan, the owner of the company. One of the first things that Antwan does is use some conceptual skills.&lt;/p&gt;
+&lt;p&gt;Initially the Main Character, Blue Shirt Guy, being an out of control NPC causes issues. Antwan sees the publicity of this event as an Opportunity to embellish and grow the company&amp;rsquo;s profits by maximizing the character&amp;rsquo;s image. We could also consider the &lt;strong&gt;Art Nerds&lt;/strong&gt; a Technical Skill, in being able to create and design the new Blue Shirt Guy Character.&lt;/p&gt;
+&lt;p&gt;Another example of Technical Skills could be Keys being asked if he would like to be promoted to a developer or programmer. An example of Differentiation Strategy in this clip could be Keys attempting to wager Antwan on making a new and unique game that masters its craft through careful consideration and development.&lt;/p&gt;
+&lt;p&gt;Antwan unfortunately shuts Keys down by rather taking an operational Excellence approach, demanding that they instead stick to what they are good at, and continue to profit on the framework that already exists.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How to search Text files with grep</title>
         <link>https://unorthodoxdev.net/post/searching-text-files-with-grep/</link>
         <pubDate>Fri, 08 Sep 2023 07:55:32 -0400</pubDate>
@@ -228,9 +241,9 @@
 &lt;p&gt;From the requirements above, theres a few things we can already build out API wise.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;/comment/new&lt;/li&gt;
-&lt;li&gt;/comment/id/&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;/comment/ip/&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;/comment/username/&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;/comment/id/&lt;id&gt;&lt;/li&gt;
+&lt;li&gt;/comment/ip/&lt;ip&gt;&lt;/li&gt;
+&lt;li&gt;/comment/username/&lt;username&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Building out the API this way also allows us to tailor, how and what we write when we begin to create our program. I now know that I will need quite a few get functions that return data based off of 3 unique queries. I can also identify that I only need one query to create any data.&lt;/p&gt;
 &lt;p&gt;I hope that by now you can very clearly see the benefit of planning your program out, before actually typing any code. This will help you keep from getting lost while creating your program.&lt;/p&gt;
@@ -755,7 +768,7 @@ You will need administrative access to the device in question. Changing a hostna
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ netsatat -tulpn | grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;22&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcp    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 0.0.0.0:22    0.0.0.0:*    LISTEN    -
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tcp6   &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; :::22         :::*         LISTEN    -
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div style=&#34;page-break-after: always;&#34;&gt;&lt;/div&gt;
 &lt;h1 id=&#34;networking-shenanigans&#34;&gt;Networking Shenanigans&lt;/h1&gt;
 &lt;p&gt;Soy baboon, hay problemas de redes; ooh ooh ahh ahh.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://thumbs.dreamstime.com/z/monkey-scratching-his-head-animal-began-to-think-139656229.jpg&#34;

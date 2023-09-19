@@ -15,3 +15,8 @@ theme = 'hugo-theme-stack'
         icon = "brand-github"
 
 staticDir = ['statics']
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
