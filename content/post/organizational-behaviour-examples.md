@@ -1,6 +1,6 @@
 ---
 title: "Organizational Behaviour Examples"
-description: ""
+description: "What examples can you find in modern media that portray organizational behaviour?"
 #image: ""
 date: 2023-09-19T17:36:35-04:00
 draft: false
@@ -9,6 +9,12 @@ toc: true
 ---
 
 <iframe width="100%" height="700px" src="https://www.youtube.com/embed/C-iaYYLK_oQ?si=pYwTBrfzrOqcDJtv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Preface
+
+In a behavioural organization class, we have an assignment to watch a movie and pick a sceene from it where we notice some organizational behaviour coming into play. Below are my awnsers to this assignment.
+
+## Organizational Behaviours in Media
 
 This clip is from the movie **Free Guy**. It is a movie about a bank teller, who learns that he is a non-playable character or NPC in an open-world video game, akin to GTA. In the story, the character goes on to become the hero, and saving two real life peoples lives as they discover the code that is running his character was stolen from them. In the recorded scene, we witness many Organizational Behaviors exhibited by Antwan, the owner of the company. One of the first things that Antwan does is use some conceptual skills. 
 
