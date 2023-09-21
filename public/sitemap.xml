@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unorthodoxdev.net/post/organizational-behaviour-examples/</loc>
-    <lastmod>2023-09-19T17:36:35-04:00</lastmod>
-  </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2023-09-21T09:53:13-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/simple-file-parsing-takes-three-hours/</loc>
+    <lastmod>2023-09-21T09:53:13-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/organizational-behaviour-examples/</loc>
     <lastmod>2023-09-19T17:36:35-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/searching-text-files-with-grep/</loc>
