@@ -7,7 +7,104 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
-        <lastBuildDate>Thu, 21 Sep 2023 09:53:13 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 05 Oct 2023 14:58:10 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Dont Update Nginx Without a Backup of Configs</title>
+        <link>https://unorthodoxdev.net/post/dont-update-nginx-without-a-backup-of-configs/</link>
+        <pubDate>Thu, 05 Oct 2023 14:58:10 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/dont-update-nginx-without-a-backup-of-configs/</guid>
+        <description>&lt;p&gt;Allrght, I did a vulnerability scan on the web server, there was something about the version of nginx installed had a flaw in it, so I went ahead and patched the nginx install. Ofcourse only because it is patch thursday and it might as well be on a list of things todo. Well, everything went smoothly; I upgraded to the latest version, refreshed the website in the browser, checked my config file, and were good to go. I then promptly left for lunch and didnt get the chance to check back at the website until approximately 7 UTC. Well, the website was infact not good. it was down, and probably down since i made those changes. I began to search for the issue. A quick grep, showed that my config files all existed and contained the domain name and hostname of the website. So whats the issue, why is it not reading my configs? Well that was the problem, and quickly came the solution. When you upgrade the nginx installation it overwrites your previous config file. Im not sure if there was any other magick stuff I was doing in the config file before I updated, but I included the sites-available directory, and were good to go. So yeah, the site was down for aproximately 3 hours. Thanks chaps :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Creating and Managing a SSL Cert</title>
+        <link>https://unorthodoxdev.net/post/creating-and-managing-a-ssl-cert/</link>
+        <pubDate>Thu, 21 Sep 2023 16:39:17 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/creating-and-managing-a-ssl-cert/</guid>
+        <description>&lt;p&gt;This guide is intended for Ubuntu 22.04 and is intended for use with a Apache2 web server. To get started we need to make sure you have Apache2 installed, we can use grep to check. These instructions were written on a Ubuntu Server.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt list --installed | grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;apache2&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next will need to allow Apache through the firewall on both http (80) and https (443). We can do so with the below command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo ufw allow &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Apache Full&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next we will need to enable the Apache &lt;code&gt;mod_ssl&lt;/code&gt; module. The Apache &lt;code&gt;mod_ssl&lt;/code&gt; module will allow Apache to support SSL encryption. The command to do so is below.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo a2enmod ssl
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl restart apache2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now, Apache is configured and ready for encryption. We can move onto generating a TLS certificate. To do so we will need to do the following below command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo openssl req -x509 -nodes -days &lt;span style=&#34;color:#ae81ff&#34;&gt;365&lt;/span&gt; -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Running the above command will prompt you to enter a bunch of information. Please follow through each of the steps and answer them completely. The following flags on the above command do as listed below&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Flag&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;req -x509&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This specifies that we want to use the X.509 certificate signing request managment. X.509 is a public key infrastructure standard that TLS adhears too.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-nodes&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Nodes tells OpenSSL to skip the option to secure our certificate with a passphrase because we want apache to be able to read the file. A passphrase would prevent apache from being able to do so.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-days 365&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This option sets the length of time that the certificate will be considered valid. Here we have set it for one year. Browsers will reject just about any certificate that is valid for longer than a year.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-newkey rsa:2048&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This tells the program we want to generate a new certificate and key at the same time. the rsa:2048 makes it a RSA key that is 2048 bits long.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-keyout&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This line tells the program where to place the private key file.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-out&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This line tells the program where to place the certificate that we are creating.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As a general note, certificates and their keys are generally recommended to be put in the &lt;code&gt;/etc/ssl/private&lt;/code&gt; (for keys) and &lt;code&gt;/etc/ssl/certs/&lt;/code&gt; (for certificates). It is a best practice that we should employ.&lt;/p&gt;
+&lt;p&gt;To recap we have just created a key and a certificate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/etc/ssl/private/apache-selfsigned.key&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/etc/ssl/certs/apache-selfsigned.crt&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can test if either file exists by, running the following command&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo locate apache-selfsigned.key
+locate apache-selfsigned.key
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;configure-apache-to-use-tls&#34;&gt;Configure Apache to use TLS&lt;/h2&gt;
+&lt;p&gt;Since we have created our self signed certificates. We will then need to tell Apache to use them. We can do so by editing our Apache .conf file. These are typically in the &lt;code&gt;/etc/apache2/sites-availabe&lt;/code&gt; folder. We will start by creating a new file in the &lt;code&gt;/etc/apache2/sites-available/&lt;/code&gt; folder.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo vim /etc/apache2/sites-available/my_website.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;next you will want to paste in the following information. Make sure to update it accordingly to before creating this file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;VirtualHost *:443&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   ServerName your_domain_or_ip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   DocumentRoot /var/www/your_domain_or_ip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   SSLEngine on
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   SSLCertificateFile /etc/ssl/certs/apache-selfsigned.crt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/VirtualHost&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next we will need to enable the configuration file with the &lt;code&gt;a2ensite&lt;/code&gt; tool.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo a2ensite my_website.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl reload apache2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Finally, your web server should be good to go with a self signed cert. Now I would recommend you visit it and ensuring that you are using the &lt;code&gt;https://&lt;/code&gt; prefix. If alls well, you should get a error, saying that it cant verify the identity of the server. This is normal behavior because in fact, we gave it a self signed cert. In the future, It would be advisable to get your certificates from a CA vender.&lt;/p&gt;
+&lt;h2 id=&#34;i-no-longer-want-any-http-requests&#34;&gt;I no longer want any http:// requests&lt;/h2&gt;
+&lt;p&gt;We can redirect all &lt;code&gt;http://&lt;/code&gt; to your &lt;code&gt;https://&lt;/code&gt; route relatively easily. To do so you will need to edit your .conf that we created above, and add the following configuration to it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;VirtualHost *:80&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	ServerName your_domain_or_ip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	Redirect / https://your_domain_or_ip/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/VirtualHost&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I would recommend doing a backup of the conf before hand just incase you break something in the process. You never really know what may happen.&lt;/p&gt;
+&lt;p&gt;Now all you will need to do is bounce the service, and give it a run.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apachectl configtest
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl reload apache2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can test this by attempting to force your browser to visit the insecure version of the site. To do so ensure that the prefix to the websites name is &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Simple File Parsing Takes Three Hours</title>
         <link>https://unorthodoxdev.net/post/simple-file-parsing-takes-three-hours/</link>
         <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
