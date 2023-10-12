@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unorthodoxdev.net/post/dont-update-nginx-without-a-backup-of-configs/</loc>
-    <lastmod>2023-10-05T14:58:10-04:00</lastmod>
+    <loc>https://unorthodoxdev.net/post/flush-dns-on-mac/</loc>
+    <lastmod>2023-10-12T16:45:31-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2023-10-12T16:45:31-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/dont-update-nginx-without-a-backup-of-configs/</loc>
     <lastmod>2023-10-05T14:58:10-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/creating-and-managing-a-ssl-cert/</loc>

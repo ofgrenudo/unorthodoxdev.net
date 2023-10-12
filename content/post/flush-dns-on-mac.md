@@ -1,9 +1,9 @@
 ---
 title: "Flush Dns on Mac"
-description: ""
+description: "Scripting makes things easy. For the most part..."
 #image: ""
 date: 2023-10-12T16:45:31-04:00
-draft: true
+draft: false
 keywords: ["unorthodoxdev"]
 toc: true
 ---
@@ -32,6 +32,6 @@ echo " "
 echo " Your DNS has been flushed... "
 ```
 
-Throw this script into your /usr/local/bin and you can run flushdns from anywhere in the terminal.
+Throw this script into your `/usr/local/bin` and you can run flushdns from anywhere in the terminal.
 
 Tada!
