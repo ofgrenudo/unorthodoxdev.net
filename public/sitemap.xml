@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/chilequiles/</loc>
+    <lastmod>2023-10-18T15:57:33-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/enchiladas/</loc>
+    <lastmod>2023-10-18T15:41:38-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/chicken-mack/</loc>
+    <lastmod>2023-10-18T15:31:25-04:00</lastmod>
+  </url><url>
     <loc>https://unorthodoxdev.net/post/flush-dns-on-mac/</loc>
     <lastmod>2023-10-12T16:45:31-04:00</lastmod>
   </url><url>
@@ -77,22 +86,22 @@
     <loc>https://unorthodoxdev.net/post/linux-administration-tips-and-tricks/</loc>
     <lastmod>2023-07-19T20:58:00-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/desserts/gorilla-balls/</loc>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/gorilla-balls/</loc>
     <lastmod>2023-07-19T18:26:44-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/desserts/cowboy-cookies/</loc>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/cowboy-cookies/</loc>
     <lastmod>2023-07-19T14:06:29-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/entrees/tinga/</loc>
+    <loc>https://unorthodoxdev.net/recipes/cenar/tinga/</loc>
     <lastmod>2023-07-19T13:57:24-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/entrees/</loc>
+    <loc>https://unorthodoxdev.net/recipes/cenar/</loc>
     <lastmod>2023-07-19T13:25:00-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/entrees/andreas-chili-recipe/</loc>
+    <loc>https://unorthodoxdev.net/recipes/cenar/andreas-chili-recipe/</loc>
     <lastmod>2023-07-19T13:24:49-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/desserts/bannana-bread/</loc>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/bannana-bread/</loc>
     <lastmod>2023-07-19T13:24:49-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/desayuno/blueberry-breakfast-bars/</loc>
@@ -101,19 +110,19 @@
     <loc>https://unorthodoxdev.net/recipes/desayuno/</loc>
     <lastmod>2023-07-19T13:24:49-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/desserts/</loc>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/peanut-butter-cereal-bars/</loc>
     <lastmod>2023-07-19T13:24:49-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/desayuno/peanut-butter-cereal-bars/</loc>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/</loc>
     <lastmod>2023-07-19T13:24:49-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/desayuno/sunday-brunch-casserole/</loc>
     <lastmod>2023-07-19T13:24:49-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/entrees/taco-salad/</loc>
+    <loc>https://unorthodoxdev.net/recipes/cenar/taco-salad/</loc>
     <lastmod>2023-07-19T13:24:49-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/recipes/accompaniments/</loc>
+    <loc>https://unorthodoxdev.net/recipes/aperitivos/</loc>
     <lastmod>2023-07-19T13:24:29-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/comment/</loc>
