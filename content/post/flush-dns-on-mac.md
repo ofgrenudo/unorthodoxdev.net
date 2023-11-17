@@ -17,7 +17,12 @@ Welcome to flushdns(.sh)
 # This script will clear your dns cache on your mac. It has been tested on macOS 13.4 Ventura
 # Joshua Winters-Brown
 
-sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder > /dev/null
+if [ "$EUID" -ne 0 ]
+    then echo "Please run this program as root, otherwise it will not work appropriately."
+    exit
+fi
+
+dscacheutil -flushcache; killall -HUP mDNSResponder > /dev/null
 
 echo "  _____ "
 echo "  |   D "

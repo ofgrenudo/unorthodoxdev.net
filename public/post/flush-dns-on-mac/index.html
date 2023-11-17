@@ -249,7 +249,12 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># This script will clear your dns cache on your mac. It has been tested on macOS 13.4 Ventura</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Joshua Winters-Brown</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder &gt; /dev/null
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$EUID<span style="color:#e6db74">&#34;</span> -ne <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">then</span> echo <span style="color:#e6db74">&#34;Please run this program as root, otherwise it will not work appropriately.&#34;</span>
+</span></span><span style="display:flex;"><span>    exit
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dscacheutil -flushcache; killall -HUP mDNSResponder &gt; /dev/null
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;  _____ &#34;</span>
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;  |   D &#34;</span>
