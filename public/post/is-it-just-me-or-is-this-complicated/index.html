@@ -2,16 +2,16 @@
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='A rant about asset inventory solutions and my goal on how to implement them into the organization.'>
-<meta name="keywords" content="unorthodoxdev"><title>Is It Just Me or Is This Complicated</title>
+<meta name="keywords" content="unorthodoxdev"><title>Is It Just Me or Is This Complicated?</title>
 
 <link rel='canonical' href='https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/'>
 
-<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><meta property='og:title' content='Is It Just Me or Is This Complicated'>
+<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><meta property='og:title' content='Is It Just Me or Is This Complicated?'>
 <meta property='og:description' content='A rant about asset inventory solutions and my goal on how to implement them into the organization.'>
 <meta property='og:url' content='https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/'>
 <meta property='og:site_name' content='Unorthodoxdev'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-11-17T15:33:30-05:00'/><meta property='article:modified_time' content='2023-11-17T15:33:30-05:00'/>
-<meta name="twitter:title" content="Is It Just Me or Is This Complicated">
+<meta name="twitter:title" content="Is It Just Me or Is This Complicated?">
 <meta name="twitter:description" content="A rant about asset inventory solutions and my goal on how to implement them into the organization.">
     </head>
     <body class="
@@ -187,7 +187,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/is-it-just-me-or-is-this-complicated/">Is It Just Me or Is This Complicated</a>
+            <a href="/post/is-it-just-me-or-is-this-complicated/">Is It Just Me or Is This Complicated?</a>
         </h2>
     
         
@@ -247,7 +247,7 @@
 <p>How many of you work at a place where you name the device its serial number? Not many? Why is that? Is that because if the device all of a sudden began acting erratically a random assortment of letters and numbers dosing the active directory server gives you absolutely 0 insight other than maybe the type of device thats compromised if you can search it up via the manufacturer website.</p>
 <p>How many of you work at a place that name your devices something meaningful? A common one is something along the lines of <code>BLD-FLASTNAME01</code>. Ive even seen just <code>lastname01</code> or <code>BLD-OFFICENUMB</code>.</p>
 <p>What happens when someone quits, or you have part time staff sharing a computer, or a hotel desk? What do you name it then? And when someone quits, and when someone changes positions? Do you just re-image the computer change the name then? Id like to say that most of us <em>should</em>.</p>
-<p>Ok your right, lets get an asset inventory system going. Im gonna put every device that comes in, into this .xlsx file on the network drive with out backups, or shadowcopys and we will use that as our inventory system. Whats that? the building lost power last night and corrupted the file system? The inventory spreadsheets lost?</p>
+<p>Ok your right, lets get an asset inventory system going. Im gonna put every device that comes in, into this .xlsx file on the network drive with out backups, or shadow copys and we will use that as our inventory system. Whats that? the building lost power last night and corrupted the file system? The inventory spreadsheets lost?</p>
 <p>I think you get my point. Ok lets do this thing right now, we either pay for someone else to host our solution. Realistically what do we need?</p>
 <ul>
 <li>Device Name</li>
@@ -272,13 +272,14 @@
 </blockquote>
 <p>Oh it must be so easy to use the API then!</p>
 <p>Wrong :\</p>
+<h2 id="time-for-graph-0">Time for Graph :0</h2>
 <p><img src="/post/is-it-just-me-or-is-this-complicated/tree.png"
 	width="851"
 	height="442"
 	srcset="/post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, /post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="gunk"
+		alt="relational database gunk"
 	
 	
 		class="gallery-image" 
@@ -286,20 +287,11 @@
 		data-flex-basis="462px"
 	
 ></p>
-<p>All you want to do is add a hardware entry? Oh ok sure, you need to make a status entry. But to make a status entry you need a Status Name, and a Status Type. Oh anddd youll need a Model Entry, but to make a Model Entry you need a Category Entry and a Manufacturer Entry. Dont worry though the Category Entry only needs a Category Name and Category Type. The Manufacturer Entry only needs the Manufacturer Name.</p>
-<p>Oh my goodness thats a lot of requirements. So to work from the bottom up i need to complete the following right?</p>
-<h2 id="requirements">Requirements</h2>
-<ol>
-<li>Model Entry
-<ul>
-<li>Category Entry</li>
-<li>Manufacturer Entry</li>
-</ul>
-</li>
-<li>Status Entry</li>
-</ol>
-<p>So I can use the same status all day long since the status doesn&rsquo;t really change. It can just be set to Imaged, or Inventoried and manually edited later.</p>
-<p>The model entry does matter though. Essentially for every model you have, you will need to create a category entry (presumably laptop desktop) and a manufacturer entry (if your lucky your company only buys Lenovo ThinkBooks or something).</p>
+<p>All you want to do is add a hardware entry? Oh ok sure, you need to make a status entry. But to make a status entry you need a Status Name, and a Status Type. Oh anddd you&rsquo;ll need a Model Entry, but to make a Model Entry you need a Category Entry and a Manufacturer Entry. Don&rsquo;t worry though the Category Entry only needs a Category Name and Category Type. The Manufacturer Entry only needs the Manufacturer Name.</p>
+<p>All of this makes sense, right? These are requirements I technically already had. The only difference is that with Snipe-IT they are using a relational database where the model entry calls on the manufacturer entry via an ID and the category entry by an ID which are the primary key of that table.</p>
+<p>Doing this solves an issue that we have not talked about yet. Remember that spreadsheet we had, or even that sql database I setup? We did not account for human error. What happens if Joe from the depths of the IT basement office decides to add the device his boss ordered him to setup to the database and decides to put <code>Dell</code> and not <code>dell</code> like i&rsquo;ve been putting? Well, when I get asked to pull a report for all devices named <code>dell</code> Joe&rsquo;s entry doesn&rsquo;t turn up because the manufacturer entry has a discrepancy in it. This kind of issue isn&rsquo;t a sql database issue alone its a xlsx sheet database issue and its a Snipe-IT issue.</p>
+<p>So how do we combat this? relational databases. You create one entry, and reference it via its id not its name. Cuts down on type 0 errors.</p>
+<p>Something that was quick and easy just became a massive pain in the but to work with. Now i&rsquo;ve got to some work to do in regards to getting devices to automatically fill information into snipe.</p>
 
 </section>
 

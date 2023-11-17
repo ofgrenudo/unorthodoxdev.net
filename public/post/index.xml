@@ -8,7 +8,7 @@
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
         <lastBuildDate>Fri, 17 Nov 2023 15:33:30 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Is It Just Me or Is This Complicated</title>
+        <title>Is It Just Me or Is This Complicated?</title>
         <link>https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/</link>
         <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
         
@@ -17,7 +17,7 @@
 &lt;p&gt;How many of you work at a place where you name the device its serial number? Not many? Why is that? Is that because if the device all of a sudden began acting erratically a random assortment of letters and numbers dosing the active directory server gives you absolutely 0 insight other than maybe the type of device thats compromised if you can search it up via the manufacturer website.&lt;/p&gt;
 &lt;p&gt;How many of you work at a place that name your devices something meaningful? A common one is something along the lines of &lt;code&gt;BLD-FLASTNAME01&lt;/code&gt;. Ive even seen just &lt;code&gt;lastname01&lt;/code&gt; or &lt;code&gt;BLD-OFFICENUMB&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;What happens when someone quits, or you have part time staff sharing a computer, or a hotel desk? What do you name it then? And when someone quits, and when someone changes positions? Do you just re-image the computer change the name then? Id like to say that most of us &lt;em&gt;should&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Ok your right, lets get an asset inventory system going. Im gonna put every device that comes in, into this .xlsx file on the network drive with out backups, or shadowcopys and we will use that as our inventory system. Whats that? the building lost power last night and corrupted the file system? The inventory spreadsheets lost?&lt;/p&gt;
+&lt;p&gt;Ok your right, lets get an asset inventory system going. Im gonna put every device that comes in, into this .xlsx file on the network drive with out backups, or shadow copys and we will use that as our inventory system. Whats that? the building lost power last night and corrupted the file system? The inventory spreadsheets lost?&lt;/p&gt;
 &lt;p&gt;I think you get my point. Ok lets do this thing right now, we either pay for someone else to host our solution. Realistically what do we need?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Device Name&lt;/li&gt;
@@ -42,13 +42,14 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Oh it must be so easy to use the API then!&lt;/p&gt;
 &lt;p&gt;Wrong :\&lt;/p&gt;
+&lt;h2 id=&#34;time-for-graph-0&#34;&gt;Time for Graph :0&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree.png&#34;
 	width=&#34;851&#34;
 	height=&#34;442&#34;
 	srcset=&#34;https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;gunk&#34;
+		alt=&#34;relational database gunk&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -56,20 +57,11 @@
 		data-flex-basis=&#34;462px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;All you want to do is add a hardware entry? Oh ok sure, you need to make a status entry. But to make a status entry you need a Status Name, and a Status Type. Oh anddd youll need a Model Entry, but to make a Model Entry you need a Category Entry and a Manufacturer Entry. Dont worry though the Category Entry only needs a Category Name and Category Type. The Manufacturer Entry only needs the Manufacturer Name.&lt;/p&gt;
-&lt;p&gt;Oh my goodness thats a lot of requirements. So to work from the bottom up i need to complete the following right?&lt;/p&gt;
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Model Entry
-&lt;ul&gt;
-&lt;li&gt;Category Entry&lt;/li&gt;
-&lt;li&gt;Manufacturer Entry&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Status Entry&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;So I can use the same status all day long since the status doesn&amp;rsquo;t really change. It can just be set to Imaged, or Inventoried and manually edited later.&lt;/p&gt;
-&lt;p&gt;The model entry does matter though. Essentially for every model you have, you will need to create a category entry (presumably laptop desktop) and a manufacturer entry (if your lucky your company only buys Lenovo ThinkBooks or something).&lt;/p&gt;
+&lt;p&gt;All you want to do is add a hardware entry? Oh ok sure, you need to make a status entry. But to make a status entry you need a Status Name, and a Status Type. Oh anddd you&amp;rsquo;ll need a Model Entry, but to make a Model Entry you need a Category Entry and a Manufacturer Entry. Don&amp;rsquo;t worry though the Category Entry only needs a Category Name and Category Type. The Manufacturer Entry only needs the Manufacturer Name.&lt;/p&gt;
+&lt;p&gt;All of this makes sense, right? These are requirements I technically already had. The only difference is that with Snipe-IT they are using a relational database where the model entry calls on the manufacturer entry via an ID and the category entry by an ID which are the primary key of that table.&lt;/p&gt;
+&lt;p&gt;Doing this solves an issue that we have not talked about yet. Remember that spreadsheet we had, or even that sql database I setup? We did not account for human error. What happens if Joe from the depths of the IT basement office decides to add the device his boss ordered him to setup to the database and decides to put &lt;code&gt;Dell&lt;/code&gt; and not &lt;code&gt;dell&lt;/code&gt; like i&amp;rsquo;ve been putting? Well, when I get asked to pull a report for all devices named &lt;code&gt;dell&lt;/code&gt; Joe&amp;rsquo;s entry doesn&amp;rsquo;t turn up because the manufacturer entry has a discrepancy in it. This kind of issue isn&amp;rsquo;t a sql database issue alone its a xlsx sheet database issue and its a Snipe-IT issue.&lt;/p&gt;
+&lt;p&gt;So how do we combat this? relational databases. You create one entry, and reference it via its id not its name. Cuts down on type 0 errors.&lt;/p&gt;
+&lt;p&gt;Something that was quick and easy just became a massive pain in the but to work with. Now i&amp;rsquo;ve got to some work to do in regards to getting devices to automatically fill information into snipe.&lt;/p&gt;
 </description>
         </item>
         <item>
