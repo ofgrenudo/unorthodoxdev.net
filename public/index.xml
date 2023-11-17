@@ -8,6 +8,71 @@
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Is It Just Me or Is This Complicated</title>
+        <link>https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/</link>
+        <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/</guid>
+        <description>&lt;p&gt;Asset Inventory Management systems are a major pain in the butt for many organizations. I spend quite a bit of time managing, finding, and hunting down devices all day. People come up with millions of ideas to try and simplify the way that we keep track of these devices. One example of this could be the name of the device.&lt;/p&gt;
+&lt;p&gt;How many of you work at a place where you name the device its serial number? Not many? Why is that? Is that because if the device all of a sudden began acting erratically a random assortment of letters and numbers dosing the active directory server gives you absolutely 0 insight other than maybe the type of device thats compromised if you can search it up via the manufacturer website.&lt;/p&gt;
+&lt;p&gt;How many of you work at a place that name your devices something meaningful? A common one is something along the lines of &lt;code&gt;BLD-FLASTNAME01&lt;/code&gt;. Ive even seen just &lt;code&gt;lastname01&lt;/code&gt; or &lt;code&gt;BLD-OFFICENUMB&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;What happens when someone quits, or you have part time staff sharing a computer, or a hotel desk? What do you name it then? And when someone quits, and when someone changes positions? Do you just re-image the computer change the name then? Id like to say that most of us &lt;em&gt;should&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Ok your right, lets get an asset inventory system going. Im gonna put every device that comes in, into this .xlsx file on the network drive with out backups, or shadowcopys and we will use that as our inventory system. Whats that? the building lost power last night and corrupted the file system? The inventory spreadsheets lost?&lt;/p&gt;
+&lt;p&gt;I think you get my point. Ok lets do this thing right now, we either pay for someone else to host our solution. Realistically what do we need?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Device Name&lt;/li&gt;
+&lt;li&gt;Manufacturer&lt;/li&gt;
+&lt;li&gt;Model Name&lt;/li&gt;
+&lt;li&gt;Model Number&lt;/li&gt;
+&lt;li&gt;Serial Number&lt;/li&gt;
+&lt;li&gt;Asset Tag&lt;/li&gt;
+&lt;li&gt;Assigned Staff&lt;/li&gt;
+&lt;li&gt;Maybe the date it was Imaged&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Those aren&amp;rsquo;t too many requirements right? No reason we couldn&amp;rsquo;t just throw up some kind of sql server right? Im sure I could write some kind of quick c or c# program to throw in a row every time we image a device.&lt;/p&gt;
+&lt;p&gt;Ohhhhhhhhh, my peers want access to pull reports now, and you know what. They don&amp;rsquo;t know sql. So they ask me to run a report all the time, what device is this, what device is that? Very quickly that little sql server database became defunct about as soon as it went up.&lt;/p&gt;
+&lt;p&gt;Okay fine, I could build an interface for it. Buttttttt thats too much work. Someone else in the world has ran into the same issue as me right? Probably&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;What solutions exist out there today? Well the one that I fell on was &lt;a class=&#34;link&#34; href=&#34;https://snipeitapp.com/?ref=https://unorthodoxdev.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Snipe-IT&lt;/a&gt;. Without going into everything, it meets all of the above check boxes, and I can give access to people who don&amp;rsquo;t have sql skills. Only problem is, now I don&amp;rsquo;t have complete control over the database, and they&amp;rsquo;ve got some &lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/item?id=5696451&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;relational database gunk&lt;/a&gt; (warning hacker news is cancer i&amp;rsquo;m sorry.). Ok lets go to the &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=7iDfvoqOhD8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;api docs&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://snipe-it.readme.io/reference/api-overview&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;for snipe&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wait. Its actually good?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Oh it must be so easy to use the API then!&lt;/p&gt;
+&lt;p&gt;Wrong :\&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree.png&#34;
+	width=&#34;851&#34;
+	height=&#34;442&#34;
+	srcset=&#34;https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;gunk&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;462px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;All you want to do is add a hardware entry? Oh ok sure, you need to make a status entry. But to make a status entry you need a Status Name, and a Status Type. Oh anddd youll need a Model Entry, but to make a Model Entry you need a Category Entry and a Manufacturer Entry. Dont worry though the Category Entry only needs a Category Name and Category Type. The Manufacturer Entry only needs the Manufacturer Name.&lt;/p&gt;
+&lt;p&gt;Oh my goodness thats a lot of requirements. So to work from the bottom up i need to complete the following right?&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Model Entry
+&lt;ul&gt;
+&lt;li&gt;Category Entry&lt;/li&gt;
+&lt;li&gt;Manufacturer Entry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Status Entry&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So I can use the same status all day long since the status doesn&amp;rsquo;t really change. It can just be set to Imaged, or Inventoried and manually edited later.&lt;/p&gt;
+&lt;p&gt;The model entry does matter though. Essentially for every model you have, you will need to create a category entry (presumably laptop desktop) and a manufacturer entry (if your lucky your company only buys Lenovo ThinkBooks or something).&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Chilequiles</title>
         <link>https://unorthodoxdev.net/recipes/desayuno/chilequiles/</link>
         <pubDate>Wed, 18 Oct 2023 15:57:33 -0400</pubDate>
@@ -23,7 +88,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Note if you are opting to use chorizo, please cook it first, then continue these instructions. Add the ham around the same time you would add the ham.&lt;/p&gt;
+&lt;p&gt;Note if you are opting to use chorizo, please cook it first, then continue these instructions. Add the chorizo around the same time you would add the ham.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;In a pan, set the heat to medium&lt;/li&gt;
