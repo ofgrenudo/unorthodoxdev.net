@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.'>
+<meta name="keywords" content="unorthodoxdev"><title>Ghost Printers</title>
+
+<link rel='canonical' href='https://unorthodoxdev.net/post/2023.07.20-ghost-printers/'>
+
+<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><meta property='og:title' content='Ghost Printers'>
+<meta property='og:description' content='Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.'>
+<meta property='og:url' content='https://unorthodoxdev.net/post/2023.07.20-ghost-printers/'>
+<meta property='og:site_name' content='Unorthodoxdev'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-07-20T16:03:40-04:00'/><meta property='article:modified_time' content='2023-07-20T16:03:40-04:00'/>
+<meta name="twitter:title" content="Ghost Printers">
+<meta name="twitter:description" content="Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://avatars.githubusercontent.com/u/117940901?s=400&amp;u=4194e396b8bc6a5b29d08876b4598d1f9eb4a02f&amp;v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Unorthodoxdev</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ofgrenudo'
+                        target="_blank"
+                        title="github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comment/' >
+                
+                
+                
+                <span>Comment</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/recipes/' >
+                
+                
+                
+                <span>Recipes</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2023.07.20-ghost-printers/">Ghost Printers</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 20, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.dll handles it. But the amount of registry keys meant that windows kept recreating these keys. I dug a little bit more into the registry keys and it appears that each of these keys had the following properties assigned to them. Name “PRT-AWH-321-COLOR”, Driver “Xerox …” that was pretty much it. The rest of the fields were empty.</p>
+<p>I started off looking into removing these printers via a script etc. Doing so I found the existence of a registry key we can create that would have windows remove the printers on exit. To enable this feature you would have to create a 32bit dWord key in the following location <code>&quot;HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider&quot;</code> with the name <code>&quot;RemovePrintersAtLogoff&quot;</code> and the value of 1.</p>
+<p>After creating this key, when a user logs out it should clear out any installed printers, and apply the group policy user settings next time a user logs in. Well creating that key and then logging out seemed to work. But those xerox registry keys persisted for some reason. I grabbed one of the GUIDS from a ghost printer and ran a search for all the instances I could find it in regedit. I ran across quite a few instances and ended up writing a script.</p>
+<p>We start by stopping the printer spooler, and then removing the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\C</span>onnections
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\P</span>rinters
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\P</span>roviders
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\V</span><span style="color:#ae81ff">4</span> Connections
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\W</span>ow6432Node<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\C</span>onnections
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\W</span>ow6432Node<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\P</span>rinters
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\W</span>ow6432Node<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\P</span>roviders
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>OFTWARE<span style="color:#ae81ff">\W</span>ow6432Node<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rint<span style="color:#ae81ff">\V</span><span style="color:#ae81ff">4</span> Connections
+</span></span><span style="display:flex;"><span>HKCU:<span style="color:#ae81ff">\P</span>rinters
+</span></span><span style="display:flex;"><span>HKCU:<span style="color:#ae81ff">\S</span>oftware<span style="color:#ae81ff">\M</span>icrosoft<span style="color:#ae81ff">\W</span>indows NT<span style="color:#ae81ff">\C</span>urrentVersion<span style="color:#ae81ff">\P</span>rinterPorts
+</span></span><span style="display:flex;"><span>HKEY_USERS<span style="color:#ae81ff">\.</span>DEFAULT<span style="color:#ae81ff">\P</span>rinters
+</span></span></code></pre></div><p>The following below you need a system user context to remove. You can do so by using PSExec from Windows PowerToys.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>YSTEM<span style="color:#ae81ff">\C</span>urrentControlSet<span style="color:#ae81ff">\E</span>num<span style="color:#ae81ff">\S</span>WD<span style="color:#ae81ff">\P</span>RINTENUM 
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>YSTEM<span style="color:#ae81ff">\C</span>urrentControlSet<span style="color:#ae81ff">\C</span>ontrol<span style="color:#ae81ff">\D</span>eviceClasses<span style="color:#ae81ff">\{</span>0ecef634-6ef0-472a-8085-5ad023ecbccd<span style="color:#f92672">}</span> 
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>YSTEM<span style="color:#ae81ff">\C</span>ontrolSet001<span style="color:#ae81ff">\E</span>num<span style="color:#ae81ff">\S</span>WD<span style="color:#ae81ff">\P</span>RINTENUM    
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>YSTEM<span style="color:#ae81ff">\C</span>ontrolSet001<span style="color:#ae81ff">\C</span>ontrol<span style="color:#ae81ff">\D</span>eviceClasses<span style="color:#ae81ff">\{</span>0ecef634-6ef0-472a-8085-5ad023ecbccd<span style="color:#f92672">}</span>    
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>YSTEM<span style="color:#ae81ff">\C</span>ontrolSet002<span style="color:#ae81ff">\E</span>num<span style="color:#ae81ff">\S</span>WD<span style="color:#ae81ff">\P</span>RINTENUM    
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>YSTEM<span style="color:#ae81ff">\C</span>ontrolSet002<span style="color:#ae81ff">\C</span>ontrol<span style="color:#ae81ff">\D</span>eviceClasses<span style="color:#ae81ff">\{</span>0ecef634-6ef0-472a-8085-5ad023ecbccd<span style="color:#f92672">}</span>    
+</span></span><span style="display:flex;"><span>HKLM:<span style="color:#ae81ff">\S</span>YSTEM<span style="color:#ae81ff">\C</span>urrentControlSet<span style="color:#ae81ff">\C</span>ontrol<span style="color:#ae81ff">\C</span>lass<span style="color:#ae81ff">\{</span>1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc<span style="color:#f92672">}</span> 
+</span></span></code></pre></div><p>After doing so, when you open up the control panel all the printers should be grayed out. Because these printers are being added via group policy, doing a reboot, should resolve any issues we had previously. Once the computer comes back up again, all of those printers should remain grey, and anything that gets installed via group policy should then fill in with color. But shortly after, it started happening again. I kept getting notifications of the printer installing, over and over and over again.</p>
+<p>With that, its confirms that it is not some residual left over install, but narrows it down to one or two things. A messed up group policy or a bad driver. Looking at the group policy I could find anything wrong, so I decided to start at the driver. I took the computer off the domain, and downloaded the PCL, General, and PS, driver for the printer.</p>
+<p>Once the computers off the domain, I remove all printers. And repeat the above steps. After doing so I started with the identical driver installed, the General driver. I setup the printer and as soon as the install finishes. I immediately get the same issue again.</p>
+<p>Its no longer a group policy issue, its now a driver issue. Uninstall all the printers again and start from step one. Once I get to installing the printer I use the PCL driver. I had similar issues. Finally the Post Script (PS) driver ended up working for me and resolved in no issues.</p>
+<p>Either way, cleaning up the ghost printers is a pain in my ass, and is nothing but manual labor. I ended up reimaging the comptuers after fixing the driver on the print server and going from there.</p>
+<p>Since then its seemed to have been fixed.</p>
+<h2 id="scripts">Scripts</h2>
+<p>part-one.ps1</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Powershell" data-lang="Powershell"><span style="display:flex;"><span>New-ItemProperty -Path <span style="color:#e6db74">&#34;HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider&#34;</span> -Name <span style="color:#e6db74">&#34;RemovePrintersAtLogoff&#34;</span> -Value <span style="color:#ae81ff">1</span> -Force
+</span></span><span style="display:flex;"><span>Restart-Computer -Force
+</span></span></code></pre></div><p>part-two.ps1</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Powershell" data-lang="Powershell"><span style="display:flex;"><span>Stop-Service spooler -Force
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Connections&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Providers&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\V4 Connections&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\Connections&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\Providers&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Print\V4 Connections&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKCU:\Printers&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;HKCU:\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>Remove-Item -Path <span style="color:#e6db74">&#34;Registry::HKEY_USERS\.DEFAULT\Printers&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.\PsExec.exe /accepteula
+</span></span><span style="display:flex;"><span>.\PsExec.exe powershell Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SYSTEM\CurrentControlSet\Enum\SWD\PRINTENUM&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>.\PsExec.exe powershell Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SYSTEM\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}&#34;</span> -Recurse
+</span></span><span style="display:flex;"><span>.\PsExec.exe powershell Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SYSTEM\ControlSet001\Enum\SWD\PRINTENUM&#34;</span> -Recurse -ErrorAction SilentlyContinue
+</span></span><span style="display:flex;"><span>.\PsExec.exe powershell Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SYSTEM\ControlSet001\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}&#34;</span> -Recurse -ErrorAction SilentlyContinue
+</span></span><span style="display:flex;"><span>.\PsExec.exe powershell Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SYSTEM\ControlSet002\Enum\SWD\PRINTENUM&#34;</span> -Recurse -ErrorAction SilentlyContinue
+</span></span><span style="display:flex;"><span>.\PsExec.exe powershell Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SYSTEM\ControlSet002\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}&#34;</span> -Recurse -ErrorAction SilentlyContinue
+</span></span><span style="display:flex;"><span>.\PsExec.exe powershell Remove-Item -Path <span style="color:#e6db74">&#34;HKLM:\SYSTEM\CurrentControlSet\Control\Class\{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}&#34;</span> -Recurse 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Restart-Computer -Force
+</span></span></code></pre></div>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/2023.07.19-mecm-api/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">MECM API</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/2023.07.19-tattoo/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Tattoo</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/2023.07.19-ci-pipelines-with-rust/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Ci Pipelines With Rust</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/2023.07.19-ublock-origin-and-more/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Ublock Origin and More</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/2023.07.19-digital-gardens/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Digital Gardens</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2023 Unorthodoxdev
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.17.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

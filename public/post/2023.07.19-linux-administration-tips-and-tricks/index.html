@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Some tips and tricks for when administrating linux servers'>
+<meta name="keywords" content="unorthodoxdev"><title>Linux Administration Tips and Tricks</title>
+
+<link rel='canonical' href='https://unorthodoxdev.net/post/2023.07.19-linux-administration-tips-and-tricks/'>
+
+<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><meta property='og:title' content='Linux Administration Tips and Tricks'>
+<meta property='og:description' content='Some tips and tricks for when administrating linux servers'>
+<meta property='og:url' content='https://unorthodoxdev.net/post/2023.07.19-linux-administration-tips-and-tricks/'>
+<meta property='og:site_name' content='Unorthodoxdev'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-07-19T20:58:00-04:00'/><meta property='article:modified_time' content='2023-07-19T20:58:00-04:00'/>
+<meta name="twitter:title" content="Linux Administration Tips and Tricks">
+<meta name="twitter:description" content="Some tips and tricks for when administrating linux servers">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://avatars.githubusercontent.com/u/117940901?s=400&amp;u=4194e396b8bc6a5b29d08876b4598d1f9eb4a02f&amp;v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Unorthodoxdev</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ofgrenudo'
+                        target="_blank"
+                        title="github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comment/' >
+                
+                
+                
+                <span>Comment</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/recipes/' >
+                
+                
+                
+                <span>Recipes</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2023.07.19-linux-administration-tips-and-tricks/">Linux Administration Tips and Tricks</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Some tips and tricks for when administrating linux servers
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 19, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    5 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.</p>
+<h1 id="service-monitoring">Service Monitoring</h1>
+<p>Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?</p>
+<h2 id="system-services">System Services</h2>
+<p>This command in a very cute way, will display all of the services installed on your server, and then display them accordingly with + or - signs to indicate weather or not it is running.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>service --status-all
+</span></span></code></pre></div><p>Using grep, you can highlight services that are running (+) or stopped (-) for easy identification.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>service --status-all | grep <span style="color:#e6db74">&#34;[ + ]&#34;</span>
+</span></span></code></pre></div><p>Grep can also help you identify a specific service given you know the name like <code>ssh</code></p>
+<h2 id="running-processs">Running Process&rsquo;s</h2>
+<p>PS displays information about a selection of the active processes. It is an alternative to TOP that only prints once. By default <code>ps</code> selects all processes with the same user id (EUID). It will show you the Process ID (PID) and the terminal associated with the process (TTY), the cumulated cpu time in [DD-]hh:mm:ss and the executable name (CMD).</p>
+<p>The below command will display all processes initiated by the user.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ps
+</span></span></code></pre></div><p>If you want to see a specific users processes you can do the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ps -U root -u root u
+</span></span></code></pre></div><p>If you want to view every process on the system, you can do</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ps -e
+</span></span></code></pre></div><h2 id="network-related-services">Network Related Services</h2>
+<p>The below command will allow you to view all current connections and listening services on a system along with the processes and PIDs for each connection. It requires that you have the <code>net-tools</code> package installed.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>netstat -tulpn
+</span></span></code></pre></div><p>Say I wanted to look at what process was running on port 22</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>netstat -tulpn | grep <span style="color:#e6db74">&#34;22&#34;</span>
+</span></span></code></pre></div><p>The above command will return an output of any port that has 22 in it. For me currently, I have two services listening on port 22. One for IPv4 and IPv6</p>
+<p>Example Output</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ netsatat -tulpn | grep <span style="color:#e6db74">&#34;22&#34;</span>
+</span></span><span style="display:flex;"><span>tcp    <span style="color:#ae81ff">0</span>    <span style="color:#ae81ff">0</span> 0.0.0.0:22    0.0.0.0:*    LISTEN    -
+</span></span><span style="display:flex;"><span>tcp6   <span style="color:#ae81ff">0</span>    <span style="color:#ae81ff">0</span> :::22         :::*         LISTEN    -
+</span></span></code></pre></div><div style="page-break-after: always;"></div>
+<h1 id="networking-shenanigans">Networking Shenanigans</h1>
+<p>Soy baboon, hay problemas de redes; ooh ooh ahh ahh.</p>
+<p><img src="https://thumbs.dreamstime.com/z/monkey-scratching-his-head-animal-began-to-think-139656229.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="i-am-a-monkey.jpg | 500"
+	
+	
+></p>
+<h2 id="first-things-first">First <em>things</em> first</h2>
+<p>Where am i on the subnet? The below tools will help you troubleshoot where your are on the subnet, what might be missing, and or misconfigured. To get a quick overview of all of your connected network cards, you can run the following command</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>networkctl status
+</span></span></code></pre></div><p>It will print out the following information:</p>
+<ul>
+<li>State: Routable or Not</li>
+<li>Online Status</li>
+<li>Address (IPv4 and IPv6)</li>
+<li>Gateway Address including the associated port.</li>
+<li>DNS Servers</li>
+<li>Domains</li>
+<li>NTP Servers.</li>
+<li>Network Card Configurations.</li>
+</ul>
+<p>If everything above looks good we can move on to looking more closely at our network cards.</p>
+<h2 id="whats-my-ip">Whats my ip?</h2>
+<p>The ip command allows you to show address information, manipulate routing, and display network devices, interfaces, and tunnels. It is a simple concept and hard tool to learn. There really five (5) modes to ip.</p>
+<ul>
+<li>Tunnel (Tunnel over IP)</li>
+<li>Route (Routing table entry)</li>
+<li>Rule (rule in routing policy database)</li>
+<li>VRF (Manage virtual routing and forwarding devices)</li>
+<li>XFRM (Manage IPSec policies)</li>
+</ul>
+<p>To find the IP addresses assigned to your server, use</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ip address show
+</span></span></code></pre></div><p>This will give you each interface, numbered from 1 to ♾️ including the status (UP or DOWN), IPv4 and IPv6 address, and subnet mask and broadcast address.</p>
+<p>![[ip-address-show.png]]</p>
+<p>To force a static IP address on a interface, you can do the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ip address add 10.66.10.9/16 dev eth0
+</span></span></code></pre></div><p>Then you will want to reboot the network card.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ip link set eth0 down
+</span></span><span style="display:flex;"><span>ip link set eth0 up
+</span></span></code></pre></div><p>Make sure for the above command you are physically connected to the server otherwise, you may lose connection if your actively using eth0.</p>
+<p>If things are still looking good, we can move on too routes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ip route
+</span></span></code></pre></div><p>This will show all of routes advertised by our DHCP server as available as well as their weighted value identified by the metric lable. You should have a few things listed here. If not I would investigate that.</p>
+<h2 id="my-connection-is-getting-dropped-or-reset-somewhere-along-the-wire">My connection is getting dropped, or reset somewhere along the wire.</h2>
+<p>MTR (Matts Trace-route) is a program that allows you to diagnose issues like these. To use MTR, you will want to do the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mtr google.com
+</span></span></code></pre></div><p>My favorite flag to use with this is <code>-b</code> it shows the dns name as well as the IP side by side allowing for a quick analysis of the network having issues.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mtr -b google.com
+</span></span></code></pre></div><p>You can also send a predetermined amount of pings with the <code>-c</code> flag. Otherwise known as <code>count</code> it allows you to select how many packets to send.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mtr -c <span style="color:#ae81ff">100</span> -b google.com
+</span></span></code></pre></div><p>The final command you will need to know about with mtr is <code>-r</code> or record. This allows you to output the information into a txt file for later usage.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mtr -r -c <span style="color:#ae81ff">20</span> google.com &gt; mtr-google.log
+</span></span></code></pre></div><p>Note that doing so will lock your terminal working on dumping that data so I would recommend a smaller count. If you really wanted to get something running and then do something else in the mean time, you could apply a ampersand (&amp;) to the end of your command to have it run in the background. It will spit out a PID that you can search for later to see if its complete with</p>
+<pre tabindex="0"><code>ps -e | grep 15225
+</code></pre><h2 id="monitoring-network-traffic">Monitoring network traffic</h2>
+<p>So, everything looks good, but data is still coming back corrupted? Lets look at the raw packets.</p>
+<p>The below command allows us to capture all traffic that comes or goes from this interface within the following ip and subnet range.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tcpdump -i eth0 net 10.66.0.0/16
+</span></span></code></pre></div><p>We can also filter based on source (<code>src</code>) or destination (<code>dst</code>).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tcpdump -i eth src net 10.1.0.0/24
+</span></span></code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tcpdump -i eth dst net 10.1.0.0/24
+</span></span></code></pre></div><p>Finally we can also capture traffic only coming or going from a specific port.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tcpdump -i eth0 port <span style="color:#ae81ff">53</span>
+</span></span></code></pre></div><p>Combining the port traffic with a specific host</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tcpdump -i eth0 host 10.66.10.123 and port <span style="color:#ae81ff">53</span>
+</span></span></code></pre></div>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/recipes/sopresas/gorilla-balls/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Gorilla Balls</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/recipes/cenar/andreas-chili-recipe/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Andrea&#39;s Chilli Recipe</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/recipes/sopresas/bannana-bread/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Bannana Bread</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/recipes/desayuno/blueberry-breakfast-bars/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Blueberry Breakfast Bars</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/recipes/desayuno/peanut-butter-cereal-bars/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Peanut Butter Cereal Bars</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2023 Unorthodoxdev
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.17.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

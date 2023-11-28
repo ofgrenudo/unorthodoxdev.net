@@ -8,11 +8,58 @@
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Comment Downtime 2023.11.28</title>
+        <link>https://unorthodoxdev.net/post/2023.11.28-downtime-comments/</link>
+        <pubDate>Tue, 28 Nov 2023 12:29:55 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/2023.11.28-downtime-comments/</guid>
+        <description>&lt;p&gt;Today, I had an unexpected downtime of roughly 2 hours 2023.11.28 3-4 UTC. I had a Russian visiter Sunday (?) the 25th who commented essentially an ad about their website SEO skills onto the &lt;a class=&#34;link&#34; href=&#34;https://www.unorthodoxdev.net/comment/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;comment board&lt;/a&gt;. This is &lt;em&gt;unfortunately&lt;/em&gt; the internet, and even more so a &lt;em&gt;comment board&lt;/em&gt; where anyone can say and do anything (within the rules).&lt;/p&gt;
+&lt;p&gt;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive. But they did happen to comment three times, each time the same thing without any kind of variation. This was cause for concern&amp;hellip;. (im joking). But as a webadmin, I can do whatever the hell I want and censor whatever kind of things I want to censor, so why not exercise my webadmin rights and change the visibility of the excess comments and then leave a curdious note to the user about why I had to mark their notes as hidden? Naturally, you have to hide the comment on production right?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Heres where everything starts going down hill&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I decided to begin by running the command &lt;code&gt;sqlite3 comments.db&lt;/code&gt;. That is where i messed up first. I should have made a backup of the database. Its prone to human error (me, its prone to me, absolutely fucking it up, im the problem).&lt;/p&gt;
+&lt;p&gt;I then, was sitting in the console and it has been so long since ive worked on this project, I have no idea what the hell kind of comannds I need to run to view the database scheema, I know I could look at the source code, but curiosity got me and what if i didnt have access to the source code? well you can run&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#66d9ef&#34;&gt;schema&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ON&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#66d9ef&#34;&gt;schema&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and it spits out the schema used to create the database. Cool, ive got my column variable types, and ive got the id from the comment board. So i need to just set the visibility to 0.&lt;/p&gt;
+&lt;p&gt;Boom, I do that with the following command, &lt;code&gt;UPDATE comments SET visible = 0 WHERE id = &amp;quot;&amp;lt;id_goes_here&amp;gt;&amp;quot;;&lt;/code&gt; it works. I do it for the other post i want to get rid of. And I update the poorly named &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/comment.unorthodoxdev.net/commit/830d376b8c9eb9ef29aeda649309483033b16ed1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;slqite-commands.md&lt;/code&gt;&lt;/a&gt; file with the command i used. Boom bam bow, whenever this happens again, i&amp;rsquo;m a prepared web admin.&lt;/p&gt;
+&lt;p&gt;I type my relatively polite message up:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hello MikhailRS, thank you for visting the site. This is by far the internet, you are welcome to do whatever you want to my site. I can simply destroy this website and start it up again. But please, in the future, do not repeat your post as it is breaking the rules (no spam) as listed in the above headers.&lt;/p&gt;
+&lt;p&gt;Although I appreciate your feed back as you have made a few things apparent to me, One the rules should be numbered in an ordered list so i can refer to them as numbers and not by &amp;ldquo;the rules&amp;rdquo;. Two, when I hide a comment, it still rederns in the html as a comment_ div. I will need to fix that sometime soon, its looking like a bug that will get resolved in probably 5 weeks as finals is coming up.&lt;/p&gt;
+&lt;p&gt;Thank you my friend :)&lt;/p&gt;
+&lt;p&gt;Google Translate, do your thang:&lt;/p&gt;
+&lt;p&gt;Здравствуйте, МихаилРС, спасибо, что посетили сайт. Это, безусловно, Интернет, вы можете делать на моем сайте все, что захотите. Я могу просто уничтожить этот сайт и запустить его заново. Но, пожалуйста, в будущем не повторяйте свой пост, поскольку он нарушает правила (без спама), перечисленные в заголовках выше.&lt;/p&gt;
+&lt;p&gt;Хотя я ценю вашу обратную связь, поскольку вы объяснили мне некоторые вещи, во-первых, правила должны быть пронумерованы в упорядоченном списке, чтобы я мог называть их числами, а не «правилами». Во-вторых, когда я скрываю комментарий, он все равно отображается в HTML как div comment_. Мне нужно будет это исправить в ближайшее время, это похоже на ошибку, которая будет исправлена, вероятно, через 5 недель, когда приближается финал.&lt;/p&gt;
+&lt;p&gt;Спасибо, мой друг :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And post it  to the comment board.&lt;/p&gt;
+&lt;p&gt;I then try to push the changes to the git repository and run into an authentication error. Why is that? maybe its because I don&amp;rsquo;t have my ssh keys on the server. Why is that? because its publicly accessible and prone to Russian dudes poking my server. And why don&amp;rsquo;t i want my ssh keys on the server? because they are used to authenticate to my GitHub. I at some point used my brain in this convoluted process.&lt;/p&gt;
+&lt;p&gt;No biggie, let me just git pull origin and uncommit all of these stupid changes. LOL. it overwrote the database. All comments lost, Im not back at the tracked testing version of &lt;code&gt;comments.db&lt;/code&gt;. About 6 months worth of commenting gold lost in the wind. Only to be held in my memory. This can never happen again.&lt;/p&gt;
+&lt;p&gt;So I go on a bug fixing protocol making rampage, &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/comment.unorthodoxdev.net/commit/0d2f47ceeaa5a3707381337f36b96ff5ae91b9cf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;I resolve the bug causing empty divs to show when i hide a comment&lt;/a&gt; and fix a number of spelling errors along the way. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/comment.unorthodoxdev.net/blob/df2c54671ded81ddad69100df2e3d53f6426e8b9/backup.sh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;I also create a backup solution to never do this again&lt;/a&gt;. And with that, I hopefully never make changes on prod again.&lt;/p&gt;
+&lt;p&gt;To over view heres a list of ways that I fucked up:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make changes on prod.&lt;/li&gt;
+&lt;li&gt;Commit changes on prod.&lt;/li&gt;
+&lt;li&gt;Roll back changes on prod.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t back changes up on prod.&lt;/li&gt;
+&lt;li&gt;Keep your database in the same folder as your source (shhh we didn&amp;rsquo;t talk about this).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Other than that, the kind stranger &lt;strong&gt;MikhailRS&lt;/strong&gt; taught me a few things though. List your rules as numbers so you can refer to them as Rule #4 instead of Rulez. You also pointed out a bug in the templating that I had. Finally, you also reminded me that I need to create a admin panel of sorts to hide comments lol.&lt;/p&gt;
+&lt;p&gt;Overall, there is my report on what the went wrong, November 28th, 2023.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Navigating the Challenges of Asset Inventory Management</title>
-        <link>https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/</link>
+        <link>https://unorthodoxdev.net/post/2023.11.17-is-it-just-me-or-is-this-complicated/</link>
         <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.11.17-is-it-just-me-or-is-this-complicated/</guid>
         <description>&lt;p&gt;Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&lt;/p&gt;
 &lt;p&gt;Consider the alternative of assigning meaningful names like &lt;code&gt;BLD-FLASTNAME01&lt;/code&gt; or &lt;code&gt;lastname01&lt;/code&gt;—common practices to enhance clarity. Yet, challenges arise when dealing with staff changes or shared devices. Renaming devices becomes a necessity, and the process of re-imaging and renaming raises questions about efficiency.&lt;/p&gt;
 &lt;p&gt;Implementing an asset inventory system is the logical next step. But what&amp;rsquo;s the right approach? Perhaps hosting a solution externally? The basic requirements seem straightforward: Device Name, Manufacturer, Model Name, Model Number, Serial Number, Asset Tag, Assigned Staff, and maybe the date of imaging. A SQL server could handle this, right? A simple C or C# program could populate rows for each imaged device.&lt;/p&gt;
@@ -22,10 +69,10 @@
     &gt;this discussion&lt;/a&gt;, adds complexity. Navigating the &lt;a class=&#34;link&#34; href=&#34;https://snipe-it.readme.io/reference/api-overview&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Snipe API documentation&lt;/a&gt; reveals that simplicity is elusive.&lt;/p&gt;
 &lt;h2 id=&#34;unraveling-complexity-with-a-graph&#34;&gt;Unraveling Complexity with a Graph&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/post/2023.11.17-is-it-just-me-or-is-this-complicated/tree.png&#34;
 	width=&#34;851&#34;
 	height=&#34;442&#34;
-	srcset=&#34;https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/post/is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/post/2023.11.17-is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/post/2023.11.17-is-it-just-me-or-is-this-complicated/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;relational database structure&#34;
@@ -144,10 +191,10 @@
         </item>
         <item>
         <title>Flush Dns on Mac</title>
-        <link>https://unorthodoxdev.net/post/flush-dns-on-mac/</link>
+        <link>https://unorthodoxdev.net/post/2023.10.23-flush-dns-on-mac/</link>
         <pubDate>Thu, 12 Oct 2023 16:45:31 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/flush-dns-on-mac/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.10.23-flush-dns-on-mac/</guid>
         <description>&lt;p&gt;Gah, they make everything so hard. (I need to run two simple commands.) Why cant I just run one command and flush the dns on my mac? Well im sure theres a better way to do this&amp;hellip; (there is)&lt;/p&gt;
 &lt;p&gt;Welcome to flushdns(.sh)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
@@ -178,19 +225,19 @@
         </item>
         <item>
         <title>Dont Update Nginx Without a Backup of Configs</title>
-        <link>https://unorthodoxdev.net/post/dont-update-nginx-without-a-backup-of-configs/</link>
+        <link>https://unorthodoxdev.net/post/2023.10.05-dont-update-nginx-without-a-backup-of-configs/</link>
         <pubDate>Thu, 05 Oct 2023 14:58:10 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/dont-update-nginx-without-a-backup-of-configs/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.10.05-dont-update-nginx-without-a-backup-of-configs/</guid>
         <description>&lt;p&gt;Allrght, I did a vulnerability scan on the web server, there was something about the version of nginx installed had a flaw in it, so I went ahead and patched the nginx install. Ofcourse only because it is patch thursday and it might as well be on a list of things todo. Well, everything went smoothly; I upgraded to the latest version, refreshed the website in the browser, checked my config file, and were good to go. I then promptly left for lunch and didnt get the chance to check back at the website until approximately 7 UTC. Well, the website was infact not good. it was down, and probably down since i made those changes. I began to search for the issue. A quick grep, showed that my config files all existed and contained the domain name and hostname of the website. So whats the issue, why is it not reading my configs? Well that was the problem, and quickly came the solution. When you upgrade the nginx installation it overwrites your previous config file. Im not sure if there was any other magick stuff I was doing in the config file before I updated, but I included the sites-available directory, and were good to go. So yeah, the site was down for aproximately 3 hours. Thanks chaps :)&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Creating and Managing a SSL Cert</title>
-        <link>https://unorthodoxdev.net/post/creating-and-managing-a-ssl-cert/</link>
+        <link>https://unorthodoxdev.net/post/2023.09.21-creating-and-managing-a-ssl-cert/</link>
         <pubDate>Thu, 21 Sep 2023 16:39:17 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/creating-and-managing-a-ssl-cert/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.09.21-creating-and-managing-a-ssl-cert/</guid>
         <description>&lt;p&gt;This guide is intended for Ubuntu 22.04 and is intended for use with a Apache2 web server. To get started we need to make sure you have Apache2 installed, we can use grep to check. These instructions were written on a Ubuntu Server.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt list --installed | grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;apache2&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next will need to allow Apache through the firewall on both http (80) and https (443). We can do so with the below command&lt;/p&gt;
@@ -275,10 +322,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>Simple File Parsing Takes Three Hours</title>
-        <link>https://unorthodoxdev.net/post/simple-file-parsing-takes-three-hours/</link>
+        <link>https://unorthodoxdev.net/post/2023.09.21-simple-file-parsing-takes-three-hours/</link>
         <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/simple-file-parsing-takes-three-hours/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.09.21-simple-file-parsing-takes-three-hours/</guid>
         <description>&lt;p&gt;NMAP really needs some kind of file output option that isnt leetcode, xml, or gibberish. I would kill for a csv output from nmap. Regardless, lets solve this problem. I chose to ues python because I figured it would be quick and easy and would take no time. I was in fact wrong; Im not quite as comfortable with python as I am with rust at this point, but thats ok. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/noparser/blob/main/noparser.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;It took about 2-3 hours to build and test a simple program&lt;/a&gt;. This stupid script, took a little over 40 minutes trying to figure out how to build a stupid CLI interface and I immediately realized I miss rusts built in fail handling. Your telling me that I have to try, except &lt;strong&gt;everything???&lt;/strong&gt;. Oh well it doesnt matter anyways this doesnt actually compile down to machine code there are no assembly jumps or calls, lets just do it&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;God I hate this I decided to just cave and research a few CLI libraries and landed on plac, which has some very terrible documentation. For example, they do not explicilty provide a way for you to accept a file path or string lol. I just had to play around with the program until I found something that works, but this library could literally kill for some more english in the documentation. After I got that going it was easy peasy lemon squeezy. Except, when you error out, it doesnt really tell you why if your in a try catch loop. So I have to effectively comment out the try catch loop, and lower my code a indentation bracket figure out what the hell is breaking my code, just to realize I forgot to pass a variable to a function but was referencing it anyways&amp;hellip;. Another downside to try catch. Why the hell is my program failing. Otherwise, this program is less than 40 lines without all the stupid comments.&lt;/p&gt;
@@ -289,10 +336,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>Organizational Behaviour Examples</title>
-        <link>https://unorthodoxdev.net/post/organizational-behaviour-examples/</link>
+        <link>https://unorthodoxdev.net/post/2023.09.19-organizational-behaviour-examples/</link>
         <pubDate>Tue, 19 Sep 2023 17:36:35 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/organizational-behaviour-examples/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.09.19-organizational-behaviour-examples/</guid>
         <description>&lt;iframe width=&#34;100%&#34; height=&#34;700px&#34; src=&#34;https://www.youtube.com/embed/C-iaYYLK_oQ?si=pYwTBrfzrOqcDJtv&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;
 &lt;p&gt;In a behavioural organization class, we have an assignment to watch a movie and pick a sceene from it where we notice some organizational behaviour coming into play. Below are my awnsers to this assignment.&lt;/p&gt;
@@ -305,20 +352,20 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>How to search Text files with grep</title>
-        <link>https://unorthodoxdev.net/post/searching-text-files-with-grep/</link>
+        <link>https://unorthodoxdev.net/post/2023.09.08-searching-text-files-with-grep/</link>
         <pubDate>Fri, 08 Sep 2023 07:55:32 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/searching-text-files-with-grep/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.09.08-searching-text-files-with-grep/</guid>
         <description>&lt;p&gt;Ever needed to find something in a directory filled with text files. Use grep. The command I enjoy to using is as follows:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep -Ril &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;what the H E double hockey sticks&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
         <title>Where am i on the network?</title>
-        <link>https://unorthodoxdev.net/post/where-am-i-on-the-network/</link>
+        <link>https://unorthodoxdev.net/post/2023.09.07-where-am-i-on-the-network/</link>
         <pubDate>Thu, 07 Sep 2023 16:51:44 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/where-am-i-on-the-network/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.09.07-where-am-i-on-the-network/</guid>
         <description>&lt;p&gt;Ever wonder what port your connected to when plugged into a ethernet jack? Open up wireshark and apply a filter, searching for &lt;code&gt;cdp or lldp&lt;/code&gt; traffic. That will kick back:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The switches MAC Address.&lt;/li&gt;
@@ -334,10 +381,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>Vacation</title>
-        <link>https://unorthodoxdev.net/post/vacation/</link>
+        <link>https://unorthodoxdev.net/post/2023.09.07-vacation/</link>
         <pubDate>Thu, 07 Sep 2023 10:32:58 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/vacation/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.09.07-vacation/</guid>
         <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg" alt="Featured image of post Vacation" /&gt;&lt;p&gt;Im back!&lt;/p&gt;
 &lt;p&gt;Ive been gone for a little while now. I went on vacation to mexico for about 21 days to visit friends. I had a blast. Everything there is vastly different than here in the states. Where I live, &lt;a class=&#34;link&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S0277953600000046&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;if you need anything other than beer&lt;/a&gt; you need to drive about 5-20 minutes to get whatever you need. In Druango Durango Mexico, If I need to go to the store, its about a 5 minute walk to a Ley; The equivalent of a walmart or meijers. If im in the mood for some chips and a soda, theres a conveince store, or Oxxo within 2 to 5 minutes. Hungry for a burger, theres a place that sells hamburgesas down the street. Come on lets walk its only 10 minutes away! I will tell you though, I was a little dissapointed in the hamburgessa. I was expecting a &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=MULhB5_COAU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -418,10 +465,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>Advent of Code</title>
-        <link>https://unorthodoxdev.net/post/advent-of-code/</link>
+        <link>https://unorthodoxdev.net/post/2023.08.09-advent-of-code/</link>
         <pubDate>Wed, 09 Aug 2023 15:07:00 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/advent-of-code/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.08.09-advent-of-code/</guid>
         <description>&lt;p&gt;Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.&lt;/p&gt;
 &lt;p&gt;Struggling to learn C, I decided to go through the AoC content from 2015 to current and complete each of the challenges with at a minimum, attempting to use C. The nice thing about doing the older problems, well really any problem, is that there are plenty of resources around online to help me work through and solve the problems.&lt;/p&gt;
 &lt;p&gt;I plan to go through at least one problem a day on my lunch break if not more given time permits and upload it to my &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/AoC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -433,10 +480,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>Network Troubleshooting Methodology</title>
-        <link>https://unorthodoxdev.net/post/network-troubleshooting-methodology/</link>
+        <link>https://unorthodoxdev.net/post/2023.08.09-network-troubleshooting-methodology/</link>
         <pubDate>Wed, 09 Aug 2023 14:17:19 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/network-troubleshooting-methodology/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.08.09-network-troubleshooting-methodology/</guid>
         <description>&lt;p&gt;This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I &lt;strong&gt;STOP&lt;/strong&gt;, and &lt;strong&gt;SLOWN DOWN&lt;/strong&gt; and think about the changes. Something else I enjoy about these instructions is they force me to think more about &lt;em&gt;change&lt;/em&gt; management. Something I need more practice with.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Gather as much information as possible. If possible, duplicate the problem.&lt;/li&gt;
@@ -450,10 +497,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>Finding Things to Do...</title>
-        <link>https://unorthodoxdev.net/post/finding-things-to-do/</link>
+        <link>https://unorthodoxdev.net/post/2023.08.07-finding-things-to-do/</link>
         <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/finding-things-to-do/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.08.07-finding-things-to-do/</guid>
         <description>&lt;p&gt;I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something. Sometimes, I may already have the end goal of my project or problem determined, but my issue is then, finding a way to complete it. Maybe not all the tools are there for me that I hope there would have been.&lt;/p&gt;
 &lt;p&gt;Lately I have been learning C. Not C++, not C#&amp;hellip; C. One thing I learned very quickly with C is that there is no hand holding. If you do not manage your memory, you&amp;rsquo;ve blown your program up. You don&amp;rsquo;t know how to do something, you&amp;rsquo;ve made your project 100 times harder now trying to include some foreign library, versus developing the solution your self. My initial Idea was to create a program, that pulls the API information from the local Transit station, and parses out the information into a pleasant way. This program in rust, hypothetically would be pretty quick, and i&amp;rsquo;ve already got an idea on how I would do it!&lt;/p&gt;
 &lt;p&gt;I would start by using &lt;a class=&#34;link&#34; href=&#34;github.com/actix/actix&#34; &gt;actix&lt;/a&gt; to pull the API get request. parse the JSON response using &lt;a class=&#34;link&#34; href=&#34;serde.rs&#34; &gt;serde&lt;/a&gt;. Then use  &lt;a class=&#34;link&#34; href=&#34;https://github.com/ratatui-org/ratatui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -588,10 +635,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>In dire need of comments.</title>
-        <link>https://unorthodoxdev.net/post/comment-board/</link>
+        <link>https://unorthodoxdev.net/post/2023.08.01comment-board/</link>
         <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/comment-board/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.08.01comment-board/</guid>
         <description>&lt;p&gt;I recently migrated my website from &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ghost blog&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo&lt;/a&gt; which is a static site generator compared to the all in one package you get with &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -634,10 +681,10 @@ locate apache-selfsigned.key
         </item>
         <item>
         <title>Implementing a Sick 504 Page</title>
-        <link>https://unorthodoxdev.net/post/implementing-a-sick-504-page/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.27-implementing-a-sick-504-page/</link>
         <pubDate>Thu, 27 Jul 2023 12:09:39 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/implementing-a-sick-504-page/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.27-implementing-a-sick-504-page/</guid>
         <description>&lt;p&gt;Rust takes forever to build. Im sure I could do alot better deploying the application. But who knows, maybe im doing great at deploying my [comment board](https://unorthodoxdev. net/comment) but what if there is some bug that I introduced that crashes the server 👻. What if while the server is crashed, Im at work??? Well good thing we can customize the default 504 page that nginx uses. So lets get started.&lt;/p&gt;
 &lt;p&gt;First we will go to our &lt;code&gt;/var/www/html&lt;/code&gt; folder and create a page called &lt;code&gt;maintenance.html&lt;/code&gt;. Inside of maintenance I have put the following.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
@@ -685,11 +732,11 @@ location = /maintenance.html {
         </item>
         <item>
         <title>New Bloging System</title>
-        <link>https://unorthodoxdev.net/post/new-blogging-system/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.21-new-blogging-system/</link>
         <pubDate>Fri, 21 Jul 2023 10:58:35 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/new-blogging-system/</guid>
-        <description>&lt;img src="https://unorthodoxdev.net/post/new-blogging-system/this-is-fine.png" alt="Featured image of post New Bloging System" /&gt;&lt;p&gt;Ive migrated my website from the ghost blogging platform to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://unorthodoxdev.net/post/2023.07.21-new-blogging-system/</guid>
+        <description>&lt;img src="https://unorthodoxdev.net/post/2023.07.21-new-blogging-system/this-is-fine.png" alt="Featured image of post New Bloging System" /&gt;&lt;p&gt;Ive migrated my website from the ghost blogging platform to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo&lt;/a&gt; (go hugo, go hugo, go!). Its a little simpler and easier to manage. I also feel as though I have more controll. Currently, im using the hugo-stacked-theme as it looks the most appealing to me, and is not a massive website with insane overhead. It also comes with a indexing feature that allows me (and you ofcourse) to search my content for specific keywords.&lt;/p&gt;
 &lt;p&gt;Another great thing about it being simple is I dont have to constantly monitor that the ghost instance isnt taking too much resources as the web server just lives on a static nginx route. The only thing I &lt;strong&gt;will&lt;/strong&gt; have to get used to is making sure that before I push to the remote repository, that I have ran &lt;code&gt;hugo&lt;/code&gt; so that it can build each of my pages.&lt;/p&gt;
 &lt;p&gt;Currently I am manually logging into the web server and pulling the repostory whenever I feel like it. In the future, ideally id set a cron job for every 30 minutes or something like that.&lt;/p&gt;
@@ -698,10 +745,10 @@ location = /maintenance.html {
         </item>
         <item>
         <title>Read the Damn Instructions</title>
-        <link>https://unorthodoxdev.net/post/read-the-damn-instructions/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.21-read-the-damn-instructions/</link>
         <pubDate>Fri, 21 Jul 2023 10:50:07 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/read-the-damn-instructions/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.21-read-the-damn-instructions/</guid>
         <description>&lt;p&gt;Read the damn instructions. Im working on a new project for the website, and Im trying to upload what I have to github (a simple readme nothing more).&lt;/p&gt;
 &lt;p&gt;I create an empty repository, init, add, and commit locally. Set the remote repository, and try to push to the remote&amp;hellip; And it fails? What have I done? What did I do? I have done this probably thousands of times. Where did I mess up? Will I have to recreate the folder? Should I re init the local repo?&lt;/p&gt;
 &lt;p&gt;What do i do?&lt;/p&gt;
@@ -714,10 +761,10 @@ location = /maintenance.html {
         </item>
         <item>
         <title>Ghost Printers</title>
-        <link>https://unorthodoxdev.net/post/ghost-printers/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.20-ghost-printers/</link>
         <pubDate>Thu, 20 Jul 2023 16:03:40 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/ghost-printers/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.20-ghost-printers/</guid>
         <description>&lt;p&gt;Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.dll handles it. But the amount of registry keys meant that windows kept recreating these keys. I dug a little bit more into the registry keys and it appears that each of these keys had the following properties assigned to them. Name “PRT-AWH-321-COLOR”, Driver “Xerox …” that was pretty much it. The rest of the fields were empty.&lt;/p&gt;
 &lt;p&gt;I started off looking into removing these printers via a script etc. Doing so I found the existence of a registry key we can create that would have windows remove the printers on exit. To enable this feature you would have to create a 32bit dWord key in the following location &lt;code&gt;&amp;quot;HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider&amp;quot;&lt;/code&gt; with the name &lt;code&gt;&amp;quot;RemovePrintersAtLogoff&amp;quot;&lt;/code&gt; and the value of 1.&lt;/p&gt;
 &lt;p&gt;After creating this key, when a user logs out it should clear out any installed printers, and apply the group policy user settings next time a user logs in. Well creating that key and then logging out seemed to work. But those xerox registry keys persisted for some reason. I grabbed one of the GUIDS from a ghost printer and ran a search for all the instances I could find it in regedit. I ran across quite a few instances and ended up writing a script.&lt;/p&gt;
@@ -779,10 +826,10 @@ location = /maintenance.html {
         </item>
         <item>
         <title>MECM API</title>
-        <link>https://unorthodoxdev.net/post/mecm-api/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-mecm-api/</link>
         <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/mecm-api/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-mecm-api/</guid>
         <description>&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
 &lt;h2 id=&#34;the-basics&#34;&gt;The Basics&lt;/h2&gt;
 &lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
@@ -803,10 +850,10 @@ location = /maintenance.html {
         </item>
         <item>
         <title>Tattoo</title>
-        <link>https://unorthodoxdev.net/post/tattoo/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-tattoo/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:44 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/tattoo/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-tattoo/</guid>
         <description>&lt;p&gt;&lt;img src=&#34;https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg&#34;
 	
 	
@@ -879,10 +926,10 @@ location = /maintenance.html {
         </item>
         <item>
         <title>Ci Pipelines With Rust</title>
-        <link>https://unorthodoxdev.net/post/ci-pipelines-with-rust/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-ci-pipelines-with-rust/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:12 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/ci-pipelines-with-rust/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-ci-pipelines-with-rust/</guid>
         <description>&lt;p&gt;&lt;em&gt;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;CI, Continuous onus Integration allows for each member of a team to integrate their changes into the main branch, multiple times a day.&lt;/p&gt;
 &lt;p&gt;Continuous Integration allows us to tighten the feed back loop. We are less likely to go off on your own and develop for days or weeks just to find out the approach you have taken isn&amp;rsquo;t working, or isn&amp;rsquo;t approved by peers. Continuous Integration forces you to work with your teammates earlier than when you feel is comfortable allowing for course correcting actions to be taken &lt;em&gt;before&lt;/em&gt; you have wasted your time. So how do we make Continuous Integration a reality?&lt;/p&gt;
@@ -1019,10 +1066,10 @@ location = /maintenance.html {
         </item>
         <item>
         <title>Ublock Origin and More</title>
-        <link>https://unorthodoxdev.net/post/ublock-origin-and-more/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-ublock-origin-and-more/</link>
         <pubDate>Wed, 19 Jul 2023 21:00:06 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/ublock-origin-and-more/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-ublock-origin-and-more/</guid>
         <description>&lt;p&gt;Everybody knows about &lt;a class=&#34;link&#34; href=&#34;https://ublockorigin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;uBlock Origin&lt;/a&gt;. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.&lt;/p&gt;
 &lt;p&gt;Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you. These are really the same lists that DNS filters like pi-hole use.&lt;/p&gt;
@@ -1034,10 +1081,10 @@ location = /maintenance.html {
         </item>
         <item>
         <title>Digital Gardens</title>
-        <link>https://unorthodoxdev.net/post/digital-gardens/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-digital-gardens/</link>
         <pubDate>Wed, 19 Jul 2023 20:59:39 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/digital-gardens/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-digital-gardens/</guid>
         <description>&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
 &lt;h3 id=&#34;what-is-a-digital-garden&#34;&gt;What is a Digital Garden?&lt;/h3&gt;
 &lt;ul&gt;
@@ -1095,10 +1142,10 @@ Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-i
         </item>
         <item>
         <title>Setting a Hostname on Linux</title>
-        <link>https://unorthodoxdev.net/post/setting-a-hostname-on-linux/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-setting-a-hostname-on-linux/</link>
         <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/setting-a-hostname-on-linux/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-setting-a-hostname-on-linux/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;⚠️ Danger
 You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;
@@ -1119,10 +1166,10 @@ You will need administrative access to the device in question. Changing a hostna
         </item>
         <item>
         <title>Linux Administration Tips and Tricks</title>
-        <link>https://unorthodoxdev.net/post/linux-administration-tips-and-tricks/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-linux-administration-tips-and-tricks/</link>
         <pubDate>Wed, 19 Jul 2023 20:58:00 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/linux-administration-tips-and-tricks/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-linux-administration-tips-and-tricks/</guid>
         <description>&lt;p&gt;These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&lt;/p&gt;
 &lt;h1 id=&#34;service-monitoring&#34;&gt;Service Monitoring&lt;/h1&gt;
 &lt;p&gt;Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?&lt;/p&gt;
@@ -1476,15 +1523,15 @@ Drop by spoonfuls onto ungreased baking sheet, bake 10-12 minutes&lt;/p&gt;
         </item>
         <item>
         <title>Custom Start Menu Layouts</title>
-        <link>https://unorthodoxdev.net/post/custom-start-menu-layouts/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-custom-start-menu-layouts/</link>
         <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/custom-start-menu-layouts/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-custom-start-menu-layouts/</guid>
         <description>&lt;p&gt;Windows 11 and Start Menus &lt;em&gt;suck.&lt;/em&gt; Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/post/custom-start-menu-layouts/start-menu-layouts.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/post/2023.07.19-custom-start-menu-layouts/start-menu-layouts.png&#34;
 	width=&#34;667&#34;
 	height=&#34;803&#34;
-	srcset=&#34;https://unorthodoxdev.net/post/custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/post/custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/post/2023.07.19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/post/2023.07.19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Start Menu Layouts&#34;
@@ -1520,10 +1567,10 @@ Drop by spoonfuls onto ungreased baking sheet, bake 10-12 minutes&lt;/p&gt;
         </item>
         <item>
         <title>Migrating Ghost Blog Domain Names</title>
-        <link>https://unorthodoxdev.net/post/migrating-ghost-blog-domain-names/</link>
+        <link>https://unorthodoxdev.net/post/2023.07.19-migrating-ghost-blog-domain-names/</link>
         <pubDate>Wed, 19 Jul 2023 12:20:21 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/post/migrating-ghost-blog-domain-names/</guid>
+        <guid>https://unorthodoxdev.net/post/2023.07.19-migrating-ghost-blog-domain-names/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;
 &lt;/blockquote&gt;
