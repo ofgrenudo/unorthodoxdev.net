@@ -21,7 +21,7 @@ Windows 11 and Start Menus *suck.* Nothing works the way Microsoft says it shoul
 
 Alternatively, windows holds an encrypted version of the startup file in the `%LocalAppData%\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState` folder. Copying the `start.bin` file to whatever computers same folder, will essentially do the same thing.
 
-I've also created a mini program that you can use to quickly do the above commands to quickly reproduce the steps above. I will put the latest version of the source blow, alternatively you can check my Github repository out here https://github.com/ofgrenudo/confs/tree/main/scripts/start-layouts
+I've also created a mini program that you can use to quickly do the above commands to quickly reproduce the steps above. I will put the latest version of the source blow, alternatively you can check my Github repository out here [https://github.com/ofgrenudo/confs/tree/main/scripts/windows/start-layouts](https://github.com/ofgrenudo/confs/tree/main/scripts/windows/start-layouts)
 
 Install.bat
 
