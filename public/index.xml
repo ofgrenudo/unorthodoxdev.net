@@ -8,6 +8,54 @@
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
         <lastBuildDate>Wed, 19 Jul 2023 13:24:19 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Finally a Favicon...</title>
+        <link>https://unorthodoxdev.net/post/2023.12.18-finally-a-nav-icon/</link>
+        <pubDate>Mon, 18 Dec 2023 14:05:09 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/2023.12.18-finally-a-nav-icon/</guid>
+        <description>&lt;p&gt;Finals are over, so you know what that means&amp;hellip; New Favicon :). Well kind of. I&amp;rsquo;ve purposely left the favicon. Deep down, I have always wanted to make the favicon a simple spiral. But unfortunately, my obession with spirals is not strong enough, nor do i think it represents this website appropriately. So as a compromise to my self, ive left the favicon blank until i find or request someone to generate a said favicon. Well, today is the day. Browsing itch.io I came across a pixel planet generate (oh em ghee, i had to check this out) and well it does exactly what it said it would. And im in love. And so i set out on a quest to generate a million planets until I found the one that I wanted. You can find and play with the same exact program I was here &lt;a class=&#34;link&#34; href=&#34;https://deep-fold.itch.io/pixel-planet-generator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://deep-fold.itch.io/pixel-planet-generator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It reminded me of an old program that I made a while ago, where I was experimenting with noise maps, and the rasterization of said noise map. The fun part about this experiment of mine was that it had three decimal points to it, and each decimal point was translated into a RGB color code at some point. Making at times this really magnificent image.&lt;/p&gt;
+&lt;p&gt;Moving forward, what are our candidates for the favicon?&lt;/p&gt;
+&lt;h3 id=&#34;candidate-one&#34;&gt;Candidate one&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-1.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;earthlike-1.gif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;What do I like about it? Its simple, the clouds are nice and it is somewhat land, somewhat clouds. There is unfortunately way tooooo much land to be a close representation of earth. But overall I like it.&lt;/p&gt;
+&lt;h3 id=&#34;candidate-two&#34;&gt;Candidate two&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-2.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;earthlike-2&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;This is probably the most similar to earth, although my only dislike of this is that it probably represents pangea better than it does the modernday continents. Which is fine with me either way.&lt;/p&gt;
+&lt;h3 id=&#34;candidate-three&#34;&gt;Candidate three&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/saturnlike-1.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;saturnlike-1&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I really like this one, It does a good job at displaying the ring around the planet, and the colors are more of my style. Overall this is very high up in the ranking list.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Comment Downtime 2023.11.28</title>
         <link>https://unorthodoxdev.net/post/2023.11.28-downtime-comments/</link>
         <pubDate>Tue, 28 Nov 2023 12:29:55 -0500</pubDate>
