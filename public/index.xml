@@ -26,6 +26,9 @@
 &lt;li&gt;Complete the game loop.&lt;/li&gt;
 &lt;li&gt;The ability to go back home or to town.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;bloopers&#34;&gt;Bloopers&lt;/h3&gt;
+&lt;p&gt;At some point in the development proccess, I ran into an issue setting the map. It didnt make the initial cut for the video because it was a bit of flashing between themes, but the behavior was intended. This was a great exercise of some problem solving skills and a reminder that I dont know everything. It takes breaking the problem down into smaller pieces and analyze the issues at hand, and the error presented.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;620&#34; src=&#34;https://www.youtube-nocookie.com/embed/Qk2QgM7Ob90?si=G4ZOUWJY1wiv8QJa&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
         </item>
         <item>
