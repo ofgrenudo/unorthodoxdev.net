@@ -7,7 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright>
-        <lastBuildDate>Mon, 18 Dec 2023 14:05:09 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Dec 2023 22:22:22 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Fallow Devlog #02</title>
+        <link>https://unorthodoxdev.net/post/2023.12.20-fallow-devlog02/</link>
+        <pubDate>Wed, 20 Dec 2023 22:22:22 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/post/2023.12.20-fallow-devlog02/</guid>
+        <description>&lt;iframe width=&#34;100%&#34; height=&#34;620&#34; src=&#34;https://www.youtube-nocookie.com/embed/SZrikhGiqQ4?si=XrCB43I7W6U3qhyi&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Above is a screen capture of my progress made with the game fallow. A few things so far, I have no idea what I want this game to be. The best word I have for it so far is an interactive adventure. I think of those terminal story games where you must look around, explore, get into combat, loot, go back, etc. I’m not sure how this will flush out entirely but overall I am taking this as a learning experience.&lt;/p&gt;
+&lt;p&gt;It is my first time writing any kind of game, let alone any kind of game using Godot. On top of that Godot uses GDScript, which is an interpreted language similar to python (if not exactly python).&lt;/p&gt;
+&lt;p&gt;Besides the things I talk about in the video, what do I like about it? Well mostly, so far, I really like the fact that GDScript forces you to almost work in a functional aspect. I’m not sure that I ever considered python to be a functional programming language. I also don’t have much experience with it either, so I don’t really know either way.&lt;/p&gt;
+&lt;p&gt;Godot offers a C# variant that allows you to program games that way, but my biggest aversion to that, is that it feels almost Tootoo serious for what I want to do. I think so far, I’ve made the right call GDScript is flexible and has what I need to be successful in making this little game.&lt;/p&gt;
+&lt;h3 id=&#34;objectives&#34;&gt;Objectives&lt;/h3&gt;
+&lt;p&gt;The next few things I need to do in the game are as follows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Persistent Player Health and Experience.&lt;/li&gt;
+&lt;li&gt;Combat.&lt;/li&gt;
+&lt;li&gt;Complete the game loop.&lt;/li&gt;
+&lt;li&gt;The ability to go back home or to town.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Finally a Favicon...</title>
         <link>https://unorthodoxdev.net/post/2023.12.18-finally-a-nav-icon/</link>
         <pubDate>Mon, 18 Dec 2023 14:05:09 -0500</pubDate>
