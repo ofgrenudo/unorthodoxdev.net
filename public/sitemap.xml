@@ -3,12 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unorthodoxdev.net/</loc>
+    <lastmod>2023-12-29T13:26:19-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/french-toast/</loc>
+    <lastmod>2023-12-29T13:26:19-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/categories/</loc>
     <lastmod>2023-12-20T22:22:22-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/</loc>
     <lastmod>2023-12-20T22:22:22-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/fallow-devlog-#02/</loc>
+    <loc>https://unorthodoxdev.net/p/fallow-devlog-02/</loc>
     <lastmod>2023-12-20T22:22:22-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/general/</loc>
@@ -28,6 +34,15 @@
   </url><url>
     <loc>https://unorthodoxdev.net/p/navigating-the-challenges-of-asset-inventory-management/</loc>
     <lastmod>2023-11-17T15:33:30-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/chilequiles/</loc>
+    <lastmod>2023-10-18T15:57:33-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/enchiladas/</loc>
+    <lastmod>2023-10-18T15:41:38-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/chicken-mack/</loc>
+    <lastmod>2023-10-18T15:31:25-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/flush-dns-on-mac/</loc>
     <lastmod>2023-10-12T16:45:31-04:00</lastmod>
@@ -113,11 +128,56 @@
     <loc>https://unorthodoxdev.net/p/linux-administration-tips-and-tricks/</loc>
     <lastmod>2023-07-19T20:58:00-04:00</lastmod>
   </url><url>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/gorilla-balls/</loc>
+    <lastmod>2023-07-19T18:26:44-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/cowboy-cookies/</loc>
+    <lastmod>2023-07-19T14:06:29-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/tinga/</loc>
+    <lastmod>2023-07-19T13:57:24-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/</loc>
+    <lastmod>2023-07-19T13:25:00-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/andreas-chili-recipe/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/bannana-bread/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/blueberry-breakfast-bars/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/peanut-butter-cereal-bars/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/sopresas/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/desayuno/sunday-brunch-casserole/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/cenar/taco-salad/</loc>
+    <lastmod>2023-07-19T13:24:49-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/aperitivos/</loc>
+    <lastmod>2023-07-19T13:24:29-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/recipes/</loc>
+    <lastmod>2023-07-19T13:24:19-04:00</lastmod>
+  </url><url>
     <loc>https://unorthodoxdev.net/p/custom-start-menu-layouts/</loc>
     <lastmod>2023-07-19T12:31:03-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/migrating-ghost-blog-domain-names/</loc>
     <lastmod>2023-07-19T12:20:21-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/about/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
@@ -125,9 +185,12 @@
     <loc>https://unorthodoxdev.net/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/categories/example-category/</loc>
+    <loc>https://unorthodoxdev.net/recipes/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/links/</loc>
+  </url><url>
+    <loc>https://unorthodoxdev.net/categories/rust/</loc>
   </url><url>
     <loc>https://unorthodoxdev.net/search/</loc>
   </url><url>

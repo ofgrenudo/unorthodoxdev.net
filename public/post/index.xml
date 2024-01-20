@@ -7,11 +7,11 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 20 Dec 2023 22:22:22 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Fallow Devlog #02</title>
-        <link>https://unorthodoxdev.net/p/fallow-devlog-#02/</link>
+        <title>Fallow Devlog 02</title>
+        <link>https://unorthodoxdev.net/p/fallow-devlog-02/</link>
         <pubDate>Wed, 20 Dec 2023 22:22:22 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/fallow-devlog-#02/</guid>
+        <guid>https://unorthodoxdev.net/p/fallow-devlog-02/</guid>
         <description>&lt;iframe width=&#34;100%&#34; height=&#34;620&#34; src=&#34;https://www.youtube-nocookie.com/embed/SZrikhGiqQ4?si=XrCB43I7W6U3qhyi&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;Above is a screen capture of my progress made with the game fallow. A few things so far, I have no idea what I want this game to be. The best word I have for it so far is an interactive adventure. I think of those terminal story games where you must look around, explore, get into combat, loot, go back, etc. I’m not sure how this will flush out entirely but overall I am taking this as a learning experience.&lt;/p&gt;
 &lt;p&gt;It is my first time writing any kind of game, let alone any kind of game using Godot. On top of that Godot uses GDScript, which is an interpreted language similar to python (if not exactly python).&lt;/p&gt;
@@ -141,7 +141,7 @@
         <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
         
         <guid>https://unorthodoxdev.net/p/navigating-the-challenges-of-asset-inventory-management/</guid>
-        <description>&lt;p&gt;Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post Navigating the Challenges of Asset Inventory Management" /&gt;&lt;p&gt;Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&lt;/p&gt;
 &lt;p&gt;Consider the alternative of assigning meaningful names like &lt;code&gt;BLD-FLASTNAME01&lt;/code&gt; or &lt;code&gt;lastname01&lt;/code&gt;—common practices to enhance clarity. Yet, challenges arise when dealing with staff changes or shared devices. Renaming devices becomes a necessity, and the process of re-imaging and renaming raises questions about efficiency.&lt;/p&gt;
 &lt;p&gt;Implementing an asset inventory system is the logical next step. But what&amp;rsquo;s the right approach? Perhaps hosting a solution externally? The basic requirements seem straightforward: Device Name, Manufacturer, Model Name, Model Number, Serial Number, Asset Tag, Assigned Staff, and maybe the date of imaging. A SQL server could handle this, right? A simple C or C# program could populate rows for each imaged device.&lt;/p&gt;
 &lt;p&gt;However, the simplicity fades when colleagues without SQL skills request reports. Running reports becomes a frequent task, and the SQL server database becomes impractical.&lt;/p&gt;
@@ -246,7 +246,7 @@
         <pubDate>Thu, 21 Sep 2023 16:39:17 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/creating-and-managing-a-ssl-cert/</guid>
-        <description>&lt;p&gt;This guide is intended for Ubuntu 22.04 and is intended for use with a Apache2 web server. To get started we need to make sure you have Apache2 installed, we can use grep to check. These instructions were written on a Ubuntu Server.&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1605351792643-fe0c43d18762" alt="Featured image of post Creating and Managing a SSL Cert" /&gt;&lt;p&gt;This guide is intended for Ubuntu 22.04 and is intended for use with a Apache2 web server. To get started we need to make sure you have Apache2 installed, we can use grep to check. These instructions were written on a Ubuntu Server.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -465,7 +465,7 @@
         <pubDate>Thu, 07 Sep 2023 16:51:44 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/where-am-i-on-the-network/</guid>
-        <description>&lt;p&gt;Ever wonder what port your connected to when plugged into a ethernet jack? Open up wireshark and apply a filter, searching for &lt;code&gt;cdp or lldp&lt;/code&gt; traffic. That will kick back:&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1619468129361-605ebea04b44" alt="Featured image of post Where am i on the network?" /&gt;&lt;p&gt;Ever wonder what port your connected to when plugged into a ethernet jack? Open up wireshark and apply a filter, searching for &lt;code&gt;cdp or lldp&lt;/code&gt; traffic. That will kick back:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The switches MAC Address.&lt;/li&gt;
 &lt;li&gt;The port description.&lt;/li&gt;
@@ -568,7 +568,7 @@
         <pubDate>Wed, 09 Aug 2023 15:07:00 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/advent-of-code/</guid>
-        <description>&lt;p&gt;Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1606482512676-255bf02be7cf" alt="Featured image of post Advent of Code" /&gt;&lt;p&gt;Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.&lt;/p&gt;
 &lt;p&gt;Struggling to learn C, I decided to go through the AoC content from 2015 to current and complete each of the challenges with at a minimum, attempting to use C. The nice thing about doing the older problems, well really any problem, is that there are plenty of resources around online to help me work through and solve the problems.&lt;/p&gt;
 &lt;p&gt;I plan to go through at least one problem a day on my lunch break if not more given time permits and upload it to my &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/AoC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;github repository&lt;/a&gt;. Depending on how I feel I may produce a write up of the problem, challenges I faced, my resolutions, how I could optimize, etc&amp;hellip; I think that this will be a fun exercise and prep me for when the 2023 AoC comes around.&lt;/p&gt;
@@ -698,7 +698,7 @@
         <pubDate>Thu, 27 Jul 2023 12:09:39 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/implementing-a-sick-504-page/</guid>
-        <description>&lt;p&gt;Rust takes forever to build. Im sure I could do alot better deploying the application. But who knows, maybe im doing great at deploying my [comment board](https://unorthodoxdev. net/comment) but what if there is some bug that I introduced that crashes the server 👻. What if while the server is crashed, Im at work??? Well good thing we can customize the default 504 page that nginx uses. So lets get started.&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1623018035782-b269248df916" alt="Featured image of post Implementing a Sick 504 Page" /&gt;&lt;p&gt;Rust takes forever to build. Im sure I could do alot better deploying the application. But who knows, maybe im doing great at deploying my [comment board](https://unorthodoxdev. net/comment) but what if there is some bug that I introduced that crashes the server 👻. What if while the server is crashed, Im at work??? Well good thing we can customize the default 504 page that nginx uses. So lets get started.&lt;/p&gt;
 &lt;p&gt;First we will go to our &lt;code&gt;/var/www/html&lt;/code&gt; folder and create a page called &lt;code&gt;maintenance.html&lt;/code&gt;. Inside of maintenance I have put the following.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -804,7 +804,7 @@
         <pubDate>Fri, 21 Jul 2023 10:50:07 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/read-the-damn-instructions/</guid>
-        <description>&lt;p&gt;Read the damn instructions. Im working on a new project for the website, and Im trying to upload what I have to github (a simple readme nothing more).&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1534481016308-0fca71578ae5" alt="Featured image of post Read the Damn Instructions" /&gt;&lt;p&gt;Read the damn instructions. Im working on a new project for the website, and Im trying to upload what I have to github (a simple readme nothing more).&lt;/p&gt;
 &lt;p&gt;I create an empty repository, init, add, and commit locally. Set the remote repository, and try to push to the remote&amp;hellip; And it fails? What have I done? What did I do? I have done this probably thousands of times. Where did I mess up? Will I have to recreate the folder? Should I re init the local repo?&lt;/p&gt;
 &lt;p&gt;What do i do?&lt;/p&gt;
 &lt;p&gt;immediately I search the error &lt;code&gt;error, failed to push some refs to the remote github repository.&lt;/code&gt;. I find some stack overflow repository, and I begin reading. I trust stack over flow, they got some smart guys on there. Alot smarter guys on there than me because theres always awnsers to my questions.&lt;/p&gt;
@@ -952,7 +952,7 @@
         <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/mecm-api/</guid>
-        <description>&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post MECM API" /&gt;&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
 &lt;h2 id=&#34;the-basics&#34;&gt;The Basics&lt;/h2&gt;
 &lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
 &lt;h3 id=&#34;service&#34;&gt;Service&lt;/h3&gt;
@@ -1079,7 +1079,7 @@
         <pubDate>Wed, 19 Jul 2023 21:01:12 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/ci-pipelines-with-rust/</guid>
-        <description>&lt;p&gt;&lt;em&gt;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1609213244695-7d6902be89da" alt="Featured image of post Ci Pipelines With Rust" /&gt;&lt;p&gt;&lt;em&gt;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;CI, Continuous onus Integration allows for each member of a team to integrate their changes into the main branch, multiple times a day.&lt;/p&gt;
 &lt;p&gt;Continuous Integration allows us to tighten the feed back loop. We are less likely to go off on your own and develop for days or weeks just to find out the approach you have taken isn&amp;rsquo;t working, or isn&amp;rsquo;t approved by peers. Continuous Integration forces you to work with your teammates earlier than when you feel is comfortable allowing for course correcting actions to be taken &lt;em&gt;before&lt;/em&gt; you have wasted your time. So how do we make Continuous Integration a reality?&lt;/p&gt;
 &lt;ol&gt;
@@ -1402,7 +1402,7 @@
         <pubDate>Wed, 19 Jul 2023 21:00:06 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/ublock-origin-and-more/</guid>
-        <description>&lt;p&gt;Everybody knows about &lt;a class=&#34;link&#34; href=&#34;https://ublockorigin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9" alt="Featured image of post Ublock Origin and More" /&gt;&lt;p&gt;Everybody knows about &lt;a class=&#34;link&#34; href=&#34;https://ublockorigin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;uBlock Origin&lt;/a&gt;. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.&lt;/p&gt;
 &lt;p&gt;Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you. These are really the same lists that DNS filters like pi-hole use.&lt;/p&gt;
 &lt;p&gt;A good website that has some of these lists are &lt;a class=&#34;link&#34; href=&#34;https://easylist.to&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1417,7 +1417,7 @@
         <pubDate>Wed, 19 Jul 2023 20:59:39 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/digital-gardens/</guid>
-        <description>&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1550948390-6eb7fa773072" alt="Featured image of post Digital Gardens" /&gt;&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
 &lt;h3 id=&#34;what-is-a-digital-garden&#34;&gt;What is a Digital Garden?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A place for ideas to grow.&lt;/li&gt;
@@ -1478,7 +1478,7 @@ Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-i
         <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/setting-a-hostname-on-linux/</guid>
-        <description>&lt;blockquote&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1532630174493-69e1fe9fead2" alt="Featured image of post Setting a Hostname on Linux" /&gt;&lt;blockquote&gt;
 &lt;p&gt;⚠️ Danger
 You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1523,7 +1523,7 @@ You will need administrative access to the device in question. Changing a hostna
         <pubDate>Wed, 19 Jul 2023 20:58:00 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/linux-administration-tips-and-tricks/</guid>
-        <description>&lt;p&gt;These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1640552435388-a54879e72b28" alt="Featured image of post Linux Administration Tips and Tricks" /&gt;&lt;p&gt;These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&lt;/p&gt;
 &lt;h1 id=&#34;service-monitoring&#34;&gt;Service Monitoring&lt;/h1&gt;
 &lt;p&gt;Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?&lt;/p&gt;
 &lt;h2 id=&#34;system-services&#34;&gt;System Services&lt;/h2&gt;
@@ -1860,7 +1860,7 @@ You will need administrative access to the device in question. Changing a hostna
         <pubDate>Wed, 19 Jul 2023 12:20:21 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/migrating-ghost-blog-domain-names/</guid>
-        <description>&lt;blockquote&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435" alt="Featured image of post Migrating Ghost Blog Domain Names" /&gt;&lt;blockquote&gt;
 &lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&amp;rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways. Or at least, double book blog posts somewhere just in case! (Truthfully most posts end up in my notebook to begin with, and end up polished on the website). Below are my steps to migrate my blogs DNS record.&lt;/p&gt;
