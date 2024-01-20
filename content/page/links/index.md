@@ -7,7 +7,7 @@ links:
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 menu:
     main: 
-        weight: 4
+        weight: 6
         params:
             icon: link
 
