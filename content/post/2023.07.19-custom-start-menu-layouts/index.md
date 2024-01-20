@@ -5,6 +5,7 @@ description: "Windows 11 and Start Menus suck. Heres how I make my life simpler.
 date: 2023-07-19T12:31:03-04:00
 draft: false
 keywords: ["unorthodoxdev", "windows 11"]
+categories: ["System Administration"]
 toc: true
 ---
 

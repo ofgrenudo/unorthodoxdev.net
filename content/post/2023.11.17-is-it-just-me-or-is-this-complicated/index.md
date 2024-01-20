@@ -1,9 +1,11 @@
 ---
 title: "Navigating the Challenges of Asset Inventory Management"
 description: "Exploring the intricacies of implementing asset inventory solutions in organizations."
+image: "https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee"
 date: 2023-11-17T15:33:30-05:00
 draft: false
 keywords: ["unorthodoxdev"]
+categories: ["System Administration"]
 toc: true
 ---
 
