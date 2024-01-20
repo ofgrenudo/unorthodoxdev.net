@@ -5,7 +5,6 @@
         <link>https://unorthodoxdev.net/tags/</link>
         <description>Recent content in Tags on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <copyright>© 2022-2023 [Joshua Winters-Brown](https://unorthodoxdev.net)</copyright><atom:link href="https://unorthodoxdev.net/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language><atom:link href="https://unorthodoxdev.net/tags/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
