@@ -6,6 +6,7 @@ date: 2023-11-17T15:33:30-05:00
 draft: false
 keywords: ["unorthodoxdev"]
 categories: ["System Administration"]
+tags: ["Windows", "MECM"]
 toc: true
 ---
 

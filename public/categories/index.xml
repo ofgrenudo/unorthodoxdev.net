@@ -38,30 +38,6 @@
         <guid>https://unorthodoxdev.net/categories/network-administration/</guid>
         <description></description>
         </item>
-        <item>
-        <title>Rust</title>
-        <link>https://unorthodoxdev.net/categories/rust/</link>
-        <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/categories/rust/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>MECM</title>
-        <link>https://unorthodoxdev.net/categories/mecm/</link>
-        <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/categories/mecm/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Linux</title>
-        <link>https://unorthodoxdev.net/categories/linux/</link>
-        <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/categories/linux/</guid>
-        <description></description>
-        </item>
         
     </channel>
 </rss>

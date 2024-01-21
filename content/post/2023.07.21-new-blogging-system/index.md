@@ -4,7 +4,6 @@ description: "We are up and running baby!"
 image: "this-is-fine.png"
 date: 2023-07-21T10:58:35-04:00
 draft: false
-keywords: ["unorthodoxdev"]
 categories: ["System Administration"]
 toc: true
 ---

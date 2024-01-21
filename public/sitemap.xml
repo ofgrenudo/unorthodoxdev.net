@@ -20,25 +20,34 @@
     <loc>https://unorthodoxdev.net/categories/system-administration/</loc>
     <lastmod>2024-01-20T22:52:14-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/website-refactor/</loc>
+    <loc>https://unorthodoxdev.net/p/2024-01-20-website-refactor/</loc>
     <lastmod>2024-01-20T22:52:14-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/desayuno/french-toast/</loc>
     <lastmod>2023-12-29T13:26:19-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/fallow-devlog-02/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-12-20-fallow-devlog-02/</loc>
     <lastmod>2023-12-20T22:22:22-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/general/</loc>
     <lastmod>2023-12-20T22:22:22-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/finally-a-favicon/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-12-18-finally-a-favicon/</loc>
     <lastmod>2023-12-18T14:05:09-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/comment-downtime-2023.11.28/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</loc>
     <lastmod>2023-11-28T12:29:55-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/navigating-the-challenges-of-asset-inventory-management/</loc>
+    <loc>https://unorthodoxdev.net/tags/mecm/</loc>
+    <lastmod>2023-11-17T15:33:30-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</loc>
+    <lastmod>2023-11-17T15:33:30-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/tags/</loc>
+    <lastmod>2023-11-17T15:33:30-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/tags/windows/</loc>
     <lastmod>2023-11-17T15:33:30-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/desayuno/chilequiles/</loc>
@@ -50,88 +59,85 @@
     <loc>https://unorthodoxdev.net/recipes/cenar/chicken-mack/</loc>
     <lastmod>2023-10-18T15:31:25-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/flush-dns-on-mac/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-10-12-flush-dns-on-mac/</loc>
     <lastmod>2023-10-12T16:45:31-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/dont-update-nginx-without-a-backup-of-configs/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</loc>
     <lastmod>2023-10-05T14:58:10-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/creating-and-managing-a-ssl-cert/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-09-21-creating-and-managing-a-ssl-cert/</loc>
     <lastmod>2023-09-21T16:39:17-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/programming/</loc>
     <lastmod>2023-09-21T09:53:13-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/simple-file-parsing-takes-three-hours/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</loc>
     <lastmod>2023-09-21T09:53:13-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/organizational-behaviour-examples/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-09-19-organizational-behaviour-examples/</loc>
     <lastmod>2023-09-19T17:36:35-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/how-to-search-text-files-with-grep/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-09-08-how-to-search-text-files-with-grep/</loc>
     <lastmod>2023-09-08T07:55:32-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/network-administration/</loc>
     <lastmod>2023-09-07T16:51:44-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/where-am-i-on-the-network/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-09-07-where-am-i-on-the-network/</loc>
     <lastmod>2023-09-07T16:51:44-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/vacation/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-09-07-vacation/</loc>
     <lastmod>2023-09-07T10:32:58-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/advent-of-code/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-08-09-advent-of-code/</loc>
     <lastmod>2023-08-09T15:07:00-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/network-troubleshooting-methodology/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</loc>
     <lastmod>2023-08-09T14:17:19-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/finding-things-to-do/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-08-07-finding-things-to-do/</loc>
     <lastmod>2023-08-07T09:36:33-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/in-dire-need-of-comments./</loc>
+    <loc>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</loc>
     <lastmod>2023-08-01T10:07:32-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/categories/rust/</loc>
+    <loc>https://unorthodoxdev.net/tags/rust/</loc>
     <lastmod>2023-08-01T10:07:32-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/implementing-a-sick-504-page/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-27-implementing-a-sick-504-page/</loc>
     <lastmod>2023-07-27T12:09:39-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/new-bloging-system/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-21-new-bloging-system/</loc>
     <lastmod>2023-07-21T10:58:35-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/read-the-damn-instructions/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-21-read-the-damn-instructions/</loc>
     <lastmod>2023-07-21T10:50:07-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/ghost-printers/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-20-ghost-printers/</loc>
     <lastmod>2023-07-20T16:03:40-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/categories/mecm/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-mecm-api/</loc>
     <lastmod>2023-07-19T21:02:50-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/mecm-api/</loc>
-    <lastmod>2023-07-19T21:02:50-04:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/p/tattoo/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-tattoo/</loc>
     <lastmod>2023-07-19T21:01:44-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/ci-pipelines-with-rust/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</loc>
     <lastmod>2023-07-19T21:01:12-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/ublock-origin-and-more/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-ublock-origin-and-more/</loc>
     <lastmod>2023-07-19T21:00:06-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/digital-gardens/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-digital-gardens/</loc>
     <lastmod>2023-07-19T20:59:39-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/categories/linux/</loc>
+    <loc>https://unorthodoxdev.net/tags/linux/</loc>
     <lastmod>2023-07-19T20:58:46-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/setting-a-hostname-on-linux/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</loc>
     <lastmod>2023-07-19T20:58:46-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/linux-administration-tips-and-tricks/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</loc>
     <lastmod>2023-07-19T20:58:00-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/sopresas/gorilla-balls/</loc>
@@ -176,16 +182,19 @@
     <loc>https://unorthodoxdev.net/recipes/</loc>
     <lastmod>2023-07-19T13:24:19-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/custom-start-menu-layouts/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</loc>
     <lastmod>2023-07-19T12:31:03-04:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/migrating-ghost-blog-domain-names/</loc>
+    <loc>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</loc>
     <lastmod>2023-07-19T12:20:21-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/about/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/archives/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/comment/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/</loc>
@@ -197,7 +206,5 @@
     <loc>https://unorthodoxdev.net/links/</loc>
   </url><url>
     <loc>https://unorthodoxdev.net/search/</loc>
-  </url><url>
-    <loc>https://unorthodoxdev.net/tags/</loc>
   </url>
 </urlset>
