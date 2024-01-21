@@ -3,16 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unorthodoxdev.net/</loc>
-    <lastmod>2023-12-29T13:26:19-05:00</lastmod>
+    <lastmod>2024-01-21T11:53:11-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/page/</loc>
+    <lastmod>2024-01-21T11:53:11-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/school/</loc>
+    <lastmod>2024-01-21T11:53:11-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/categories/</loc>
+    <lastmod>2024-01-20T22:52:14-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2024-01-20T22:52:14-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/categories/system-administration/</loc>
+    <lastmod>2024-01-20T22:52:14-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/p/website-refactor/</loc>
+    <lastmod>2024-01-20T22:52:14-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/recipes/desayuno/french-toast/</loc>
     <lastmod>2023-12-29T13:26:19-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/categories/</loc>
-    <lastmod>2023-12-20T22:22:22-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/categories/</loc>
-    <lastmod>2023-12-20T22:22:22-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/fallow-devlog-02/</loc>
     <lastmod>2023-12-20T22:22:22-05:00</lastmod>
@@ -20,16 +32,10 @@
     <loc>https://unorthodoxdev.net/categories/general/</loc>
     <lastmod>2023-12-20T22:22:22-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/post/</loc>
-    <lastmod>2023-12-20T22:22:22-05:00</lastmod>
-  </url><url>
     <loc>https://unorthodoxdev.net/p/finally-a-favicon/</loc>
     <lastmod>2023-12-18T14:05:09-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/comment-downtime-2023.11.28/</loc>
-    <lastmod>2023-11-28T12:29:55-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/categories/system-administration/</loc>
     <lastmod>2023-11-28T12:29:55-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/navigating-the-challenges-of-asset-inventory-management/</loc>
@@ -182,15 +188,13 @@
     <loc>https://unorthodoxdev.net/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/page/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unorthodoxdev.net/recipes/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/links/</loc>
+    <loc>https://unorthodoxdev.net/security/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/categories/rust/</loc>
+    <loc>https://unorthodoxdev.net/links/</loc>
   </url><url>
     <loc>https://unorthodoxdev.net/search/</loc>
   </url><url>

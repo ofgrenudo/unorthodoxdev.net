@@ -6,7 +6,31 @@
         <description>Recent content on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 29 Dec 2023 13:26:19 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 21 Jan 2024 11:53:11 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>School</title>
+        <link>https://unorthodoxdev.net/school/</link>
+        <pubDate>Sun, 21 Jan 2024 11:53:11 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/school/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Website Refactor</title>
+        <link>https://unorthodoxdev.net/p/website-refactor/</link>
+        <pubDate>Sat, 20 Jan 2024 22:52:14 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/website-refactor/</guid>
+        <description>&lt;p&gt;For a long time, I kind of hacked this website along, by modifying the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;templates&lt;/a&gt; core files to get things to work like the favicon, avatar image etc. When I migrated from ghost, it was in the middle of semesters and I just didnt have the energy to dedicate to figuring out how the hell to use the theme. What unfortunately sucks is that the github repository tells you to do it one way, and the support documentation tells you to do it a different way.&lt;/p&gt;
+&lt;p&gt;Now that I am a great deal more confident with using hugo and manipulating its properties, I decided to restart the website from scratch and do it the right way. Boy was it a little more complicated than I thought.&lt;/p&gt;
+&lt;p&gt;From about 2100PM UTC to 2300PM UTC, the website was up and functioning, but without any kind of SASS. The root problem was quickly identified that the starting template that the github provided is either A outdated, or B a development template.&lt;/p&gt;
+&lt;p&gt;I quickly reverted back to the old source, and began to follow the instructions from the support documentation website and taking it step by step, and comparing notes with the official hugo documentation.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s quite a few things that the developer of the theme does that he doesnt necessarily explain, along with the hugo documentation doesnt explain either. One of the things that I really enjoyed was the modular &lt;code&gt;configuration/&lt;/code&gt; folder, where inside you just have a bunch of &lt;strong&gt;.toml&lt;/strong&gt; files that can be separated by names that will ultimately compile into one file. This makes a what would be 200 some line configuration file a collection of brief 20-50 line files that are purpose created and sorted.&lt;/p&gt;
+&lt;p&gt;Finally, I was also able to fully understand the difference between pages, and posts. Mainly, the difference for hugo is how they are rendered. Pages are more intended for things like &lt;code&gt;about/&lt;/code&gt; or &lt;code&gt;security/&lt;/code&gt; while posts are just posts. That means that I could ideally make a page, and not link to it anywhere on the site, making it a sort of link only page. Its an interesting thing to think about and id be interested in playing around with it in the future.&lt;/p&gt;
+&lt;p&gt;Otherwise, there is my update for the brief outage. Again, Ideally, there would be no production outage because I would have a development server that I could test the deployment too. But, because I am cheap, production errors will happen.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>French Toast</title>
         <link>https://unorthodoxdev.net/recipes/desayuno/french-toast/</link>
         <pubDate>Fri, 29 Dec 2023 13:26:19 -0500</pubDate>
@@ -2350,21 +2374,70 @@ Drop by spoonfuls onto ungreased baking sheet, bake 10-12 minutes&lt;/p&gt;
         <description></description>
         </item>
         <item>
+        <title>Security</title>
+        <link>https://unorthodoxdev.net/security/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/security/</guid>
+        <description>&lt;p&gt;For any &lt;strong&gt;important&lt;/strong&gt; communications,&lt;/p&gt;
+&lt;p&gt;I will communicate via this GPG key.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: User-ID:	Joshua Winters-Brown
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Valid from:	1/21/2024 11:43 AM
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Valid until:	1/21/2027 12:00 PM
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Type:	255-bit EdDSA (secret key available)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Usage:	Signing, Encryption, Certifying User-IDs
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Fingerprint:	0C9A38A843F14A2878E83701D215B3C3078D0735
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mDMEZa1JvxYJKwYBBAHaRw8BAQdAw5URRTbSczczNlb0xdU7ELHCL473QqMvC7T0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;z5zfiOO0M0pvc2h1YSBXaW50ZXJzLUJyb3duIDxqb3NodWF3aW50ZXJzYnJvd25A
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Z21haWwuY29tPoiZBBMWCgBBFiEEDJo4qEPxSih46DcB0hWzwweNBzUFAmWtSb8C
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;GwMFCQWk79EFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ0hWzwweNBzWP
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yAD8C0kZfpMxrWxzLhV3Xg8SNgPM5dySkvdX9XS6qtLa20UA/A2CQqT4dt9/w6gO
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1UtBQeeXXrPrdDJgX+rsIbIcyiMOuDgEZa1JvxIKKwYBBAGXVQEFAQEHQOrfJ5D+
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;BS5Wjf7/t3OOdw6pevJ7xDvmKncp8pY9EUR9AwEIB4h+BBgWCgAmFiEEDJo4qEPx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sih46DcB0hWzwweNBzUFAmWtSb8CGwwFCQWk79EACgkQ0hWzwweNBzXPAwD+PSCH
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Fh69Y8BqvEk3WbSeaH0hScT07B0EMF9PFGC0rpoA/2QoAELrH2/JBK4N+1Y2iIAI
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jqwRYL1o6mUcXhvv06wD
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;=6xSJ
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----END PGP PUBLIC KEY BLOCK-----
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
         <title>Links</title>
         <link>https://unorthodoxdev.net/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://unorthodoxdev.net/links/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>Rust</title>
-        <link>https://unorthodoxdev.net/categories/rust/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/categories/rust/</guid>
-        <description>&lt;p&gt;M&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Search</title>

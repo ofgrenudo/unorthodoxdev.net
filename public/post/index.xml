@@ -6,7 +6,23 @@
         <description>Recent content in Posts on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 20 Dec 2023 22:22:22 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 20 Jan 2024 22:52:14 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Website Refactor</title>
+        <link>https://unorthodoxdev.net/p/website-refactor/</link>
+        <pubDate>Sat, 20 Jan 2024 22:52:14 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/website-refactor/</guid>
+        <description>&lt;p&gt;For a long time, I kind of hacked this website along, by modifying the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;templates&lt;/a&gt; core files to get things to work like the favicon, avatar image etc. When I migrated from ghost, it was in the middle of semesters and I just didnt have the energy to dedicate to figuring out how the hell to use the theme. What unfortunately sucks is that the github repository tells you to do it one way, and the support documentation tells you to do it a different way.&lt;/p&gt;
+&lt;p&gt;Now that I am a great deal more confident with using hugo and manipulating its properties, I decided to restart the website from scratch and do it the right way. Boy was it a little more complicated than I thought.&lt;/p&gt;
+&lt;p&gt;From about 2100PM UTC to 2300PM UTC, the website was up and functioning, but without any kind of SASS. The root problem was quickly identified that the starting template that the github provided is either A outdated, or B a development template.&lt;/p&gt;
+&lt;p&gt;I quickly reverted back to the old source, and began to follow the instructions from the support documentation website and taking it step by step, and comparing notes with the official hugo documentation.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s quite a few things that the developer of the theme does that he doesnt necessarily explain, along with the hugo documentation doesnt explain either. One of the things that I really enjoyed was the modular &lt;code&gt;configuration/&lt;/code&gt; folder, where inside you just have a bunch of &lt;strong&gt;.toml&lt;/strong&gt; files that can be separated by names that will ultimately compile into one file. This makes a what would be 200 some line configuration file a collection of brief 20-50 line files that are purpose created and sorted.&lt;/p&gt;
+&lt;p&gt;Finally, I was also able to fully understand the difference between pages, and posts. Mainly, the difference for hugo is how they are rendered. Pages are more intended for things like &lt;code&gt;about/&lt;/code&gt; or &lt;code&gt;security/&lt;/code&gt; while posts are just posts. That means that I could ideally make a page, and not link to it anywhere on the site, making it a sort of link only page. Its an interesting thing to think about and id be interested in playing around with it in the future.&lt;/p&gt;
+&lt;p&gt;Otherwise, there is my update for the brief outage. Again, Ideally, there would be no production outage because I would have a development server that I could test the deployment too. But, because I am cheap, production errors will happen.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Fallow Devlog 02</title>
         <link>https://unorthodoxdev.net/p/fallow-devlog-02/</link>
         <pubDate>Wed, 20 Dec 2023 22:22:22 -0500</pubDate>
