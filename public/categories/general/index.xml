@@ -7,11 +7,11 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 22 Jan 2024 15:34:58 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/general/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>2024.01.22 Streamlining Your Nvim Config</title>
-        <link>https://unorthodoxdev.net/p/2024-01-22-2024.01.22-streamlining-your-nvim-config/</link>
+        <title>Streamlining Your Nvim Config</title>
+        <link>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</link>
         <pubDate>Mon, 22 Jan 2024 15:34:58 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-01-22-2024.01.22-streamlining-your-nvim-config/</guid>
+        <guid>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</guid>
         <description>&lt;p&gt;I console into a number of computers daily. Many running different services etc. I also have a few different devices everywhere I go, whether it be my home PC, laptop, or work laptop etc. Along with the many devices, a good chunk of my work consists of editing text files. Most of that time spent in vim. So a decent configuration is almost a neccesity to keep my productivity up.&lt;/p&gt;
 &lt;p&gt;I used to keep my nvim configuration in a configs repo on github, but as time went on, every system I touched, or every update I made to the repository meant that I would have to &lt;code&gt;git pull origin&lt;/code&gt; and copy the contents into where ever the hell my nvim config folder was.&lt;/p&gt;
 &lt;p&gt;Well, If I seperate the nvim configuration folder/files into its own repository and then clone the repository as my config, I could create an alias called &lt;code&gt;nvim-conf-update&lt;/code&gt; to &lt;code&gt;git pull origin&lt;/code&gt; in my configuration folder and automatically sync all of my configurations.&lt;/p&gt;
