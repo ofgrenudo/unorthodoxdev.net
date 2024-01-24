@@ -341,7 +341,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/system-administration/" style="background-color: #2a9d8f; color: #fff;">
+            <a href="/categories/system-administration/" style="background-color: #d65d0e; color: #fff;">
                 System Administration
             </a>
         
@@ -464,11 +464,11 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">error_page</span> <span class="mi">502</span> <span class="o">/</span><span class="n">maintenance</span><span class="o">.</span><span class="n">html</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">location</span> <span class="o">=</span> <span class="o">/</span><span class="n">maintenance</span><span class="o">.</span><span class="n">html</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">internal</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">error_page 502 /maintenance.html;
+</span></span><span class="line"><span class="cl">location = /maintenance.html {
+</span></span><span class="line"><span class="cl">    root /var/www/html;
+</span></span><span class="line"><span class="cl">    internal;
+</span></span><span class="line"><span class="cl">}
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Next, you will need to restart your nginx server. You can do so via the following command</p>
