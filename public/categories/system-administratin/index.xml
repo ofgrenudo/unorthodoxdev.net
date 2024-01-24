@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>System Administratin on Unorthodoxdev</title>
+        <link>https://unorthodoxdev.net/categories/system-administratin/</link>
+        <description>Recent content in System Administratin on Unorthodoxdev</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 19 Jul 2023 21:02:50 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/system-administratin/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MECM API</title>
+        <link>https://unorthodoxdev.net/p/mecm-api/</link>
+        <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/mecm-api/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post MECM API" /&gt;&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
+&lt;h2 id=&#34;the-basics&#34;&gt;The Basics&lt;/h2&gt;
+&lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
+&lt;h3 id=&#34;service&#34;&gt;Service&lt;/h3&gt;
+&lt;p&gt;You can check the status of the service in the console under &lt;strong&gt;\Monitoring\Overview\System Status\Component Status - SMS_REST_PROVIDER&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;read-only-query-basics&#34;&gt;Read-Only Query Basics&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Note: All queries in this section use a HTTP GET method. Also, everything is CASE SenSiTiVe.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Get all Devices &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get All Users &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_User&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get Device By ResourceID (same syntax for users) &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System(12345678)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get User By ResourceID &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_User(12345678)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Retrieve related class information. This example gets Operating System information for a specific device. &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System(12345678)/SMS_G_System_OPERATING_SYSTEM&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

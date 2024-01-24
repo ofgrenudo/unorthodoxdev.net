@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Unorthodoxdev</title>
+        <link>https://unorthodoxdev.net/page/</link>
+        <description>Recent content in Pages on Unorthodoxdev</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 21 Jan 2024 11:53:11 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>School</title>
+        <link>https://unorthodoxdev.net/school/</link>
+        <pubDate>Sun, 21 Jan 2024 11:53:11 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/school/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://unorthodoxdev.net/about/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/about/</guid>
+        <description>&lt;p&gt;Hello all!&lt;/p&gt;
+&lt;p&gt;My name is Joshua Winters-Brown! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019.&lt;/p&gt;
+&lt;h2 id=&#34;work-and-hobbies&#34;&gt;Work and Hobbies&lt;/h2&gt;
+&lt;p&gt;I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language since 2022. The first programming language I learned was Java 7 SE, where i made a few Java applets and programs. Using Java, I did quite a bit of robotics programming for competitions. Next, I worked on some autonomous car programming in C/CPP for a competition.&lt;/p&gt;
+&lt;p&gt;Twoards the end of my time competing, I began to develop a web interface to manage some of the hardware, peaking my interest in Javascript and node. After the competition was over I decided to begin working on a SaaS using Node JS. After learning that I hate the way JavaScript handles async and promises, logically I jumped to Rust.&lt;/p&gt;
+&lt;p&gt;Since then, i have fallen in absolute love with rust and programming language as a whole. Since, then I have migrated a majority of my SaaS codebase to rust,&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Language&lt;/th&gt;
+&lt;th&gt;Expertise Level&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Rust&lt;/td&gt;
+&lt;td&gt;Intermediate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Javascript&lt;/td&gt;
+&lt;td&gt;Intermediate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Java&lt;/td&gt;
+&lt;td&gt;Intermediate&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C/CPP&lt;/td&gt;
+&lt;td&gt;Beginner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;When i&amp;rsquo;m not developing, or working, I am mostly outside enjoying time with family or friends or my dog. For those who are interested, heres a photo of my dog, &lt;a class=&#34;link&#34; href=&#34;https://www.spanishdict.com/translate/Oso&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Oso&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/oso.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Oso tha dog&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+&lt;p&gt;I also occasionally read, Im a big fan of horror. Not just horror books. But horror everything. I typically really enjoy foreign horror. So far some of my favorite books have been,&lt;/p&gt;
+&lt;h3 id=&#34;favorite-books&#34;&gt;Favorite Books&lt;/h3&gt;
+&lt;p&gt;A good book is a good book. Here I mostly read Manga, Horror Books, or Non fiction books or papers about whatever i&amp;rsquo;m interested in right now. Ill leave my top four books here for you all. These are mostly Manga, but there is at one book with words :). For Non fiction books, I typically am reading something about political theory, or about history.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/22400695-uzumaki-vol-6?from_search=true&amp;amp;from_srp=true&amp;amp;qid=Lm2teT343Y&amp;amp;rank=9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Uzumaki, by Junji Ito&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/34235163-black-paradox?ref=nav_sb_ss_1_14&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Black Paradox, by Junji Ito&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/60585628-you-ve-lost-a-lot-of-blood&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;You&amp;rsquo;ve Lost a Lot of Blood, by Eric LaRocca&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/194746.No_Longer_Human&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;No Longer Human, by Dazai Osamu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/72657.Pedagogy_of_the_Oppressed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Pedagogy of The Oppressed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;movies&#34;&gt;Movies&lt;/h2&gt;
+&lt;p&gt;Along with Horror Literature, I also really enjoy B Horror Movies. Along with my tastes in literature, I also mainly enjoy foreign horror movies. Some of my favorite include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt1701990/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Detention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt0133751/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Faculty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt0235198/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt0364385/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ju-On (The Collection)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://unorthodoxdev.net/archives/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Comment</title>
+        <link>https://unorthodoxdev.net/comment/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/comment/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Recipes</title>
+        <link>https://unorthodoxdev.net/recipes/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/recipes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Security</title>
+        <link>https://unorthodoxdev.net/security/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/security/</guid>
+        <description>&lt;p&gt;For any &lt;strong&gt;important&lt;/strong&gt; communications,&lt;/p&gt;
+&lt;p&gt;I will communicate via this GPG key.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: User-ID:	Joshua Winters-Brown
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Valid from:	1/21/2024 11:43 AM
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Valid until:	1/21/2027 12:00 PM
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Type:	255-bit EdDSA (secret key available)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Usage:	Signing, Encryption, Certifying User-IDs
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Fingerprint:	0C9A38A843F14A2878E83701D215B3C3078D0735
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mDMEZa1JvxYJKwYBBAHaRw8BAQdAw5URRTbSczczNlb0xdU7ELHCL473QqMvC7T0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;z5zfiOO0M0pvc2h1YSBXaW50ZXJzLUJyb3duIDxqb3NodWF3aW50ZXJzYnJvd25A
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Z21haWwuY29tPoiZBBMWCgBBFiEEDJo4qEPxSih46DcB0hWzwweNBzUFAmWtSb8C
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;GwMFCQWk79EFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ0hWzwweNBzWP
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yAD8C0kZfpMxrWxzLhV3Xg8SNgPM5dySkvdX9XS6qtLa20UA/A2CQqT4dt9/w6gO
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1UtBQeeXXrPrdDJgX+rsIbIcyiMOuDgEZa1JvxIKKwYBBAGXVQEFAQEHQOrfJ5D+
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;BS5Wjf7/t3OOdw6pevJ7xDvmKncp8pY9EUR9AwEIB4h+BBgWCgAmFiEEDJo4qEPx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sih46DcB0hWzwweNBzUFAmWtSb8CGwwFCQWk79EACgkQ0hWzwweNBzXPAwD+PSCH
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Fh69Y8BqvEk3WbSeaH0hScT07B0EMF9PFGC0rpoA/2QoAELrH2/JBK4N+1Y2iIAI
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jqwRYL1o6mUcXhvv06wD
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;=6xSJ
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----END PGP PUBLIC KEY BLOCK-----
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://unorthodoxdev.net/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://unorthodoxdev.net/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://unorthodoxdev.net/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

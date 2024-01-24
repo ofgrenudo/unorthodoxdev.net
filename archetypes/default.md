@@ -1,9 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+description: "" 
 date: {{ .Date }}
-description: ""
+#image: 
 categories: ["General"]
-tags: [""]
+tags: []
+license: GNU General Public License v3.0 
+hidden: false
 toc: true
 draft: true
 ---
