@@ -5,7 +5,7 @@ image:
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#d79921"
     color: "#fff"
 ---
 

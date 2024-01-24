@@ -4,6 +4,6 @@ description: This category really just consists of whatever content I post.
 image: 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#98971a"
     color: "#fff"
 ---
