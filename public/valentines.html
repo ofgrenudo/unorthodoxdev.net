@@ -5,861 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Will you be mine???</title>
     <style>
- @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Space+Mono&display=swap");
-
-:where(html) {
-  --dark: hsl(355 96% 2%);
-  --lite: hsl(355 96% 99%);
-  --red: hsl(355 96% 38%);
-  --pink: hsl(330 92% 76%);
-
-  --color-bg: var(--dark);
-  --color-text: var(--lite);
-
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 1rem;
-  --space-4: 1.5rem;
-  --radius: 2px;
-  --shadow: hsla(0 0% 0% / 0.075) 4px 4px 0;
-  --font-base: "Space Mono", monospace;
-  --font-display: "Chewy", sans-serif;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
 body {
-  height: 100%;
-  overflow: hidden;
+  background-color:tomato;
+  background-image:linear-gradient(-45deg, crimson 48%, tomato 48%, tomato 52%, crimson 52%);
+  background-size:50px 50px;
+  padding:0;
+  text-align:center;
+}
+#box {
+  max-width:550px;
+  margin:0 auto;
+  border-radius:10px;
+}
+.insideRow {
+  width:100%;  
+  background:white; 
+  border-radius:10px;
+  margin: 25px 0px;
+  box-shadow:0 0 10px 3px rgba(0,0,0,.25);
+}
+.insideRow:first-child, .insideRow:last-child {
+  background:transparent;
+  color:white;
+  box-shadow:none;
 }
 
-body {
-  --padding: clamp(1rem, 4vw, 1.5rem);
-  font-family: var(--font-base);
-  font-size: clamp(0.8rem, 3vw, 1rem);
-  line-height: 1.3;
-  color: var(--color-text);
-  background-color: var(--color-bg);
+.insideRow:first-child p, .insideRow:last-child p { 
+  color:white;
+  text-shadow:1px 1px darkred;
 }
 
-.scene {
-  display: grid;
-  grid-template: "scene" 1fr / minmax(0, 1fr);
-  place-items: center;
-  place-content: center;
-  padding: var(--padding);
-  perspective: 250px;
-  width: 100vw;
-  height: 100%;
-  overflow: hidden;
-  pointer-events: none;
-  user-select: none;
+.insideRow div {
+  padding:20px;
 }
 
-.scene > * {
-  grid-area: scene;
+img {
+  width:100%;
+  max-width:400px;
 }
 
-.majesty {
-  width: 150vmax;
-  height: 150vmax;
-  background-image: repeating-conic-gradient(
-    from 0deg,
-    white 0deg 15deg,
-    transparent 15deg 30deg
-  );
-  opacity: 0;
-  z-index: -1;
+p {
+  font-size:70px;
+  line-height:100%;
+  color:tomato;
+  font-family: 'Abril Fatface', cursive;
+  margin-top:20px;
+  margin-bottom:20px
 }
 
-.text {
-  position: relative;
-  width: 100%;
-  max-width: 20ch;
-  letter-spacing: 0.05em;
-  font-family: var(--font-display);
-  font-size: calc(1rem + 3vw);
-  line-height: 1.1;
-  opacity: 0;
-  z-index: 0;
-  text-align: center;
-  transform-style: preserve-3d;
+span {
+  font-size:20px;
 }
-
-.word {
-  transform-style: preserve-3d;
-}
-
-.char {
-  display: inline-block;
-  transform-origin: center bottom;
-}
-
-.hearts {
-  display: flex;
-  gap: 5vw;
-  isolation: isolate;
-}
-
-.hearts > svg {
-  --size: min(80px, 8vmin);
-  color: var(--color-text);
-  opacity: 0;
-  width: var(--size);
-  height: var(--size);
-  transform: translateY(50vh);
-  overflow: visible;
-}
-
-.heart-face {
-  position: relative;
-  z-index: 1;
-}
-
-.heart-face > *:not(.heart-body) {
-  opacity: 0;
-}
-
-.heart-exclaim {
-  position: relative;
-  font-family: var(--font-display);
-  font-size: min(60px, 6vmin);
-  opacity: 0;
-}
-
-.textarea-wrapper {
-  display: grid;
-  margin-top: var(--space-2);
-  width: 100%;
-  font-family: var(--font-display);
-  font-size: clamp(1.4rem, 6vw, 2rem);
-  border: 1px dashed hsla(0 0% 0% / 0.5);
-}
-
-.textarea-wrapper::after {
-  content: attr(data-replicated-value) " ";
-  white-space: pre-wrap;
-  word-break: break-word;
-  visibility: hidden;
-  font-family: inherit;
-}
-
-.textarea-wrapper > textarea {
-  padding: 0;
-  resize: none;
-  overflow: hidden;
-  word-break: break-word;
-}
-
-.textarea-wrapper > textarea,
-.textarea-wrapper::after {
-  border: none;
-  font: inherit;
-  line-height: 1.1;
-  padding: var(--space-1);
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-.textarea-wrapper:focus-within,
-.textarea-wrapper.has-value {
-  border-color: transparent;
-}
-
-textarea:focus {
-  outline-offset: 4px;
-}
-
-button {
-  font: inherit;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7rem;
-  max-width: max-content;
-  position: relative;
-  padding: var(--space-2) var(--space-3);
-  color: var(--dark);
-  background: var(--pink);
-  border: none;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
-
-button svg {
-  flex-shrink: 0;
-  width: 1em;
-  height: 1em;
-  pointer-events: none;
-  transform: rotate(180deg);
-}
-
-button[aria-expanded="true"] svg {
-  transform: rotate(0);
-}
-
-button:active {
-  transform: translateY(1px);
-}
-
-button.copy:after {
-  content: "Copied!";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  user-select: none;
-  background: hsl(330 92% 90%);
-}
-
-button.copied:after {
-  opacity: 1;
-  animation: copied 500ms ease-out;
-}
-
-@keyframes copied {
-  20% {
-    background-color: white;
-  }
-}
-
-a.preview {
-  display: none;
-  align-items: flex-start;
-  gap: 0.3rem;
-  padding: var(--space-2);
-}
-
-a.preview[href] {
-  display: inline-flex;
-}
-
-.custom-link-generator {
-  --duration: 420ms;
-  --ease-in: cubic-bezier(0.34, 1.56, 0.42, 0.95);
-  --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
-  position: fixed;
-  top: var(--padding);
-  left: var(--padding);
-  width: calc(100% - var(--padding) * 2);
-  max-width: 30rem;
-  z-index: 1;
-  transform: translateY(calc(-100% - var(--padding)));
-  transition: transform var(--duration) var(--ease-out);
-}
-
-.toggle {
-  position: absolute;
-  top: calc(100% + var(--padding));
-  transition: transform var(--duration) var(--ease-out);
-}
-
-.input-block {
-  visibility: hidden;
-  padding: var(--space-3);
-  color: black;
-  background-color: white;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius);
-  transition: visibility 0s var(--duration);
-  z-index: 1;
-}
-
-.user-inputs,
-.user-inputs > * + * {
-  margin-top: var(--space-4);
-}
-
-.description span {
-  margin-left: calc(var(--space-1) * -1);
-}
-
-.textarea-wrapper {
-  margin-top: var(--space-1);
-}
-
-.input-block label {
-  display: block;
-}
-
-.character-count {
-  margin-top: var(--space-1);
-  font-size: 0.8em;
-}
-
-.character-count.at-max {
-  color: var(--red);
-}
-
-.custom-link-generator.expanded {
-  transform: translateY(0);
-  transition-timing-function: var(--ease-in);
-}
-
-.custom-link-generator.expanded .input-block {
-  visibility: visible;
-  transition-delay: 0s;
-}
-
-@media (prefers-reduced-motion) {
-  .custom-link-generator {
-    transition-duration: 1ms;
-  }
-}
-
     </style>
 </head>
 <body>
-    <main class="scene">
-        <h1 class="text intro" data-splitting>Almost before we knew it, we had left the ground</h1>
-        <p class="text outro" data-splitting>Love always + forever</p>
-      
-        <div class="majesty"></div>
-      
-        <div class="hearts" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none"></rect>
-            <path d="M176,32a60,60,0,0,0-48,24A60,60,0,0,0,20,92c0,71.9,99.9,128.6,104.1,131a7.8,7.8,0,0,0,3.9,1,7.6,7.6,0,0,0,3.9-1,314.3,314.3,0,0,0,51.5-37.6C218.3,154,236,122.6,236,92A60,60,0,0,0,176,32Z"></path>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none"></rect>
-            <path d="M176,32a60,60,0,0,0-48,24A60,60,0,0,0,20,92c0,71.9,99.9,128.6,104.1,131a7.8,7.8,0,0,0,3.9,1,7.6,7.6,0,0,0,3.9-1,314.3,314.3,0,0,0,51.5-37.6C218.3,154,236,122.6,236,92A60,60,0,0,0,176,32Z"></path>
-          </svg>
-          <svg class="heart-face" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 250 250">
-            <defs>
-              <style>
-                .cls-1 {
-                  fill: var(--red)
-                }
-      
-                .cls-2 {
-                  fill: var(--dark)
-                }
-      
-                .cls-3 {
-                  fill: var(--lite)
-                }
-              </style>
-            </defs>
-            <g class="heart-body">
-              <path fill="currentcolor" d="M125,230.744S3.932,162.944,3.932,80.617A62.956,62.956,0,0,1,125,56.4h0a62.956,62.956,0,0,1,121.07,24.214C246.072,162.944,125,230.744,125,230.744Z" />
-            </g>
-            <g class="big-mouth">
-              <path class="cls-2" d="M65.794,111.1c2.227-5.344,118.455-5.411,119.9-.6,4.233,14.063-17.358,54.522-61.38,54.522C76.318,165.016,62.209,119.7,65.794,111.1Z" />
-              <path class="cls-1" d="M157.08,152.827s-6.316-6.856-26.855-8.8c-22.248-2.106-32.9,12.7-32.9,12.7s12.9,8.651,34.521,5.407S157.08,152.827,157.08,152.827Z" />
-            </g>
-            <g class="tiny-eyes">
-              <path class="cls-2" d="M110.891,89.863c-2.08-.378-4.443.473-4.632,3.4-.107,1.647.378,4.16,3.5,4.16,1.994,0,4.254-1.416,4.254-3.4C114.011,91.471,112.971,90.242,110.891,89.863Z" />
-              <path class="cls-2" d="M142.842,89.547c-2.079-.378-3.747.958-3.936,3.889-.106,1.647.539,4.266,3.5,4.16,1.993-.072,4.176-1.757,4.176-3.745A4.175,4.175,0,0,0,142.842,89.547Z" />
-            </g>
-            <g class="tiny-mouth">
-              <path class="cls-2" d="M136.056,120.171c1.142,1.2,1.459,13.131-9.5,13.389-10.256.241-10.066-12.614-8.63-13.636C119.431,118.851,134.612,118.655,136.056,120.171Z" />
-              <path class="cls-1" d="M133,128.354a7.807,7.807,0,0,0-7.146-2.257c-4.049.838-4.889,3.756-4.889,3.756a7.714,7.714,0,0,0,6.627,2.127C132.153,131.4,133,128.354,133,128.354Z" />
-            </g>
-            <g class="big-eye">
-              <path class="cls-2" d="M172.407,88.581a.708.708,0,0,1-.533-1.173l7.329-8.372a.707.707,0,1,1,1.064.931l-7.328,8.373A.7.7,0,0,1,172.407,88.581Z" />
-              <path class="cls-2" d="M175.011,91.339a.707.707,0,0,1-.289-1.353l9.322-4.165a.707.707,0,0,1,.577,1.291L175.3,91.277A.694.694,0,0,1,175.011,91.339Z" />
-              <path class="cls-2" d="M176.694,95.014a.708.708,0,0,1-.066-1.412l10.144-.984a.737.737,0,0,1,.773.637.709.709,0,0,1-.637.772l-10.145.985Z" />
-              <path class="cls-3" d="M161.223,80.928c-9.243-1.681-16.652,4.256-17.493,17.281-.472,7.322,2.393,18.961,15.546,18.486,8.857-.32,18.559-7.806,18.559-16.639C177.835,88.712,170.467,82.609,161.223,80.928Z" />
-              <path class="cls-2" d="M165.987,98.537c0,.6,3.838.827,3.738,1.4a10.009,10.009,0,1,1-.051-3.768C169.807,96.816,165.987,97.846,165.987,98.537Z" />
-            </g>
-            <g class="eye-shine">
-              <path class="cls-3" d="M164.143,92.718c-.807-.038-.77.639-1,.756-.183-1.662-1.038-3.407-3.037-3.519a3.163,3.163,0,0,0-3.323,3.323,3.513,3.513,0,0,0,3.323,3.323c1.468-.089,2.018-1.048,2.624-1.856.3.465.819,1.309,1.411,1.309a1.785,1.785,0,0,0,1.668-1.668A1.655,1.655,0,0,0,164.143,92.718Z" />
-            </g>
-            <g class="big-eye">
-              <path class="cls-2" d="M75.746,90.42a.7.7,0,0,1-.4-.123l-8.314-5.654a.707.707,0,0,1,.8-1.169l8.315,5.653a.708.708,0,0,1-.4,1.293Z" />
-              <path class="cls-2" d="M74.829,94.4a.757.757,0,0,1-.126-.011L64.237,92.515a.707.707,0,0,1-.573-.821.716.716,0,0,1,.821-.572L74.952,93a.708.708,0,0,1-.123,1.4Z" />
-              <path class="cls-2" d="M74.674,99.151h-.008l-11.74-.138a.708.708,0,0,1,.008-1.415h.009l11.739.138a.708.708,0,0,1-.008,1.415Z" />
-              <path class="cls-3" d="M94.176,82.2c-9.54-1.734-20.38,2.169-21.248,15.611-.487,7.558,1.735,19.08,16.045,19.08,9.147,0,19.513-6.494,19.513-15.611C108.486,89.568,103.716,83.931,94.176,82.2Z" />
-              <path class="cls-2" d="M96.492,98.941c0,.6,3.838.827,3.738,1.4a10.009,10.009,0,1,1-.051-3.768C100.312,97.22,96.492,98.25,96.492,98.941Z" />
-            </g>
-            <g class="eye-shine">
-              <path class="cls-3" d="M94.678,92.681a1.638,1.638,0,0,0-.749.2,3.314,3.314,0,0,0-6.609.363,3.454,3.454,0,0,0,3.323,3.322,3.074,3.074,0,0,0,2.772-1.6c.3.4.187,1.145,1.169,1.22.919.07,1.526-.977,1.62-1.825A1.565,1.565,0,0,0,94.678,92.681Z" />
-            </g>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none"></rect>
-            <path d="M176,32a60,60,0,0,0-48,24A60,60,0,0,0,20,92c0,71.9,99.9,128.6,104.1,131a7.8,7.8,0,0,0,3.9,1,7.6,7.6,0,0,0,3.9-1,314.3,314.3,0,0,0,51.5-37.6C218.3,154,236,122.6,236,92A60,60,0,0,0,176,32Z"></path>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none"></rect>
-            <path d="M176,32a60,60,0,0,0-48,24A60,60,0,0,0,20,92c0,71.9,99.9,128.6,104.1,131a7.8,7.8,0,0,0,3.9,1,7.6,7.6,0,0,0,3.9-1,314.3,314.3,0,0,0,51.5-37.6C218.3,154,236,122.6,236,92A60,60,0,0,0,176,32Z"></path>
-          </svg>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <div id="box">
+      <div class="insideRow">
+        <div>
+        <p style="font-size:48px">Here's a little something for you on this Valentine's Day<span style="display:block;margin:75px 0 25px 0;width:100%;text-align:center;font-size:150px; padding-bottom:25px;">&#10084;</span></p>
         </div>
-        <i class="heart-exclaim" aria-hidden="true">?!</i>
-      </main>
-      
-      <section class="custom-link-generator">
-        <button class="toggle" type="button" aria-expanded="false" aria-controls="user-input-block">
-          Customize
-          <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#000000" viewBox="0 0 256 256">
-            <rect width="256" height="256" fill="none"></rect>
-            <polyline points="48 160 128 80 208 160" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline>
-          </svg>
-        </button>
-      
-        <div id="user-input-block" class="input-block">
-          <p class="description">Write your own intro and outro, click the "Copy custom link" button, and share it with someone special. <span aria-hidden="true">❤️</span></p>
-          <div class="user-inputs">
-            <label id="intro-label" for="user-intro">Intro text</label>
-            <div class="textarea-wrapper">
-              <textarea id="user-intro" maxlength="80" rows="1"></textarea>
-            </div>
-            <div class="character-count">
-              <span class="count">--</span>/<span class="max-count">--</span>
-            </div>
-      
-            <label id="outro-label" for="user-outro">Outro text</label>
-            <div class="textarea-wrapper">
-              <textarea id="user-outro" maxlength="80" rows="1"></textarea>
-            </div>
-            <div class="character-count">
-              <span class="count">--</span>/<span class="max-count">--</span>
-            </div>
-      
-            <button class="copy" type="button">Copy custom link</button>
-            <a class="preview" target="_blank" title="Open custom link in a new window">
-              Preview
-              <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256">
-                <rect width="256" height="256" fill="none"></rect>
-                <polyline points="216 100 216 40 156 40" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"></polyline>
-                <line x1="144" y1="112" x2="216" y2="40" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"></line>
-                <path d="M184,144v64a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8h64" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"></path>
-              </svg></a>
-          </div>
+      </div>
+      <div class="insideRow">
+        <div>
+        <p>You make me food<span>&#10084;</span></p>
+          <img src="http://www.kitjenson.com/i-love-you/img1.gif" alt=""/>
         </div>
-      </section>
-      <script>
-        const selector = {
-  introText: ".intro",
-  outroText: ".outro",
-  introLetters: ".intro .char",
-  outroLetters: ".outro .char",
-  majesty: ".majesty",
-  hearts: ".hearts > svg",
-  heartExclaim: ".heart-exclaim",
-  heartFace: {
-    svg: ".heart-face",
-    heart: ".heart-body",
-    tinyEyes: ".tiny-eyes",
-    tinyMouth: ".tiny-mouth",
-    bigEyes: ".big-eye",
-    bigMouth: ".big-mouth",
-    eyeShine: ".eye-shine"
-  }
-};
-
-const color = {
-  dark: getCSSVar("--dark"),
-  lite: getCSSVar("--lite"),
-  red: getCSSVar("--red"),
-  pink: getCSSVar("--pink")
-};
-
-const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)")
-  .matches;
-const userInputs = document.querySelectorAll(".textarea-wrapper");
-const counters = document.querySelectorAll(".character-count");
-const previewAnchorEl = document.querySelector(".preview");
-const copyBtn = document.querySelector(".copy");
-const toggleBtn = document.querySelector(".toggle");
-const introTextContainer = document.querySelector(selector.introText);
-const outroTextContainer = document.querySelector(selector.outroText);
-const heartCount = document.querySelectorAll(selector.hearts).length;
-const middleHeart = Math.floor(heartCount / 2);
-const globalTimeline = gsap.timeline({ repeat: -1 });
-const duration = 2.5;
-
-const eyeQuiverTimeline = gsap.timeline({ paused: true });
-eyeQuiverTimeline.to(selector.heartFace.eyeShine, {
-  x: 1,
-  y: 1,
-  repeat: -1,
-  yoyo: true,
-  duration: 0.1,
-  ease: "power4.inOut"
-});
-
-const majestySpinTimeline = gsap.timeline({ paused: true });
-majestySpinTimeline.to(selector.majesty, {
-  rotate: 360,
-  repeat: -1,
-  duration: 10,
-  ease: "linear"
-});
-
-function introTextAnimation() {
-  const tl = gsap.timeline();
-
-  tl.to(selector.introText, {
-    opacity: 1,
-    duration: duration / 10
-  })
-    .from(selector.introLetters, {
-      opacity: 0,
-      duration: duration / 10,
-      stagger: { amount: 0.8 }
-    })
-    .fromTo(
-      selector.introLetters,
-      {
-        z: reduceMotion ? 0 : -30,
-        rotateX: 40
-      },
-      {
-        z: 0,
-        rotateX: 0,
-        duration,
-        ease: "elastic.out(1, 0.2)",
-        stagger: { amount: 0.8 }
-      },
-      "<"
-    )
-    .fromTo(
-      selector.introText,
-      {
-        z: reduceMotion ? 0 : -20
-      },
-      {
-        z: 0,
-        duration: duration * 1.5,
-        ease: "slow(0.7, 0.4, false)"
-      },
-      `-=${duration}`
-    )
-    .to(
-      selector.introLetters,
-      {
-        opacity: 0,
-        duration: duration / 3,
-        ease: "back.in(2)",
-        stagger: { amount: 0.3 }
-      },
-      `-=${duration / 2}`
-    );
-
-  return tl;
-}
-
-function heartsAnimation() {
-  const tl = gsap.timeline();
-
-  tl.to("html", {
-    "--color-text": color.lite,
-    "--color-bg": color.red,
-    duration: duration / 8
-  })
-    .to(
-      selector.hearts,
-      {
-        opacity: 1,
-        y: 0,
-        ease: "expo.out",
-        duration: reduceMotion ? 0.001 : duration / 2,
-        stagger: {
-          amount: reduceMotion ? 0 : 0.25,
-          from: "center"
-        }
-      },
-      "<"
-    )
-    .to(selector.hearts, {
-      xPercent: (i) => {
-        const offset = Math.abs(middleHeart - i) * 60;
-        return i < middleHeart ? offset * -1 : offset;
-      },
-      rotate: (i) => {
-        if (reduceMotion) return;
-        const deg = Math.abs(middleHeart - i) * 15;
-        return i < middleHeart ? deg * -1 : deg;
-      },
-      duration: duration / 5,
-      ease: "slow(0.7, 0.7, false)"
-    })
-    .to(selector.hearts, {
-      scale: (i) => (i === middleHeart ? 1.5 : 0.25),
-      opacity: (i) => (i === middleHeart ? 1 : 0),
-      xPercent: (i) => {
-        const offset = Math.abs(middleHeart - i) * -140;
-        return i < middleHeart ? offset * -1 : offset;
-      },
-      rotate: 0,
-      duration: reduceMotion ? 1 : duration / 8,
-      ease: "elastic.out(1.4, 0.8)"
-    })
-    .set(
-      selector.heartExclaim,
-      {
-        opacity: 1
-      },
-      "<"
-    )
-    .fromTo(
-      selector.heartExclaim,
-      {
-        yPercent: -60
-      },
-      {
-        yPercent: -120,
-        duration: reduceMotion ? 0.001 : duration / 8,
-        ease: "elastic.out(1, 0.6)"
-      },
-      "<"
-    );
-
-  return tl;
-}
-
-function tinyHeartFaceAnimation() {
-  const tl = gsap.timeline();
-
-  tl.set(selector.heartExclaim, {
-    opacity: 0
-  })
-    .to([selector.heartFace.tinyEyes, selector.heartFace.bigMouth], {
-      opacity: 1,
-      duration: 0.2
-    })
-    .to(
-      selector.heartFace.svg,
-      {
-        scale: reduceMotion ? 3 : 5,
-        duration: reduceMotion ? 1.5 : duration / 2.5,
-        ease: reduceMotion ? "elastic.out(1, 0.6)" : "elastic.out(1.6, 0.3)",
-        force3D: false
-      },
-      "<"
-    )
-    .set(
-      selector.hearts,
-      {
-        color: color.red
-      },
-      "<"
-    )
-    .to(
-      "html",
-      {
-        "--color-text": color.dark,
-        "--color-bg": color.lite,
-        duration: reduceMotion ? 0.5 : 0.001
-      },
-      "<"
-    )
-    .to(
-      selector.heartFace.svg,
-      {
-        scale: reduceMotion ? 2.5 : 2,
-        duration: duration / 6,
-        ease: "back.out(1.8)"
-      },
-      "+=0.5"
-    );
-
-  return tl;
-}
-
-function bigHeartFaceAnimation() {
-  const tl = gsap.timeline();
-
-  tl.set([selector.heartFace.tinyEyes, selector.heartFace.bigMouth], {
-    opacity: 0
-  })
-    .set(
-      [
-        selector.heartFace.bigEyes,
-        selector.heartFace.tinyMouth,
-        selector.heartFace.eyeShine
-      ],
-      {
-        opacity: 1
-      }
-    )
-    .to(selector.heartFace.svg, {
-      scale: 8,
-      duration: reduceMotion ? 1.5 : duration / 2.5,
-      ease: reduceMotion ? "elastic.out(1, 0.6)" : "elastic.out(1.4, 0.3)",
-      force3D: false
-    })
-    .set(
-      "html",
-      {
-        "--color-bg": color.pink,
-        onComplete: () => {
-          eyeQuiverTimeline.play();
-          !reduceMotion && majestySpinTimeline.play();
-        }
-      },
-      "<"
-    )
-    .set(
-      selector.majesty,
-      {
-        opacity: 0.2
-      },
-      "<"
-    )
-    .to(
-      selector.heartFace.svg,
-      {
-        scale: 30,
-        duration: reduceMotion ? 0.001 : duration / 9,
-        ease: "back.in(2)",
-        force3D: false,
-        onComplete: () => {
-          eyeQuiverTimeline.pause();
-          !reduceMotion && majestySpinTimeline.pause();
-        }
-      },
-      `+=${duration / 1.5}`
-    )
-    .set(selector.majesty, { opacity: 0 })
-    .set(selector.heartFace.svg, { opacity: 0 })
-    .to("html", {
-      "--color-text": color.lite,
-      "--color-bg": color.red,
-      duration: duration / 8,
-      ease: "power2.out"
-    });
-
-  return tl;
-}
-
-function outroTextAnimation() {
-  const tl = gsap.timeline();
-
-  tl.to(selector.outroText, {
-    opacity: 1,
-    duration: duration / 4
-  })
-    .to(
-      "html",
-      {
-        "--color-bg": color.dark,
-        duration,
-        ease: "power3.in"
-      },
-      "+=1.5"
-    )
-    .to(
-      selector.outroText,
-      {
-        opacity: 0,
-        duration,
-        ease: "power3.out"
-      },
-      "-=1.5"
-    );
-
-  return tl;
-}
-
-function getCSSVar(color) {
-  return getComputedStyle(document.documentElement).getPropertyValue(color);
-}
-
-function setUserInputCounters(max) {
-  counters.forEach((counter) => {
-    counter.querySelector(".count").textContent = 0;
-    counter.querySelector(".max-count").textContent = max;
-  });
-}
-
-function splitText() {
-  const split = Splitting();
-
-  // How to Accessibly Split Text: https://css-irl.info/how-to-accessibly-split-text/
-  split.forEach((s) => {
-    s.el.setAttribute("aria-label", s.el.innerText);
-    s.words.forEach((word) => {
-      word.setAttribute("aria-hidden", true);
-    });
-  });
-}
-
-function createShareLink() {
-  const intro = document.getElementById("user-intro").value;
-  const outro = document.getElementById("user-outro").value;
-  const url = new URL("https://codepen.io/hexagoncircle/full/PoOberB");
-
-  if (intro) url.searchParams.append("intro", intro);
-  if (outro) url.searchParams.append("outro", outro);
-
-  return url;
-}
-
-function init() {
-  const urlParams = new URLSearchParams(window.location.search);
-
-  if (urlParams.has("intro")) {
-    introTextContainer.textContent = urlParams.get("intro");
-  }
-  if (urlParams.has("outro")) {
-    outroTextContainer.textContent = urlParams.get("outro");
-  }
-
-  splitText();
-  setUserInputCounters(80);
-  globalTimeline
-    .add(introTextAnimation())
-    .add(heartsAnimation())
-    .add(tinyHeartFaceAnimation())
-    .add(bigHeartFaceAnimation())
-    .add(outroTextAnimation());
-}
-
-copyBtn.addEventListener("click", (e) => {
-  navigator.clipboard.writeText(createShareLink());
-  e.target.classList.add("copied");
-  setTimeout(() => e.target.classList.remove("copied"), 1400);
-});
-
-toggleBtn.addEventListener("click", (e) => {
-  const expanded = e.target.getAttribute("aria-expanded") === "true";
-
-  e.target.setAttribute("aria-expanded", !expanded);
-  e.target.parentNode.classList.toggle("expanded");
-
-  globalTimeline.paused(!globalTimeline.paused());
-  eyeQuiverTimeline.paused(globalTimeline.paused());
-  !reduceMotion && majestySpinTimeline.paused(globalTimeline.paused());
-});
-
-userInputs.forEach((el) => {
-  const textarea = el.querySelector("textarea");
-  const characterCount = el.nextElementSibling;
-  const count = characterCount.querySelector(".count");
-  const max = characterCount.querySelector(".max-count");
-
-  textarea.addEventListener("input", () => {
-    el.dataset.replicatedValue = textarea.value;
-    count.textContent = textarea.value.length;
-    previewAnchorEl.href = createShareLink();
-
-    characterCount.classList.toggle(
-      "at-max",
-      count.textContent === max.textContent
-    );
-    el.classList.toggle("has-value", count.textContent > 0);
-  });
-
-  textarea.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      e.preventDefault();
-    }
-  });
-});
-
-init();
-
-      </script>
+      </div>
+      <div class="insideRow"><div>
+        <p>You clean my house<span>&#10084;</span></p>
+        <img src="http://www.kitjenson.com/i-love-you/img2.gif" alt=""/>
+        </div></div>
+      <div class="insideRow"><div>
+        <p>You make me smile when I am down<span>&#10084;</span></p>
+        <img src="http://www.kitjenson.com/i-love-you/img3.gif" alt=""/>
+        </div></div>
+      <div class="insideRow">
+        <div>
+        <p>You are so kind<span>&#10084;</span></p>
+          <img src="http://www.kitjenson.com/i-love-you/img5.gif" alt=""/>
+        </div>
+      </div>
+      <div class="insideRow">
+        <div>
+        <p>You are divine<span>&#10084;</span></p>
+          <img src="http://www.kitjenson.com/i-love-you/img4.gif" alt=""/>
+        </div>
+      </div>
+      <div class="insideRow">
+        <div>
+        <p>I'm glad to know that you are mine<span>&#10084;</span></p>
+          <img src="http://www.kitjenson.com/i-love-you/img6.gif" alt=""/>
+        </div>
+      </div>
+      <div class="insideRow">
+        <div>
+          <p>Thank you for all that you do to make my life better<span>&#10084;</span> </p>
+          <p style="margin-bottom:0;">I love you<span>&#10084;</span></p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <script>
+ 
+    </script>
 </body>
 </html>
