@@ -6,7 +6,89 @@
         <description>Recent content in Windows on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 17 Nov 2023 15:33:30 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/windows/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 15 Feb 2024 06:48:01 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/windows/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Manipulating the network card with Netsh</title>
+        <link>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</link>
+        <pubDate>Thu, 15 Feb 2024 06:48:01 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</guid>
+        <description>&lt;p&gt;Recently, in an advent of troubleshooting a network issue, I had to run around and set a number of static IP&amp;rsquo;s onto devices. This being said, having to physically get up and run around a touch a number of devices can be a bit tedious.&lt;/p&gt;
+&lt;p&gt;Given you can get a remote session with each computer, you can issue the following commands using &lt;a class=&#34;link&#34; href=&#34;https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-contexts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;netsh&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;gathering-information&#34;&gt;Gathering Information&lt;/h2&gt;
+&lt;p&gt;Lets start by getting some information on the current device. To do so, you will want to run the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bat&#34; data-lang=&#34;bat&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;netsh interface ip show config
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The above command should spit out something along the lines of this, depending on how many network interfaces you have available.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Configuration for interface &amp;#34;Ethernet&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    DHCP enabled:                         No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    IP Address:                           10.XX.XX.XX
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Subnet Prefix:                        10.XX.XX.XX/16 (mask 255.255.0.0)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Default Gateway:                      10.XX.XX.X
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Gateway Metric:                       256
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    InterfaceMetric:                      25
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Statically Configured DNS Servers:    8.8.8.8
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                          4.2.2.2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Register with which suffix:           Primary only
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Statically Configured WINS Servers:   None
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Configuration for interface &amp;#34;Loopback Pseudo-Interface 1&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    DHCP enabled:                         No
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    IP Address:                           127.0.0.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Subnet Prefix:                        127.0.0.0/8 (mask 255.0.0.0)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    InterfaceMetric:                      75
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Statically Configured DNS Servers:    None
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Register with which suffix:           Primary only
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Statically Configured WINS Servers:   None
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The key thing here to notice is that the &lt;strong&gt;DHCP enabled&lt;/strong&gt; line says no, meaning that the address shown under &lt;strong&gt;IP Address&lt;/strong&gt; is your statically assigned IP.&lt;/p&gt;
+&lt;h2 id=&#34;manipulating-the-network-card&#34;&gt;Manipulating the Network Card&lt;/h2&gt;
+&lt;p&gt;Next, to modify the DHCP enabled value and essentially over write the statically set address, you will want to run the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bat&#34; data-lang=&#34;bat&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;netsh interface ip set address &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ethernet&amp;#34;&lt;/span&gt; dhcp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Note that the above command contains &amp;ldquo;Ethernet&amp;rdquo; for the interface that I am manipulating, but you should use whatever interface you want to modifies name is. For example some computers, it shows up as &amp;ldquo;Ethernet 2&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;If everything works, running the above command will literally brick your session, booting you from the console. Give it a few seconds, then do a NSLOOKUP or a PING to find the new IP assigned by DHCP, and you should be able to ping it again.&lt;/p&gt;
+&lt;p&gt;If the device is pingable, then it should be online and good to go.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Navigating the Challenges of Asset Inventory Management</title>
         <link>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
         <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
