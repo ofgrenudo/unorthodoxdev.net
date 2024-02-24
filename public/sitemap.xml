@@ -3,28 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unorthodoxdev.net/</loc>
-    <lastmod>2024-02-15T06:48:01-05:00</lastmod>
+    <lastmod>2024-02-23T23:59:14-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/</loc>
-    <lastmod>2024-02-15T06:48:01-05:00</lastmod>
+    <lastmod>2024-02-23T23:59:14-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</loc>
-    <lastmod>2024-02-15T06:48:01-05:00</lastmod>
+    <loc>https://unorthodoxdev.net/categories/general/</loc>
+    <lastmod>2024-02-23T23:59:14-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/tags/leftist-literature/</loc>
+    <lastmod>2024-02-23T23:59:14-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</loc>
+    <lastmod>2024-02-23T23:59:14-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2024-02-23T23:59:14-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/tags/</loc>
+    <lastmod>2024-02-23T23:59:14-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</loc>
     <lastmod>2024-02-15T06:48:01-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/system-administration/</loc>
     <lastmod>2024-02-15T06:48:01-05:00</lastmod>
   </url><url>
-    <loc>https://unorthodoxdev.net/tags/</loc>
-    <lastmod>2024-02-15T06:48:01-05:00</lastmod>
-  </url><url>
     <loc>https://unorthodoxdev.net/tags/windows/</loc>
     <lastmod>2024-02-15T06:48:01-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/categories/general/</loc>
-    <lastmod>2024-01-22T15:34:58-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</loc>
     <lastmod>2024-01-22T15:34:58-05:00</lastmod>
