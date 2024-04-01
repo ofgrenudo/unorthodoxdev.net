@@ -12,7 +12,7 @@
         <pubDate>Mon, 26 Feb 2024 20:46:09 -0500</pubDate>
         
         <guid>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1617049483020-bf5a76956409?q=80&amp;w=2071&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Internet Addiction and Cell Phone Usage" /&gt;&lt;p&gt;The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.&lt;/p&gt;
+        <description>&lt;img src="https://images.unsplash.com/photo-1617049483020-bf5a76956409?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Internet Addiction and Cell Phone Usage" /&gt;&lt;p&gt;The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Do you think using cell phones too much is bad for our physical or mental health? Why or why not?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -192,14 +192,6 @@
 </description>
         </item>
         <item>
-        <title>School</title>
-        <link>https://unorthodoxdev.net/school/</link>
-        <pubDate>Sun, 21 Jan 2024 11:53:11 -0500</pubDate>
-        
-        <guid>https://unorthodoxdev.net/school/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Website Refactor</title>
         <link>https://unorthodoxdev.net/p/2024-01-20-website-refactor/</link>
         <pubDate>Sat, 20 Jan 2024 22:52:14 -0500</pubDate>
@@ -213,40 +205,6 @@
 &lt;p&gt;There&amp;rsquo;s quite a few things that the developer of the theme does that he doesnt necessarily explain, along with the hugo documentation doesnt explain either. One of the things that I really enjoyed was the modular &lt;code&gt;configuration/&lt;/code&gt; folder, where inside you just have a bunch of &lt;strong&gt;.toml&lt;/strong&gt; files that can be separated by names that will ultimately compile into one file. This makes a what would be 200 some line configuration file a collection of brief 20-50 line files that are purpose created and sorted.&lt;/p&gt;
 &lt;p&gt;Finally, I was also able to fully understand the difference between pages, and posts. Mainly, the difference for hugo is how they are rendered. Pages are more intended for things like &lt;code&gt;about/&lt;/code&gt; or &lt;code&gt;security/&lt;/code&gt; while posts are just posts. That means that I could ideally make a page, and not link to it anywhere on the site, making it a sort of link only page. Its an interesting thing to think about and id be interested in playing around with it in the future.&lt;/p&gt;
 &lt;p&gt;Otherwise, there is my update for the brief outage. Again, Ideally, there would be no production outage because I would have a development server that I could test the deployment too. But, because I am cheap, production errors will happen.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>French Toast</title>
-        <link>https://unorthodoxdev.net/recipes/desayuno/french-toast/</link>
-        <pubDate>Fri, 29 Dec 2023 13:26:19 -0500</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/desayuno/french-toast/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/french_toast.JPG&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;French Toast&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;p&gt;These ingredients make six french toast&amp;rsquo;s.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 4 large eggs.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 6 slices of bread.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 12 tsp&amp;rsquo;s of cane sugar.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 tablespoons of heavy whipping cream.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Butter&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;p&gt;Begin heating your medium pan, on the stove. Place roughly a teaspoon as needed into the pan to prevent sticking of the sugar as it melts down.&lt;/p&gt;
-&lt;p&gt;In a bowl, crack all 4 large eggs, and add about two tablespoons of heavy whipping cream to the mixture. Beat the eggs, until it is a smooth consistency and a consistent color.&lt;/p&gt;
-&lt;p&gt;coat your bread in the egg heavy whipping cream mixture on both sides, then sprinkle about a teaspoon of cane sugar onto each side. Then place onto the pan.&lt;/p&gt;
-&lt;p&gt;Cook the french toast for roughly 2 to 3 minutes per side.&lt;/p&gt;
-&lt;p&gt;Repeat steps until you are out of bread.&lt;/p&gt;
-&lt;p&gt;Plate and Serve.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -284,40 +242,13 @@
 &lt;p&gt;It reminded me of an old program that I made a while ago, where I was experimenting with noise maps, and the rasterization of said noise map. The fun part about this experiment of mine was that it had three decimal points to it, and each decimal point was translated into a RGB color code at some point. Making at times this really magnificent image.&lt;/p&gt;
 &lt;p&gt;Moving forward, what are our candidates for the favicon?&lt;/p&gt;
 &lt;h3 id=&#34;candidate-one&#34;&gt;Candidate one&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-1.gif&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;earthlike-1.gif&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-1.gif&#34; alt=&#34;earthlike-1.gif&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;What do I like about it? Its simple, the clouds are nice and it is somewhat land, somewhat clouds. There is unfortunately way tooooo much land to be a close representation of earth. But overall I like it.&lt;/p&gt;
 &lt;h3 id=&#34;candidate-two&#34;&gt;Candidate two&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-2.gif&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;earthlike-2&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-2.gif&#34; alt=&#34;earthlike-2&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;This is probably the most similar to earth, although my only dislike of this is that it probably represents pangea better than it does the modernday continents. Which is fine with me either way.&lt;/p&gt;
 &lt;h3 id=&#34;candidate-three&#34;&gt;Candidate three&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/saturnlike-1.gif&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;saturnlike-1&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/saturnlike-1.gif&#34; alt=&#34;saturnlike-1&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;I really like this one, It does a good job at displaying the ring around the planet, and the colors are more of my style. Overall this is very high up in the ranking list.&lt;/p&gt;
 &lt;h2 id=&#34;so-what-will-i-pick&#34;&gt;So what will I pick?&lt;/h2&gt;
 &lt;p&gt;Well, to be honest with you I like each of these individually, but after experimenting with each of these I think that I prefer candidate two as it gives the most texture in the small favicon view. Overall though, it was nice to see the program and shader written in godot, and I got a neat favicon out of it. Win Win :)&lt;/p&gt;
@@ -393,124 +324,21 @@
     &gt;this discussion&lt;/a&gt;, adds complexity. Navigating the &lt;a class=&#34;link&#34; href=&#34;https://snipe-it.readme.io/reference/api-overview&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Snipe API documentation&lt;/a&gt; reveals that simplicity is elusive.&lt;/p&gt;
 &lt;h2 id=&#34;unraveling-complexity-with-a-graph&#34;&gt;Unraveling Complexity with a Graph&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
-	width=&#34;851&#34;
-	height=&#34;442&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;relational database structure&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;192&#34;
-		data-flex-basis=&#34;462px&#34;
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 192; flex-basis: 462px&#34;&gt;
+		&lt;a href=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34; data-size=&#34;851x442&#34;&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
+				srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;851&#34;
+				height=&#34;442&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;relational database structure&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;relational database structure&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Adding a hardware entry involves creating a status entry, which requires a Status Name and a Status Type. To create a Model Entry, one needs a Category Entry and a Manufacturer Entry, each with its own set of requirements. While seemingly convoluted, this structure addresses an important issue: human error.&lt;/p&gt;
 &lt;p&gt;The challenge of discrepancies due to typos or variations in entries—whether in spreadsheets, SQL databases, or Snipe-IT—becomes evident. Using relational databases, where entries are referenced by ID rather than name, minimizes type 0 errors.&lt;/p&gt;
 &lt;p&gt;What initially seemed like a quick and easy solution now demands effort to automate device information entry into Snipe. The transition from manual entries to relational databases may pose challenges, but it ultimately addresses issues of consistency and accuracy in asset inventory management.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Chilequiles</title>
-        <link>https://unorthodoxdev.net/recipes/desayuno/chilequiles/</link>
-        <pubDate>Wed, 18 Oct 2023 15:57:33 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/desayuno/chilequiles/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tortillas or Tortilla Chips (can be stale)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Salsa&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Egg&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Ham (optional)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chorizo (optional)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Note if you are opting to use chorizo, please cook it first, then continue these instructions. Add the chorizo around the same time you would add the ham.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;In a pan, set the heat to medium&lt;/li&gt;
-&lt;li&gt;place two tablespoons worth of oil into the pan, and place your tortilla chips, if you are using tortillas, cut them into squares or triangles, and fry them. This may require more oil.&lt;/li&gt;
-&lt;li&gt;Once your chips are toasted, add your eggs. Now is a good time to add your ham if you are going to use it.&lt;/li&gt;
-&lt;li&gt;Once your eggs are cooked and everything is toasty, add your salsa and allow it to heat up to the same temp. This will make your chips a bit soggy but that is all the purpose of this meal.&lt;/li&gt;
-&lt;li&gt;Cover with cheese if you have it, and serve.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>Enchiladas</title>
-        <link>https://unorthodoxdev.net/recipes/cenar/enchiladas/</link>
-        <pubDate>Wed, 18 Oct 2023 15:41:38 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/cenar/enchiladas/</guid>
-        <description>&lt;p&gt;Enchiladas are traditionally served stuffed with cheese or potatoes, but in america are commonly found stuffed with chicken. Realistically you can use what ever you want, ive even had carneasada enchiladas&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chiles Guajillo&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chiles Ancho&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Garlic Cloves&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Oregano&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Salt and pepper&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Corn Tortillas&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Queso Fresco&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Potaoes (optional)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chicken Breast (optional)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cebollya Blanca&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Vegetable oil&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Lettuce&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sour Cream&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Toast all of your chiles on a open flame or pan until hot, maybe burnt. Pull all burnt skin off. Once they are toasted, put them in a pan with water and boil them for a moment. At a minimum 15 minutes.&lt;/li&gt;
-&lt;li&gt;Remove them from the pot and allow them to cool for 10 to 15 minutes.&lt;/li&gt;
-&lt;li&gt;Once the chilies are cooled, put them in the blender together with the garlic, and a 1/2 cup of water. Blend until smooth. Here you can add sazon, oregano, salt and pepper to taste.&lt;/li&gt;
-&lt;li&gt;Heat the oven to 350F.&lt;/li&gt;
-&lt;li&gt;In a sauce pan place 2 table spoons of vegetable oil and heat it on medium.&lt;/li&gt;
-&lt;li&gt;Drown the tortillas one by one in the salsa we have made and then fry them in the oil until they are toasted on both sides.&lt;/li&gt;
-&lt;li&gt;Remove the tortillas from the pan and place on the side, now you will stuff them with the topping of your choice, potatoes, cheese, chicken, carne asada, etc&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Roll them tightly and place them in the pan to be sent to the oven.&lt;/li&gt;
-&lt;li&gt;Once your pan is full of enchiladas, cover them in queso fresco, and place in the oven. Cook until the cheese is melted.&lt;/li&gt;
-&lt;li&gt;Remove the enchiladas, and top with thinly cut lettuce, carrots, potatoes, etc&amp;hellip;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>Chicken Mack</title>
-        <link>https://unorthodoxdev.net/recipes/cenar/chicken-mack/</link>
-        <pubDate>Wed, 18 Oct 2023 15:31:25 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/cenar/chicken-mack/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 16 oz. box spiral noodles or elbow noodles.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 25 oz. bag of chicken strips.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 pack of bacon strips (optional).&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Salt and Pepper.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Basil.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;cheese-sauce&#34;&gt;Cheese Sauce&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 stick butter.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cups heavy cream.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1/2 cup shredded parmesan cheese.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 cup mozzarella cheese, freshly shredded.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 3/4 cup colby jack cheese, freshly shredded.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2-3 cloves of garlic, minced.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chopped fresh basil.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Begin preheating your oven and prepping a tray to cook your chicken tenders on. Once the oven has come to tempature, please begin placing the chicken tenders into the oven.&lt;/li&gt;
-&lt;li&gt;While the oven is pre-heating, it would be a good time to begin cooking your bacon, you want the bacon to be crispy and crumble into a million pieces to speard around your noodles.&lt;/li&gt;
-&lt;li&gt;Begin boiling water and cook your pasta to your taste.&lt;/li&gt;
-&lt;li&gt;While your noodles are cooking, use one other pot to make your cheese sauce, melt your butter and cream together in a large pan.&lt;/li&gt;
-&lt;li&gt;Once your butter has melted, add in your cheese, one at a time stirring in to incorporate it all. Finally, add your garlic, and stir until incorporated and everything is melted. Here you will want to add salt and pepper to test.&lt;/li&gt;
-&lt;li&gt;When your noodles are done, drain them and add them to the pan with sauce and stir to combine. Now you will want to add your bacon and stir to incorporate it all together.&lt;/li&gt;
-&lt;li&gt;Finally, remove your chicken strips from the oven when they are done and serve. As a tip you can add the basil to the top of your pasta bowl, and any additional bacon that may have been left over.&lt;/li&gt;
-&lt;/ol&gt;
 </description>
         </item>
         <item>
@@ -834,76 +662,13 @@
     &gt;american hamburger&lt;/a&gt; but instead found, carne asada, a salchica split in two, hamon, lettuce tomatoe, onion, pickles, mayo, mustrard, ketchup all on a bun. It was decent, but wasnt what I was looking for.&lt;/p&gt;
 &lt;p&gt;Across the street from where I stayed was a community center. A place where the community can host classes to teach all kinds of things. On Tuesdays and Thursdays theres karate class. On fridays theres dance class teaching you how to perform traditional Aztecan and Mayan dances. On Mondays and Wednesdays theres Singing Class. Tuesday evening they show you how to use a sowing machine and make dresses. Theres a park, with soccer goals, baskeball hoops, playground equipment, etc available all the time. Theres washers and dryers available for those who need them, etc. Over all the community center is something very strange to me. There arent many things like that in america. The closest I could think of is boys and girls club, but im not even sure thats everywhere in the states and Its most definetly not as flexiable as the community center.&lt;/p&gt;
 &lt;p&gt;Over all I really enjoyed my trip and cant wait to go back. But for now, ive got school and work to focus on. Ill attach a few photos below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/church.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;church.jpeg&#34;
-	
-	
-&gt;
-&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/paraguas.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;paraguas.jpeg&#34;
-	
-	
-&gt;
-&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;scorpion-hand.jpeg&#34;
-	
-	
-&gt;
-&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain-two.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;terrain-two.jpeg&#34;
-	
-	
-&gt;
-&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;terrain.jpeg&#34;
-	
-	
-&gt;
-&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/theater.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;theater.jpeg&#34;
-	
-	
-&gt;
-&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/train-car.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;train-car.jpeg&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/church.jpeg&#34; alt=&#34;church.jpeg&#34;  /&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/paraguas.jpeg&#34; alt=&#34;paraguas.jpeg&#34;  /&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg&#34; alt=&#34;scorpion-hand.jpeg&#34;  /&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain-two.jpeg&#34; alt=&#34;terrain-two.jpeg&#34;  /&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain.jpeg&#34; alt=&#34;terrain.jpeg&#34;  /&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/theater.jpeg&#34; alt=&#34;theater.jpeg&#34;  /&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/train-car.jpeg&#34; alt=&#34;train-car.jpeg&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -952,29 +717,11 @@
     &gt;libcurl&lt;/a&gt; which is very terribly documented, and everything is just a pain in the ass to read an understand. But one other issue with using libcurl, is that it requires that the system the program is running on, &lt;strong&gt;contains&lt;/strong&gt; the application curl. That is an issue that I haven&amp;rsquo;t really ran into before when programming with rust. Everything is just code, that compiles to assembler that compiles to binary, that the machine understands and executes. Now i have to add another contingent, an application I cant/don&amp;rsquo;t want to package with my application.&lt;/p&gt;
 &lt;p&gt;Now I understand why applications ship with  DLLs. Or why the applications have underlying conditions when installing them. Regardless of how I felt about including libcurl, I moved forth and began to deal with my newly found string that contains the response from my API. After many &lt;code&gt;segfault&lt;/code&gt;&amp;rsquo;s I&amp;rsquo;ve got to parse this JSON string. Like I stated above, I would simply just use the serde library. But because C doesn&amp;rsquo;t have a JSON library (C was made way before the web, or JSON existed) I need to create my own parser.&lt;/p&gt;
 &lt;p&gt;The above two issues, is reason enough for me to understand why some hardcore C developers keep every piece of code they have. Because when they run into the same JSON parsing issue, they can look at the function, or file that they made last time, and implement the same function or file into the new program.Rust and most modern languages have provided such a standard, containing large standard libraries and easy to import and manage 3rd party libraries that It was hard for me to think of a time where that wasn&amp;rsquo;t an option.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/4exi8f.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;based&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/4exi8f.jpg&#34; alt=&#34;based&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;The thing I like the most about C is that it forces me to think. To use my &lt;em&gt;smooth&lt;/em&gt; brain on how to parse a JSON element, what are the rules that JSON employs? How can I connect to a HTTP Web server, on port 80? How can I save the response? All of these thoughts come from a &lt;em&gt;rough&lt;/em&gt; brain. One with ridges and valleys and peaks. Not mine.&lt;/p&gt;
 &lt;p&gt;While, I think the Transit app i was planning on building with C was a bit too big for me to handle right now, my plan now is to finish it in Rust, and then In preparation for the 2023 Advent of Code, i would like to begin practicing my C solving those problems. Problems which are small and manageable, and I&amp;rsquo;m sure have plenty of resources online for the language that I will be using. Shoot, I&amp;rsquo;ve even found &lt;a class=&#34;link&#34; href=&#34;https://github.com/betaveros/noulith&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;a guy who created an entire language, for solving the Advent of Code problems&lt;/a&gt; conveniently in&amp;hellip;. Rust. So while i&amp;rsquo;ve completely changed the way I will handle my next app. I have added a completely other thing that I have dedicated my self to. Finding more things to do, when there is already so much.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/56pjdz.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;smooth brain&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/56pjdz.jpg&#34; alt=&#34;smooth brain&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1100,11 +847,11 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;error_page&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;502&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;maintenance&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;maintenance&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;www&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;internal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;error_page 502 /maintenance.html;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;location = /maintenance.html {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    root /var/www/html;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    internal;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Next, you will need to restart your nginx server. You can do so via the following command&lt;/p&gt;
@@ -1117,16 +864,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Now, kill your service, and run to the url to try to capture the error.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pasteboard.co/HtneDCu6qMmC.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;ill-be-back-soon.png&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pasteboard.co/HtneDCu6qMmC.png&#34; alt=&#34;ill-be-back-soon.png&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1320,16 +1058,7 @@
         <pubDate>Wed, 19 Jul 2023 21:01:44 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/2023-07-19-tattoo/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Workflow Status&#34;
-	
-	
-&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&#34;https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg&#34; alt=&#34;Workflow Status&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;Repository: &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/tattoo/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/ofgrenudo/tattoo/tree/master&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tattoo is the first complete program that I have written in rust. It consists of two parts, a library and the binary. One of the challenges I experienced when writing this application was the lack of abbility to include files outside of module&amp;rsquo;s folder that I was writing in. While I understand &lt;em&gt;now&lt;/em&gt; why you should not do so and the kinds of compiler problems you would encounter. I think that forcing me to write a library to manage my goals was very benificial for me.&lt;/p&gt;
@@ -1405,16 +1134,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Otherwise it will throw an error &lt;code&gt;exit code: 0xc0000139, STATUS_ENTRYPOINT_NOT_FOUND&lt;/code&gt; when trying to run the program. This is a bug with the native windows gui API that has not been resolved.&lt;/p&gt;
 &lt;h2 id=&#34;example-screenshots&#34;&gt;Example Screenshots&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/ofgrenudo/tattoo/master/docs/tattoo-ui.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;tattoo-ui&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/ofgrenudo/tattoo/master/docs/tattoo-ui.png&#34; alt=&#34;tattoo-ui&#34;  /&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1955,16 +1675,7 @@ You will need administrative access to the device in question. Changing a hostna
 &lt;/div&gt;&lt;div style=&#34;page-break-after: always;&#34;&gt;&lt;/div&gt;
 &lt;h1 id=&#34;networking-shenanigans&#34;&gt;Networking Shenanigans&lt;/h1&gt;
 &lt;p&gt;Soy baboon, hay problemas de redes; ooh ooh ahh ahh.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://thumbs.dreamstime.com/z/monkey-scratching-his-head-animal-began-to-think-139656229.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;i-am-a-monkey.jpg | 500&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://thumbs.dreamstime.com/z/monkey-scratching-his-head-animal-began-to-think-139656229.jpg&#34; alt=&#34;i-am-a-monkey.jpg | 500&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;first-things-first&#34;&gt;First &lt;em&gt;things&lt;/em&gt; first&lt;/h2&gt;
 &lt;p&gt;Where am i on the subnet? The below tools will help you troubleshoot where your are on the subnet, what might be missing, and or misconfigured. To get a quick overview of all of your connected network cards, you can run the following command&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2134,267 +1845,24 @@ You will need administrative access to the device in question. Changing a hostna
 &lt;/div&gt;</description>
         </item>
         <item>
-        <title>Gorilla Balls</title>
-        <link>https://unorthodoxdev.net/recipes/sopresas/gorilla-balls/</link>
-        <pubDate>Wed, 19 Jul 2023 18:26:44 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/sopresas/gorilla-balls/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1 cup packed brown sugar.&lt;/li&gt;
-&lt;li&gt;1/2 c. butter (cubed).&lt;/li&gt;
-&lt;li&gt;2 tubes (12 oz each) refigerated biscuts.&lt;/li&gt;
-&lt;li&gt;1/2 c. sugar.&lt;/li&gt;
-&lt;li&gt;1 tbsp ground cinnamon.&lt;/li&gt;
-&lt;li&gt;1 package (8oz) cream cheese, cut into 20 cubes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;In a small microwave-safe bowl, heat brown sugar and butter on high for one minute or until sugar is disolved. Set aside.&lt;/p&gt;
-&lt;p&gt;Flatten each biscuit into a 3 inch circle.&lt;/p&gt;
-&lt;p&gt;Place cream cheese cube in center. Push the sides of the biscuit around cream cheese and form into ball so biscuit is wrapped all around cream cheese.&lt;/p&gt;
-&lt;p&gt;Mix sugar (1/2 cup) with cinnamon. Roll ball in cinnamon / sugar mixuture and place in 8&amp;quot;x8&amp;quot; pan square glass baking dish.&lt;/p&gt;
-&lt;p&gt;Once all the balls are in the baking dish, sprinkle the remaning cinnamon / sugar mixture over top. Then pour evenly the brownsugar / butter mixture over balls.&lt;/p&gt;
-&lt;p&gt;Bake at 350 degrees for 45 minutes or until golden brown.&lt;/p&gt;
-&lt;p&gt;Once out of the oven, let cool 10-15 minutes.&lt;/p&gt;
-&lt;p&gt;Enjoy.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Cowboy Cookies</title>
-        <link>https://unorthodoxdev.net/recipes/sopresas/cowboy-cookies/</link>
-        <pubDate>Wed, 19 Jul 2023 14:06:29 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/sopresas/cowboy-cookies/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2 cups flour&lt;/li&gt;
-&lt;li&gt;1/2 tsp baking powder&lt;/li&gt;
-&lt;li&gt;1 tsp baking soda&lt;/li&gt;
-&lt;li&gt;1/2 tsp salt&lt;/li&gt;
-&lt;li&gt;1/2 cup butter&lt;/li&gt;
-&lt;li&gt;1/2 cup vegetable oil&lt;/li&gt;
-&lt;li&gt;1 cup backed light brown sugar&lt;/li&gt;
-&lt;li&gt;1 cup white sugar&lt;/li&gt;
-&lt;li&gt;2 eggs&lt;/li&gt;
-&lt;li&gt;1 tsp vanilla extract&lt;/li&gt;
-&lt;li&gt;2 cups quick cooking oats&lt;/li&gt;
-&lt;li&gt;1 cup semi-sweet chocolate chips or other mix-ins&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;Preheat oven to 350 F
-Mix flour, baking powder, baking soda, and salt together, set aside
-Cream butter, oil, and sugars together until light and fluffy
-Add eggs and vanilla and cream again
-Add oats and flour mixture, mix until almost combined
-Add mix-ins, mix until just combined
-Drop by spoonfuls onto ungreased baking sheet, bake 10-12 minutes&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Tinga</title>
-        <link>https://unorthodoxdev.net/recipes/cenar/tinga/</link>
-        <pubDate>Wed, 19 Jul 2023 13:57:24 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/cenar/tinga/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Large Yellow Onion.&lt;/li&gt;
-&lt;li&gt;Oil.&lt;/li&gt;
-&lt;li&gt;Stewed Tomatoes (Can be home made or from a can).&lt;/li&gt;
-&lt;li&gt;Chipotle peppers in adobo sauce.&lt;/li&gt;
-&lt;li&gt;Tostadas&lt;/li&gt;
-&lt;li&gt;Sour cream&lt;/li&gt;
-&lt;li&gt;Chicken breasts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;In a large pot, begin to boil your chicken. Once your chicken is fully cooked, remove it from the water and allow time for it to cool. Once cool, begin to shread the chicken by hand.&lt;/p&gt;
-&lt;p&gt;While the pot of chicken is boiling you could begin to add your tomatoes and chipotle peppers in (if raw and not from a can) to begin boiling, or add it to its own pot and boil that way.&lt;/p&gt;
-&lt;p&gt;Once the chicken is shredded, begin to chop your onion. You want long pieces of onion so avoid dicing them.&lt;/p&gt;
-&lt;p&gt;Add oil to a pan and begin to pan fry your onions, while they are getting tender pour out your tomatoes and adobo pepers and chipotle sauce into a blender and mix until everything is done. It does not hurt to add some chicken broth or vegitble broth in this step.&lt;/p&gt;
-&lt;p&gt;Add your chicken into the pot of onions and mix, slowly add the tinga sauce we made in the previous step to the pot and combine. The chicken should be swimming in the sauce.&lt;/p&gt;
-&lt;p&gt;Allow the chicken to marinate and the sauce to thinken up and lose some whater.&lt;/p&gt;
-&lt;p&gt;Once you are ready begin to serve the tinga on tostadas, with pickeled onions, raddish, lettuce, beans, sour cream, or whatever else floats your boat.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Andrea&#39;s Chilli Recipe</title>
-        <link>https://unorthodoxdev.net/recipes/cenar/andreas-chili-recipe/</link>
-        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/cenar/andreas-chili-recipe/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1 lb ground beef&lt;/li&gt;
-&lt;li&gt;1 medium onion, chopped&lt;/li&gt;
-&lt;li&gt;1 green pepper chopped&lt;/li&gt;
-&lt;li&gt;2 stalks of celery, chopped.&lt;/li&gt;
-&lt;li&gt;1 can black beans rinsed and drained.&lt;/li&gt;
-&lt;li&gt;1 can dark red kidney beans rinsed and drained&lt;/li&gt;
-&lt;li&gt;1 can garbonzo beans, rinsed and drained.&lt;/li&gt;
-&lt;li&gt;1 can kidney beans in chili sauce (&lt;em&gt;do not drain or rinse these&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;1 can corn rinsed and drained&lt;/li&gt;
-&lt;li&gt;2 cans diced tomatoes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;Brow beef in skillet over medium heat until no longer pink. Transfer to large pot. Pour 1tbsp vegetable oil into same skillet and heat over medium heat.&lt;/p&gt;
-&lt;p&gt;Add onion, pepper and celery and cook until onions are transparent.&lt;/p&gt;
-&lt;p&gt;Transfer them to the pot and add black beans, kidney beans, garbonzo beans, kidney beans in chili sauce, and corn to pot. Add chili mix and both cans of tomatoes. Plus 2 cans of water to pot.&lt;/p&gt;
-&lt;p&gt;Simmer uncovered on medium high heat for 20 to 30 minutes, stirring occasionally.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Bannana Bread</title>
-        <link>https://unorthodoxdev.net/recipes/sopresas/bannana-bread/</link>
-        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/sopresas/bannana-bread/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;3 1/2 cups of sifted all purpose flour&lt;/li&gt;
-&lt;li&gt;3 tsp baking powder&lt;/li&gt;
-&lt;li&gt;1 tsp salt&lt;/li&gt;
-&lt;li&gt;1 tsp baking soda&lt;/li&gt;
-&lt;li&gt;2 cups of mashed ripe bananas&lt;/li&gt;
-&lt;li&gt;2 tsp of lemon juice&lt;/li&gt;
-&lt;li&gt;3/4 cups of shortening&lt;/li&gt;
-&lt;li&gt;1 1/2 cup of sugar&lt;/li&gt;
-&lt;li&gt;3 eggs&lt;/li&gt;
-&lt;li&gt;3/4 cups of milk&lt;/li&gt;
-&lt;li&gt;1/2 chopped walnuts or pecans&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;Sift together flour, baking powder, salt, and baking soda, combine bananas and lemon juice. Mix well.&lt;/p&gt;
-&lt;p&gt;Cream together shortening and sugar in a bowl with electric mixer medium speed until fluffy. Add eggs and beath thoroughly until very light and fluffy.&lt;/p&gt;
-&lt;p&gt;Add dry ingredients. Optionally, with milk, add bananas and nuts. Beat after each addition. Pour into 2 greased 8 1/2&amp;quot; x 4 1/2&amp;quot; x 2 1/2&amp;quot; loaf pans.&lt;/p&gt;
-&lt;p&gt;Bake @ 350 for 1 hour or until when a wooden toothpick inserted comes out clean. Cool in pans for 10 minutes.&lt;/p&gt;
-&lt;p&gt;Remove from pans, cool completely. Then wrap in saran wrap and store in the refridgerator&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Blueberry Breakfast Bars</title>
-        <link>https://unorthodoxdev.net/recipes/desayuno/blueberry-breakfast-bars/</link>
-        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/desayuno/blueberry-breakfast-bars/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1 3/4 cup of sugar&lt;/li&gt;
-&lt;li&gt;1 cup of butter&lt;/li&gt;
-&lt;li&gt;4 eggs&lt;/li&gt;
-&lt;li&gt;1 tsp vanilla extract&lt;/li&gt;
-&lt;li&gt;3 cups of flour&lt;/li&gt;
-&lt;li&gt;1 1/2 tsp baking poweder&lt;/li&gt;
-&lt;li&gt;21 oz blueberry pie filling&lt;/li&gt;
-&lt;li&gt;1 tbsp butter melted&lt;/li&gt;
-&lt;li&gt;2 tbsp lemon juice&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;Cream sugar and butter, add eggs and vanilla. Beat well.&lt;/p&gt;
-&lt;p&gt;Ad flour and bakin gpowder, stir until well blended. Spread half of the mixture into a greased 15&amp;quot; x 10&amp;quot; pan.&lt;/p&gt;
-&lt;p&gt;Carefully top with pie filling. Drop remaining dough ontop by teaspoonfulls.&lt;/p&gt;
-&lt;p&gt;Bake @ 350 degrees farenheigh for 45 minutes or until golden. Do not underbake.&lt;/p&gt;
-&lt;p&gt;Combine powdered sugar melted butter and lemon juice, drizzel over warm bars.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Peanut Butter Cereal Bars</title>
-        <link>https://unorthodoxdev.net/recipes/desayuno/peanut-butter-cereal-bars/</link>
-        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/desayuno/peanut-butter-cereal-bars/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;3 cups miniature marshmallows&lt;/li&gt;
-&lt;li&gt;3 tsp margarine or butter&lt;/li&gt;
-&lt;li&gt;1/2 cup peanut butter&lt;/li&gt;
-&lt;li&gt;3 1/2 cups crispy rice cereal&lt;/li&gt;
-&lt;li&gt;1 cup uncooked quick oats&lt;/li&gt;
-&lt;li&gt;1/3 cup mini semi-sweet chocolate chips&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;Combine marshmallows and margarine in a large microwavable bowl. Microwave on high for 15 seconds.&lt;/p&gt;
-&lt;p&gt;Stir;&lt;/p&gt;
-&lt;p&gt;Continue to microwave 1 minute.&lt;/p&gt;
-&lt;p&gt;Stir until marshmallows are melted and mixture is smooth.&lt;/p&gt;
-&lt;p&gt;Add peanut butter.&lt;/p&gt;
-&lt;p&gt;Stir;&lt;/p&gt;
-&lt;p&gt;Add cereal and oats.&lt;/p&gt;
-&lt;p&gt;Stir until well coated.&lt;/p&gt;
-&lt;p&gt;Spread into prepaired pan&lt;/p&gt;
-&lt;p&gt;Immediately sprinkle chocolate chips on top. Lightly press.&lt;/p&gt;
-&lt;p&gt;Cool completly in pan. Cut into bars.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Sunday Brunch Casserole</title>
-        <link>https://unorthodoxdev.net/recipes/desayuno/sunday-brunch-casserole/</link>
-        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/desayuno/sunday-brunch-casserole/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1/2lb sliced bacon&lt;/li&gt;
-&lt;li&gt;1/2 cup of chopped onion&lt;/li&gt;
-&lt;li&gt;1/2 cup chopped green pepper&lt;/li&gt;
-&lt;li&gt;12 eggs&lt;/li&gt;
-&lt;li&gt;1 cup milk&lt;/li&gt;
-&lt;li&gt;1 package (16 oz) frozen hash brown potatoes thawed.&lt;/li&gt;
-&lt;li&gt;1 cup (4 oz) shredded cheddar cheese&lt;/li&gt;
-&lt;li&gt;1 tsp salt&lt;/li&gt;
-&lt;li&gt;1/2 tsp pepper&lt;/li&gt;
-&lt;li&gt;1/4 tsp dill weed&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;In a large skillet, cook bacon over medium heat until crispy.&lt;/p&gt;
-&lt;p&gt;Remove to paper towel lined plate to drain.&lt;/p&gt;
-&lt;p&gt;Reserving 2 tbsp of drippings, crumble bacon and set aside.&lt;/p&gt;
-&lt;p&gt;In the same skillet, saute onion and green pper in drippings until tender. Remove with a slotted spoon.&lt;/p&gt;
-&lt;p&gt;In a large bowl whisk the eggs and milk. Stir in hashbrowns, cheese, salt, pepper, dill, and onion. Add reserved bacon.&lt;/p&gt;
-&lt;p&gt;Transfer to a greased 13&amp;quot; x 9&amp;quot; x 2&amp;quot; baking dish. Bake covered @ 350 for 35 to 45 minutes or until a knife inserted near center comes out clean.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Taco Salad</title>
-        <link>https://unorthodoxdev.net/recipes/cenar/taco-salad/</link>
-        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/cenar/taco-salad/</guid>
-        <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1 head of lettuce, shredded&lt;/li&gt;
-&lt;li&gt;1 medium onion, chopped&lt;/li&gt;
-&lt;li&gt;1 lb hamburger browned&lt;/li&gt;
-&lt;li&gt;2 cups of cheddar cheese shredded&lt;/li&gt;
-&lt;li&gt;3 medium tomatoes, chopped&lt;/li&gt;
-&lt;li&gt;1 bag dorites crushed&lt;/li&gt;
-&lt;li&gt;1/2 to 1 bottle Western French Dressing (8 oz)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;In a large bowl, layer each ingredient strating with lettuce and ending with tomatoes. Toss with western dressing and crushed doritos just before serving.&lt;/p&gt;
-&lt;p&gt;If you are planning for left overs, allow guests to add the doritos and dressing on their own to prevent any soggynonsens.&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Custom Start Menu Layouts</title>
         <link>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</link>
         <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
         
         <guid>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</guid>
         <description>&lt;p&gt;Windows 11 and Start Menus &lt;em&gt;suck.&lt;/em&gt; Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
-	width=&#34;667&#34;
-	height=&#34;803&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Start Menu Layouts&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;83&#34;
-		data-flex-basis=&#34;199px&#34;
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 83; flex-basis: 199px&#34;&gt;
+		&lt;a href=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34; data-size=&#34;667x803&#34;&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
+				srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;667&#34;
+				height=&#34;803&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Start Menu Layouts&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Start Menu Layouts&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creating-a-new-layout&#34;&gt;Creating a new Layout&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;On a build PC configure your new layout.&lt;/li&gt;
@@ -2461,184 +1929,6 @@ Drop by spoonfuls onto ungreased baking sheet, bake 10-12 minutes&lt;/p&gt;
 &lt;p&gt;Finally you want to visit your website and check your cert and go from there!&lt;/p&gt;
 &lt;p&gt;I would also like to throw in that you might want to remove your ANAME record for whatever your website was before and upgrade it to a CNAME record. CNAME records are really just a redirect to whatever ANAME record you provide it.&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>About</title>
-        <link>https://unorthodoxdev.net/about/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/about/</guid>
-        <description>&lt;p&gt;Hello all!&lt;/p&gt;
-&lt;p&gt;My name is Joshua Winters-Brown! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019.&lt;/p&gt;
-&lt;h2 id=&#34;work-and-hobbies&#34;&gt;Work and Hobbies&lt;/h2&gt;
-&lt;p&gt;I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language since 2022. The first programming language I learned was Java 7 SE, where i made a few Java applets and programs. Using Java, I did quite a bit of robotics programming for competitions. Next, I worked on some autonomous car programming in C/CPP for a competition.&lt;/p&gt;
-&lt;p&gt;Twoards the end of my time competing, I began to develop a web interface to manage some of the hardware, peaking my interest in Javascript and node. After the competition was over I decided to begin working on a SaaS using Node JS. After learning that I hate the way JavaScript handles async and promises, logically I jumped to Rust.&lt;/p&gt;
-&lt;p&gt;Since then, i have fallen in absolute love with rust and programming language as a whole. Since, then I have migrated a majority of my SaaS codebase to rust,&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Language&lt;/th&gt;
-&lt;th&gt;Expertise Level&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Rust&lt;/td&gt;
-&lt;td&gt;Intermediate&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Javascript&lt;/td&gt;
-&lt;td&gt;Intermediate&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Java&lt;/td&gt;
-&lt;td&gt;Intermediate&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;C/CPP&lt;/td&gt;
-&lt;td&gt;Beginner&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;When i&amp;rsquo;m not developing, or working, I am mostly outside enjoying time with family or friends or my dog. For those who are interested, heres a photo of my dog, &lt;a class=&#34;link&#34; href=&#34;https://www.spanishdict.com/translate/Oso&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Oso&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/oso.jpeg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Oso tha dog&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
-&lt;p&gt;I also occasionally read, Im a big fan of horror. Not just horror books. But horror everything. I typically really enjoy foreign horror. So far some of my favorite books have been,&lt;/p&gt;
-&lt;h3 id=&#34;favorite-books&#34;&gt;Favorite Books&lt;/h3&gt;
-&lt;p&gt;A good book is a good book. Here I mostly read Manga, Horror Books, or Non fiction books or papers about whatever i&amp;rsquo;m interested in right now. Ill leave my top four books here for you all. These are mostly Manga, but there is at one book with words :). For Non fiction books, I typically am reading something about political theory, or about history.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/22400695-uzumaki-vol-6?from_search=true&amp;amp;from_srp=true&amp;amp;qid=Lm2teT343Y&amp;amp;rank=9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Uzumaki, by Junji Ito&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/34235163-black-paradox?ref=nav_sb_ss_1_14&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Black Paradox, by Junji Ito&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/60585628-you-ve-lost-a-lot-of-blood&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;You&amp;rsquo;ve Lost a Lot of Blood, by Eric LaRocca&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/194746.No_Longer_Human&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;No Longer Human, by Dazai Osamu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/72657.Pedagogy_of_the_Oppressed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;The Pedagogy of The Oppressed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;movies&#34;&gt;Movies&lt;/h2&gt;
-&lt;p&gt;Along with Horror Literature, I also really enjoy B Horror Movies. Along with my tastes in literature, I also mainly enjoy foreign horror movies. Some of my favorite include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt1701990/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Detention&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt0133751/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;The Faculty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt0235198/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Audition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt0364385/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Ju-On (The Collection)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>Archives</title>
-        <link>https://unorthodoxdev.net/archives/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Comment</title>
-        <link>https://unorthodoxdev.net/comment/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/comment/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Recipes</title>
-        <link>https://unorthodoxdev.net/recipes/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/recipes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Security</title>
-        <link>https://unorthodoxdev.net/security/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/security/</guid>
-        <description>&lt;p&gt;For any &lt;strong&gt;important&lt;/strong&gt; communications,&lt;/p&gt;
-&lt;p&gt;I will communicate via this GPG key.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: User-ID:	Joshua Winters-Brown
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Valid from:	1/21/2024 11:43 AM
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Valid until:	1/21/2027 12:00 PM
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Type:	255-bit EdDSA (secret key available)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Usage:	Signing, Encryption, Certifying User-IDs
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Comment: Fingerprint:	0C9A38A843F14A2878E83701D215B3C3078D0735
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mDMEZa1JvxYJKwYBBAHaRw8BAQdAw5URRTbSczczNlb0xdU7ELHCL473QqMvC7T0
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;z5zfiOO0M0pvc2h1YSBXaW50ZXJzLUJyb3duIDxqb3NodWF3aW50ZXJzYnJvd25A
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Z21haWwuY29tPoiZBBMWCgBBFiEEDJo4qEPxSih46DcB0hWzwweNBzUFAmWtSb8C
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;GwMFCQWk79EFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ0hWzwweNBzWP
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yAD8C0kZfpMxrWxzLhV3Xg8SNgPM5dySkvdX9XS6qtLa20UA/A2CQqT4dt9/w6gO
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1UtBQeeXXrPrdDJgX+rsIbIcyiMOuDgEZa1JvxIKKwYBBAGXVQEFAQEHQOrfJ5D+
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;BS5Wjf7/t3OOdw6pevJ7xDvmKncp8pY9EUR9AwEIB4h+BBgWCgAmFiEEDJo4qEPx
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sih46DcB0hWzwweNBzUFAmWtSb8CGwwFCQWk79EACgkQ0hWzwweNBzXPAwD+PSCH
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Fh69Y8BqvEk3WbSeaH0hScT07B0EMF9PFGC0rpoA/2QoAELrH2/JBK4N+1Y2iIAI
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jqwRYL1o6mUcXhvv06wD
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;=6xSJ
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----END PGP PUBLIC KEY BLOCK-----
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Links</title>
-        <link>https://unorthodoxdev.net/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/links/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>https://unorthodoxdev.net/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://unorthodoxdev.net/search/</guid>
-        <description></description>
         </item>
         
     </channel>
