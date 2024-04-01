@@ -3,7 +3,7 @@ title: "Graduation"
 description: "Information about my Graduation!" 
 date: 2024-04-01T10:26:32-04:00
 #image: 
-url: /graduation
+url: /school/graduation
 hidden: false
 draft: false
 ---
