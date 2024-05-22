@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Unorthodoxdev</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://unorthodoxdev.net/tags/</link>
     <description>Recent content in Tags on Unorthodoxdev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Feb 2024 23:59:14 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://unorthodoxdev.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leftist Literature</title>
-      <link>http://localhost:1313/tags/leftist-literature/</link>
+      <link>https://unorthodoxdev.net/tags/leftist-literature/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/leftist-literature/</guid>
+      <guid>https://unorthodoxdev.net/tags/leftist-literature/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/tags/windows/</link>
+      <link>https://unorthodoxdev.net/tags/windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/windows/</guid>
+      <guid>https://unorthodoxdev.net/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>MECM</title>
-      <link>http://localhost:1313/tags/mecm/</link>
+      <link>https://unorthodoxdev.net/tags/mecm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mecm/</guid>
+      <guid>https://unorthodoxdev.net/tags/mecm/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>http://localhost:1313/tags/rust/</link>
+      <link>https://unorthodoxdev.net/tags/rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rust/</guid>
+      <guid>https://unorthodoxdev.net/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <link>https://unorthodoxdev.net/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>https://unorthodoxdev.net/tags/linux/</guid>
       <description></description>
     </item>
   </channel>
