@@ -8,7 +8,7 @@ keywords: ["unorthodoxdev"]
 toc: true
 ---
 
-Enchiladas are traditionally served stuffed with cheese or potatoes, but in america are commonly found stuffed with chicken. Realistically you can use what ever you want, ive even had carneasada enchiladas...
+Enchiladas are traditionally served stuffed with cheese or potatoes, but in america are commonly found stuffed with chicken. Realistically you can use what ever you want, ive even had carne asada enchiladas...
 
 ## Ingredients
 

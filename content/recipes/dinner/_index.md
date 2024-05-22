@@ -1,5 +1,5 @@
 ---
-title: "Cenar"
+title: "Dinner"
 description: ""
 #image: ""
 date: 2023-07-19T13:25:00-04:00
