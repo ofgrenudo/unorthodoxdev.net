@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Im tired of seeing it.'><title>Implementing a Sick 504 Page</title>
 
-<link rel='canonical' href='https://unorthodoxdev.net/p/2023-07-27-implementing-a-sick-504-page/'>
+<link rel='canonical' href='http://localhost:1313/p/2023-07-27-implementing-a-sick-504-page/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Implementing a Sick 504 Page'>
 <meta property='og:description' content='Im tired of seeing it.'>
-<meta property='og:url' content='https://unorthodoxdev.net/p/2023-07-27-implementing-a-sick-504-page/'>
+<meta property='og:url' content='http://localhost:1313/p/2023-07-27-implementing-a-sick-504-page/'>
 <meta property='og:site_name' content='Unorthodoxdev'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-07-27T12:09:39-04:00'/><meta property='article:modified_time' content='2023-07-27T12:09:39-04:00'/><meta property='og:image' content='https://images.unsplash.com/photo-1623018035782-b269248df916' />
 <meta name="twitter:site" content="@Unorthodoxdev">
@@ -15,6 +15,9 @@
 <meta name="twitter:description" content="Im tired of seeing it."><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://images.unsplash.com/photo-1623018035782-b269248df916' />
     <link rel="shortcut icon" href="/favicon.gif" />
+
+  
+
 
     </head>
     <body class="
@@ -73,7 +76,7 @@
                 
             </figure>
         
-        <h1 class="site-name"><a href="https://unorthodoxdev.net/">Unorthodoxdev</a></h1>
+        <h1 class="site-name"><a href="http://localhost:1313/">Unorthodoxdev</a></h1>
         <h2 class="site-description">A never ending waterfall of information, constantly streaming into the oasis.</h2>
     </header>
 
@@ -272,11 +275,11 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">error_page 502 /maintenance.html;
-</span></span><span class="line"><span class="cl">location = /maintenance.html {
-</span></span><span class="line"><span class="cl">    root /var/www/html;
-</span></span><span class="line"><span class="cl">    internal;
-</span></span><span class="line"><span class="cl">}
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">error_page</span> <span class="mi">502</span> <span class="o">/</span><span class="n">maintenance</span><span class="o">.</span><span class="n">html</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">location</span> <span class="o">=</span> <span class="o">/</span><span class="n">maintenance</span><span class="o">.</span><span class="n">html</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">root</span> <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">internal</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Next, you will need to restart your nginx server. You can do so via the following command</p>

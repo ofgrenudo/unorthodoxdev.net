@@ -2,153 +2,130 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on Unorthodoxdev</title>
-    <link>https://unorthodoxdev.net/categories/general/</link>
+    <link>http://localhost:1313/categories/general/</link>
     <description>Recent content in General on Unorthodoxdev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Feb 2024 20:46:09 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 May 2024 09:31:43 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whats Next</title>
+      <link>http://localhost:1313/p/2024-05-22-whats-next/</link>
+      <pubDate>Wed, 22 May 2024 09:31:43 -0400</pubDate>
+      <guid>http://localhost:1313/p/2024-05-22-whats-next/</guid>
+      <description>Alot has happened in the past three months. Its not entirely uncommon for me to drop off the face of the earth during finals, but this year it hit me hard. I had quite a large class load, and getting everything in and done was quite a challenge. Now the semesters over, and ive graduated! For the past month or so, ive had the chance to actually breath.&#xA;So far, ive done primarily house chores in my free time.</description>
+    </item>
     <item>
       <title>Internet Addiction and Cell Phone Usage</title>
-      <link>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</link>
+      <link>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</link>
       <pubDate>Mon, 26 Feb 2024 20:46:09 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
-      <description>The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.
-Do you think using cell phones too much is bad for our physical or mental health?</description>
+      <guid>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
+      <description>The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.&#xA;Do you think using cell phones too much is bad for our physical or mental health?</description>
     </item>
-    
     <item>
       <title>Notes on Pedagogy of the Oppressed</title>
-      <link>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
+      <link>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
       <pubDate>Fri, 23 Feb 2024 23:59:14 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
-      <description>As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…
-To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”.</description>
+      <guid>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
+      <description>As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…&#xA;To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”.</description>
     </item>
-    
     <item>
       <title>Streamlining Your Nvim Config</title>
-      <link>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</link>
+      <link>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</link>
       <pubDate>Mon, 22 Jan 2024 15:34:58 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</guid>
+      <guid>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</guid>
       <description>I console into a number of computers daily. Many running different services etc. I also have a few different devices everywhere I go, whether it be my home PC, laptop, or work laptop etc. Along with the many devices, a good chunk of my work consists of editing text files. Most of that time spent in vim. So a decent configuration is almost a neccesity to keep my productivity up.</description>
     </item>
-    
     <item>
       <title>Fallow Devlog 02</title>
-      <link>https://unorthodoxdev.net/p/2023-12-20-fallow-devlog-02/</link>
+      <link>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</link>
       <pubDate>Wed, 20 Dec 2023 22:22:22 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-12-20-fallow-devlog-02/</guid>
+      <guid>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</guid>
       <description>Above is a screen capture of my progress made with the game fallow. A few things so far, I have no idea what I want this game to be. The best word I have for it so far is an interactive adventure. I think of those terminal story games where you must look around, explore, get into combat, loot, go back, etc. I’m not sure how this will flush out entirely but overall I am taking this as a learning experience.</description>
     </item>
-    
     <item>
       <title>Finally a Favicon</title>
-      <link>https://unorthodoxdev.net/p/2023-12-18-finally-a-favicon/</link>
+      <link>http://localhost:1313/p/2023-12-18-finally-a-favicon/</link>
       <pubDate>Mon, 18 Dec 2023 14:05:09 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-12-18-finally-a-favicon/</guid>
+      <guid>http://localhost:1313/p/2023-12-18-finally-a-favicon/</guid>
       <description>Finals are over, so you know what that means&amp;hellip; New Favicon :). Well kind of. I&amp;rsquo;ve purposely left the favicon. Deep down, I have always wanted to make the favicon a simple spiral. But unfortunately, my obession with spirals is not strong enough, nor do i think it represents this website appropriately. So as a compromise to my self, ive left the favicon blank until i find or request someone to generate a said favicon.</description>
     </item>
-    
     <item>
       <title>Comment Downtime 2023.11.28</title>
-      <link>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</link>
+      <link>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</link>
       <pubDate>Tue, 28 Nov 2023 12:29:55 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</guid>
-      <description>Today, I had an unexpected downtime of roughly 2 hours 2023.11.28 3-4 UTC. I had a Russian visiter Sunday (?) the 25th who commented essentially an ad about their website SEO skills onto the comment board. This is unfortunately the internet, and even more so a comment board where anyone can say and do anything (within the rules).
-Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive.</description>
+      <guid>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</guid>
+      <description>Today, I had an unexpected downtime of roughly 2 hours 2023.11.28 3-4 UTC. I had a Russian visiter Sunday (?) the 25th who commented essentially an ad about their website SEO skills onto the comment board. This is unfortunately the internet, and even more so a comment board where anyone can say and do anything (within the rules).&#xA;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive.</description>
     </item>
-    
     <item>
       <title>Simple File Parsing Takes Three Hours</title>
-      <link>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
+      <link>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
       <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
+      <guid>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
       <description>NMAP really needs some kind of file output option that isnt leetcode, xml, or gibberish. I would kill for a csv output from nmap. Regardless, lets solve this problem. I chose to ues python because I figured it would be quick and easy and would take no time. I was in fact wrong; Im not quite as comfortable with python as I am with rust at this point, but thats ok.</description>
     </item>
-    
     <item>
       <title>Vacation</title>
-      <link>https://unorthodoxdev.net/p/2023-09-07-vacation/</link>
+      <link>http://localhost:1313/p/2023-09-07-vacation/</link>
       <pubDate>Thu, 07 Sep 2023 10:32:58 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-09-07-vacation/</guid>
-      <description>Im back!
-Ive been gone for a little while now. I went on vacation to mexico for about 21 days to visit friends. I had a blast. Everything there is vastly different than here in the states. Where I live, if you need anything other than beer you need to drive about 5-20 minutes to get whatever you need. In Druango Durango Mexico, If I need to go to the store, its about a 5 minute walk to a Ley; The equivalent of a walmart or meijers.</description>
+      <guid>http://localhost:1313/p/2023-09-07-vacation/</guid>
+      <description>Im back!&#xA;Ive been gone for a little while now. I went on vacation to mexico for about 21 days to visit friends. I had a blast. Everything there is vastly different than here in the states. Where I live, if you need anything other than beer you need to drive about 5-20 minutes to get whatever you need. In Druango Durango Mexico, If I need to go to the store, its about a 5 minute walk to a Ley; The equivalent of a walmart or meijers.</description>
     </item>
-    
     <item>
       <title>Advent of Code</title>
-      <link>https://unorthodoxdev.net/p/2023-08-09-advent-of-code/</link>
+      <link>http://localhost:1313/p/2023-08-09-advent-of-code/</link>
       <pubDate>Wed, 09 Aug 2023 15:07:00 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-08-09-advent-of-code/</guid>
-      <description>Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.
-Struggling to learn C, I decided to go through the AoC content from 2015 to current and complete each of the challenges with at a minimum, attempting to use C. The nice thing about doing the older problems, well really any problem, is that there are plenty of resources around online to help me work through and solve the problems.</description>
+      <guid>http://localhost:1313/p/2023-08-09-advent-of-code/</guid>
+      <description>Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.&#xA;Struggling to learn C, I decided to go through the AoC content from 2015 to current and complete each of the challenges with at a minimum, attempting to use C. The nice thing about doing the older problems, well really any problem, is that there are plenty of resources around online to help me work through and solve the problems.</description>
     </item>
-    
     <item>
       <title>Network Troubleshooting Methodology</title>
-      <link>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</link>
+      <link>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</link>
       <pubDate>Wed, 09 Aug 2023 14:17:19 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</guid>
-      <description>This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I STOP, and SLOWN DOWN and think about the changes. Something else I enjoy about these instructions is they force me to think more about change management. Something I need more practice with.
-Gather as much information as possible. If possible, duplicate the problem.</description>
+      <guid>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</guid>
+      <description>This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I STOP, and SLOWN DOWN and think about the changes. Something else I enjoy about these instructions is they force me to think more about change management. Something I need more practice with.&#xA;Gather as much information as possible. If possible, duplicate the problem.</description>
     </item>
-    
     <item>
       <title>Finding Things to Do</title>
-      <link>https://unorthodoxdev.net/p/2023-08-07-finding-things-to-do/</link>
+      <link>http://localhost:1313/p/2023-08-07-finding-things-to-do/</link>
       <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-08-07-finding-things-to-do/</guid>
+      <guid>http://localhost:1313/p/2023-08-07-finding-things-to-do/</guid>
       <description>I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something.</description>
     </item>
-    
     <item>
       <title>In dire need of comments.</title>
-      <link>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</link>
+      <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</link>
       <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</guid>
+      <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</guid>
       <description>I recently migrated my website from ghost blog to hugo which is a static site generator compared to the all in one package you get with ghost blog. One of the reasons I decided to make this change was honestly, I had no need for all of the many features that ghost blog provided. Something like Hugo was simple, and effective. It also allowed me to write my documents in mark down, and store the entirety of it in a git repository.</description>
     </item>
-    
+    <item>
+      <title>Quotes Associated With Work</title>
+      <link>http://localhost:1313/p/2023-07-27-quotes-associated-with-work/</link>
+      <pubDate>Thu, 27 Jul 2023 09:47:54 -0400</pubDate>
+      <guid>http://localhost:1313/p/2023-07-27-quotes-associated-with-work/</guid>
+      <description>Me: It looks like someone deleted the .wim files we were using&amp;hellip;&#xA;Me: Did anyone touch these files?&#xA;CoWorker: No one would have touched those. Maybe it was an update.&#xA;Everyone: Silence&amp;hellip;&amp;hellip;&amp;hellip;..&#xA;Me: Ive gone ahead and recreated them. The following are on your plate to make 1,2,3&#xA;CoWorker: Ok.&#xA;CoWorker: After going through the logs, it appears I deleted the wims.&#xA;Me: You were the update.&#xA;Boss: You cannot joke like that, they we take serious and get cofunded</description>
+    </item>
     <item>
       <title>Ublock Origin and More</title>
-      <link>https://unorthodoxdev.net/p/2023-07-19-ublock-origin-and-more/</link>
+      <link>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</link>
       <pubDate>Wed, 19 Jul 2023 21:00:06 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-07-19-ublock-origin-and-more/</guid>
-      <description>Everybody knows about uBlock Origin. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.
-Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you.</description>
+      <guid>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</guid>
+      <description>Everybody knows about uBlock Origin. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.&#xA;Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you.</description>
     </item>
-    
     <item>
       <title>Digital Gardens</title>
-      <link>https://unorthodoxdev.net/p/2023-07-19-digital-gardens/</link>
+      <link>http://localhost:1313/p/2023-07-19-digital-gardens/</link>
       <pubDate>Wed, 19 Jul 2023 20:59:39 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-07-19-digital-gardens/</guid>
+      <guid>http://localhost:1313/p/2023-07-19-digital-gardens/</guid>
       <description>Outline What is a Digital Garden? A place for ideas to grow. A place for critiques. An exercise in learning in public. Learn In Public Humility. Honesty. Generate Resources that you wish you had. Work In Public Document Your Self. Document Your Steps Working In Public Forces you to Work your Metacognitive Mind. Resources What is a digital garden? https://notes.joschua.io/50+Slipbox/Digital+garden Work In Public https://nesslabs.com/work-in-public Learn In Public https://www.swyx.io/learn-in-public Pick Up What They Put Down https://www.</description>
     </item>
-    
     <item>
       <title>Migrating Ghost Blog Domain Names</title>
-      <link>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</link>
+      <link>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</link>
       <pubDate>Wed, 19 Jul 2023 12:20:21 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
-      <description>Note! I have migrated away from ghost blog and now manage my site on hugo!
-For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&amp;rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways.</description>
+      <guid>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
+      <description>Note! I have migrated away from ghost blog and now manage my site on hugo!&#xA;For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&amp;rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways.</description>
     </item>
-    
   </channel>
 </rss>

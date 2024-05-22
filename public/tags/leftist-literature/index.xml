@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leftist Literature on Unorthodoxdev</title>
-    <link>https://unorthodoxdev.net/tags/leftist-literature/</link>
+    <link>http://localhost:1313/tags/leftist-literature/</link>
     <description>Recent content in Leftist Literature on Unorthodoxdev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2024 23:59:14 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/leftist-literature/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 23:59:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/leftist-literature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes on Pedagogy of the Oppressed</title>
-      <link>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
+      <link>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
       <pubDate>Fri, 23 Feb 2024 23:59:14 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
-      <description>As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…
-To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”.</description>
+      <guid>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
+      <description>As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…&#xA;To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”.</description>
     </item>
-    
   </channel>
 </rss>

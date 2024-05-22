@@ -2,30 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network Administration on Unorthodoxdev</title>
-    <link>https://unorthodoxdev.net/categories/network-administration/</link>
+    <link>http://localhost:1313/categories/network-administration/</link>
     <description>Recent content in Network Administration on Unorthodoxdev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Sep 2023 16:51:44 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/network-administration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 16:51:44 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/network-administration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where am i on the network?</title>
-      <link>https://unorthodoxdev.net/p/2023-09-07-where-am-i-on-the-network/</link>
+      <link>http://localhost:1313/p/2023-09-07-where-am-i-on-the-network/</link>
       <pubDate>Thu, 07 Sep 2023 16:51:44 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-09-07-where-am-i-on-the-network/</guid>
-      <description>Ever wonder what port your connected to when plugged into a ethernet jack? Open up wireshark and apply a filter, searching for cdp or lldp traffic. That will kick back:
-The switches MAC Address. The port description. The switch system name. Some information about the operating system running on the switch. Don&amp;rsquo;t see any information populating? Most likely your network admins have disabled your switches from transmitting CDP or LLDP traffic.</description>
+      <guid>http://localhost:1313/p/2023-09-07-where-am-i-on-the-network/</guid>
+      <description>Ever wonder what port your connected to when plugged into a ethernet jack? Open up wireshark and apply a filter, searching for cdp or lldp traffic. That will kick back:&#xA;The switches MAC Address. The port description. The switch system name. Some information about the operating system running on the switch. Don&amp;rsquo;t see any information populating? Most likely your network admins have disabled your switches from transmitting CDP or LLDP traffic.</description>
     </item>
-    
     <item>
       <title>Network Troubleshooting Methodology</title>
-      <link>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</link>
+      <link>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</link>
       <pubDate>Wed, 09 Aug 2023 14:17:19 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</guid>
-      <description>This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I STOP, and SLOWN DOWN and think about the changes. Something else I enjoy about these instructions is they force me to think more about change management. Something I need more practice with.
-Gather as much information as possible. If possible, duplicate the problem.</description>
+      <guid>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</guid>
+      <description>This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I STOP, and SLOWN DOWN and think about the changes. Something else I enjoy about these instructions is they force me to think more about change management. Something I need more practice with.&#xA;Gather as much information as possible. If possible, duplicate the problem.</description>
     </item>
-    
   </channel>
 </rss>

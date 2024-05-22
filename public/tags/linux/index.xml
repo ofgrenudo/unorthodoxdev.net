@@ -2,31 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Unorthodoxdev</title>
-    <link>https://unorthodoxdev.net/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on Unorthodoxdev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2023 20:58:46 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jul 2023 20:58:46 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting a Hostname on Linux</title>
-      <link>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</link>
+      <link>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</link>
       <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</guid>
-      <description>⚠️ Danger You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.
-A hostname is a computers human readable address that allows you to communicate with it, regardless of weather or not you know what its IP address is. Hostnames are pratcial and easy to remember. For whatever reason if you need to reset your hostname on a linux machine, you can follow the below instructions</description>
+      <guid>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</guid>
+      <description>⚠️ Danger You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&#xA;A hostname is a computers human readable address that allows you to communicate with it, regardless of weather or not you know what its IP address is. Hostnames are pratcial and easy to remember. For whatever reason if you need to reset your hostname on a linux machine, you can follow the below instructions</description>
     </item>
-    
     <item>
       <title>Linux Administration Tips and Tricks</title>
-      <link>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</link>
+      <link>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</link>
       <pubDate>Wed, 19 Jul 2023 20:58:00 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
-      <description>These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.
-Service Monitoring Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?
-System Services This command in a very cute way, will display all of the services installed on your server, and then display them accordingly with + or - signs to indicate weather or not it is running.</description>
+      <guid>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
+      <description>These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&#xA;Service Monitoring Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?&#xA;System Services This command in a very cute way, will display all of the services installed on your server, and then display them accordingly with + or - signs to indicate weather or not it is running.</description>
     </item>
-    
   </channel>
 </rss>

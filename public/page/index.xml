@@ -2,97 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Unorthodoxdev</title>
-    <link>https://unorthodoxdev.net/page/</link>
+    <link>http://localhost:1313/page/</link>
     <description>Recent content in Pages on Unorthodoxdev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 10:26:32 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 10:26:32 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graduation</title>
-      <link>https://unorthodoxdev.net/graduation/</link>
+      <link>http://localhost:1313/graduation/</link>
       <pubDate>Mon, 01 Apr 2024 10:26:32 -0400</pubDate>
-      
-      <guid>https://unorthodoxdev.net/graduation/</guid>
-      <description>Hello All!
-I will be graduating from Kalamazoo Valley Community College with my Associate of Arts in Computer Information Systems. The graduation ceremony will take place April 28th, 2 P.M @ Miller Auditorium (the link to the left of this message will prompt you to add the event to your google calendar!).
-Parking is free for the event in the Miller Auditorium Parking Garage. Personal items will be limited to no larger than 4.</description>
+      <guid>http://localhost:1313/graduation/</guid>
+      <description>Hello All!&#xA;I will be graduating from Kalamazoo Valley Community College with my Associate of Arts in Computer Information Systems. The graduation ceremony will take place April 28th, 2 P.M @ Miller Auditorium (the link to the left of this message will prompt you to add the event to your google calendar!).&#xA;Parking is free for the event in the Miller Auditorium Parking Garage. Personal items will be limited to no larger than 4.</description>
     </item>
-    
     <item>
       <title>School</title>
-      <link>https://unorthodoxdev.net/school/</link>
+      <link>http://localhost:1313/school/</link>
       <pubDate>Sun, 21 Jan 2024 11:53:11 -0500</pubDate>
-      
-      <guid>https://unorthodoxdev.net/school/</guid>
+      <guid>http://localhost:1313/school/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>About</title>
-      <link>https://unorthodoxdev.net/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unorthodoxdev.net/about/</guid>
-      <description>Hello all!
-My name is Joshua Winters-Brown! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019.
-Work and Hobbies I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language since 2022.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hello all!&#xA;My name is Joshua Winters-Brown! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019.&#xA;Work and Hobbies I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language since 2022.</description>
     </item>
-    
     <item>
       <title>Archives</title>
-      <link>https://unorthodoxdev.net/archives/</link>
+      <link>http://localhost:1313/archives/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unorthodoxdev.net/archives/</guid>
+      <guid>http://localhost:1313/archives/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Comment</title>
-      <link>https://unorthodoxdev.net/comment/</link>
+      <link>http://localhost:1313/comment/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unorthodoxdev.net/comment/</guid>
+      <guid>http://localhost:1313/comment/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Recipes</title>
-      <link>https://unorthodoxdev.net/recipes/</link>
+      <link>http://localhost:1313/recipes/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unorthodoxdev.net/recipes/</guid>
+      <guid>http://localhost:1313/recipes/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Security</title>
-      <link>https://unorthodoxdev.net/security/</link>
+      <link>http://localhost:1313/security/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unorthodoxdev.net/security/</guid>
-      <description>For any important communications,
-I will communicate via this GPG key.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 -----BEGIN PGP PUBLIC KEY BLOCK----- Comment: User-ID:	Joshua Winters-Brown Comment: Valid from:	1/21/2024 11:43 AM Comment: Valid until:	1/21/2027 12:00 PM Comment: Type:	255-bit EdDSA (secret key available) Comment: Usage:	Signing, Encryption, Certifying User-IDs Comment: Fingerprint:	0C9A38A843F14A2878E83701D215B3C3078D0735 mDMEZa1JvxYJKwYBBAHaRw8BAQdAw5URRTbSczczNlb0xdU7ELHCL473QqMvC7T0 z5zfiOO0M0pvc2h1YSBXaW50ZXJzLUJyb3duIDxqb3NodWF3aW50ZXJzYnJvd25A Z21haWwuY29tPoiZBBMWCgBBFiEEDJo4qEPxSih46DcB0hWzwweNBzUFAmWtSb8C GwMFCQWk79EFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ0hWzwweNBzWP yAD8C0kZfpMxrWxzLhV3Xg8SNgPM5dySkvdX9XS6qtLa20UA/A2CQqT4dt9/w6gO 1UtBQeeXXrPrdDJgX+rsIbIcyiMOuDgEZa1JvxIKKwYBBAGXVQEFAQEHQOrfJ5D+ BS5Wjf7/t3OOdw6pevJ7xDvmKncp8pY9EUR9AwEIB4h+BBgWCgAmFiEEDJo4qEPx Sih46DcB0hWzwweNBzUFAmWtSb8CGwwFCQWk79EACgkQ0hWzwweNBzXPAwD+PSCH Fh69Y8BqvEk3WbSeaH0hScT07B0EMF9PFGC0rpoA/2QoAELrH2/JBK4N+1Y2iIAI jqwRYL1o6mUcXhvv06wD =6xSJ -----END PGP PUBLIC KEY BLOCK----- </description>
+      <guid>http://localhost:1313/security/</guid>
+      <description>For any important communications,&#xA;I will communicate via this GPG key.&#xA;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 -----BEGIN PGP PUBLIC KEY BLOCK----- Comment: User-ID:&#x9;Joshua Winters-Brown Comment: Valid from:&#x9;1/21/2024 11:43 AM Comment: Valid until:&#x9;1/21/2027 12:00 PM Comment: Type:&#x9;255-bit EdDSA (secret key available) Comment: Usage:&#x9;Signing, Encryption, Certifying User-IDs Comment: Fingerprint:&#x9;0C9A38A843F14A2878E83701D215B3C3078D0735 mDMEZa1JvxYJKwYBBAHaRw8BAQdAw5URRTbSczczNlb0xdU7ELHCL473QqMvC7T0 z5zfiOO0M0pvc2h1YSBXaW50ZXJzLUJyb3duIDxqb3NodWF3aW50ZXJzYnJvd25A Z21haWwuY29tPoiZBBMWCgBBFiEEDJo4qEPxSih46DcB0hWzwweNBzUFAmWtSb8C GwMFCQWk79EFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ0hWzwweNBzWP yAD8C0kZfpMxrWxzLhV3Xg8SNgPM5dySkvdX9XS6qtLa20UA/A2CQqT4dt9/w6gO 1UtBQeeXXrPrdDJgX+rsIbIcyiMOuDgEZa1JvxIKKwYBBAGXVQEFAQEHQOrfJ5D+ BS5Wjf7/t3OOdw6pevJ7xDvmKncp8pY9EUR9AwEIB4h+BBgWCgAmFiEEDJo4qEPx Sih46DcB0hWzwweNBzUFAmWtSb8CGwwFCQWk79EACgkQ0hWzwweNBzXPAwD+PSCH Fh69Y8BqvEk3WbSeaH0hScT07B0EMF9PFGC0rpoA/2QoAELrH2/JBK4N+1Y2iIAI jqwRYL1o6mUcXhvv06wD =6xSJ -----END PGP PUBLIC KEY BLOCK----- </description>
     </item>
-    
     <item>
       <title>Links</title>
-      <link>https://unorthodoxdev.net/links/</link>
+      <link>http://localhost:1313/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unorthodoxdev.net/links/</guid>
+      <guid>http://localhost:1313/links/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Search</title>
-      <link>https://unorthodoxdev.net/search/</link>
+      <link>http://localhost:1313/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unorthodoxdev.net/search/</guid>
+      <guid>http://localhost:1313/search/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
