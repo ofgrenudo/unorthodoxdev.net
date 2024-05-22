@@ -8,7 +8,7 @@ tags: []
 license: GNU General Public License v3.0 
 hidden: false
 toc: true
-draft: true
+draft: false
 ---
 
 ## Ingredients
@@ -35,3 +35,12 @@ draft: true
 5. Once the sauce has simmered for roughly 30 minutes, add the noodles, and stir it to combine. Let it sit for about 10-15 minutes, stirring occasionally.
 6. Salt to taste.
 
+### Nutrition
+
+Serving 1.5 Cups
+Protein 22g
+Fiber 5g
+Calories 467 kcal
+Fat 19g
+Carbohydrates 50g
+Sodium 920mg
