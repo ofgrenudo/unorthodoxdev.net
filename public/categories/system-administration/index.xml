@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>System Administration on Unorthodoxdev</title>
-    <link>http://localhost:1313/categories/system-administration/</link>
+    <link>https://unorthodoxdev.net/categories/system-administration/</link>
     <description>Recent content in System Administration on Unorthodoxdev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Feb 2024 06:48:01 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/system-administration/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://unorthodoxdev.net/categories/system-administration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manipulating the network card with Netsh</title>
-      <link>http://localhost:1313/p/2024-02-15-manipulating-the-network-card-with-netsh/</link>
+      <link>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</link>
       <pubDate>Thu, 15 Feb 2024 06:48:01 -0500</pubDate>
-      <guid>http://localhost:1313/p/2024-02-15-manipulating-the-network-card-with-netsh/</guid>
+      <guid>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</guid>
       <description>Recently, in an advent of troubleshooting a network issue, I had to run around and set a number of static IP&amp;rsquo;s onto devices. This being said, having to physically get up and run around a touch a number of devices can be a bit tedious.&#xA;Given you can get a remote session with each computer, you can issue the following commands using netsh.&#xA;Gathering Information Lets start by getting some information on the current device.</description>
     </item>
     <item>
       <title>Scripting a New Install With Winget</title>
-      <link>http://localhost:1313/p/2024-01-22-scripting-a-new-install-with-winget/</link>
+      <link>https://unorthodoxdev.net/p/2024-01-22-scripting-a-new-install-with-winget/</link>
       <pubDate>Mon, 22 Jan 2024 14:05:35 -0500</pubDate>
-      <guid>http://localhost:1313/p/2024-01-22-scripting-a-new-install-with-winget/</guid>
+      <guid>https://unorthodoxdev.net/p/2024-01-22-scripting-a-new-install-with-winget/</guid>
       <description>To start, i like to routinely image my devices just to get a fresh start on them. Often, i add apps or tools that I think that I will use, that I never end up using. Most of my devices get pretty cluttered pretty quickly too so re-imaging them is a way for me to avoid data hoarding. That way, everything that I need thats important ends up backed up somewhere on a different physical device.</description>
     </item>
     <item>
       <title>Website Refactor</title>
-      <link>http://localhost:1313/p/2024-01-20-website-refactor/</link>
+      <link>https://unorthodoxdev.net/p/2024-01-20-website-refactor/</link>
       <pubDate>Sat, 20 Jan 2024 22:52:14 -0500</pubDate>
-      <guid>http://localhost:1313/p/2024-01-20-website-refactor/</guid>
+      <guid>https://unorthodoxdev.net/p/2024-01-20-website-refactor/</guid>
       <description>For a long time, I kind of hacked this website along, by modifying the templates core files to get things to work like the favicon, avatar image etc. When I migrated from ghost, it was in the middle of semesters and I just didnt have the energy to dedicate to figuring out how the hell to use the theme. What unfortunately sucks is that the github repository tells you to do it one way, and the support documentation tells you to do it a different way.</description>
     </item>
     <item>
       <title>Comment Downtime 2023.11.28</title>
-      <link>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</link>
+      <link>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</link>
       <pubDate>Tue, 28 Nov 2023 12:29:55 -0500</pubDate>
-      <guid>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</guid>
       <description>Today, I had an unexpected downtime of roughly 2 hours 2023.11.28 3-4 UTC. I had a Russian visiter Sunday (?) the 25th who commented essentially an ad about their website SEO skills onto the comment board. This is unfortunately the internet, and even more so a comment board where anyone can say and do anything (within the rules).&#xA;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive.</description>
     </item>
     <item>
       <title>Navigating the Challenges of Asset Inventory Management</title>
-      <link>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
+      <link>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
       <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
-      <guid>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
       <description>Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&#xA;Consider the alternative of assigning meaningful names like BLD-FLASTNAME01 or lastname01—common practices to enhance clarity. Yet, challenges arise when dealing with staff changes or shared devices.</description>
     </item>
     <item>
       <title>Flush Dns on Mac</title>
-      <link>http://localhost:1313/p/2023-10-12-flush-dns-on-mac/</link>
+      <link>https://unorthodoxdev.net/p/2023-10-12-flush-dns-on-mac/</link>
       <pubDate>Thu, 12 Oct 2023 16:45:31 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-10-12-flush-dns-on-mac/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-10-12-flush-dns-on-mac/</guid>
       <description>Gah, they make everything so hard. (I need to run two simple commands.) Why cant I just run one command and flush the dns on my mac? Well im sure theres a better way to do this&amp;hellip; (there is)&#xA;Welcome to flushdns(.sh)&#xA;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 #!/bin/bash # This script will clear your dns cache on your mac.</description>
     </item>
     <item>
       <title>Dont Update Nginx Without a Backup of Configs</title>
-      <link>http://localhost:1313/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</link>
+      <link>https://unorthodoxdev.net/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</link>
       <pubDate>Thu, 05 Oct 2023 14:58:10 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</guid>
       <description>Allrght, I did a vulnerability scan on the web server, there was something about the version of nginx installed had a flaw in it, so I went ahead and patched the nginx install. Ofcourse only because it is patch thursday and it might as well be on a list of things todo. Well, everything went smoothly; I upgraded to the latest version, refreshed the website in the browser, checked my config file, and were good to go.</description>
     </item>
     <item>
       <title>Creating and Managing a SSL Cert</title>
-      <link>http://localhost:1313/p/2023-09-21-creating-and-managing-a-ssl-cert/</link>
+      <link>https://unorthodoxdev.net/p/2023-09-21-creating-and-managing-a-ssl-cert/</link>
       <pubDate>Thu, 21 Sep 2023 16:39:17 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-09-21-creating-and-managing-a-ssl-cert/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-09-21-creating-and-managing-a-ssl-cert/</guid>
       <description>This guide is intended for Ubuntu 22.04 and is intended for use with a Apache2 web server. To get started we need to make sure you have Apache2 installed, we can use grep to check. These instructions were written on a Ubuntu Server.&#xA;1 apt list --installed | grep &amp;#34;apache2&amp;#34; Next will need to allow Apache through the firewall on both http (80) and https (443). We can do so with the below command</description>
     </item>
     <item>
       <title>How to search Text files with grep</title>
-      <link>http://localhost:1313/p/2023-09-08-how-to-search-text-files-with-grep/</link>
+      <link>https://unorthodoxdev.net/p/2023-09-08-how-to-search-text-files-with-grep/</link>
       <pubDate>Fri, 08 Sep 2023 07:55:32 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-09-08-how-to-search-text-files-with-grep/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-09-08-how-to-search-text-files-with-grep/</guid>
       <description>Ever needed to find something in a directory filled with text files. Use grep. The command I enjoy to using is as follows:&#xA;1 grep -Ril &amp;#34;what the H E double hockey sticks&amp;#34; </description>
     </item>
     <item>
       <title>In dire need of comments.</title>
-      <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</link>
+      <link>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</link>
       <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</guid>
+      <guid>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</guid>
       <description>I recently migrated my website from ghost blog to hugo which is a static site generator compared to the all in one package you get with ghost blog. One of the reasons I decided to make this change was honestly, I had no need for all of the many features that ghost blog provided. Something like Hugo was simple, and effective. It also allowed me to write my documents in mark down, and store the entirety of it in a git repository.</description>
     </item>
     <item>
       <title>Implementing a Sick 504 Page</title>
-      <link>http://localhost:1313/p/2023-07-27-implementing-a-sick-504-page/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-27-implementing-a-sick-504-page/</link>
       <pubDate>Thu, 27 Jul 2023 12:09:39 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-27-implementing-a-sick-504-page/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-27-implementing-a-sick-504-page/</guid>
       <description>Rust takes forever to build. Im sure I could do alot better deploying the application. But who knows, maybe im doing great at deploying my [comment board](https://unorthodoxdev. net/comment) but what if there is some bug that I introduced that crashes the server 👻. What if while the server is crashed, Im at work??? Well good thing we can customize the default 504 page that nginx uses. So lets get started.</description>
     </item>
     <item>
       <title>New Bloging System</title>
-      <link>http://localhost:1313/p/2023-07-21-new-bloging-system/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-21-new-bloging-system/</link>
       <pubDate>Fri, 21 Jul 2023 10:58:35 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-21-new-bloging-system/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-21-new-bloging-system/</guid>
       <description>Ive migrated my website from the ghost blogging platform to hugo (go hugo, go hugo, go!). Its a little simpler and easier to manage. I also feel as though I have more controll. Currently, im using the hugo-stacked-theme as it looks the most appealing to me, and is not a massive website with insane overhead. It also comes with a indexing feature that allows me (and you ofcourse) to search my content for specific keywords.</description>
     </item>
     <item>
       <title>Read the Damn Instructions</title>
-      <link>http://localhost:1313/p/2023-07-21-read-the-damn-instructions/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-21-read-the-damn-instructions/</link>
       <pubDate>Fri, 21 Jul 2023 10:50:07 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-21-read-the-damn-instructions/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-21-read-the-damn-instructions/</guid>
       <description>Read the damn instructions. Im working on a new project for the website, and Im trying to upload what I have to github (a simple readme nothing more).&#xA;I create an empty repository, init, add, and commit locally. Set the remote repository, and try to push to the remote&amp;hellip; And it fails? What have I done? What did I do? I have done this probably thousands of times. Where did I mess up?</description>
     </item>
     <item>
       <title>Ghost Printers</title>
-      <link>http://localhost:1313/p/2023-07-20-ghost-printers/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-20-ghost-printers/</link>
       <pubDate>Thu, 20 Jul 2023 16:03:40 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-20-ghost-printers/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-20-ghost-printers/</guid>
       <description>Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.</description>
     </item>
     <item>
       <title>MECM API</title>
-      <link>http://localhost:1313/p/2023-07-19-mecm-api/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-19-mecm-api/</link>
       <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-19-mecm-api/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-19-mecm-api/</guid>
       <description>Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&#xA;The Basics The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&#xA;Service You can check the status of the service in the console under \Monitoring\Overview\System Status\Component Status - SMS_REST_PROVIDER</description>
     </item>
     <item>
       <title>Setting a Hostname on Linux</title>
-      <link>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</link>
       <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</guid>
       <description>⚠️ Danger You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&#xA;A hostname is a computers human readable address that allows you to communicate with it, regardless of weather or not you know what its IP address is. Hostnames are pratcial and easy to remember. For whatever reason if you need to reset your hostname on a linux machine, you can follow the below instructions</description>
     </item>
     <item>
       <title>Linux Administration Tips and Tricks</title>
-      <link>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</link>
       <pubDate>Wed, 19 Jul 2023 20:58:00 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
       <description>These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&#xA;Service Monitoring Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?&#xA;System Services This command in a very cute way, will display all of the services installed on your server, and then display them accordingly with + or - signs to indicate weather or not it is running.</description>
     </item>
     <item>
       <title>Custom Start Menu Layouts</title>
-      <link>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</link>
+      <link>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</link>
       <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</guid>
+      <guid>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</guid>
       <description>Windows 11 and Start Menus suck. Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&#xA;Start Menu Layouts Creating a new Layout On a build PC configure your new layout. run the Export-StartLayout command. Modify the StartLayout file and change the pinnedList to primaryOEMPins Copy the JSON file to C:\Users\Default\AppData\Local\Microsof\Windows\Shell Alternatively, windows holds an encrypted version of the startup file in the %LocalAppData%\Packages\Microsoft.</description>
     </item>
   </channel>
