@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2022-03-06
-layout: "About"
+layout: "Page"
 slug: "About"
 toc: true
 menu: 
