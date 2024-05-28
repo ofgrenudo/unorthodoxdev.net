@@ -1,6 +1,6 @@
 ---
 title: "Plex!"
-description: "Plex Requests and Information" 
+description: "Plex Requests and Other Useful Information and Shortcuts" 
 date: 2024-04-01T10:26:32-04:00
 image: https://images.unsplash.com/photo-1585647347483-22b66260dfff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 url: /plex
