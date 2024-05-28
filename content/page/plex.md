@@ -23,7 +23,7 @@ I hope this message finds you well! I've recently set up my own Plex server, and
 
 Here’s how you can get started:
 
-1. Request Access using the [following form](https://docs.google.com/forms/d/e/1FAIpQLSe8fStQghNxRjSprnWf5GgspbKyQ2heq9QBKqFQTxonIi12tQ/viewform?usp=sf_link), (or scroll down a little more and fill it out there).
+1. Request Access using the [following form](#plex-access-request), (or scroll down a little more and fill it out there).
 2. Sign Up: If you don’t already have a Plex account, you can sign up for free at [Plex Website](https://www.plex.tv/).
 3. Accept the Invitation: Once you’ve signed up, I’ll send you an invitation to join my server.
 4. Start Watching: After accepting the invitation, you can start exploring the library and streaming content right away.
@@ -35,6 +35,8 @@ Finally once you've signed up and accepted your invitation you'll of course want
 If there’s specific content you’d like to see added to the library, you can request it through Ombi using this link: [Ombi Request Manager](https://unorthodoxdev.net/ombi). <font color="#d79921">**Note your OMBI account unfortunately has to be manually created**. If for some reason you cant sign, please contact me and ill reset your password. **Please make sure to only request items you will watch**</font>. For TV shows, kindly request them season by season as you watch them. This helps keep the library organized and ensures everyone has access to the content they’re actively enjoying. Please note that I am currently limited to 6tb or 6000gb of storage. Adding a number of TV Shows can be problematic, as they're plentiful and often high quality.
 
 If you have any questions or need help setting things up, feel free to reach out to me. I’m more than happy to assist.
+
+## Plex Access Request
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8fStQghNxRjSprnWf5GgspbKyQ2heq9QBKqFQTxonIi12tQ/viewform?embedded=true" width="100%" height="700" frameborder="10" marginheight="0" marginwidth="0">Loading…, if it never loads, its because you have iFrames disabled.</iframe>
 
