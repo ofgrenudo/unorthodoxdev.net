@@ -33,7 +33,7 @@ Finally once you've signed up and accepted your invitation you'll of course want
 
 ## Requesting Content
 
-If there’s specific content you’d like to see added to the library, you can request it through Ombi using this link: [Ombi Request Manager](https://unorthodoxdev.net/ombi). <font color="#d79921">**Note your OMBI account unfortunately has to be manually created**. If for some reason you cant sign, please contact me and ill reset your password. **Please make sure to only request items you will watch**</font>. For TV shows, kindly request them season by season as you watch them. This helps keep the library organized and ensures everyone has access to the content they’re actively enjoying.
+If there’s specific content you’d like to see added to the library, you can request it through Ombi using this link: [Ombi Request Manager](https://unorthodoxdev.net/ombi). <font color="#d79921">**Note your OMBI account unfortunately has to be manually created**. If for some reason you cant sign, please contact me and ill reset your password. **Please make sure to only request items you will watch**</font>. For TV shows, kindly request them season by season as you watch them. This helps keep the library organized and ensures everyone has access to the content they’re actively enjoying. Please note that I am currently limited to 6tb or 6000gb of storage. Adding a number of TV Shows can be problematic, as they're plentiful and often high quality.
 
 If you have any questions or need help setting things up, feel free to reach out to me. I’m more than happy to assist.
 
