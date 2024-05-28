@@ -28,8 +28,6 @@ Here’s how you can get started:
 3. Accept the Invitation: Once you’ve signed up, I’ll send you an invitation to join my server.
 4. Start Watching: After accepting the invitation, you can start exploring the library and streaming content right away.
 
-## Requesting Content:
-
 Finally once you've signed up and accepted your invitation you'll of course want to install the app on your mobile devices as well as on your tv's etc. Note that plex does not allow for you to watch the content on your phone, unless you've paid for the app yourself. I don't receive any money from you purchasing the Plex or Ombi app. You can find shortcuts [to the application installers here](#application-links).
 
 ## Requesting Content
