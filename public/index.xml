@@ -6,7 +6,63 @@
         <description>Recent content on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 22 May 2024 15:42:37 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Jun 2024 08:50:15 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to Contribute to Open Source Software</title>
+        <link>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
+        <pubDate>Tue, 04 Jun 2024 08:50:15 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</guid>
+        <description>&lt;p&gt;Lots of people want to contribute to open source software. Though getting started contributing can be at first a challenge. The easiest way to get started contributing to open source though is to use open source software. With it can come times where you wish there was a feature, or you notice a wierd bug you wish was fixed. One of the first open source projects I contributed to was the creation of the Jellyfin Theater app, (now archived). Having a jellyfin server, since its invention I really desired a native client that I could stream movies and listen to music on. In having that need, I decided to sit down and dig into the jellyfin api. Over the weekend I was able to put together a functioning piece of the Jellyfin Theater App &lt;a class=&#34;link&#34; href=&#34;https://github.com/jellyfin-archive/jellyfin-desktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/jellyfin-archive/jellyfin-desktop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Another  etc&amp;hellip;) I instance of having that &lt;em&gt;itch&lt;/em&gt; to contribute, would have been a few weeks or so ago. With the advent windows recall, I decided for any device the I dont &lt;em&gt;need&lt;/em&gt; (i know, i know, but there are instances that i &lt;em&gt;need&lt;/em&gt; to use windows for schoolwill install linux on whatever isnt needed. I started by installing Ubuntu onto my thinkpad, and then I got started customizing the operating system. In doing so, one of the common tools you will use when customizing the gnome desktop is the &lt;a class=&#34;link&#34; href=&#34;https://gitlab.gnome.org/GNOME/gnome-tweaks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gnome-Tweak tool&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The issue that sparked that &lt;em&gt;itch&lt;/em&gt; for me was that when you install a theme, the drop down menu, seemingly randomly sorts the themes. So if I wanted to apply the &lt;code&gt;yaru&lt;/code&gt; theme, it could be first in the list, or in the middle. &lt;a class=&#34;link&#34; href=&#34;https://gitlab.gnome.org/GNOME/gnome-tweaks/-/merge_requests/154&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;So I took it on my own to contribute some form of a sorting algorithm to resolve this issue&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;going-about-scratching&#34;&gt;Going about scratching&lt;/h2&gt;
+&lt;p&gt;To review the steps here,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Find that Itch.&lt;/li&gt;
+&lt;li&gt;Scratch the Itch.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Nah, im just playing the steps really look more like this.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use Open Source Software.&lt;/li&gt;
+&lt;li&gt;Discover bug, Desire a feature, whichever comes first.&lt;/li&gt;
+&lt;li&gt;Search under existing issues open or closed if this bug or feature has been discussed.
+&lt;ol&gt;
+&lt;li&gt;If it has been discussed, and seems like the maintainers were open to the implementation of said bug fix, your good to go!&lt;/li&gt;
+&lt;li&gt;If it has been discussed, and seems like the maintainers &lt;strong&gt;are not open&lt;/strong&gt; to the implementation of said bug fix, fork the project and maintain your own version, or weep.&lt;/li&gt;
+&lt;li&gt;If it has not been discussed, make an issue, and start working on fixing your bug!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Fork the Project.&lt;/li&gt;
+&lt;li&gt;Fix the code.&lt;/li&gt;
+&lt;li&gt;Submit a pull request.&lt;/li&gt;
+&lt;li&gt;Await approval (can be ages before you get approved and or a pain in the ass following their weird guidelines.).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;filing-and-issue-and-forking-the-project&#34;&gt;Filing and Issue and Forking the Project&lt;/h2&gt;
+&lt;p&gt;In this case, im only fixing the Gnome-Tweak Too. Honestly, I was surprised to see that the app was written in python, but if it works dont fix it right? To implement my specific pain in the ass issue, we start at step 3. &lt;a class=&#34;link&#34; href=&#34;https://gitlab.gnome.org/GNOME/gnome-tweaks/-/issues/?sort=created_date&amp;amp;state=opened&amp;amp;search=sort&amp;amp;first_page_size=20&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;You can see here&lt;/a&gt; that there are few sorting issues related to the app, but specifically &lt;a class=&#34;link&#34; href=&#34;https://gitlab.gnome.org/GNOME/gnome-tweaks/-/issues/487&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;issue number #487&lt;/a&gt; is the one that relates to us. Looking at the issue it seems like there has been no updates or notifications about fixing the issue, so i took it upon my self to do so.&lt;/p&gt;
+&lt;h2 id=&#34;fixing-the-codes&#34;&gt;Fixing the Codes&lt;/h2&gt;
+&lt;p&gt;The fix ended up being pretty simple, to fix &lt;a class=&#34;link&#34; href=&#34;https://gitlab.gnome.org/ofgrenudo/gnome-tweaks/-/compare/master...master?from_project_id=544&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gitlab.gnome.org/ofgrenudo/gnome-tweaks/-/compare/master...master?from_project_id=544&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;we could have just taken the themes variable and apply &lt;code&gt;.sort()&lt;/code&gt; to it, but it seems like the structure was a tuple like so &lt;code&gt;((&#39;name&#39;, &#39;filepath?something&#39;), (&#39;name&#39;, &#39;filepath?something&#39;))&lt;/code&gt;, so i decided to instead use the &lt;code&gt;sorted()&lt;/code&gt; function will return the sorted tuple with a special function that decides that we will only sort based on the first item within the tuple. That function looks like so&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sorted_themes&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;sorted&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;themes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Next we test, and surprisingly it is working the way its intended to!&lt;/p&gt;
+&lt;h2 id=&#34;submit-and-wait&#34;&gt;Submit and Wait&lt;/h2&gt;
+&lt;p&gt;Now we submit a pull request and wait for it to peer reviewed and approved by maintainers.&lt;/p&gt;
+&lt;p&gt;Thats pretty much, everything. So if you ever get that itch, or discover a bug dont feel intimidated when looking to contribute to opensource software. For the most part you can follow these 7 steps and you should be good!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Whats Next</title>
         <link>https://unorthodoxdev.net/p/2024-05-22-whats-next/</link>
         <pubDate>Wed, 22 May 2024 09:31:43 -0400</pubDate>
