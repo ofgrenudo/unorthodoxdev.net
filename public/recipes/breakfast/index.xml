@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Breakfast on Unorthodoxdev</title>
-    <link>https://unorthodoxdev.net/recipes/breakfast/</link>
+    <link>http://localhost:1313/recipes/breakfast/</link>
     <description>Recent content in Breakfast on Unorthodoxdev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Dec 2023 13:26:19 -0500</lastBuildDate>
-    <atom:link href="https://unorthodoxdev.net/recipes/breakfast/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/recipes/breakfast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>French Toast</title>
-      <link>https://unorthodoxdev.net/recipes/breakfast/french-toast/</link>
+      <link>http://localhost:1313/recipes/breakfast/french-toast/</link>
       <pubDate>Fri, 29 Dec 2023 13:26:19 -0500</pubDate>
-      <guid>https://unorthodoxdev.net/recipes/breakfast/french-toast/</guid>
+      <guid>http://localhost:1313/recipes/breakfast/french-toast/</guid>
       <description>Ingredients These ingredients make six french toast&amp;rsquo;s.&#xA;4 large eggs. 6 slices of bread. 12 tsp&amp;rsquo;s of cane sugar. 2 tablespoons of heavy whipping cream. Butter Instructions Begin heating your medium pan, on the stove. Place roughly a teaspoon as needed into the pan to prevent sticking of the sugar as it melts down.&#xA;In a bowl, crack all 4 large eggs, and add about two tablespoons of heavy whipping cream to the mixture.</description>
     </item>
     <item>
       <title>Chilequiles</title>
-      <link>https://unorthodoxdev.net/recipes/breakfast/chilequiles/</link>
+      <link>http://localhost:1313/recipes/breakfast/chilequiles/</link>
       <pubDate>Wed, 18 Oct 2023 15:57:33 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/recipes/breakfast/chilequiles/</guid>
+      <guid>http://localhost:1313/recipes/breakfast/chilequiles/</guid>
       <description>Ingredients Tortillas or Tortilla Chips (can be stale) Salsa Egg Ham (optional) Chorizo (optional) Instructions Note if you are opting to use chorizo, please cook it first, then continue these instructions. Add the chorizo around the same time you would add the ham.&#xA;In a pan, set the heat to medium place two tablespoons worth of oil into the pan, and place your tortilla chips, if you are using tortillas, cut them into squares or triangles, and fry them.</description>
     </item>
     <item>
       <title>Blueberry Breakfast Bars</title>
-      <link>https://unorthodoxdev.net/recipes/breakfast/blueberry-breakfast-bars/</link>
+      <link>http://localhost:1313/recipes/breakfast/blueberry-breakfast-bars/</link>
       <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/recipes/breakfast/blueberry-breakfast-bars/</guid>
+      <guid>http://localhost:1313/recipes/breakfast/blueberry-breakfast-bars/</guid>
       <description>Ingredients 1 3/4 cup of sugar 1 cup of butter 4 eggs 1 tsp vanilla extract 3 cups of flour 1 1/2 tsp baking poweder 21 oz blueberry pie filling 1 tbsp butter melted 2 tbsp lemon juice Directions Cream sugar and butter, add eggs and vanilla. Beat well.&#xA;Ad flour and bakin gpowder, stir until well blended. Spread half of the mixture into a greased 15&amp;quot; x 10&amp;quot; pan.</description>
     </item>
     <item>
       <title>Peanut Butter Cereal Bars</title>
-      <link>https://unorthodoxdev.net/recipes/breakfast/peanut-butter-cereal-bars/</link>
+      <link>http://localhost:1313/recipes/breakfast/peanut-butter-cereal-bars/</link>
       <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/recipes/breakfast/peanut-butter-cereal-bars/</guid>
+      <guid>http://localhost:1313/recipes/breakfast/peanut-butter-cereal-bars/</guid>
       <description>Ingredients 3 cups miniature marshmallows 3 tsp margarine or butter 1/2 cup peanut butter 3 1/2 cups crispy rice cereal 1 cup uncooked quick oats 1/3 cup mini semi-sweet chocolate chips Directions Combine marshmallows and margarine in a large microwavable bowl. Microwave on high for 15 seconds.&#xA;Stir;&#xA;Continue to microwave 1 minute.&#xA;Stir until marshmallows are melted and mixture is smooth.&#xA;Add peanut butter.&#xA;Stir;&#xA;Add cereal and oats.</description>
     </item>
     <item>
       <title>Sunday Brunch Casserole</title>
-      <link>https://unorthodoxdev.net/recipes/breakfast/sunday-brunch-casserole/</link>
+      <link>http://localhost:1313/recipes/breakfast/sunday-brunch-casserole/</link>
       <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/recipes/breakfast/sunday-brunch-casserole/</guid>
+      <guid>http://localhost:1313/recipes/breakfast/sunday-brunch-casserole/</guid>
       <description>Ingredients 1/2lb sliced bacon 1/2 cup of chopped onion 1/2 cup chopped green pepper 12 eggs 1 cup milk 1 package (16 oz) frozen hash brown potatoes thawed. 1 cup (4 oz) shredded cheddar cheese 1 tsp salt 1/2 tsp pepper 1/4 tsp dill weed Directions In a large skillet, cook bacon over medium heat until crispy.&#xA;Remove to paper towel lined plate to drain.&#xA;Reserving 2 tbsp of drippings, crumble bacon and set aside.</description>
     </item>
   </channel>

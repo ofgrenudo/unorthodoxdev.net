@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dinner on Unorthodoxdev</title>
+    <link>http://localhost:1313/tags/dinner/</link>
+    <description>Recent content in Dinner on Unorthodoxdev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2024 11:31:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dinner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chicken Noodle Soupless (Slow Cooker)</title>
+      <link>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</link>
+      <pubDate>Mon, 10 Jun 2024 11:31:24 -0400</pubDate>
+      <guid>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</guid>
+      <description>Notice, that this recipe, requires roughly 7 hours to complete, most of which are waiting on the slowcooker.&#xA;Ingredients Defrosted Chicken Breasts or Thighs (thighs preferred or chicken breasts cut into strips). 2 cans of corn, 3 or fresh cobs. 1 can of cut carrots, 2 fresh carrots. 3 chile poblano peppers. 1/4 cup of cream cheese. Parmesan cheese. (Optional) Mozzarella. Directions Note because this recipie takes so long, its ideal to start this at home on my lunch break, or place the chicken in the morning on low, though ive never tested leaving the crockpot on all day cooking like that, I imagine it should be fine :)</description>
+    </item>
+    <item>
+      <title>Andrea&#39;s Chilli Recipe</title>
+      <link>http://localhost:1313/recipes/dinner/andreas-chili-recipe/</link>
+      <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
+      <guid>http://localhost:1313/recipes/dinner/andreas-chili-recipe/</guid>
+      <description>Ingredients 1 lb ground beef 1 medium onion, chopped 1 green pepper chopped 2 stalks of celery, chopped. 1 can black beans rinsed and drained. 1 can dark red kidney beans rinsed and drained 1 can garbonzo beans, rinsed and drained. 1 can kidney beans in chili sauce (do not drain or rinse these) 1 can corn rinsed and drained 2 cans diced tomatoes Directions Brown beef in skillet over medium heat until no longer pink.</description>
+    </item>
+  </channel>
+</rss>

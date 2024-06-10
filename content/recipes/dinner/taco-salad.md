@@ -1,11 +1,16 @@
 ---
 title: "Taco Salad"
-description: ""
-#image: ""
+description: "Another andrea favorite"
 date: 2023-07-19T13:24:49-04:00
-draft: false
-keywords: ["recipes", "entrees"]
+#image: ""
+categories: ["Recipes"]
+# ["General", "MECM", "Network-Administration", "Programming", "System-Administration", "Recipes"]
+tags: ["dinner"]
+# ["dinner", "desert", "breakfast", "appetizers", "slowcooker", "airfryer"]
+license: GNU General Public License v3.0 
+hidden: false
 toc: true
+draft: false
 ---
 
 ## Ingredients

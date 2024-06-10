@@ -1,11 +1,15 @@
 ---
 title: "Enchiladas"
 description: "Como te puede hacer los enchiladas :)"
-#image: ""
 date: 2023-10-18T15:41:38-04:00
-draft: false
-keywords: ["recipes", "entrees"]
+categories: ["Recipes"]
+# ["General", "MECM", "Network-Administration", "Programming", "System-Administration", "Recipes"]
+tags: ["dinner"]
+# ["dinner", "desert", "breakfast", "appetizers", "slowcooker", "airfryer"]
+license: GNU General Public License v3.0 
+hidden: false
 toc: true
+draft: false
 ---
 
 Enchiladas are traditionally served stuffed with cheese or potatoes, but in america are commonly found stuffed with chicken. Realistically you can use what ever you want, ive even had carne asada enchiladas...

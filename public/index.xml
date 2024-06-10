@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Unorthodoxdev</title>
-        <link>https://unorthodoxdev.net/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 04 Jun 2024 08:50:15 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Jun 2024 11:31:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How to Contribute to Open Source Software</title>
-        <link>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
+        <link>http://localhost:1313/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
         <pubDate>Tue, 04 Jun 2024 08:50:15 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</guid>
+        <guid>http://localhost:1313/p/2024-06-04-how-to-contribute-to-open-source-software/</guid>
         <description>&lt;p&gt;Lots of people want to contribute to open source software. Though getting started contributing can be at first a challenge. The easiest way to get started contributing to open source though is to use open source software. With it can come times where you wish there was a feature, or you notice a wierd bug you wish was fixed. One of the first open source projects I contributed to was the creation of the Jellyfin Theater app, (now archived). Having a jellyfin server, since its invention I really desired a native client that I could stream movies and listen to music on. In having that need, I decided to sit down and dig into the jellyfin api. Over the weekend I was able to put together a functioning piece of the Jellyfin Theater App &lt;a class=&#34;link&#34; href=&#34;https://github.com/jellyfin-archive/jellyfin-desktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/jellyfin-archive/jellyfin-desktop&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Another  etc&amp;hellip;) I instance of having that &lt;em&gt;itch&lt;/em&gt; to contribute, would have been a few weeks or so ago. With the advent windows recall, I decided for any device the I dont &lt;em&gt;need&lt;/em&gt; (i know, i know, but there are instances that i &lt;em&gt;need&lt;/em&gt; to use windows for schoolwill install linux on whatever isnt needed. I started by installing Ubuntu onto my thinkpad, and then I got started customizing the operating system. In doing so, one of the common tools you will use when customizing the gnome desktop is the &lt;a class=&#34;link&#34; href=&#34;https://gitlab.gnome.org/GNOME/gnome-tweaks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -64,10 +64,10 @@
         </item>
         <item>
         <title>Whats Next</title>
-        <link>https://unorthodoxdev.net/p/2024-05-22-whats-next/</link>
+        <link>http://localhost:1313/p/2024-05-22-whats-next/</link>
         <pubDate>Wed, 22 May 2024 09:31:43 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-05-22-whats-next/</guid>
+        <guid>http://localhost:1313/p/2024-05-22-whats-next/</guid>
         <description>&lt;p&gt;Alot has happened in the past three months. Its not entirely uncommon for me to drop off the face of the earth during finals, but this year it hit me hard. I had quite a large class load, and getting everything in and done was quite a challenge. Now the semesters over, and ive graduated! For the past month or so, ive had the chance to actually breath.&lt;/p&gt;
 &lt;p&gt;So far, ive done primarily house chores in my free time. I took down the old pool in the backyard, fixed the fence up for the most part, and rebuilt the garden bed. I have also gone through and planted quite a few plants. Currently ive got as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -103,10 +103,10 @@
         </item>
         <item>
         <title>Internet Addiction and Cell Phone Usage</title>
-        <link>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</link>
+        <link>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</link>
         <pubDate>Mon, 26 Feb 2024 20:46:09 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
+        <guid>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1617049483020-bf5a76956409?q=80&amp;w=2071&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Internet Addiction and Cell Phone Usage" /&gt;&lt;p&gt;The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Do you think using cell phones too much is bad for our physical or mental health? Why or why not?&lt;/p&gt;
@@ -136,10 +136,10 @@
         </item>
         <item>
         <title>Notes on Pedagogy of the Oppressed</title>
-        <link>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
+        <link>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
         <pubDate>Fri, 23 Feb 2024 23:59:14 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
+        <guid>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
         <description>&lt;p&gt;As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…&lt;/p&gt;
 &lt;p&gt;To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”. In the case of this book, it is the art of teaching oppression. Immediately, you might think, who teaches oppression?&lt;/p&gt;
 &lt;blockquote&gt;
@@ -168,10 +168,10 @@
         </item>
         <item>
         <title>Manipulating the network card with Netsh</title>
-        <link>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</link>
+        <link>http://localhost:1313/p/2024-02-15-manipulating-the-network-card-with-netsh/</link>
         <pubDate>Thu, 15 Feb 2024 06:48:01 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</guid>
+        <guid>http://localhost:1313/p/2024-02-15-manipulating-the-network-card-with-netsh/</guid>
         <description>&lt;p&gt;Recently, in an advent of troubleshooting a network issue, I had to run around and set a number of static IP&amp;rsquo;s onto devices. This being said, having to physically get up and run around a touch a number of devices can be a bit tedious.&lt;/p&gt;
 &lt;p&gt;Given you can get a remote session with each computer, you can issue the following commands using &lt;a class=&#34;link&#34; href=&#34;https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-contexts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;netsh&lt;/a&gt;.&lt;/p&gt;
@@ -250,10 +250,10 @@
         </item>
         <item>
         <title>Streamlining Your Nvim Config</title>
-        <link>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</link>
+        <link>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</link>
         <pubDate>Mon, 22 Jan 2024 15:34:58 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</guid>
+        <guid>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</guid>
         <description>&lt;p&gt;I console into a number of computers daily. Many running different services etc. I also have a few different devices everywhere I go, whether it be my home PC, laptop, or work laptop etc. Along with the many devices, a good chunk of my work consists of editing text files. Most of that time spent in vim. So a decent configuration is almost a neccesity to keep my productivity up.&lt;/p&gt;
 &lt;p&gt;I used to keep my nvim configuration in a configs repo on github, but as time went on, every system I touched, or every update I made to the repository meant that I would have to &lt;code&gt;git pull origin&lt;/code&gt; and copy the contents into where ever the hell my nvim config folder was.&lt;/p&gt;
 &lt;p&gt;Well, If I seperate the nvim configuration folder/files into its own repository and then clone the repository as my config, I could create an alias called &lt;code&gt;nvim-conf-update&lt;/code&gt; to &lt;code&gt;git pull origin&lt;/code&gt; in my configuration folder and automatically sync all of my configurations.&lt;/p&gt;
@@ -264,10 +264,10 @@
         </item>
         <item>
         <title>Scripting a New Install With Winget</title>
-        <link>https://unorthodoxdev.net/p/2024-01-22-scripting-a-new-install-with-winget/</link>
+        <link>http://localhost:1313/p/2024-01-22-scripting-a-new-install-with-winget/</link>
         <pubDate>Mon, 22 Jan 2024 14:05:35 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-01-22-scripting-a-new-install-with-winget/</guid>
+        <guid>http://localhost:1313/p/2024-01-22-scripting-a-new-install-with-winget/</guid>
         <description>&lt;p&gt;To start, i like to routinely image my devices just to get a fresh start on them. Often, i add apps or tools that I think that I will use, that I never end up using. Most of my devices get pretty cluttered pretty quickly too so re-imaging them is a way for me to avoid data hoarding. That way, everything that I need thats important ends up backed up somewhere on a different physical device. Typically, I re-image my devices once a semester if not once a year to keep things simple, and assign a time frame so that im not nuke and paving my device in the middle of the semester.&lt;/p&gt;
 &lt;p&gt;That being said, this time I decided to try out using winget to setup my device.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-winget&#34;&gt;What is WinGet?&lt;/h2&gt;
@@ -288,10 +288,10 @@
         </item>
         <item>
         <title>Website Refactor</title>
-        <link>https://unorthodoxdev.net/p/2024-01-20-website-refactor/</link>
+        <link>http://localhost:1313/p/2024-01-20-website-refactor/</link>
         <pubDate>Sat, 20 Jan 2024 22:52:14 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-01-20-website-refactor/</guid>
+        <guid>http://localhost:1313/p/2024-01-20-website-refactor/</guid>
         <description>&lt;p&gt;For a long time, I kind of hacked this website along, by modifying the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;templates&lt;/a&gt; core files to get things to work like the favicon, avatar image etc. When I migrated from ghost, it was in the middle of semesters and I just didnt have the energy to dedicate to figuring out how the hell to use the theme. What unfortunately sucks is that the github repository tells you to do it one way, and the support documentation tells you to do it a different way.&lt;/p&gt;
 &lt;p&gt;Now that I am a great deal more confident with using hugo and manipulating its properties, I decided to restart the website from scratch and do it the right way. Boy was it a little more complicated than I thought.&lt;/p&gt;
@@ -304,10 +304,10 @@
         </item>
         <item>
         <title>Fallow Devlog 02</title>
-        <link>https://unorthodoxdev.net/p/2023-12-20-fallow-devlog-02/</link>
+        <link>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</link>
         <pubDate>Wed, 20 Dec 2023 22:22:22 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-12-20-fallow-devlog-02/</guid>
+        <guid>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</guid>
         <description>&lt;iframe width=&#34;100%&#34; height=&#34;620&#34; src=&#34;https://www.youtube-nocookie.com/embed/SZrikhGiqQ4?si=XrCB43I7W6U3qhyi&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;Above is a screen capture of my progress made with the game fallow. A few things so far, I have no idea what I want this game to be. The best word I have for it so far is an interactive adventure. I think of those terminal story games where you must look around, explore, get into combat, loot, go back, etc. I’m not sure how this will flush out entirely but overall I am taking this as a learning experience.&lt;/p&gt;
 &lt;p&gt;It is my first time writing any kind of game, let alone any kind of game using Godot. On top of that Godot uses GDScript, which is an interpreted language similar to python (if not exactly python).&lt;/p&gt;
@@ -328,10 +328,10 @@
         </item>
         <item>
         <title>Finally a Favicon</title>
-        <link>https://unorthodoxdev.net/p/2023-12-18-finally-a-favicon/</link>
+        <link>http://localhost:1313/p/2023-12-18-finally-a-favicon/</link>
         <pubDate>Mon, 18 Dec 2023 14:05:09 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-12-18-finally-a-favicon/</guid>
+        <guid>http://localhost:1313/p/2023-12-18-finally-a-favicon/</guid>
         <description>&lt;p&gt;Finals are over, so you know what that means&amp;hellip; New Favicon :). Well kind of. I&amp;rsquo;ve purposely left the favicon. Deep down, I have always wanted to make the favicon a simple spiral. But unfortunately, my obession with spirals is not strong enough, nor do i think it represents this website appropriately. So as a compromise to my self, ive left the favicon blank until i find or request someone to generate a said favicon. Well, today is the day. Browsing itch.io I came across a pixel planet generate (oh em ghee, i had to check this out) and well it does exactly what it said it would. And im in love. And so i set out on a quest to generate a million planets until I found the one that I wanted. You can find and play with the same exact program I was here &lt;a class=&#34;link&#34; href=&#34;https://deep-fold.itch.io/pixel-planet-generator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://deep-fold.itch.io/pixel-planet-generator&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It reminded me of an old program that I made a while ago, where I was experimenting with noise maps, and the rasterization of said noise map. The fun part about this experiment of mine was that it had three decimal points to it, and each decimal point was translated into a RGB color code at some point. Making at times this really magnificent image.&lt;/p&gt;
@@ -351,10 +351,10 @@
         </item>
         <item>
         <title>Comment Downtime 2023.11.28</title>
-        <link>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</link>
+        <link>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</link>
         <pubDate>Tue, 28 Nov 2023 12:29:55 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</guid>
+        <guid>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</guid>
         <description>&lt;p&gt;Today, I had an unexpected downtime of roughly 2 hours 2023.11.28 3-4 UTC. I had a Russian visiter Sunday (?) the 25th who commented essentially an ad about their website SEO skills onto the &lt;a class=&#34;link&#34; href=&#34;https://www.unorthodoxdev.net/comment/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;comment board&lt;/a&gt;. This is &lt;em&gt;unfortunately&lt;/em&gt; the internet, and even more so a &lt;em&gt;comment board&lt;/em&gt; where anyone can say and do anything (within the rules).&lt;/p&gt;
 &lt;p&gt;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive. But they did happen to comment three times, each time the same thing without any kind of variation. This was cause for concern&amp;hellip;. (im joking). But as a webadmin, I can do whatever the hell I want and censor whatever kind of things I want to censor, so why not exercise my webadmin rights and change the visibility of the excess comments and then leave a curdious note to the user about why I had to mark their notes as hidden? Naturally, you have to hide the comment on production right?&lt;/p&gt;
@@ -406,10 +406,10 @@
         </item>
         <item>
         <title>Navigating the Challenges of Asset Inventory Management</title>
-        <link>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
+        <link>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
         <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
+        <guid>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post Navigating the Challenges of Asset Inventory Management" /&gt;&lt;p&gt;Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&lt;/p&gt;
 &lt;p&gt;Consider the alternative of assigning meaningful names like &lt;code&gt;BLD-FLASTNAME01&lt;/code&gt; or &lt;code&gt;lastname01&lt;/code&gt;—common practices to enhance clarity. Yet, challenges arise when dealing with staff changes or shared devices. Renaming devices becomes a necessity, and the process of re-imaging and renaming raises questions about efficiency.&lt;/p&gt;
 &lt;p&gt;Implementing an asset inventory system is the logical next step. But what&amp;rsquo;s the right approach? Perhaps hosting a solution externally? The basic requirements seem straightforward: Device Name, Manufacturer, Model Name, Model Number, Serial Number, Asset Tag, Assigned Staff, and maybe the date of imaging. A SQL server could handle this, right? A simple C or C# program could populate rows for each imaged device.&lt;/p&gt;
@@ -420,8 +420,8 @@
     &gt;Snipe API documentation&lt;/a&gt; reveals that simplicity is elusive.&lt;/p&gt;
 &lt;h2 id=&#34;unraveling-complexity-with-a-graph&#34;&gt;Unraveling Complexity with a Graph&lt;/h2&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 192; flex-basis: 462px&#34;&gt;
-		&lt;a href=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34; data-size=&#34;851x442&#34;&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
-				srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34; data-size=&#34;851x442&#34;&gt;&lt;img src=&#34;http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
+				srcset=&#34;http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;851&#34;
 				height=&#34;442&#34;
 				loading=&#34;lazy&#34;
@@ -438,10 +438,10 @@
         </item>
         <item>
         <title>Flush Dns on Mac</title>
-        <link>https://unorthodoxdev.net/p/2023-10-12-flush-dns-on-mac/</link>
+        <link>http://localhost:1313/p/2023-10-12-flush-dns-on-mac/</link>
         <pubDate>Thu, 12 Oct 2023 16:45:31 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-10-12-flush-dns-on-mac/</guid>
+        <guid>http://localhost:1313/p/2023-10-12-flush-dns-on-mac/</guid>
         <description>&lt;p&gt;Gah, they make everything so hard. (I need to run two simple commands.) Why cant I just run one command and flush the dns on my mac? Well im sure theres a better way to do this&amp;hellip; (there is)&lt;/p&gt;
 &lt;p&gt;Welcome to flushdns(.sh)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -500,19 +500,19 @@
         </item>
         <item>
         <title>Dont Update Nginx Without a Backup of Configs</title>
-        <link>https://unorthodoxdev.net/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</link>
+        <link>http://localhost:1313/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</link>
         <pubDate>Thu, 05 Oct 2023 14:58:10 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</guid>
+        <guid>http://localhost:1313/p/2023-10-05-dont-update-nginx-without-a-backup-of-configs/</guid>
         <description>&lt;p&gt;Allrght, I did a vulnerability scan on the web server, there was something about the version of nginx installed had a flaw in it, so I went ahead and patched the nginx install. Ofcourse only because it is patch thursday and it might as well be on a list of things todo. Well, everything went smoothly; I upgraded to the latest version, refreshed the website in the browser, checked my config file, and were good to go. I then promptly left for lunch and didnt get the chance to check back at the website until approximately 7 UTC. Well, the website was infact not good. it was down, and probably down since i made those changes. I began to search for the issue. A quick grep, showed that my config files all existed and contained the domain name and hostname of the website. So whats the issue, why is it not reading my configs? Well that was the problem, and quickly came the solution. When you upgrade the nginx installation it overwrites your previous config file. Im not sure if there was any other magick stuff I was doing in the config file before I updated, but I included the sites-available directory, and were good to go. So yeah, the site was down for aproximately 3 hours. Thanks chaps :)&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Creating and Managing a SSL Cert</title>
-        <link>https://unorthodoxdev.net/p/2023-09-21-creating-and-managing-a-ssl-cert/</link>
+        <link>http://localhost:1313/p/2023-09-21-creating-and-managing-a-ssl-cert/</link>
         <pubDate>Thu, 21 Sep 2023 16:39:17 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-21-creating-and-managing-a-ssl-cert/</guid>
+        <guid>http://localhost:1313/p/2023-09-21-creating-and-managing-a-ssl-cert/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1605351792643-fe0c43d18762" alt="Featured image of post Creating and Managing a SSL Cert" /&gt;&lt;p&gt;This guide is intended for Ubuntu 22.04 and is intended for use with a Apache2 web server. To get started we need to make sure you have Apache2 installed, we can use grep to check. These instructions were written on a Ubuntu Server.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -681,10 +681,10 @@
         </item>
         <item>
         <title>Simple File Parsing Takes Three Hours</title>
-        <link>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
+        <link>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
         <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
+        <guid>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
         <description>&lt;p&gt;NMAP really needs some kind of file output option that isnt leetcode, xml, or gibberish. I would kill for a csv output from nmap. Regardless, lets solve this problem. I chose to ues python because I figured it would be quick and easy and would take no time. I was in fact wrong; Im not quite as comfortable with python as I am with rust at this point, but thats ok. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/noparser/blob/main/noparser.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;It took about 2-3 hours to build and test a simple program&lt;/a&gt;. This stupid script, took a little over 40 minutes trying to figure out how to build a stupid CLI interface and I immediately realized I miss rusts built in fail handling. Your telling me that I have to try, except &lt;strong&gt;everything???&lt;/strong&gt;. Oh well it doesnt matter anyways this doesnt actually compile down to machine code there are no assembly jumps or calls, lets just do it&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;God I hate this I decided to just cave and research a few CLI libraries and landed on plac, which has some very terrible documentation. For example, they do not explicilty provide a way for you to accept a file path or string lol. I just had to play around with the program until I found something that works, but this library could literally kill for some more english in the documentation. After I got that going it was easy peasy lemon squeezy. Except, when you error out, it doesnt really tell you why if your in a try catch loop. So I have to effectively comment out the try catch loop, and lower my code a indentation bracket figure out what the hell is breaking my code, just to realize I forgot to pass a variable to a function but was referencing it anyways&amp;hellip;. Another downside to try catch. Why the hell is my program failing. Otherwise, this program is less than 40 lines without all the stupid comments.&lt;/p&gt;
@@ -695,10 +695,10 @@
         </item>
         <item>
         <title>Organizational Behaviour Examples</title>
-        <link>https://unorthodoxdev.net/p/2023-09-19-organizational-behaviour-examples/</link>
+        <link>http://localhost:1313/p/2023-09-19-organizational-behaviour-examples/</link>
         <pubDate>Tue, 19 Sep 2023 17:36:35 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-19-organizational-behaviour-examples/</guid>
+        <guid>http://localhost:1313/p/2023-09-19-organizational-behaviour-examples/</guid>
         <description>&lt;iframe width=&#34;100%&#34; height=&#34;700px&#34; src=&#34;https://www.youtube.com/embed/C-iaYYLK_oQ?si=pYwTBrfzrOqcDJtv&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;
 &lt;p&gt;In a behavioural organization class, we have an assignment to watch a movie and pick a sceene from it where we notice some organizational behaviour coming into play. Below are my awnsers to this assignment.&lt;/p&gt;
@@ -711,10 +711,10 @@
         </item>
         <item>
         <title>How to search Text files with grep</title>
-        <link>https://unorthodoxdev.net/p/2023-09-08-how-to-search-text-files-with-grep/</link>
+        <link>http://localhost:1313/p/2023-09-08-how-to-search-text-files-with-grep/</link>
         <pubDate>Fri, 08 Sep 2023 07:55:32 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-08-how-to-search-text-files-with-grep/</guid>
+        <guid>http://localhost:1313/p/2023-09-08-how-to-search-text-files-with-grep/</guid>
         <description>&lt;p&gt;Ever needed to find something in a directory filled with text files. Use grep. The command I enjoy to using is as follows:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -728,10 +728,10 @@
         </item>
         <item>
         <title>Where am i on the network?</title>
-        <link>https://unorthodoxdev.net/p/2023-09-07-where-am-i-on-the-network/</link>
+        <link>http://localhost:1313/p/2023-09-07-where-am-i-on-the-network/</link>
         <pubDate>Thu, 07 Sep 2023 16:51:44 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-07-where-am-i-on-the-network/</guid>
+        <guid>http://localhost:1313/p/2023-09-07-where-am-i-on-the-network/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1619468129361-605ebea04b44" alt="Featured image of post Where am i on the network?" /&gt;&lt;p&gt;Ever wonder what port your connected to when plugged into a ethernet jack? Open up wireshark and apply a filter, searching for &lt;code&gt;cdp or lldp&lt;/code&gt; traffic. That will kick back:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The switches MAC Address.&lt;/li&gt;
@@ -747,10 +747,10 @@
         </item>
         <item>
         <title>Vacation</title>
-        <link>https://unorthodoxdev.net/p/2023-09-07-vacation/</link>
+        <link>http://localhost:1313/p/2023-09-07-vacation/</link>
         <pubDate>Thu, 07 Sep 2023 10:32:58 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-07-vacation/</guid>
+        <guid>http://localhost:1313/p/2023-09-07-vacation/</guid>
         <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg" alt="Featured image of post Vacation" /&gt;&lt;p&gt;Im back!&lt;/p&gt;
 &lt;p&gt;Ive been gone for a little while now. I went on vacation to mexico for about 21 days to visit friends. I had a blast. Everything there is vastly different than here in the states. Where I live, &lt;a class=&#34;link&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S0277953600000046&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;if you need anything other than beer&lt;/a&gt; you need to drive about 5-20 minutes to get whatever you need. In Druango Durango Mexico, If I need to go to the store, its about a 5 minute walk to a Ley; The equivalent of a walmart or meijers. If im in the mood for some chips and a soda, theres a conveince store, or Oxxo within 2 to 5 minutes. Hungry for a burger, theres a place that sells hamburgesas down the street. Come on lets walk its only 10 minutes away! I will tell you though, I was a little dissapointed in the hamburgessa. I was expecting a &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=MULhB5_COAU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -768,10 +768,10 @@
         </item>
         <item>
         <title>Advent of Code</title>
-        <link>https://unorthodoxdev.net/p/2023-08-09-advent-of-code/</link>
+        <link>http://localhost:1313/p/2023-08-09-advent-of-code/</link>
         <pubDate>Wed, 09 Aug 2023 15:07:00 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-09-advent-of-code/</guid>
+        <guid>http://localhost:1313/p/2023-08-09-advent-of-code/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1606482512676-255bf02be7cf" alt="Featured image of post Advent of Code" /&gt;&lt;p&gt;Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.&lt;/p&gt;
 &lt;p&gt;Struggling to learn C, I decided to go through the AoC content from 2015 to current and complete each of the challenges with at a minimum, attempting to use C. The nice thing about doing the older problems, well really any problem, is that there are plenty of resources around online to help me work through and solve the problems.&lt;/p&gt;
 &lt;p&gt;I plan to go through at least one problem a day on my lunch break if not more given time permits and upload it to my &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/AoC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -783,10 +783,10 @@
         </item>
         <item>
         <title>Network Troubleshooting Methodology</title>
-        <link>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</link>
+        <link>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</link>
         <pubDate>Wed, 09 Aug 2023 14:17:19 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</guid>
+        <guid>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</guid>
         <description>&lt;p&gt;This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I &lt;strong&gt;STOP&lt;/strong&gt;, and &lt;strong&gt;SLOWN DOWN&lt;/strong&gt; and think about the changes. Something else I enjoy about these instructions is they force me to think more about &lt;em&gt;change&lt;/em&gt; management. Something I need more practice with.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Gather as much information as possible. If possible, duplicate the problem.&lt;/li&gt;
@@ -800,10 +800,10 @@
         </item>
         <item>
         <title>Finding Things to Do</title>
-        <link>https://unorthodoxdev.net/p/2023-08-07-finding-things-to-do/</link>
+        <link>http://localhost:1313/p/2023-08-07-finding-things-to-do/</link>
         <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-07-finding-things-to-do/</guid>
+        <guid>http://localhost:1313/p/2023-08-07-finding-things-to-do/</guid>
         <description>&lt;p&gt;I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something. Sometimes, I may already have the end goal of my project or problem determined, but my issue is then, finding a way to complete it. Maybe not all the tools are there for me that I hope there would have been.&lt;/p&gt;
 &lt;p&gt;Lately I have been learning C. Not C++, not C#&amp;hellip; C. One thing I learned very quickly with C is that there is no hand holding. If you do not manage your memory, you&amp;rsquo;ve blown your program up. You don&amp;rsquo;t know how to do something, you&amp;rsquo;ve made your project 100 times harder now trying to include some foreign library, versus developing the solution your self. My initial Idea was to create a program, that pulls the API information from the local Transit station, and parses out the information into a pleasant way. This program in rust, hypothetically would be pretty quick, and i&amp;rsquo;ve already got an idea on how I would do it!&lt;/p&gt;
 &lt;p&gt;I would start by using &lt;a class=&#34;link&#34; href=&#34;github.com/actix/actix&#34; &gt;actix&lt;/a&gt; to pull the API get request. parse the JSON response using &lt;a class=&#34;link&#34; href=&#34;serde.rs&#34; &gt;serde&lt;/a&gt;. Then use  &lt;a class=&#34;link&#34; href=&#34;https://github.com/ratatui-org/ratatui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -821,10 +821,10 @@
         </item>
         <item>
         <title>In dire need of comments.</title>
-        <link>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</link>
+        <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</link>
         <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</guid>
+        <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</guid>
         <description>&lt;p&gt;I recently migrated my website from &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ghost blog&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo&lt;/a&gt; which is a static site generator compared to the all in one package you get with &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -880,10 +880,10 @@
         </item>
         <item>
         <title>Implementing a Sick 504 Page</title>
-        <link>https://unorthodoxdev.net/p/2023-07-27-implementing-a-sick-504-page/</link>
+        <link>http://localhost:1313/p/2023-07-27-implementing-a-sick-504-page/</link>
         <pubDate>Thu, 27 Jul 2023 12:09:39 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-27-implementing-a-sick-504-page/</guid>
+        <guid>http://localhost:1313/p/2023-07-27-implementing-a-sick-504-page/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1623018035782-b269248df916" alt="Featured image of post Implementing a Sick 504 Page" /&gt;&lt;p&gt;Rust takes forever to build. Im sure I could do alot better deploying the application. But who knows, maybe im doing great at deploying my [comment board](https://unorthodoxdev. net/comment) but what if there is some bug that I introduced that crashes the server 👻. What if while the server is crashed, Im at work??? Well good thing we can customize the default 504 page that nginx uses. So lets get started.&lt;/p&gt;
 &lt;p&gt;First we will go to our &lt;code&gt;/var/www/html&lt;/code&gt; folder and create a page called &lt;code&gt;maintenance.html&lt;/code&gt;. Inside of maintenance I have put the following.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -963,12 +963,68 @@
 </description>
         </item>
         <item>
+        <title>Quotes Associated With Work</title>
+        <link>http://localhost:1313/p/2023-07-27-quotes-associated-with-work/</link>
+        <pubDate>Thu, 27 Jul 2023 09:47:54 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-07-27-quotes-associated-with-work/</guid>
+        <description>&lt;p&gt;Me: It looks like someone deleted the .wim files we were using&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Me: Did anyone touch these files?&lt;/p&gt;
+&lt;p&gt;CoWorker: No one would have touched those. Maybe it was an update.&lt;/p&gt;
+&lt;p&gt;Everyone: Silence&amp;hellip;&amp;hellip;&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;Me: Ive gone ahead and recreated them. The following are on your plate to make 1,2,3&lt;/p&gt;
+&lt;p&gt;CoWorker: Ok.&lt;/p&gt;
+&lt;p&gt;CoWorker: After going through the logs, it appears I deleted the wims.&lt;/p&gt;
+&lt;p&gt;Me: You were the update.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: You cannot joke like that, they we take serious and get cofunded&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Enjoy your hell burgers (they had jalapenos in it)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Me: What did you give me What is in my mouth
+CoWorker 1: I feel like over the course of the year ive dranke one yankee candle
+CoWorker 2: (Enters Office, chatting with another CoWorker) Yeah he came out of my butt 24 years ago&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Me: Wheres the boss?
+CoWorker: Hes out doing meat stuff&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Me: Wow! I really dont read!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: Go get tea you&amp;rsquo;re an adult&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: You;ve just touched 20 years of weird hands, germs, and possible wank&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: Dont ride with him he basically maintains a blood alcohol level of 5&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Well I guess you and him can make a plan based on what they did or didnt say Plus what your CoWorker knows&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Do she go to both places? Make sure we know what came from each place&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: So any day you cant work on? (sends picture of schedule) or (sends picture thursday friday)
+Me: I will work as much as you want to schedule me I have nothing going on and no friends
+Boss: I am your friend&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker 1: The mood at the Pizza Party is like a bread line in the great depression
+CoWorker 2: (Busting into the room) Historycom has me fucked up this morning&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: Babies are cute, but I wouldnt want to touch one&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Please make work order for dong Put good notes in the josh log&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Client, \n\n We are dong&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Client to me: I think I may have a virus or something I dont know it just stopped working Y&amp;rsquo;know, things like porn creep up on you&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: All, \n After talking internally, please hold the reset button for 15 seconds \n regards, coworker&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>New Bloging System</title>
-        <link>https://unorthodoxdev.net/p/2023-07-21-new-bloging-system/</link>
+        <link>http://localhost:1313/p/2023-07-21-new-bloging-system/</link>
         <pubDate>Fri, 21 Jul 2023 10:58:35 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-21-new-bloging-system/</guid>
-        <description>&lt;img src="https://unorthodoxdev.net/p/2023-07-21-new-bloging-system/this-is-fine.png" alt="Featured image of post New Bloging System" /&gt;&lt;p&gt;Ive migrated my website from the ghost blogging platform to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/p/2023-07-21-new-bloging-system/</guid>
+        <description>&lt;img src="http://localhost:1313/p/2023-07-21-new-bloging-system/this-is-fine.png" alt="Featured image of post New Bloging System" /&gt;&lt;p&gt;Ive migrated my website from the ghost blogging platform to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo&lt;/a&gt; (go hugo, go hugo, go!). Its a little simpler and easier to manage. I also feel as though I have more controll. Currently, im using the hugo-stacked-theme as it looks the most appealing to me, and is not a massive website with insane overhead. It also comes with a indexing feature that allows me (and you ofcourse) to search my content for specific keywords.&lt;/p&gt;
 &lt;p&gt;Another great thing about it being simple is I dont have to constantly monitor that the ghost instance isnt taking too much resources as the web server just lives on a static nginx route. The only thing I &lt;strong&gt;will&lt;/strong&gt; have to get used to is making sure that before I push to the remote repository, that I have ran &lt;code&gt;hugo&lt;/code&gt; so that it can build each of my pages.&lt;/p&gt;
 &lt;p&gt;Currently I am manually logging into the web server and pulling the repostory whenever I feel like it. In the future, ideally id set a cron job for every 30 minutes or something like that.&lt;/p&gt;
@@ -977,10 +1033,10 @@
         </item>
         <item>
         <title>Read the Damn Instructions</title>
-        <link>https://unorthodoxdev.net/p/2023-07-21-read-the-damn-instructions/</link>
+        <link>http://localhost:1313/p/2023-07-21-read-the-damn-instructions/</link>
         <pubDate>Fri, 21 Jul 2023 10:50:07 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-21-read-the-damn-instructions/</guid>
+        <guid>http://localhost:1313/p/2023-07-21-read-the-damn-instructions/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1534481016308-0fca71578ae5" alt="Featured image of post Read the Damn Instructions" /&gt;&lt;p&gt;Read the damn instructions. Im working on a new project for the website, and Im trying to upload what I have to github (a simple readme nothing more).&lt;/p&gt;
 &lt;p&gt;I create an empty repository, init, add, and commit locally. Set the remote repository, and try to push to the remote&amp;hellip; And it fails? What have I done? What did I do? I have done this probably thousands of times. Where did I mess up? Will I have to recreate the folder? Should I re init the local repo?&lt;/p&gt;
 &lt;p&gt;What do i do?&lt;/p&gt;
@@ -993,10 +1049,10 @@
         </item>
         <item>
         <title>Ghost Printers</title>
-        <link>https://unorthodoxdev.net/p/2023-07-20-ghost-printers/</link>
+        <link>http://localhost:1313/p/2023-07-20-ghost-printers/</link>
         <pubDate>Thu, 20 Jul 2023 16:03:40 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-20-ghost-printers/</guid>
+        <guid>http://localhost:1313/p/2023-07-20-ghost-printers/</guid>
         <description>&lt;p&gt;Ive recently had an encounter with a printer that creates 100s of copies of its self within the computers printer settings. Ive spent quite a bit of time tinkering with this printer and its settings. I think I’ve come to a resolution. Overall, to recap what I did; Opening up the Regedit there were 100’s of keys associated with the Xerox printer. Typically, these registry keys are created when installing the printer and the windows printui.dll handles it. But the amount of registry keys meant that windows kept recreating these keys. I dug a little bit more into the registry keys and it appears that each of these keys had the following properties assigned to them. Name “PRT-AWH-321-COLOR”, Driver “Xerox …” that was pretty much it. The rest of the fields were empty.&lt;/p&gt;
 &lt;p&gt;I started off looking into removing these printers via a script etc. Doing so I found the existence of a registry key we can create that would have windows remove the printers on exit. To enable this feature you would have to create a 32bit dWord key in the following location &lt;code&gt;&amp;quot;HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider&amp;quot;&lt;/code&gt; with the name &lt;code&gt;&amp;quot;RemovePrintersAtLogoff&amp;quot;&lt;/code&gt; and the value of 1.&lt;/p&gt;
 &lt;p&gt;After creating this key, when a user logs out it should clear out any installed printers, and apply the group policy user settings next time a user logs in. Well creating that key and then logging out seemed to work. But those xerox registry keys persisted for some reason. I grabbed one of the GUIDS from a ghost printer and ran a search for all the instances I could find it in regedit. I ran across quite a few instances and ended up writing a script.&lt;/p&gt;
@@ -1125,10 +1181,10 @@
         </item>
         <item>
         <title>MECM API</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-mecm-api/</link>
+        <link>http://localhost:1313/p/2023-07-19-mecm-api/</link>
         <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-mecm-api/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-mecm-api/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post MECM API" /&gt;&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
 &lt;h2 id=&#34;the-basics&#34;&gt;The Basics&lt;/h2&gt;
 &lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
@@ -1149,10 +1205,10 @@
         </item>
         <item>
         <title>Tattoo</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-tattoo/</link>
+        <link>http://localhost:1313/p/2023-07-19-tattoo/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:44 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-tattoo/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-tattoo/</guid>
         <description>&lt;p&gt;&lt;img src=&#34;https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg&#34; alt=&#34;Workflow Status&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;Repository: &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/tattoo/tree/master&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/ofgrenudo/tattoo/tree/master&lt;/a&gt;&lt;/p&gt;
@@ -1234,10 +1290,10 @@
         </item>
         <item>
         <title>Ci Pipelines With Rust</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</link>
+        <link>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:12 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1609213244695-7d6902be89da" alt="Featured image of post Ci Pipelines With Rust" /&gt;&lt;p&gt;&lt;em&gt;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;CI, Continuous onus Integration allows for each member of a team to integrate their changes into the main branch, multiple times a day.&lt;/p&gt;
 &lt;p&gt;Continuous Integration allows us to tighten the feed back loop. We are less likely to go off on your own and develop for days or weeks just to find out the approach you have taken isn&amp;rsquo;t working, or isn&amp;rsquo;t approved by peers. Continuous Integration forces you to work with your teammates earlier than when you feel is comfortable allowing for course correcting actions to be taken &lt;em&gt;before&lt;/em&gt; you have wasted your time. So how do we make Continuous Integration a reality?&lt;/p&gt;
@@ -1557,10 +1613,10 @@
         </item>
         <item>
         <title>Ublock Origin and More</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-ublock-origin-and-more/</link>
+        <link>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</link>
         <pubDate>Wed, 19 Jul 2023 21:00:06 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-ublock-origin-and-more/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9" alt="Featured image of post Ublock Origin and More" /&gt;&lt;p&gt;Everybody knows about &lt;a class=&#34;link&#34; href=&#34;https://ublockorigin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;uBlock Origin&lt;/a&gt;. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.&lt;/p&gt;
 &lt;p&gt;Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you. These are really the same lists that DNS filters like pi-hole use.&lt;/p&gt;
@@ -1572,10 +1628,10 @@
         </item>
         <item>
         <title>Digital Gardens</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-digital-gardens/</link>
+        <link>http://localhost:1313/p/2023-07-19-digital-gardens/</link>
         <pubDate>Wed, 19 Jul 2023 20:59:39 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-digital-gardens/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-digital-gardens/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1550948390-6eb7fa773072" alt="Featured image of post Digital Gardens" /&gt;&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
 &lt;h3 id=&#34;what-is-a-digital-garden&#34;&gt;What is a Digital Garden?&lt;/h3&gt;
 &lt;ul&gt;
@@ -1633,10 +1689,10 @@ Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-i
         </item>
         <item>
         <title>Setting a Hostname on Linux</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</link>
+        <link>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</link>
         <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1532630174493-69e1fe9fead2" alt="Featured image of post Setting a Hostname on Linux" /&gt;&lt;blockquote&gt;
 &lt;p&gt;⚠️ Danger
 You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;
@@ -1678,10 +1734,10 @@ You will need administrative access to the device in question. Changing a hostna
         </item>
         <item>
         <title>Linux Administration Tips and Tricks</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</link>
+        <link>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</link>
         <pubDate>Wed, 19 Jul 2023 20:58:00 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1640552435388-a54879e72b28" alt="Featured image of post Linux Administration Tips and Tricks" /&gt;&lt;p&gt;These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&lt;/p&gt;
 &lt;h1 id=&#34;service-monitoring&#34;&gt;Service Monitoring&lt;/h1&gt;
 &lt;p&gt;Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?&lt;/p&gt;
@@ -1941,14 +1997,14 @@ You will need administrative access to the device in question. Changing a hostna
         </item>
         <item>
         <title>Custom Start Menu Layouts</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</link>
+        <link>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</link>
         <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</guid>
         <description>&lt;p&gt;Windows 11 and Start Menus &lt;em&gt;suck.&lt;/em&gt; Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 83; flex-basis: 199px&#34;&gt;
-		&lt;a href=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34; data-size=&#34;667x803&#34;&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
-				srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34; data-size=&#34;667x803&#34;&gt;&lt;img src=&#34;http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
+				srcset=&#34;http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;667&#34;
 				height=&#34;803&#34;
 				loading=&#34;lazy&#34;
@@ -2004,10 +2060,10 @@ You will need administrative access to the device in question. Changing a hostna
         </item>
         <item>
         <title>Migrating Ghost Blog Domain Names</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</link>
+        <link>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</link>
         <pubDate>Wed, 19 Jul 2023 12:20:21 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435" alt="Featured image of post Migrating Ghost Blog Domain Names" /&gt;&lt;blockquote&gt;
 &lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;
 &lt;/blockquote&gt;

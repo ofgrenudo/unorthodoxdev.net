@@ -1,15 +1,18 @@
 ---
 title: "Goulash"
-description: "" 
+description: "Classic, american goulash!" 
 date: 2024-05-22T15:42:37-04:00
 #image: 
-categories: ["General"]
-tags: []
+categories: ["Recipes"]
+# ["General", "MECM", "Network-Administration", "Programming", "System-Administration", "Recipes"]
+tags: ["dinner"]
+# ["dinner", "desert", "breakfast", "appetizers", "slowcooker", "airfryer"]
 license: GNU General Public License v3.0 
 hidden: false
 toc: true
 draft: false
 ---
+
 
 ## Ingredients
 

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Unorthodoxdev</title>
-    <link>https://unorthodoxdev.net/categories/programming/</link>
+    <link>http://localhost:1313/categories/programming/</link>
     <description>Recent content in Programming on Unorthodoxdev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jun 2024 08:50:15 -0400</lastBuildDate>
-    <atom:link href="https://unorthodoxdev.net/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Contribute to Open Source Software</title>
-      <link>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
+      <link>http://localhost:1313/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
       <pubDate>Tue, 04 Jun 2024 08:50:15 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</guid>
+      <guid>http://localhost:1313/p/2024-06-04-how-to-contribute-to-open-source-software/</guid>
       <description>Lots of people want to contribute to open source software. Though getting started contributing can be at first a challenge. The easiest way to get started contributing to open source though is to use open source software. With it can come times where you wish there was a feature, or you notice a wierd bug you wish was fixed. One of the first open source projects I contributed to was the creation of the Jellyfin Theater app, (now archived).</description>
     </item>
     <item>
       <title>Simple File Parsing Takes Three Hours</title>
-      <link>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
+      <link>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
       <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
+      <guid>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
       <description>NMAP really needs some kind of file output option that isnt leetcode, xml, or gibberish. I would kill for a csv output from nmap. Regardless, lets solve this problem. I chose to ues python because I figured it would be quick and easy and would take no time. I was in fact wrong; Im not quite as comfortable with python as I am with rust at this point, but thats ok.</description>
     </item>
     <item>
       <title>In dire need of comments.</title>
-      <link>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</link>
+      <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</link>
       <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments./</guid>
+      <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments./</guid>
       <description>I recently migrated my website from ghost blog to hugo which is a static site generator compared to the all in one package you get with ghost blog. One of the reasons I decided to make this change was honestly, I had no need for all of the many features that ghost blog provided. Something like Hugo was simple, and effective. It also allowed me to write my documents in mark down, and store the entirety of it in a git repository.</description>
     </item>
     <item>
       <title>Tattoo</title>
-      <link>https://unorthodoxdev.net/p/2023-07-19-tattoo/</link>
+      <link>http://localhost:1313/p/2023-07-19-tattoo/</link>
       <pubDate>Wed, 19 Jul 2023 21:01:44 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/p/2023-07-19-tattoo/</guid>
+      <guid>http://localhost:1313/p/2023-07-19-tattoo/</guid>
       <description>Repository: https://github.com/ofgrenudo/tattoo/tree/master&#xA;Tattoo is the first complete program that I have written in rust. It consists of two parts, a library and the binary. One of the challenges I experienced when writing this application was the lack of abbility to include files outside of module&amp;rsquo;s folder that I was writing in. While I understand now why you should not do so and the kinds of compiler problems you would encounter.</description>
     </item>
     <item>
       <title>Ci Pipelines With Rust</title>
-      <link>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</link>
+      <link>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</link>
       <pubDate>Wed, 19 Jul 2023 21:01:12 -0400</pubDate>
-      <guid>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</guid>
+      <guid>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</guid>
       <description>Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&#xA;CI, Continuous onus Integration allows for each member of a team to integrate their changes into the main branch, multiple times a day.&#xA;Continuous Integration allows us to tighten the feed back loop. We are less likely to go off on your own and develop for days or weeks just to find out the approach you have taken isn&amp;rsquo;t working, or isn&amp;rsquo;t approved by peers.</description>
     </item>
   </channel>
