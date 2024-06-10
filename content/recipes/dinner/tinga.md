@@ -21,16 +21,16 @@ toc: true
 
 ## Directions
 
-In a large pot, begin to boil your chicken. Once your chicken is fully cooked, remove it from the water and allow time for it to cool. Once cool, begin to shread the chicken by hand. 
+In a large pot, begin to boil your chicken. Once your chicken is fully cooked, remove it from the water and allow time for it to cool. Once cool, begin to shred the chicken by hand. 
 
 While the pot of chicken is boiling you could begin to add your tomatoes and chipotle peppers in (if raw and not from a can) to begin boiling, or add it to its own pot and boil that way.
 
 Once the chicken is shredded, begin to chop your onion. You want long pieces of onion so avoid dicing them. 
 
-Add oil to a pan and begin to pan fry your onions, while they are getting tender pour out your tomatoes and adobo pepers and chipotle sauce into a blender and mix until everything is done. It does not hurt to add some chicken broth or vegitble broth in this step.
+Add oil to a pan and begin to pan fry your onions, while they are getting tender pour out your tomatoes and adobe pepers and chipotle sauce into a blender and mix until everything is done. It does not hurt to add some chicken broth or vegetable broth in this step.
 
 Add your chicken into the pot of onions and mix, slowly add the tinga sauce we made in the previous step to the pot and combine. The chicken should be swimming in the sauce. 
 
-Allow the chicken to marinate and the sauce to thinken up and lose some whater. 
+Allow the chicken to marinate and the sauce to thicken up and lose some water. 
 
 Once you are ready begin to serve the tinga on tostadas, with pickeled onions, raddish, lettuce, beans, sour cream, or whatever else floats your boat.

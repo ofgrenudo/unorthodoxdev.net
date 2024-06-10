@@ -36,4 +36,12 @@ make development
 hugo serve -b http://localhost:1313 -D
 ```
 
+## New Pages
 
+To make a new page, please run the following commands
+
+```shell
+
+hugo new content/yadayada --kind {page, recipe}
+
+```

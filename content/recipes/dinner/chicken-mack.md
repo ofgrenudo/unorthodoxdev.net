@@ -4,7 +4,7 @@ description: "This meal is my version of Chicken Mac and Cheese"
 #image: ""
 date: 2023-10-18T15:31:25-04:00
 draft: false
-keywords: ["unorthodoxdev"]
+keywords: ["recipes", "entrees"]
 toc: true
 ---
 
@@ -28,7 +28,7 @@ toc: true
 
 ## Instructions
 
-1. Begin preheating your oven and prepping a tray to cook your chicken tenders on. Once the oven has come to tempature, please begin placing the chicken tenders into the oven.
+1. Begin preheating your oven and prepping a tray to cook your chicken tenders on. Once the oven has come to temperature, please begin placing the chicken tenders into the oven.
 2. While the oven is pre-heating, it would be a good time to begin cooking your bacon, you want the bacon to be crispy and crumble into a million pieces to speard around your noodles.
 3. Begin boiling water and cook your pasta to your taste.
 4. While your noodles are cooking, use one other pot to make your cheese sauce, melt your butter and cream together in a large pan.
