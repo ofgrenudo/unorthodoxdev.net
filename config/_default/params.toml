@@ -13,7 +13,7 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "📖"
+emoji = "🌞"
 subtitle = "A never ending waterfall of information, constantly streaming into the oasis."
 
 [sidebar.avatar]
@@ -43,13 +43,13 @@ limit = 5
 type = "categories"
 
 [widgets.homepage.params]
-limit = 10
+limit = 20
 
 [[widgets.homepage]]
 type = "tag-cloud"
 
 [widgets.homepage.params]
-limit = 10
+limit = 20
 
 [[widgets.page]]
 type = "toc"
