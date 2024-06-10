@@ -1,12 +1,18 @@
 ---
 title: "Chilequiles"
 description: ""
-#image: ""
 date: 2023-10-18T15:57:33-04:00
-draft: false
-keywords: ["unorthodoxdev"]
+#image: ""
+categories: ["Recipes"]
+# ["General", "MECM", "Network-Administration", "Programming", "System-Administration", "Recipes"]
+tags: ["breakfast"]
+# ["dinner", "desert", "breakfast", "appetizers", "slowcooker", "airfryer"]
+license: GNU General Public License v3.0 
+hidden: false
 toc: true
+draft: false
 ---
+
 
 ## Ingredients
 
@@ -25,3 +31,15 @@ toc: true
 3. Once your chips are toasted, add your eggs. Now is a good time to add your ham if you are going to use it. 
 4. Once your eggs are cooked and everything is toasty, add your salsa and allow it to heat up to the same temp. This will make your chips a bit soggy but that is all the purpose of this meal. 
 5. Cover with cheese if you have it, and serve.
+
+## Nutrition
+
+| Information   | Measurement |
+|---------------|-------------|
+| Serving       |             |
+| Protein       |             |
+| Fiber         |             |
+| Calories      |             |
+| Fat           |             |
+| Carbohydrates |             |
+| Sodium        |             |

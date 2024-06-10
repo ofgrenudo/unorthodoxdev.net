@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MECM on Unorthodoxdev</title>
-    <link>http://localhost:1313/tags/mecm/</link>
+    <link>http://localhost:51547/tags/mecm/</link>
     <description>Recent content in MECM on Unorthodoxdev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Nov 2023 15:33:30 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mecm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51547/tags/mecm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Navigating the Challenges of Asset Inventory Management</title>
-      <link>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
+      <link>http://localhost:51547/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
       <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
-      <guid>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
+      <guid>http://localhost:51547/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
       <description>Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&#xA;Consider the alternative of assigning meaningful names like BLD-FLASTNAME01 or lastname01—common practices to enhance clarity. Yet, challenges arise when dealing with staff changes or shared devices.</description>
     </item>
     <item>
       <title>MECM API</title>
-      <link>http://localhost:1313/p/2023-07-19-mecm-api/</link>
+      <link>http://localhost:51547/p/2023-07-19-mecm-api/</link>
       <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-19-mecm-api/</guid>
+      <guid>http://localhost:51547/p/2023-07-19-mecm-api/</guid>
       <description>Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&#xA;The Basics The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&#xA;Service You can check the status of the service in the console under \Monitoring\Overview\System Status\Component Status - SMS_REST_PROVIDER</description>
     </item>
     <item>
       <title>Custom Start Menu Layouts</title>
-      <link>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</link>
+      <link>http://localhost:51547/p/2023-07-19-custom-start-menu-layouts/</link>
       <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
-      <guid>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</guid>
+      <guid>http://localhost:51547/p/2023-07-19-custom-start-menu-layouts/</guid>
       <description>Windows 11 and Start Menus suck. Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&#xA;Start Menu Layouts Creating a new Layout On a build PC configure your new layout. run the Export-StartLayout command. Modify the StartLayout file and change the pinnedList to primaryOEMPins Copy the JSON file to C:\Users\Default\AppData\Local\Microsof\Windows\Shell Alternatively, windows holds an encrypted version of the startup file in the %LocalAppData%\Packages\Microsoft.</description>
     </item>
   </channel>

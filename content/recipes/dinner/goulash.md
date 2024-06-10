@@ -38,9 +38,6 @@ draft: false
 5. Once the sauce has simmered for roughly 30 minutes, add the noodles, and stir it to combine. Let it sit for about 10-15 minutes, stirring occasionally.
 6. Salt to taste.
 
-### Nutrition
-
-
 ## Nutrition
 
 | Information   | Measurement |

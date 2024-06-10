@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Breakfast on Unorthodoxdev</title>
+    <link>http://localhost:51547/tags/breakfast/</link>
+    <description>Recent content in Breakfast on Unorthodoxdev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jul 2023 13:24:49 -0400</lastBuildDate>
+    <atom:link href="http://localhost:51547/tags/breakfast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sunday Brunch Casserole</title>
+      <link>http://localhost:51547/recipes/breakfast/sunday-brunch-casserole/</link>
+      <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
+      <guid>http://localhost:51547/recipes/breakfast/sunday-brunch-casserole/</guid>
+      <description>Ingredients 1/2lb sliced bacon 1/2 cup of chopped onion 1/2 cup chopped green pepper 12 eggs 1 cup milk 1 package (16 oz) frozen hash brown potatoes thawed. 1 cup (4 oz) shredded cheddar cheese 1 tsp salt 1/2 tsp pepper 1/4 tsp dill weed Directions In a large skillet, cook bacon over medium heat until crispy. Remove to paper towel lined plate to drain. Reserving 2 tbsp of drippings, crumble bacon and set aside.</description>
+    </item>
+  </channel>
+</rss>
