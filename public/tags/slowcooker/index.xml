@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slowcooker on Unorthodoxdev</title>
-    <link>http://localhost:51547/tags/slowcooker/</link>
+    <link>https://unorthodoxdev.net/tags/slowcooker/</link>
     <description>Recent content in Slowcooker on Unorthodoxdev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2024 11:31:24 -0400</lastBuildDate>
-    <atom:link href="http://localhost:51547/tags/slowcooker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://unorthodoxdev.net/tags/slowcooker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chicken Noodle Soupless (Slow Cooker)</title>
-      <link>http://localhost:51547/recipes/dinner/chicken-noodle-soupless/</link>
+      <link>https://unorthodoxdev.net/recipes/dinner/chicken-noodle-soupless/</link>
       <pubDate>Mon, 10 Jun 2024 11:31:24 -0400</pubDate>
-      <guid>http://localhost:51547/recipes/dinner/chicken-noodle-soupless/</guid>
+      <guid>https://unorthodoxdev.net/recipes/dinner/chicken-noodle-soupless/</guid>
       <description>Notice, that this recipe, requires roughly 7 hours to complete, most of which are waiting on the slowcooker.&#xA;Ingredients Defrosted Chicken Breasts or Thighs (thighs preferred or chicken breasts cut into strips). 2 cans of corn, 3 or fresh cobs. 1 can of cut carrots, 2 fresh carrots. 3 chile poblano peppers. 1/4 cup of cream cheese. Parmesan cheese. (Optional) Mozzarella. Directions Note because this recipie takes so long, its ideal to start this at home on my lunch break, or place the chicken in the morning on low, though ive never tested leaving the crockpot on all day cooking like that, I imagine it should be fine :)</description>
     </item>
   </channel>

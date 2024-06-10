@@ -52,7 +52,7 @@ In general, im a fanatic for horror. It started with watching cheesy B horror / 
 #### Currently Reading
 
 <style>
-/* This snippet removes that stupid herader on the goodreads bit, must be in a div with the widget_container class though... */
+/* This snippet removes that stupid header on the goodreads bit, must be in a div with the widget_container class though... */
 .widget_container {h2 {display: none;}}
 </style>
 
