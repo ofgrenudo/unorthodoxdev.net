@@ -43,3 +43,14 @@ Enchiladas are traditionally served stuffed with cheese or potatoes, but in amer
 9. Once your pan is full of enchiladas, cover them in queso fresco, and place in the oven. Cook until the cheese is melted.
 10. Remove the enchiladas, and top with thinly cut lettuce, carrots, potatoes, etc...
 
+## Nutrition
+
+| Information   | Measurement |
+|---------------|-------------|
+| Serving       |             |
+| Protein       |             |
+| Fiber         |             |
+| Calories      |             |
+| Fat           |             |
+| Carbohydrates |             |
+| Sodium        |             |

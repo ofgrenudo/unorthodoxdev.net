@@ -32,3 +32,15 @@ draft: false
 2. Add onion, pepper and celery and cook until onions are transparent.
 3. Transfer them to the pot and add black beans, kidney beans, garbonzo beans, kidney beans in chili sauce, and corn to pot. Add chili mix and both cans of tomatoes. Plus 2 cans of water to pot.
 4. Simmer uncovered on medium high heat for 20 to 30 minutes, stirring occasionally.
+
+## Nutrition
+
+| Information   | Measurement |
+|---------------|-------------|
+| Serving       |             |
+| Protein       |             |
+| Fiber         |             |
+| Calories      |             |
+| Fat           |             |
+| Carbohydrates |             |
+| Sodium        |             |

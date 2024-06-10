@@ -42,3 +42,15 @@ draft: false
 7. Allow the chicken to marinate and the sauce to thicken up and lose some water.
 
 8. Once you are ready begin to serve the tinga on tostadas, with pickled onions, raddish, lettuce, beans, sour cream, or whatever else floats your boat.
+
+## Nutrition
+
+| Information   | Measurement |
+|---------------|-------------|
+| Serving       |             |
+| Protein       |             |
+| Fiber         |             |
+| Calories      |             |
+| Fat           |             |
+| Carbohydrates |             |
+| Sodium        |             |

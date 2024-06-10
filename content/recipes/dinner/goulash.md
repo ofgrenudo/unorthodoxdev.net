@@ -40,10 +40,15 @@ draft: false
 
 ### Nutrition
 
-- Serving 1.5 Cups
-- Protein 22g
-- Fiber 5g
-- Calories 467 kcal
-- Fat 19g
-- Carbohydrates 50g
-- Sodium 920mg
+
+## Nutrition
+
+| Information   | Measurement |
+|---------------|-------------|
+| Serving       | 1.5 cups    |
+| Protein       | 22g         |
+| Fiber         | 5g          |
+| Calories      | 467 kcal    |
+| Fat           | 19g         |
+| Carbohydrates | 50g         |
+| Sodium        | 920mg       |

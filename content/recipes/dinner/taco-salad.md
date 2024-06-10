@@ -25,6 +25,19 @@ draft: false
 
 ## Directions
 
-In a large bowl, layer each ingredient strating with lettuce and ending with tomatoes. Toss with western dressing and crushed doritos just before serving.
+1. In a large bowl, layer each ingredient starting with lettuce and ending with tomatoes. Toss with western dressing and crushed doritos just before serving.
 
-If you are planning for left overs, allow guests to add the doritos and dressing on their own to prevent any soggynonsens.
+2. If you are planning for left overs, allow guests to add the doritos and dressing on their own to prevent any soggy nonsense.
+
+
+## Nutrition
+
+| Information   | Measurement |
+|---------------|-------------|
+| Serving       |             |
+| Protein       |             |
+| Fiber         |             |
+| Calories      |             |
+| Fat           |             |
+| Carbohydrates |             |
+| Sodium        |             |

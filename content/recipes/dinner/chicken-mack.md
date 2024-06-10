@@ -41,4 +41,14 @@ draft: false
 6. When your noodles are done, drain them and add them to the pan with sauce and stir to combine. Now you will want to add your bacon and stir to incorporate it all together.
 7. Finally, remove your chicken strips from the oven when they are done and serve. As a tip you can add the basil to the top of your pasta bowl, and any additional bacon that may have been left over.
 
+## Nutrition
 
+| Information   | Measurement |
+|---------------|-------------|
+| Serving       |             |
+| Protein       |             |
+| Fiber         |             |
+| Calories      |             |
+| Fat           |             |
+| Carbohydrates |             |
+| Sodium        |             |
