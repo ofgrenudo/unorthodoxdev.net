@@ -7,6 +7,57 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 12 Jun 2024 10:16:32 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The Best eBook Reader</title>
+        <link>https://unorthodoxdev.net/p/2024-06-12-the-best-ebook-reader/</link>
+        <pubDate>Wed, 12 Jun 2024 10:16:32 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/2024-06-12-the-best-ebook-reader/</guid>
+        <description>&lt;p&gt;If you didn&amp;rsquo;t know, I read quite a bit of literate. I attempt to fill the time I have that im not doing anything productive with some for of productivity. Weather its watching a video essay, argumentative essay, or studying something im always trying to fill that void with something productive. One form of that habit is reading quite a few books. I think I read too much for me to by every single book that I want, so from time to time, I either have to hit the library and rent a book out (given that they have what I want which is at times unlikely) or purchase ebooks of my preferred books and read them on my phone, tablet, or pc.&lt;/p&gt;
+&lt;p&gt;Reading ebooks isn&amp;rsquo;t always the most convenient though. It has come a long way though! In this essay, I will go over some of the requirements of a ebook reader that I want, a few options that I pursued, and finally, why I settled on google books being my #1 ebook reader.&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;What makes an ebook reader? Let alone, the best ebook reader? Well in my mind there are a few things that are absolutely required of an ebook reader, anything else is just added gimmicks or bloat.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The ability to upload your own epub, pdf, etc&amp;hellip; to the reader. Without this capability, how will I get all of my legally purchased textbooks loaded onto the app.&lt;/li&gt;
+&lt;li&gt;It must have the capability to sync across the plethora of my devices, (Android, Windows PCs, Macbook, iPad, etc&amp;hellip;).&lt;/li&gt;
+&lt;li&gt;Standard Features, like highlighting annotations, etc.&lt;/li&gt;
+&lt;li&gt;Added bonus you can purchase books from the store, or import books from either kindle, or google play books into this reader.&lt;/li&gt;
+&lt;li&gt;Optionally support manga/cbz format.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;the-hunt&#34;&gt;The Hunt&lt;/h2&gt;
+&lt;p&gt;With my requirements defined now, we can move forward to hunting for the ideal epub reader. Im partially bias to FOSS, or just open source software in general. While i really really want the capability to read books on my work computer. I will sacrifice for a synced folder between multiple mobile devices. One of the few that popped up on my initial search was as follows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.faultexception.reader&amp;amp;hl=en_US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lithium Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://fbreader.org/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FBReader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://koreader.rocks/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;KoReader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/apple-books/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://read.amazon.com/landing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kindle Reader&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;apple-books&#34;&gt;Apple Books&lt;/h3&gt;
+&lt;p&gt;At one point, I had an iPhone, and used Apple Books almost exclusively. At one point, I bought a new stephen king book, on the Apple book store and immediately realized that I was unable to access it on any device that wasn&amp;rsquo;t an apple. This quickly became a big nono, and violated option number 4. In the perchance I want to buy a book that id like the author to receive the money for, and then you tell me I all of a sudden I dont own the book anymore is insane.&lt;/p&gt;
+&lt;h3 id=&#34;kindle-reader&#34;&gt;Kindle Reader&lt;/h3&gt;
+&lt;p&gt;I quickly deleted all imported books on the Apple Books app, and migrated to Kindle Reader. For being supposedly one of the largest ebook sellers. As well as touting multiple ebook readers etc, I was surprised that the interface absolutely sucks. Its somewhat glitchy, a pain in the but to upload anything to your phone, and honestly just is rough around the edges. Also, books that you own, can only be downloaded on x amount of devices. I rented a text book for the semester from kindle books, and Id have to delete the downloaded textbook (somewhere around a gig or a half) on one device, then download it onto another device making it an absolute pain in the ass if I dont have the device with the downloaded book on hand. I very quickly marked kindle reader as not suitable.&lt;/p&gt;
+&lt;h3 id=&#34;koreader&#34;&gt;KoReader&lt;/h3&gt;
+&lt;p&gt;Not long after, I switched from iPhone to android. This was due to a number of reasons, but in general the tipping point was the apple books issue. With my new android, I tried KoReader which is really flushed out, but lacks syncing capabilities, purchasing, etc&amp;hellip; It also visually looks like something that should be loaded onto a eink reader. Its very snappy, no fluid animations etc. Safe to say i migrated away from koreader after a few chapters.&lt;/p&gt;
+&lt;h3 id=&#34;fbreader&#34;&gt;FBReader&lt;/h3&gt;
+&lt;p&gt;FBReader was the next in my adventure, and it is pretty flushed out. It has an OK UI. The biggest benefit is that FBReader allows for connection to a &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Open_Publication_Distribution_System&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OPDS&lt;/a&gt; server. Meaning I could setup a &lt;a class=&#34;link&#34; href=&#34;https://github.com/janeczku/calibre-web&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Calibre Web Server&lt;/a&gt;, or a &lt;a class=&#34;link&#34; href=&#34;https://www.kavitareader.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kavita&lt;/a&gt; server. I tried this out, but over time having to setup the OPDS connection just kind of frustrated me. I also noticed, that even though I have a OPDS connection, that does not mean that my data gets synced; I mean thats not what OPDS is for. It just displays the books available. So then every device I want, would need to have synced with the FBReader feature, as well as connect to OPDS, which just kind of felt like it was too much to do. Eventually I just moved away from it.&lt;/p&gt;
+&lt;h3 id=&#34;lithium-books&#34;&gt;Lithium Books&lt;/h3&gt;
+&lt;p&gt;Finally, my second to last attempt was Lithium Reader. By the time I reached lithium reader, I had lost all hope. I just decided ill never find an app with all of the features that I dream of. Lithium Books was a happy medium. It has a great UI, highlighting and annotation. I can upload and include my own books. The only problem is that it quickly becomes then that it doesnt have CBZ support, as well as no OPDS support. And cannot connect or purchase books from amazon, google books, etc. All of those cons though, Im more than comfortable with just dealing with.&lt;/p&gt;
+&lt;p&gt;It wasnt too long after though that I figured Id give a look at the google play store looking for another solution, when I decided to take a look at the google books section. I discovered that in the past I had purchased a number of books from the google play store. I took a browse through the books I had purchased in the past and decided to click on one to see how it would prompt me to read it and low and behold I was prompted to install the google play books app.&lt;/p&gt;
+&lt;h3 id=&#34;google-play-books&#34;&gt;Google Play Books&lt;/h3&gt;
+&lt;p&gt;Immediately I was excited to see if this app was available on mac, iphone, web, etc. I logged into my computer and searched up google play books, and low and behold theres a web portal where you can read, and download books. Most importantly theres an option on the PC to upload books to your account as well! I grabbed a book from my harddrive and uploaded it to google books. I refreshed the app on my phone and there it was. I opened it up, and flipped a few pages forward. Then I exited the book and closed the app. I refreshed my page on my desktop, and opened the book. I was exactly where I left off at on my phone! Everything I had been wanting before my eyes.&lt;/p&gt;
+&lt;p&gt;I began to polit the app on my phone, reading every now and then when I get the chance. Until a few nights ago, where I was laying in bed and reading I decided to experiment with the settings seeing if there was a red light setting. And I discovered that on the mobile application, there is a text to speech feature, where the app will read the book to me! I spend the following 30 minutes, listening the book and following along as it goes. I was entirely impressed by its pronunciation of some hard words. The book i am reading currently has a number of latin and spanish words in it, so from time to time it will butcher a sentence.  Otherwise I am generally able to understand what its trying to say to me. Its annotation feature also allows for you to export the annotations to a document within your google drive! One of the downsides to this though, is that the text to speech feature is not available on the web version. Im also unable to test wether or not its available on the iOS version.&lt;/p&gt;
+&lt;p&gt;With that being said, While I know that not everyone likes google, and many people are attempting to de-google their life. If you are looking for a very solid ebook solution, Google Play Books is the way to go. It meets literally all of my requirements and more. With the added text to speech feature, its almost like you get an added ebook thrown in for free!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How to Contribute to Open Source Software</title>
         <link>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
         <pubDate>Tue, 04 Jun 2024 08:50:15 -0400</pubDate>
