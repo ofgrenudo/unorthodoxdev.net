@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unorthodoxdev.net/</loc>
-    <lastmod>2024-06-10T16:07:31-04:00</lastmod>
+    <lastmod>2024-06-12T10:16:32-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2024-06-12T10:16:32-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/</loc>
     <lastmod>2024-06-10T16:07:31-04:00</lastmod>
@@ -33,9 +36,6 @@
     <lastmod>2024-06-10T11:31:24-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</loc>
-    <lastmod>2024-06-04T08:50:15-04:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/post/</loc>
     <lastmod>2024-06-04T08:50:15-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/programming/</loc>
