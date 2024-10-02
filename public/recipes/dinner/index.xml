@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Dinner on Unorthodoxdev</title>
+        <link>http://localhost:1313/recipes/dinner/</link>
+        <description>Recent content in Dinner on Unorthodoxdev</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 10 Jun 2024 16:07:31 -0400</lastBuildDate><atom:link href="http://localhost:1313/recipes/dinner/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Ravioli</title>
+        <link>http://localhost:1313/recipes/dinner/ravioli/</link>
+        <pubDate>Mon, 10 Jun 2024 16:07:31 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/ravioli/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1lb Ground Beef or Turkey.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cups of mozzarella, ricotta, or cottage cheese.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Spaghetti, or Marinara Sauce.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Begin Making your &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;. Once you have set them aside to rest, begin prepping your ground beef or turkey. Season heavily, with italian seasonings.&lt;/li&gt;
+&lt;li&gt;Once your ground beef has complexly cooked through, drain grease into disposable container and kill heat on the stove.&lt;/li&gt;
+&lt;li&gt;Begin boiling water in a large pot now.&lt;/li&gt;
+&lt;li&gt;Next stir in your choice of cheese, favorably cottage cheese or ricotta cheese.&lt;/li&gt;
+&lt;li&gt;Now hopefully, we have given the dough a minimum 30 minutes of rest, we will want to next cut the dough into small pieces to roll flat, and cut into squares.&lt;/li&gt;
+&lt;li&gt;Place the filling in the middle of your ravioli noodles, and cover or fold. For the edges, you can press a fork firmly onto the edges to seal. Try putting water around the edges to help seal ravioli tightly.&lt;/li&gt;
+&lt;li&gt;Boil Ravioli for roughly 10 to 11 minutes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Home Made Noodles</title>
+        <link>http://localhost:1313/recipes/dinner/home-made-noodles/</link>
+        <pubDate>Mon, 10 Jun 2024 15:55:05 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/home-made-noodles/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 cup of flour.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 egg .&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 table spoons of milk.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1/2 table spoon of salt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Add flour to a bowl, with salt.&lt;/li&gt;
+&lt;li&gt;Add your beaten egg and 2 table spoons of milk.&lt;/li&gt;
+&lt;li&gt;Mix in bowl, until well in a ball.&lt;/li&gt;
+&lt;li&gt;Allow to rest for a minimum 30 minutes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once the dough has rested, cut into sections and create desired shapes, once noodles are shaped, dust lightly with flower to prevent sticking.&lt;/p&gt;
+&lt;p&gt;Cooking noodles will take approximately 10 minutes in boiling water.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Chicken Noodle Soupless (Slow Cooker)</title>
+        <link>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</link>
+        <pubDate>Mon, 10 Jun 2024 11:31:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</guid>
+        <description>&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Notice, that this recipe, requires roughly 7 hours to complete, most of which are waiting on the slowcooker.&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Defrosted Chicken Breasts or Thighs (thighs preferred or chicken breasts cut into strips).&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cans of corn, 3 or fresh cobs.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 can of cut carrots, 2 fresh carrots.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 3 chile poblano peppers.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1/4 cup of cream cheese.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Parmesan cheese.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; (Optional) Mozzarella.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;p&gt;Note because this recipie takes so long, its ideal to start this at home on my lunch break, or place the chicken in the morning on low, though ive never tested leaving the crockpot on all day cooking like that, I imagine it should be fine :)&lt;/p&gt;
+&lt;h3 id=&#34;preparation&#34;&gt;&lt;a href=&#34;#preparation&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Preparation
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;If using Chicken Breasts, cut them thinly or into chicken strips. Once chicken preparation is done, season both sides and put into your dry slowcooker.&lt;/li&gt;
+&lt;li&gt;Next you will want to throw in your corn. If the corn is on the cob still, remove all leafy greens, and cut the cob into 1/3 or 1/2. Put into crock pot.&lt;/li&gt;
+&lt;li&gt;Slice carrots into chips, and place into crock pot.&lt;/li&gt;
+&lt;li&gt;Dice your 3 chile poblanos, and place them into the slowcooker.&lt;/li&gt;
+&lt;li&gt;Add enough water to the slowcooker, to cover everything. Place the lid onto the slowcooker and turn to high. Set a timer for 5 to 6 hours from now.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;plating&#34;&gt;&lt;a href=&#34;#plating&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Plating
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Once your timer has gone off, please ensure that your chicken has reached an internal temp of 165 degrees. If it is at that temperature or above, give everything a good mix, and then turn the slowcooker off.&lt;/li&gt;
+&lt;li&gt;At this step, you need to begin boiling your noodles, to do this in the slowcooker would add an additional 2 hours and would be very hard to time appropriately without causing soggy noodles, so we will instead be boiling our noodles in a separate pot.&lt;/li&gt;
+&lt;li&gt;Either add fresh water to your new pot, or reuse the delicious chicken/veggie stock you&amp;rsquo;ve been boiling for the past few hours and boil that in your new pot. &lt;strong&gt;By the end of this step, your crock pot should be drained of any liquids.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Once your noodles have boiled, strain your noodles, and then place them into the slowcooker. Turn the slowcooker to low, and add in your 1/4 cup of cream cheese, mix thoroughly until the cream cheese has been completely incorporated.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, plate and serve with a heap of parmesan cheese.&lt;/p&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Goulash</title>
+        <link>http://localhost:1313/recipes/dinner/goulash/</link>
+        <pubDate>Wed, 22 May 2024 15:42:37 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/goulash/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1lb of ground beef.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 onion (preferably yellow or red).&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tomatoes.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Bell Peppers.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Canned tomato sauce.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Noodles (preferably macaroni).&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1/2 Cup water.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2-4 cloves of garlic.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Oregano&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Basil&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Crushed Red Pepper&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Red Wine (Optional)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;&lt;a href=&#34;#instructions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Instructions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Dice the onion and garlic. Throw them both into a large soup pot on medium, medium high. Drop a splash of oil. (you dont need alot of oil because shortly youll be adding greasy beef to the mix.)&lt;/li&gt;
+&lt;li&gt;Dice the Bell Peppers and Tomatoes and throw them into the pot as you get them cut up.&lt;/li&gt;
+&lt;li&gt;Add the ground beef, and continue to cook until the beef is cooked. At this point if you have red wine, and you have some good stuff stuck to the bottom of the pot, throw in a some wine to deglaze the pan.&lt;/li&gt;
+&lt;li&gt;Add the seasonings and canned tomato sauce. Turn the mixture up to high, and allow for it to boil. Once it begins to boil, put it back down to a low simmer. Stiring Occasionally.&lt;/li&gt;
+&lt;li&gt;Once the sauce has simmered for roughly 30 minutes, add the noodles, and stir it to combine. Let it sit for about 10-15 minutes, stirring occasionally.&lt;/li&gt;
+&lt;li&gt;Salt to taste.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.5 cups&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;22g&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5g&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;467 kcal&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;19g&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;50g&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;920mg&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Enchiladas</title>
+        <link>http://localhost:1313/recipes/dinner/enchiladas/</link>
+        <pubDate>Wed, 18 Oct 2023 15:41:38 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/enchiladas/</guid>
+        <description>&lt;p&gt;Enchiladas are traditionally served stuffed with cheese or potatoes, but in america are commonly found stuffed with chicken. Realistically you can use what ever you want, ive even had carne asada enchiladas&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chiles Guajillo&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chiles Ancho&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Garlic Cloves&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Oregano&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Salt and pepper&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Corn Tortillas&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Queso Fresco&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Potaoes (optional)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chicken Breast (optional)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cebollya Blanca&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Vegetable oil&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Lettuce&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sour Cream&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;&lt;a href=&#34;#instructions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Instructions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Toast all of your chiles on a open flame or pan until hot, maybe burnt. Pull all burnt skin off. Once they are toasted, put them in a pan with water and boil them for a moment. At a minimum 15 minutes.&lt;/li&gt;
+&lt;li&gt;Remove them from the pot and allow them to cool for 10 to 15 minutes.&lt;/li&gt;
+&lt;li&gt;Once the chilies are cooled, put them in the blender together with the garlic, and a 1/2 cup of water. Blend until smooth. Here you can add sazon, oregano, salt and pepper to taste.&lt;/li&gt;
+&lt;li&gt;Heat the oven to 350F.&lt;/li&gt;
+&lt;li&gt;In a sauce pan place 2 table spoons of vegetable oil and heat it on medium.&lt;/li&gt;
+&lt;li&gt;Drown the tortillas one by one in the salsa we have made and then fry them in the oil until they are toasted on both sides.&lt;/li&gt;
+&lt;li&gt;Remove the tortillas from the pan and place on the side, now you will stuff them with the topping of your choice, potatoes, cheese, chicken, carne asada, etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Roll them tightly and place them in the pan to be sent to the oven.&lt;/li&gt;
+&lt;li&gt;Once your pan is full of enchiladas, cover them in queso fresco, and place in the oven. Cook until the cheese is melted.&lt;/li&gt;
+&lt;li&gt;Remove the enchiladas, and top with thinly cut lettuce, carrots, potatoes, etc&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Chicken Mack</title>
+        <link>http://localhost:1313/recipes/dinner/chicken-mack/</link>
+        <pubDate>Wed, 18 Oct 2023 15:31:25 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/chicken-mack/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 16 oz. box spiral noodles or elbow noodles.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 25 oz. bag of chicken strips.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 pack of bacon strips (optional).&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Salt and Pepper.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Basil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cheese-sauce&#34;&gt;&lt;a href=&#34;#cheese-sauce&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Cheese Sauce
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 stick butter.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cups heavy cream.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1/2 cup shredded parmesan cheese.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 cup mozzarella cheese, freshly shredded.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 3/4 cup colby jack cheese, freshly shredded.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2-3 cloves of garlic, minced.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Chopped fresh basil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;&lt;a href=&#34;#instructions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Instructions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Begin preheating your oven and prepping a tray to cook your chicken tenders on. Once the oven has come to temperature, please begin placing the chicken tenders into the oven.&lt;/li&gt;
+&lt;li&gt;While the oven is pre-heating, it would be a good time to begin cooking your bacon, you want the bacon to be crispy and crumble into a million pieces to speard around your noodles.&lt;/li&gt;
+&lt;li&gt;Begin boiling water and cook your pasta to your taste.&lt;/li&gt;
+&lt;li&gt;While your noodles are cooking, use one other pot to make your cheese sauce, melt your butter and cream together in a large pan.&lt;/li&gt;
+&lt;li&gt;Once your butter has melted, add in your cheese, one at a time stirring in to incorporate it all. Finally, add your garlic, and stir until incorporated and everything is melted. Here you will want to add salt and pepper to test.&lt;/li&gt;
+&lt;li&gt;When your noodles are done, drain them and add them to the pan with sauce and stir to combine. Now you will want to add your bacon and stir to incorporate it all together.&lt;/li&gt;
+&lt;li&gt;Finally, remove your chicken strips from the oven when they are done and serve. As a tip you can add the basil to the top of your pasta bowl, and any additional bacon that may have been left over.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Tinga</title>
+        <link>http://localhost:1313/recipes/dinner/tinga/</link>
+        <pubDate>Wed, 19 Jul 2023 13:57:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/tinga/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Large Yellow Onion.&lt;/li&gt;
+&lt;li&gt;Oil.&lt;/li&gt;
+&lt;li&gt;Stewed Tomatoes (Can be home made or from a can).&lt;/li&gt;
+&lt;li&gt;Chipotle peppers in adobo sauce.&lt;/li&gt;
+&lt;li&gt;Tostadas&lt;/li&gt;
+&lt;li&gt;Sour cream&lt;/li&gt;
+&lt;li&gt;Chicken breasts&lt;/li&gt;
+&lt;li&gt;(Optional) Pineapple&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In a large pot, begin to boil your chicken. Once your chicken is fully cooked, remove it from the water and allow time for it to cool. Once cool, begin to shred the chicken by hand.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;While the pot of chicken is boiling you could begin to add your tomatoes and chipotle peppers in (if raw and not from a can) to begin boiling, or add it to its own pot and boil that way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once the chicken is shredded, begin to chop your onion. You want long pieces of onion so avoid dicing them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add oil to a pan and begin to pan fry your onions, while they are getting tender pour out your tomatoes and adobe peppers and chipotle sauce into a blender and mix until everything is done. It does not hurt to add some chicken broth or vegetable broth in this step.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add your chicken into the pot of onions and mix, slowly add the tinga sauce we made in the previous step to the pot and combine. The chicken should be swimming in the sauce.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;At this point if you were planning on adding Pineapple, now would be the time to do so.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allow the chicken to marinate and the sauce to thicken up and lose some water.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once you are ready begin to serve the tinga on tostadas, with pickled onions, raddish, lettuce, beans, sour cream, or whatever else floats your boat.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Andrea&#39;s Chilli Recipe</title>
+        <link>http://localhost:1313/recipes/dinner/andreas-chili-recipe/</link>
+        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/andreas-chili-recipe/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1 lb ground beef&lt;/li&gt;
+&lt;li&gt;1 medium onion, chopped&lt;/li&gt;
+&lt;li&gt;1 green pepper chopped&lt;/li&gt;
+&lt;li&gt;2 stalks of celery, chopped.&lt;/li&gt;
+&lt;li&gt;1 can black beans rinsed and drained.&lt;/li&gt;
+&lt;li&gt;1 can dark red kidney beans rinsed and drained&lt;/li&gt;
+&lt;li&gt;1 can garbonzo beans, rinsed and drained.&lt;/li&gt;
+&lt;li&gt;1 can kidney beans in chili sauce (&lt;em&gt;do not drain or rinse these&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;1 can corn rinsed and drained&lt;/li&gt;
+&lt;li&gt;2 cans diced tomatoes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Brown beef in skillet over medium heat until no longer pink. Transfer to large pot. Pour 1tbsp vegetable oil into same skillet and heat over medium heat.&lt;/li&gt;
+&lt;li&gt;Add onion, pepper and celery and cook until onions are transparent.&lt;/li&gt;
+&lt;li&gt;Transfer them to the pot and add black beans, kidney beans, garbonzo beans, kidney beans in chili sauce, and corn to pot. Add chili mix and both cans of tomatoes. Plus 2 cans of water to pot.&lt;/li&gt;
+&lt;li&gt;Simmer uncovered on medium high heat for 20 to 30 minutes, stirring occasionally.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Taco Salad</title>
+        <link>http://localhost:1313/recipes/dinner/taco-salad/</link>
+        <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/taco-salad/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1 head of lettuce, shredded&lt;/li&gt;
+&lt;li&gt;1 medium onion, chopped&lt;/li&gt;
+&lt;li&gt;1 lb hamburger browned&lt;/li&gt;
+&lt;li&gt;2 cups of cheddar cheese shredded&lt;/li&gt;
+&lt;li&gt;3 medium tomatoes, chopped&lt;/li&gt;
+&lt;li&gt;1 bag dorites crushed&lt;/li&gt;
+&lt;li&gt;1/2 to 1 bottle Western French Dressing (8 oz)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In a large bowl, layer each ingredient starting with lettuce and ending with tomatoes. Toss with western dressing and crushed doritos just before serving.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you are planning for left overs, allow guests to add the doritos and dressing on their own to prevent any soggy nonsense.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>MECM on Unorthodoxdev</title>
+        <link>http://localhost:1313/tags/mecm/</link>
+        <description>Recent content in MECM on Unorthodoxdev</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 17 Nov 2023 15:33:30 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/mecm/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Navigating the Challenges of Asset Inventory Management</title>
+        <link>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
+        <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post Navigating the Challenges of Asset Inventory Management" /&gt;&lt;p&gt;Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&lt;/p&gt;
+&lt;p&gt;Consider the alternative of assigning meaningful names like &lt;code&gt;BLD-FLASTNAME01&lt;/code&gt; or &lt;code&gt;lastname01&lt;/code&gt;—common practices to enhance clarity. Yet, challenges arise when dealing with staff changes or shared devices. Renaming devices becomes a necessity, and the process of re-imaging and renaming raises questions about efficiency.&lt;/p&gt;
+&lt;p&gt;Implementing an asset inventory system is the logical next step. But what&amp;rsquo;s the right approach? Perhaps hosting a solution externally? The basic requirements seem straightforward: Device Name, Manufacturer, Model Name, Model Number, Serial Number, Asset Tag, Assigned Staff, and maybe the date of imaging. A SQL server could handle this, right? A simple C or C# program could populate rows for each imaged device.&lt;/p&gt;
+&lt;p&gt;However, the simplicity fades when colleagues without SQL skills request reports. Running reports becomes a frequent task, and the SQL server database becomes impractical.&lt;/p&gt;
+&lt;p&gt;Exploring solutions, one might encounter tools like &lt;a class=&#34;link&#34; href=&#34;https://snipeitapp.com/?ref=https://unorthodoxdev.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Snipe-IT&lt;/a&gt;, which ticks all the essential boxes. It provides access for non-SQL users but relinquishes some control over the database. The relational database structure, as highlighted in &lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/item?id=5696451&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this discussion&lt;/a&gt;, adds complexity. Navigating the &lt;a class=&#34;link&#34; href=&#34;https://snipe-it.readme.io/reference/api-overview&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Snipe API documentation&lt;/a&gt; reveals that simplicity is elusive.&lt;/p&gt;
+&lt;h2 id=&#34;unraveling-complexity-with-a-graph&#34;&gt;&lt;a href=&#34;#unraveling-complexity-with-a-graph&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Unraveling Complexity with a Graph
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
+	width=&#34;851&#34;
+	height=&#34;442&#34;
+	srcset=&#34;http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu17136460146830608898.png 480w, http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu7257913184179911920.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;relational database structure&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;462px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Adding a hardware entry involves creating a status entry, which requires a Status Name and a Status Type. To create a Model Entry, one needs a Category Entry and a Manufacturer Entry, each with its own set of requirements. While seemingly convoluted, this structure addresses an important issue: human error.&lt;/p&gt;
+&lt;p&gt;The challenge of discrepancies due to typos or variations in entries—whether in spreadsheets, SQL databases, or Snipe-IT—becomes evident. Using relational databases, where entries are referenced by ID rather than name, minimizes type 0 errors.&lt;/p&gt;
+&lt;p&gt;What initially seemed like a quick and easy solution now demands effort to automate device information entry into Snipe. The transition from manual entries to relational databases may pose challenges, but it ultimately addresses issues of consistency and accuracy in asset inventory management.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MECM API</title>
+        <link>http://localhost:1313/p/2023-07-19-mecm-api/</link>
+        <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-07-19-mecm-api/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post MECM API" /&gt;&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
+&lt;h2 id=&#34;the-basics&#34;&gt;&lt;a href=&#34;#the-basics&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;The Basics
+&lt;/h2&gt;&lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
+&lt;h3 id=&#34;service&#34;&gt;&lt;a href=&#34;#service&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Service
+&lt;/h3&gt;&lt;p&gt;You can check the status of the service in the console under &lt;strong&gt;\Monitoring\Overview\System Status\Component Status - SMS_REST_PROVIDER&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;read-only-query-basics&#34;&gt;&lt;a href=&#34;#read-only-query-basics&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Read-Only Query Basics
+&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;Note: All queries in this section use a HTTP GET method. Also, everything is CASE SenSiTiVe.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Get all Devices &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get All Users &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_User&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get Device By ResourceID (same syntax for users) &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System(12345678)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get User By ResourceID &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_User(12345678)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Retrieve related class information. This example gets Operating System information for a specific device. &lt;code&gt;https://&amp;lt;ServerName&amp;gt;/AdminService/wmi/SMS_R_System(12345678)/SMS_G_System_OPERATING_SYSTEM&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Custom Start Menu Layouts</title>
+        <link>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</link>
+        <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</guid>
+        <description>&lt;p&gt;Windows 11 and Start Menus &lt;em&gt;suck.&lt;/em&gt; Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
+	width=&#34;667&#34;
+	height=&#34;803&#34;
+	srcset=&#34;http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu18264987761281496947.png 480w, http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu7089503682470416994.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Start Menu Layouts&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;83&#34;
+		data-flex-basis=&#34;199px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;creating-a-new-layout&#34;&gt;&lt;a href=&#34;#creating-a-new-layout&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Creating a new Layout
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;On a build PC configure your new layout.&lt;/li&gt;
+&lt;li&gt;run the &lt;code&gt;Export-StartLayout&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;Modify the &lt;code&gt;StartLayout&lt;/code&gt; file and change the &lt;code&gt;pinnedList&lt;/code&gt; to &lt;code&gt;primaryOEMPins&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy the JSON file to &lt;code&gt;C:\Users\Default\AppData\Local\Microsof\Windows\Shell&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Alternatively, windows holds an encrypted version of the startup file in the &lt;code&gt;%LocalAppData%\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState&lt;/code&gt; folder. Copying the &lt;code&gt;start.bin&lt;/code&gt; file to whatever computers same folder, will essentially do the same thing.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve also created a mini program that you can use to quickly do the above commands to quickly reproduce the steps above. I will put the latest version of the source blow, alternatively you can check my Github repository out here &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/confs/tree/main/scripts/windows/start-layouts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ofgrenudo/confs/tree/main/scripts/windows/start-layouts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Install.bat&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cmd /c copy LayoutModification.json C:&lt;span class=&#34;se&#34;&gt;\U&lt;/span&gt;sers&lt;span class=&#34;se&#34;&gt;\D&lt;/span&gt;efault&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;ppdata&lt;span class=&#34;se&#34;&gt;\l&lt;/span&gt;ocal&lt;span class=&#34;se&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span class=&#34;se&#34;&gt;\W&lt;/span&gt;indows&lt;span class=&#34;se&#34;&gt;\S&lt;/span&gt;hell&lt;span class=&#34;se&#34;&gt;\L&lt;/span&gt;ayoutModification.json /y 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cmd /c copy start.bin C:&lt;span class=&#34;se&#34;&gt;\U&lt;/span&gt;sers&lt;span class=&#34;se&#34;&gt;\D&lt;/span&gt;efault&lt;span class=&#34;se&#34;&gt;\A&lt;/span&gt;ppData&lt;span class=&#34;se&#34;&gt;\L&lt;/span&gt;ocal&lt;span class=&#34;se&#34;&gt;\P&lt;/span&gt;ackages&lt;span class=&#34;se&#34;&gt;\M&lt;/span&gt;icrosoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy&lt;span class=&#34;se&#34;&gt;\L&lt;/span&gt;ocalState
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;do-it-again.bat&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@echo off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;powershell.exe Invoke-Command -scriptbloc &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Export-StartLayout -Path LayoutModifications.json&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cmd /c copy %LocalAppdata%&lt;span class=&#34;se&#34;&gt;\P&lt;/span&gt;ackages&lt;span class=&#34;se&#34;&gt;\M&lt;/span&gt;icrosoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy&lt;span class=&#34;se&#34;&gt;\L&lt;/span&gt;ocalState&lt;span class=&#34;se&#34;&gt;\s&lt;/span&gt;tart.bin start.bin /y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cmd /c copy %LocalAppdata%&lt;span class=&#34;se&#34;&gt;\P&lt;/span&gt;ackages&lt;span class=&#34;se&#34;&gt;\M&lt;/span&gt;icrosoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy&lt;span class=&#34;se&#34;&gt;\L&lt;/span&gt;ocalState&lt;span class=&#34;se&#34;&gt;\s&lt;/span&gt;tart2.bin start.bin /y
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cls
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Echo Remember to Update pinnedList to primaryOEMPins
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pause
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

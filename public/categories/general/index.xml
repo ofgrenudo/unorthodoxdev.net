@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>General on Unorthodoxdev</title>
+        <link>http://localhost:1313/categories/general/</link>
+        <description>Recent content in General on Unorthodoxdev</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 01 Oct 2024 22:25:21 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>GrrCON 2024</title>
+        <link>http://localhost:1313/p/2024-10-01-grrcon-2024/</link>
+        <pubDate>Tue, 01 Oct 2024 22:25:21 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2024-10-01-grrcon-2024/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1514480439008-da032651eb4a" alt="Featured image of post GrrCON 2024" /&gt;&lt;p&gt;GrrCON is a Cyber Security Conference based in Grand Rapids Michigan. Every year, it is hosted in
+the Devos Center. For the past three years, I have attended to help aid in my Professional Development
+as well as to keep in touch with the Cyber Security in the industry.
+GrrCON is spread over two days, and is broken up into three different sections every year. The first
+section are vendors and recruiters. Vendors typically come in, hoping to sell you and your company on
+their product or tool. I typically take a stroll through this section to see how the markets changing over
+time. Ive seen quite a few companies come and go through this section of the event. The other half of
+this section is the recruiters. This year we had the Army, as well as the FBI who were major recruiters
+this event. This half of the convention is honestly a really good place to network with peers and other
+companies. It allows for you to see whats in the market and give you ideas of other ares to look and
+apply to.&lt;/p&gt;
+&lt;p&gt;The second section to this convention is what is called villages. This year, there was the Car Hacking
+Village, Lock Picking Village, Integrated Control Systems Village, Hak4Kidz Village, and a Dungeon
+and Dragons Village. Each of the villages typically contain some kind of hands on lab for you to work
+with a professional in the field and get some experience, with the kinds of things they do.
+The final section consists of hour to hour and a half long seminars running back to back all day, where
+a vendor or a organization gives you either A) a demonstration of an exploit and how they discovered
+it, or B) they give you a run down on a service or process that may improve your work flow. This year,
+I only attended one seminar, which was a demonstration of a Denial of Service for the new 2025 ford
+broncos, where they could de-authenticate your paired Phone as Key and prevent you from getting into
+the car, forcing you to factory reset the device. In the seminar we discussed the magnitude of scale on
+this particular vulnerability, and how it wasn’t Ford who was at fault for the vulnerability, but actually
+Texas Instruments (TI), for deploying Bluetooth chips with vulnerable firmware. After disclosing the
+vulnerability to TI they reported back that the stored inventory of chips was roughly 8M dollars worth,
+that had to be put on hold, and brought back into the shop for firmware updates. This number also
+excludes the number of devices that were already in devices like vehicles, cell phones, smart watches,
+and medical equipment.&lt;/p&gt;
+&lt;p&gt;Besides the one seminar I attended this year, I spent a great deal of my time going through each of the
+villages village and competed in a number of challenges. Often villages will even hold competitions
+where you can show your skills off to others and compete for a prize. To give an example of some of
+the competitions you could compete in last year, I competed In the lock picking competition and placed
+second place! In this particular competition you were tasked with picking a trigger lock off of a toy
+water gun, while wearing beer googles. Once you have the trigger lock removed from the toy gun, you
+must accurately shoot the person in front of you with the water gun. This year, I spent a great deal of
+my time competing in Capture the Flags (CTF). I competed in three instances of a CTF, including
+Endpoint Threat Detection and Remediate (placing 7th), Cloud Native Security (placing 4th), and AI
+enhanced detection and remediation (placing 8th). This was a great experience overall, as I was able to
+really test my skills and see where I’m at in comparison to others. I think that for something that I only
+do occasionally in my day to day job, I played very competitively and stayed ahead of the ball for the
+most part.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Being a Commute Warrior</title>
+        <link>http://localhost:1313/p/2024-07-24-being-a-commute-warrior/</link>
+        <pubDate>Wed, 24 Jul 2024 09:13:47 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2024-07-24-being-a-commute-warrior/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1584278140365-2ab8bff2be82" alt="Featured image of post Being a Commute Warrior" /&gt;&lt;h2 id=&#34;bicycle-commuting-has-greatly-improved-downtown&#34;&gt;&lt;a href=&#34;#bicycle-commuting-has-greatly-improved-downtown&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Bicycle Commuting has Greatly Improved Downtown
+&lt;/h2&gt;&lt;p&gt;I think every other post ive read on reddit since they have installed the new bike lanes downtown have been relatively negative. Up until the city decided to put the bike lanes in, reaching downtown via means other than car was either impossible, or if not impossible risky/dangerous. Now with the addition of the bike lanes on Lovell, West Michigan, Stadium, Portage, North, and Westnedge, and more it makes access to the heart of the city from all sides of the city bike accessible. Before these additions, I would&amp;rsquo;nt have felt safe to bike from my home to downtown.&lt;/p&gt;
+&lt;p&gt;Let alone, riding my bike makes me feel just free. I can go anywhere and do anything. Its converting the energy in my body into momentum that can take me where I need or want to be. It allows for me to skip all the rush hour traffic and enjoy the world around me. Sure, you go faster generally in a car rather than a bike. But I legitemately have to stop a lot less when riding my bike vs when driving in a car.&lt;/p&gt;
+&lt;h2 id=&#34;within-1-to-2-miles-from-your-job&#34;&gt;&lt;a href=&#34;#within-1-to-2-miles-from-your-job&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Within 1 to 2 miles from your job!
+&lt;/h2&gt;&lt;p&gt;Walk to work, or walk to work more often. If you live one mile away from work, it would take you a max of 22 minutes to get to work walking. If you live two miles, your at a max 45 minute walk. Ive commuted via car before 45 minutes. There are times that I miss that commute time. Especially when work begins to get stressfull. It allows for me to decompress from work and relax before getting home and having to cook or get ready to do homework.&lt;/p&gt;
+&lt;h2 id=&#34;within-2-4-miles-from-your-job&#34;&gt;&lt;a href=&#34;#within-2-4-miles-from-your-job&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Within 2-4 Miles from your job!
+&lt;/h2&gt;&lt;p&gt;For those of you who live within a 2-4 mile range of your job, I would really recommend you trial a bike ride in on the weekend. You will considerably cut down on gas usage and save on parking. I for one make it in quicker when I bike than I do when I drive. I don&amp;rsquo;t have to worry about parking, I don&amp;rsquo;t have to worry about traffic for the most part, and I am free to take whatever route is convenient to me. After a long day of work, I can take a detour home, and stop at the park to read a book, or take a different route or trail home, and im not limited by the constrains of traffic and parking. If you fully commit to riding your bike to work every day, and live 4 miles or more, maybe invest in getting an ebike! This can help take the load off when your going up hills, or when you just want to put in less effort getting to work every day.&lt;/p&gt;
+&lt;h2 id=&#34;4-miles-or-more-from-your-job&#34;&gt;&lt;a href=&#34;#4-miles-or-more-from-your-job&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;4 miles or more from your job!
+&lt;/h2&gt;&lt;p&gt;Think about taking public transport, while you could 100% take your car, think about all the free time that just opened up allowing you to do other things you may enjoy. Riding the bus means you get to sitdown and read a book, or scroll the interwebs on your phone! And while it may take a little bit longer to get to work, I guarantee you with propper planning you will be just fine. If public transport isnt quite as available for you, maybe consider getting an ebike if your under 10 miles away. They can take a great deal of pressure off of you, and if you hold out till the end of your ride, you could use the ebike battery to take you the rest of the way there while you just cool down.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I think that you should 100% one way or another attempt to take a different way into work, just to broaden the horizons and to mix things up a bit. I get stuck to often in a routine of security and comfort. It helps to break out of that every now and then and get some variety in my life.&lt;/p&gt;
+&lt;p&gt;I hope to see you on the bike path ! ;)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The Best eBook Reader</title>
+        <link>http://localhost:1313/p/2024-06-12-the-best-ebook-reader/</link>
+        <pubDate>Wed, 12 Jun 2024 10:16:32 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2024-06-12-the-best-ebook-reader/</guid>
+        <description>&lt;p&gt;If you didn&amp;rsquo;t know, I read quite a bit of literature. I attempt to fill the time I have that im not doing anything productive with some for of productivity. Weather its watching a video essay, argumentative essay, or studying something im always trying to fill that void with something productive. One form of that habit is reading quite a few books. I think I read too much for me to by every single book that I want, so from time to time, I either have to hit the library and rent a book out (given that they have what I want which is at times unlikely) or purchase ebooks of my preferred books and read them on my phone, tablet, or pc.&lt;/p&gt;
+&lt;p&gt;Reading ebooks isn&amp;rsquo;t always the most convenient though. It has come a long way though! In this essay, I will go over some of the requirements of a ebook reader that I want, a few options that I pursued, and finally, why I settled on google books being my #1 ebook reader.&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;&lt;a href=&#34;#requirements&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Requirements
+&lt;/h2&gt;&lt;p&gt;What makes an ebook reader? Let alone, the best ebook reader? Well in my mind there are a few things that are absolutely required of an ebook reader, anything else is just added gimmicks or bloat.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The ability to upload your own epub, pdf, etc&amp;hellip; to the reader. Without this capability, how will I get all of my legally purchased textbooks loaded onto the app.&lt;/li&gt;
+&lt;li&gt;It must have the capability to sync across the plethora of my devices, (Android, Windows PCs, Macbook, iPad, etc&amp;hellip;).&lt;/li&gt;
+&lt;li&gt;Standard Features, like highlighting annotations, etc.&lt;/li&gt;
+&lt;li&gt;Added bonus you can purchase books from the store, or import books from either kindle, or google play books into this reader.&lt;/li&gt;
+&lt;li&gt;Optionally support manga/cbz format.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;the-hunt&#34;&gt;&lt;a href=&#34;#the-hunt&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;The Hunt
+&lt;/h2&gt;&lt;p&gt;With my requirements defined now, we can move forward to hunting for the ideal epub reader. Im partially bias to FOSS, or just open source software in general. While i really really want the capability to read books on my work computer. I will sacrifice for a synced folder between multiple mobile devices. One of the few that popped up on my initial search was as follows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.faultexception.reader&amp;amp;hl=en_US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lithium Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://fbreader.org/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FBReader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://koreader.rocks/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;KoReader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/apple-books/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://read.amazon.com/landing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kindle Reader&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;apple-books&#34;&gt;&lt;a href=&#34;#apple-books&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Apple Books
+&lt;/h3&gt;&lt;p&gt;At one point, I had an iPhone, and used Apple Books almost exclusively. At one point, I bought a new stephen king book, on the Apple book store and immediately realized that I was unable to access it on any device that wasn&amp;rsquo;t an apple. This quickly became a big nono, and violated option number 4. In the perchance I want to buy a book that id like the author to receive the money for, and then you tell me I all of a sudden I dont own the book anymore is insane.&lt;/p&gt;
+&lt;h3 id=&#34;kindle-reader&#34;&gt;&lt;a href=&#34;#kindle-reader&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Kindle Reader
+&lt;/h3&gt;&lt;p&gt;I quickly deleted all imported books on the Apple Books app, and migrated to Kindle Reader. For being supposedly one of the largest ebook sellers. As well as touting multiple ebook readers etc, I was surprised that the interface absolutely sucks. Its somewhat glitchy, a pain in the but to upload anything to your phone, and honestly just is rough around the edges. Also, books that you own, can only be downloaded on x amount of devices. I rented a text book for the semester from kindle books, and Id have to delete the downloaded textbook (somewhere around a gig or a half) on one device, then download it onto another device making it an absolute pain in the ass if I dont have the device with the downloaded book on hand. I very quickly marked kindle reader as not suitable.&lt;/p&gt;
+&lt;h3 id=&#34;koreader&#34;&gt;&lt;a href=&#34;#koreader&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;KoReader
+&lt;/h3&gt;&lt;p&gt;Not long after, I switched from iPhone to android. This was due to a number of reasons, but in general the tipping point was the apple books issue. With my new android, I tried KoReader which is really flushed out, but lacks syncing capabilities, purchasing, etc&amp;hellip; It also visually looks like something that should be loaded onto a eink reader. Its very snappy, no fluid animations etc. Safe to say i migrated away from koreader after a few chapters.&lt;/p&gt;
+&lt;h3 id=&#34;fbreader&#34;&gt;&lt;a href=&#34;#fbreader&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;FBReader
+&lt;/h3&gt;&lt;p&gt;FBReader was the next in my adventure, and it is pretty flushed out. It has an OK UI. The biggest benefit is that FBReader allows for connection to a &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Open_Publication_Distribution_System&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OPDS&lt;/a&gt; server. Meaning I could setup a &lt;a class=&#34;link&#34; href=&#34;https://github.com/janeczku/calibre-web&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Calibre Web Server&lt;/a&gt;, or a &lt;a class=&#34;link&#34; href=&#34;https://www.kavitareader.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kavita&lt;/a&gt; server. I tried this out, but over time having to setup the OPDS connection just kind of frustrated me. I also noticed, that even though I have a OPDS connection, that does not mean that my data gets synced; I mean thats not what OPDS is for. It just displays the books available. So then every device I want, would need to have synced with the FBReader feature, as well as connect to OPDS, which just kind of felt like it was too much to do. Eventually I just moved away from it.&lt;/p&gt;
+&lt;h3 id=&#34;lithium-books&#34;&gt;&lt;a href=&#34;#lithium-books&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Lithium Books
+&lt;/h3&gt;&lt;p&gt;Finally, my second to last attempt was Lithium Reader. By the time I reached lithium reader, I had lost all hope. I just decided ill never find an app with all of the features that I dream of. Lithium Books was a happy medium. It has a great UI, highlighting and annotation. I can upload and include my own books. The only problem is that it quickly becomes then that it doesnt have CBZ support, as well as no OPDS support. And cannot connect or purchase books from amazon, google books, etc. All of those cons though, Im more than comfortable with just dealing with.&lt;/p&gt;
+&lt;p&gt;It wasnt too long after though that I figured Id give a look at the google play store looking for another solution, when I decided to take a look at the google books section. I discovered that in the past I had purchased a number of books from the google play store. I took a browse through the books I had purchased in the past and decided to click on one to see how it would prompt me to read it and low and behold I was prompted to install the google play books app.&lt;/p&gt;
+&lt;h3 id=&#34;google-play-books&#34;&gt;&lt;a href=&#34;#google-play-books&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Google Play Books
+&lt;/h3&gt;&lt;p&gt;Immediately I was excited to see if this app was available on mac, iphone, web, etc. I logged into my computer and searched up google play books, and low and behold theres a web portal where you can read, and download books. Most importantly theres an option on the PC to upload books to your account as well! I grabbed a book from my harddrive and uploaded it to google books. I refreshed the app on my phone and there it was. I opened it up, and flipped a few pages forward. Then I exited the book and closed the app. I refreshed my page on my desktop, and opened the book. I was exactly where I left off at on my phone! Everything I had been wanting before my eyes.&lt;/p&gt;
+&lt;p&gt;I began to polit the app on my phone, reading every now and then when I get the chance. Until a few nights ago, where I was laying in bed and reading I decided to experiment with the settings seeing if there was a red light setting. And I discovered that on the mobile application, there is a text to speech feature, where the app will read the book to me! I spend the following 30 minutes, listening the book and following along as it goes. I was entirely impressed by its pronunciation of some hard words. The book i am reading currently has a number of latin and spanish words in it, so from time to time it will butcher a sentence.  Otherwise I am generally able to understand what its trying to say to me. Its annotation feature also allows for you to export the annotations to a document within your google drive! One of the downsides to this though, is that the text to speech feature is not available on the web version. Im also unable to test wether or not its available on the iOS version.&lt;/p&gt;
+&lt;p&gt;With that being said, While I know that not everyone likes google, and many people are attempting to de-google their life. If you are looking for a very solid ebook solution, Google Play Books is the way to go. It meets literally all of my requirements and more. With the added text to speech feature, its almost like you get an added ebook thrown in for free!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ravioli</title>
+        <link>http://localhost:1313/recipes/dinner/ravioli/</link>
+        <pubDate>Mon, 10 Jun 2024 16:07:31 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/ravioli/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1lb Ground Beef or Turkey.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cups of mozzarella, ricotta, or cottage cheese.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Spaghetti, or Marinara Sauce.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Begin Making your &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;. Once you have set them aside to rest, begin prepping your ground beef or turkey. Season heavily, with italian seasonings.&lt;/li&gt;
+&lt;li&gt;Once your ground beef has complexly cooked through, drain grease into disposable container and kill heat on the stove.&lt;/li&gt;
+&lt;li&gt;Begin boiling water in a large pot now.&lt;/li&gt;
+&lt;li&gt;Next stir in your choice of cheese, favorably cottage cheese or ricotta cheese.&lt;/li&gt;
+&lt;li&gt;Now hopefully, we have given the dough a minimum 30 minutes of rest, we will want to next cut the dough into small pieces to roll flat, and cut into squares.&lt;/li&gt;
+&lt;li&gt;Place the filling in the middle of your ravioli noodles, and cover or fold. For the edges, you can press a fork firmly onto the edges to seal. Try putting water around the edges to help seal ravioli tightly.&lt;/li&gt;
+&lt;li&gt;Boil Ravioli for roughly 10 to 11 minutes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nutrition&#34;&gt;&lt;a href=&#34;#nutrition&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Nutrition
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Information&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Measurement&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Serving&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Protein&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fiber&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Calories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fat&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbohydrates&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sodium&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Home Made Noodles</title>
+        <link>http://localhost:1313/recipes/dinner/home-made-noodles/</link>
+        <pubDate>Mon, 10 Jun 2024 15:55:05 -0400</pubDate>
+        
+        <guid>http://localhost:1313/recipes/dinner/home-made-noodles/</guid>
+        <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 cup of flour.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 egg .&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 table spoons of milk.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1/2 table spoon of salt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Add flour to a bowl, with salt.&lt;/li&gt;
+&lt;li&gt;Add your beaten egg and 2 table spoons of milk.&lt;/li&gt;
+&lt;li&gt;Mix in bowl, until well in a ball.&lt;/li&gt;
+&lt;li&gt;Allow to rest for a minimum 30 minutes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once the dough has rested, cut into sections and create desired shapes, once noodles are shaped, dust lightly with flower to prevent sticking.&lt;/p&gt;
+&lt;p&gt;Cooking noodles will take approximately 10 minutes in boiling water.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Whats Next</title>
+        <link>http://localhost:1313/p/2024-05-22-whats-next/</link>
+        <pubDate>Wed, 22 May 2024 09:31:43 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2024-05-22-whats-next/</guid>
+        <description>&lt;p&gt;Alot has happened in the past three months. Its not entirely uncommon for me to drop off the face of the earth during finals, but this year it hit me hard. I had quite a large class load, and getting everything in and done was quite a challenge. Now the semesters over, and ive graduated! For the past month or so, ive had the chance to actually breath.&lt;/p&gt;
+&lt;p&gt;So far, ive done primarily house chores in my free time. I took down the old pool in the backyard, fixed the fence up for the most part, and rebuilt the garden bed. I have also gone through and planted quite a few plants. Currently ive got as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3 tomato plants.&lt;/li&gt;
+&lt;li&gt;3 jalapeno plants.&lt;/li&gt;
+&lt;li&gt;2 habanero pepper plants.&lt;/li&gt;
+&lt;li&gt;5 garlic plants&lt;/li&gt;
+&lt;li&gt;numerous green onions scattered in the back of the garden bed&lt;/li&gt;
+&lt;li&gt;2 lettuce plants.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My biggest challenge this season will be protecting the plants and the fruits they bear from the neighbors chicken. The chicken, is adorable, but it enjoys the freedom a free cage bird should and discovers the neighbors houses. My fear, is it will eat my prized tomatoes, and im not sure what my plan is for that so far, but if anything ill have to put chicken wire on the perimeter of the garden bed. The only challenge is that it might keep not only the chicken out, but me as well (im lazy and navigating a chicken fence around the garden bed, could be detrimental).&lt;/p&gt;
+&lt;p&gt;Now that I feel as though i have taken a good break and am feeling quite a bit better, I have a few plans for this website and the things id like to do. Starting with, getting comments back up and running.&lt;/p&gt;
+&lt;h2 id=&#34;comments-planned-updates&#34;&gt;&lt;a href=&#34;#comments-planned-updates&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Comments Planned updates
+&lt;/h2&gt;&lt;p&gt;Right off the bat, id like to get comments up and running again, but before doing so, id like to get a management console up and running. Theres a few reasons i want to get the management console, up. One is because i sometimes dread remoting into the server, and two, I dread running sql commands in fear of fucking up terribly.&lt;/p&gt;
+&lt;p&gt;Some management console objectives are as follows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Secure Authentication.&lt;/li&gt;
+&lt;li&gt;Search comments by all values / fields.&lt;/li&gt;
+&lt;li&gt;Manage visibility of comments.&lt;/li&gt;
+&lt;li&gt;Delete comments.&lt;/li&gt;
+&lt;li&gt;Block IP Addresses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now this reasonably expands the database quite a bit, meaning ill need a few new tables now. As it stands, ill need a administrators table as well as a blocked_addresses table. I currently dont have a timeline for this project so im not sure how long it will take, but these are the changes needed to the software before im willing to bring it back online.&lt;/p&gt;
+&lt;h2 id=&#34;hugo-cms&#34;&gt;&lt;a href=&#34;#hugo-cms&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Hugo CMS
+&lt;/h2&gt;&lt;p&gt;The other side of this that im looking to do is implement a homebrewed CMS to the blog. I think it will be simple enough to do, but all im really looking to do with this application is as follows,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create/Manage Articles&lt;/li&gt;
+&lt;li&gt;Create/Manage ArchTypes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;thats really it.&lt;/p&gt;
+&lt;p&gt;Thanks for reading ! :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Internet Addiction and Cell Phone Usage</title>
+        <link>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</link>
+        <pubDate>Mon, 26 Feb 2024 20:46:09 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1617049483020-bf5a76956409?q=80&amp;w=2071&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Internet Addiction and Cell Phone Usage" /&gt;&lt;p&gt;The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do you think using cell phones too much is bad for our physical or mental health? Why or why not?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I think collectively, people have gotten to accustom to being &lt;a class=&#34;link&#34; href=&#34;https://keyhole.co/social-media-glossary/chronically-online/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chronically online&lt;/a&gt;. Personally, I believe that there are times that I come to realize I am obsessed with some internet personality, or I must contribute to my favorite page online or else I&amp;rsquo;m missing out. But eventually I realized that I substitute a lot of my time doing something meaningful with &lt;em&gt;being online&lt;/em&gt;. The unfortunate part about all addictions as they are, is that they often start out harmless, without even noticing it. You might justify it in one way or another, but &lt;em&gt;eventually&lt;/em&gt; it becomes compulsive, obsessive. To the point where you wake up and reach for that little black box, waiting to see what the algorithm has provided for you today. Many people unable to get out of bed before checking their social media likes and notifications.&lt;/p&gt;
+&lt;p&gt;When I realized that social media was becoming a problem for me, was when I started to fall down a rabbit hole of car crash accidents and near misses (really near &lt;del&gt;deaths&lt;/del&gt;). I remember I liked a post about someone &lt;a class=&#34;link&#34; href=&#34;https://www.urbandictionary.com/define.php?term=white%20lining&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;white lining&lt;/a&gt; and then I continued to get more and more really good white lining videos. Eventually, that became videos where they got into a crash, and like a jump scare, for its purpose, solely a wow effect I liked the video. Thinking to my self &amp;ldquo;That&amp;rsquo;s insane the wreck those guys got into&amp;rdquo;.  Eventually, I like enough videos and my entire feed becomes white lining videos where they end in near death, and again I&amp;rsquo;m sucked into this routine or habit where I like the video purely based on the wow factor, and it feeds my response into the algorithm to send me more and more videos like this. Eventually it went from four door cars to motor cycles, getting in near &lt;del&gt;death&lt;/del&gt; accidents, almost falling of bridges on the highway, getting slammed into by a speeding car that blew a red light and so on. Consuming this kind of content on a day to day basis really ended up affecting my mental health state, causing me to get intrusive thoughts on top of the ones that I already get, mostly related to the type of content that I consume.&lt;/p&gt;
+&lt;p&gt;When I finally realized what had been happening to my feed, it was almost too late. It got to the point where I would wake up in the morning and open my Instagram up, and boom a near &lt;del&gt;death&lt;/del&gt; video of someone riding in a motorcycle. I had become utterly desensitized. I realized at that I need to stop using social media the way that I do. The truth is I hardly ever even post anything to it. On top of that, all of my friends I meet in person, on chat with them via text. Social Media is entirely useless for the point of keeping up with others. The most that it does for me is allow me to keep tabs on people I no longer associate with. Ultimately though, the final thing keeping me on social media really was the fear of missing out, or sometimes referred to as FOMO. I don&amp;rsquo;t think that I have a strong case of FOMO, but there are some niche internet personalities that I keep tabs on regularly, for almost purely content purposes. It is the same way with certain friends. Some people I know, just by mishap or something that I once did in life, and we made friends on social media and now I get to see life through your eyes. Ultimately, once you wean your self off of that last bit of FOMO, and you delete the last app from your phone, you&amp;rsquo;ll most likely find your self sitting alone one night with not much to do and left to a few decisions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See what others are doing.&lt;/li&gt;
+&lt;li&gt;Do something your self.&lt;/li&gt;
+&lt;li&gt;Call a friend and do something together.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Out of habit we all have come to the first option and see what others are doing, loading up our favorite social media app, and scrolling to their profile. But what a time suck, how much easier is it to call them up and go hey lets go get food, or lets go to the bar and grab a drink. Or even to think of that project that you&amp;rsquo;ve been putting off. Like prototyping that idea you had in your head. Or starting that hobby you always wanted to. Or going for a walk outside with your dog. If you can change your mindset to then be here and now, you&amp;rsquo;ve officially escaped the matrix. Soon, the last a bit of FOMO will leave your nervous systems, and your withdrawal symptoms will fade. With it will be new hobbies and activities. Given responsible usage, you could even maybe catch up with that favorite internet personality, or your distant friends on one of those social media apps. But for now, you&amp;rsquo;ve got full control over your actions and decisions.&lt;/p&gt;
+&lt;h2 id=&#34;suggested-reading&#34;&gt;&lt;a href=&#34;#suggested-reading&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Suggested Reading
+&lt;/h2&gt;&lt;p&gt;Again, this decision wasn&amp;rsquo;t something that really happened overnight and it was something that built up for me as time went on and I learned more and more about internet addiction and the ways that I consume content. One of the books that I read that really helped me get a deep understanding of social media and the attention economy as a whole was &lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/en/book/show/42771901&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How to Do Nothing: Resisting the Attention Economy&lt;/a&gt;. This book is one of the books that really sparked my awareness to my internet and social media consumption along with a number of other videos and essays on internet addiction.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/en/book/show/42771901&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.goodreads.com/en/book/show/42771901&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you get the chance, I would give it a shot and see what correlations you make with the text as you read through it.&lt;/p&gt;
+&lt;h2 id=&#34;after-thoughts&#34;&gt;&lt;a href=&#34;#after-thoughts&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;After Thoughts
+&lt;/h2&gt;&lt;p&gt;While, I don&amp;rsquo;t really participate in social media as religiously as I had before. I would like to say that I do count this website as a form of social media. I get to post what I want here, as well as do what I want here. This website is a form of expression for me, and allows for me to post and share my content with the world and friends. Without this website, I&amp;rsquo;m not entirely sure that I could get rid of social media.&lt;/p&gt;
+&lt;p&gt;While I don&amp;rsquo;t honestly share this website with many people (truthfully this is mostly a blog about things I do at work) I do share tidbits of information here, and one day hope to post some more personal things onto it.&lt;/p&gt;
+&lt;p&gt;It is something that I am actively working towards. The difference though between this and a traditional social media website like Facebook or snapchat, is the fact that I cant see what others are doing. It is one sided. It wholly or partly, represents me as an individual, and my preferences.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Notes on Pedagogy of the Oppressed</title>
+        <link>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
+        <pubDate>Fri, 23 Feb 2024 23:59:14 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
+        <description>&lt;p&gt;As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…&lt;/p&gt;
+&lt;p&gt;To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”. In the case of this book, it is the art of teaching oppression. Immediately, you might think, who teaches oppression?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Who are better prepared than the oppressed, to understand the terrible significance of an oppressed society? Who suffer the effects of oppression more than the oppressed? Who can better understand the necessity of liberation?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The answer is the oppressed. Who is better prepared to oppress someone, that an oppressor? The oppressed. They already know all of the methods to exploit someone. Here for example, I think of the &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Stanford_prison_experiment&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stanford Prison Experiment&lt;/a&gt;. When the roles reverse, and the prisoners then become the guards, they forget as though they were never oppressed before. They have switched sides now, and play their role as the oppressor, to prevent becoming the oppressed reinforcing the standard.&lt;/p&gt;
+&lt;p&gt;Who suffer the effects of oppression more than the oppressed? The Oppressor. This is because the oppressors maintain the status quo. The easiest example of this, could be again the Stanford Prison Experiment again. They have no insurance gauranting that they will receive any measure of safety when the roles reverse again. So the easiest way to maintain safety, is to continue oppression, in hope to break down their oppressors in to a useless state.&lt;/p&gt;
+&lt;p&gt;Who can better understand the necessity of liberation? The oppressed. They relate to any oppression, due to the nature of the oppressor. They can understand the need for liberation among the oppressed immediately. This is why many oppressed groups often team together in resolving group problems. But how do you break this cyclical chain of oppression? It is simply to not oppress.&lt;/p&gt;
+&lt;p&gt;In a simple interview with a great deal of political activists, it is a common theme amongst them all, that at one point or another, the reason that they have become organizers is due to the simple feeling of hopelessness. What many activists hope to do is flip the script, and to then liberate the oppressed. But the means that they do so, is what matters to the author here. It is important, to not just become the new oppressor.&lt;/p&gt;
+&lt;p&gt;With that goal in mind, you may think now, what is oppression? Simply put, Oppression = The dehumanization of individuals. So why do so many liberators of the oppressed, eventually become their new oppressors? This is because often, the oppressed discover that without freedom, they cannot exist authentically. Although, this statement is only true in the fact that there are always oppressed. For without the oppressed, there are no oppressors.&lt;/p&gt;
+&lt;h2 id=&#34;combating-oppression&#34;&gt;&lt;a href=&#34;#combating-oppression&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Combating Oppression
+&lt;/h2&gt;&lt;p&gt;Now that we have a good grasp on the definition of oppression as defined in the text, you may wonder how can we combat oppression? One might immediately move to violence. While I don&amp;rsquo;t justify violence in its self, I would like to note that the author him self states “Never Once has violence been started by the oppressed” For the nature of oppression is violent.&lt;/p&gt;
+&lt;p&gt;Immediately what comes to mind for me is the difference in tactics between Martin Luther King Jr, and Malcom X. Martin Luther King Jr. was repeated placed in the spotlight and commended for his peaceful approach by the oppressors, because he did not pose a threat to them. I would like you to remember though that, it was the CIA that killed Martin Luther King Jr. Along with that, when we take the example of Malcolm X., many argue that the violence incited by Malcom&amp;rsquo;s protests, was never once provoked, we must remember though, that at every step of the way that the oppressor provided violence, by failing to recognize others as persons, by exploiting individuals. In the media, Malcom X. was portrayed as a criminal, and hunted by the oppressors for mimicking their oppressive tactics. In this case, I would like to remind you as well, that Nelson Mandela even did not believe that he could prevent the oppression the apartheid provided without violence, and did some twenty years in prison for the thought alone.&lt;/p&gt;
+&lt;p&gt;The book though mentions that the way to combat oppression, mostly involves the way that we teach individuals. Education in itself is a form of oppression. For example, every high school teaches why the Vietnam war was unwinnable, but never once do they mention why they were unpopular with minorities and leftists. Schools are advertised as a liberal institutions, but in reality schools are some of the most conservative institutions designed ever. Schools are designed to enforce the status quo. Your deadlines, writing limits, grade requirements, etc. are designed to indoctrinate you into society.&lt;/p&gt;
+&lt;p&gt;So how do we combat the indoctrination of education, and defeat the oppression of society? By challenging the way that you teach. Simply put, the only way to combat oppression is to develop critical consciousness within the oppressed. Making the oppressed aware of the power woven within their means. Critical consciousness forces you to question the status quo assigned to you by your oppressors. Often, what causes critical consciousness is what the author refers to as a limiting situation. A situation in which you begin to understand that the thoughts that were indoctrinated into you via your oppressors are no longer yours.&lt;/p&gt;
+&lt;p&gt;Once you have identified the ways you have been oppressed, to prevent then becoming a oppressor, you should practice co-intentional education, where both the instructor and student are both objects within the dialogue that are spoke and thought of critically. Why do you feel the way you do? What makes you believe that is true? dialogue and challenge the subject at hand, and eventually you will find the answer to your oppression.&lt;/p&gt;
+&lt;h2 id=&#34;food-for-thought&#34;&gt;&lt;a href=&#34;#food-for-thought&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Food for thought
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;What ways are you an oppressor?&lt;/li&gt;
+&lt;li&gt;What ways are you oppressed?&lt;/li&gt;
+&lt;li&gt;If your are an oppressor, how can you become an agent of change?&lt;/li&gt;
+&lt;li&gt;If you are oppressed, in what ways are you oppressed? Why?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Streamlining Your Nvim Config</title>
+        <link>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</link>
+        <pubDate>Mon, 22 Jan 2024 15:34:58 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</guid>
+        <description>&lt;p&gt;I console into a number of computers daily. Many running different services etc. I also have a few different devices everywhere I go, whether it be my home PC, laptop, or work laptop etc. Along with the many devices, a good chunk of my work consists of editing text files. Most of that time spent in vim. So a decent configuration is almost a neccesity to keep my productivity up.&lt;/p&gt;
+&lt;p&gt;I used to keep my nvim configuration in a configs repo on github, but as time went on, every system I touched, or every update I made to the repository meant that I would have to &lt;code&gt;git pull origin&lt;/code&gt; and copy the contents into where ever the hell my nvim config folder was.&lt;/p&gt;
+&lt;p&gt;Well, If I seperate the nvim configuration folder/files into its own repository and then clone the repository as my config, I could create an alias called &lt;code&gt;nvim-conf-update&lt;/code&gt; to &lt;code&gt;git pull origin&lt;/code&gt; in my configuration folder and automatically sync all of my configurations.&lt;/p&gt;
+&lt;p&gt;Hell this could become an automated task.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/nvim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;So i set out to seperate my nvim configuration.&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Fallow Devlog 02</title>
+        <link>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</link>
+        <pubDate>Wed, 20 Dec 2023 22:22:22 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</guid>
+        <description>&lt;iframe width=&#34;100%&#34; height=&#34;620&#34; src=&#34;https://www.youtube-nocookie.com/embed/SZrikhGiqQ4?si=XrCB43I7W6U3qhyi&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Above is a screen capture of my progress made with the game fallow. A few things so far, I have no idea what I want this game to be. The best word I have for it so far is an interactive adventure. I think of those terminal story games where you must look around, explore, get into combat, loot, go back, etc. I’m not sure how this will flush out entirely but overall I am taking this as a learning experience.&lt;/p&gt;
+&lt;p&gt;It is my first time writing any kind of game, let alone any kind of game using Godot. On top of that Godot uses GDScript, which is an interpreted language similar to python (if not exactly python).&lt;/p&gt;
+&lt;p&gt;Besides the things I talk about in the video, what do I like about it? Well mostly, so far, I really like the fact that GDScript forces you to almost work in a functional aspect. I’m not sure that I ever considered python to be a functional programming language. I also don’t have much experience with it either, so I don’t really know either way.&lt;/p&gt;
+&lt;p&gt;Godot offers a C# variant that allows you to program games that way, but my biggest aversion to that, is that it feels almost Tootoo serious for what I want to do. I think so far, I’ve made the right call GDScript is flexible and has what I need to be successful in making this little game.&lt;/p&gt;
+&lt;h3 id=&#34;objectives&#34;&gt;&lt;a href=&#34;#objectives&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Objectives
+&lt;/h3&gt;&lt;p&gt;The next few things I need to do in the game are as follows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Persistent Player Health and Experience.&lt;/li&gt;
+&lt;li&gt;Combat.&lt;/li&gt;
+&lt;li&gt;Complete the game loop.&lt;/li&gt;
+&lt;li&gt;The ability to go back home or to town.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bloopers&#34;&gt;&lt;a href=&#34;#bloopers&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Bloopers
+&lt;/h3&gt;&lt;p&gt;At some point in the development proccess, I ran into an issue setting the map. It didnt make the initial cut for the video because it was a bit of flashing between themes, but the behavior was intended. This was a great exercise of some problem solving skills and a reminder that I dont know everything. It takes breaking the problem down into smaller pieces and analyze the issues at hand, and the error presented.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;620&#34; src=&#34;https://www.youtube-nocookie.com/embed/Qk2QgM7Ob90?si=G4ZOUWJY1wiv8QJa&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+        </item>
+        <item>
+        <title>Finally a Favicon</title>
+        <link>http://localhost:1313/p/2023-12-18-finally-a-favicon/</link>
+        <pubDate>Mon, 18 Dec 2023 14:05:09 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-12-18-finally-a-favicon/</guid>
+        <description>&lt;p&gt;Finals are over, so you know what that means&amp;hellip; New Favicon :). Well kind of. I&amp;rsquo;ve purposely left the favicon. Deep down, I have always wanted to make the favicon a simple spiral. But unfortunately, my obession with spirals is not strong enough, nor do i think it represents this website appropriately. So as a compromise to my self, ive left the favicon blank until i find or request someone to generate a said favicon. Well, today is the day. Browsing itch.io I came across a pixel planet generate (oh em ghee, i had to check this out) and well it does exactly what it said it would. And im in love. And so i set out on a quest to generate a million planets until I found the one that I wanted. You can find and play with the same exact program I was here &lt;a class=&#34;link&#34; href=&#34;https://deep-fold.itch.io/pixel-planet-generator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://deep-fold.itch.io/pixel-planet-generator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It reminded me of an old program that I made a while ago, where I was experimenting with noise maps, and the rasterization of said noise map. The fun part about this experiment of mine was that it had three decimal points to it, and each decimal point was translated into a RGB color code at some point. Making at times this really magnificent image.&lt;/p&gt;
+&lt;p&gt;Moving forward, what are our candidates for the favicon?&lt;/p&gt;
+&lt;h3 id=&#34;candidate-one&#34;&gt;&lt;a href=&#34;#candidate-one&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Candidate one
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-1.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;earthlike-1.gif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;What do I like about it? Its simple, the clouds are nice and it is somewhat land, somewhat clouds. There is unfortunately way tooooo much land to be a close representation of earth. But overall I like it.&lt;/p&gt;
+&lt;h3 id=&#34;candidate-two&#34;&gt;&lt;a href=&#34;#candidate-two&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Candidate two
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/earthlike-2.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;earthlike-2&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;This is probably the most similar to earth, although my only dislike of this is that it probably represents pangea better than it does the modernday continents. Which is fine with me either way.&lt;/p&gt;
+&lt;h3 id=&#34;candidate-three&#34;&gt;&lt;a href=&#34;#candidate-three&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Candidate three
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/saturnlike-1.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;saturnlike-1&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I really like this one, It does a good job at displaying the ring around the planet, and the colors are more of my style. Overall this is very high up in the ranking list.&lt;/p&gt;
+&lt;h2 id=&#34;so-what-will-i-pick&#34;&gt;&lt;a href=&#34;#so-what-will-i-pick&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;So what will I pick?
+&lt;/h2&gt;&lt;p&gt;Well, to be honest with you I like each of these individually, but after experimenting with each of these I think that I prefer candidate two as it gives the most texture in the small favicon view. Overall though, it was nice to see the program and shader written in godot, and I got a neat favicon out of it. Win Win :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Comment Downtime 2023.11.28</title>
+        <link>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</link>
+        <pubDate>Tue, 28 Nov 2023 12:29:55 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</guid>
+        <description>&lt;p&gt;Today, I had an unexpected downtime of roughly 2 hours 2023.11.28 3-4 UTC. I had a Russian visiter Sunday (?) the 25th who commented essentially an ad about their website SEO skills onto the &lt;a class=&#34;link&#34; href=&#34;https://www.unorthodoxdev.net/comment/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;comment board&lt;/a&gt;. This is &lt;em&gt;unfortunately&lt;/em&gt; the internet, and even more so a &lt;em&gt;comment board&lt;/em&gt; where anyone can say and do anything (within the rules).&lt;/p&gt;
+&lt;p&gt;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive. But they did happen to comment three times, each time the same thing without any kind of variation. This was cause for concern&amp;hellip;. (im joking). But as a webadmin, I can do whatever the hell I want and censor whatever kind of things I want to censor, so why not exercise my webadmin rights and change the visibility of the excess comments and then leave a curdious note to the user about why I had to mark their notes as hidden? Naturally, you have to hide the comment on production right?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Heres where everything starts going down hill&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I decided to begin by running the command &lt;code&gt;sqlite3 comments.db&lt;/code&gt;. That is where i messed up first. I should have made a backup of the database. Its prone to human error (me, its prone to me, absolutely fucking it up, im the problem).&lt;/p&gt;
+&lt;p&gt;I then, was sitting in the console and it has been so long since ive worked on this project, I have no idea what the hell kind of comannds I need to run to view the database scheema, I know I could look at the source code, but curiosity got me and what if i didnt have access to the source code? well you can run&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;schema&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;schema&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;and it spits out the schema used to create the database. Cool, ive got my column variable types, and ive got the id from the comment board. So i need to just set the visibility to 0.&lt;/p&gt;
+&lt;p&gt;Boom, I do that with the following command, &lt;code&gt;UPDATE comments SET visible = 0 WHERE id = &amp;quot;&amp;lt;id_goes_here&amp;gt;&amp;quot;;&lt;/code&gt; it works. I do it for the other post i want to get rid of. And I update the poorly named &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/comment.unorthodoxdev.net/commit/830d376b8c9eb9ef29aeda649309483033b16ed1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;slqite-commands.md&lt;/code&gt;&lt;/a&gt; file with the command i used. Boom bam bow, whenever this happens again, i&amp;rsquo;m a prepared web admin.&lt;/p&gt;
+&lt;p&gt;I type my relatively polite message up:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hello MikhailRS, thank you for visting the site. This is by far the internet, you are welcome to do whatever you want to my site. I can simply destroy this website and start it up again. But please, in the future, do not repeat your post as it is breaking the rules (no spam) as listed in the above headers.&lt;/p&gt;
+&lt;p&gt;Although I appreciate your feed back as you have made a few things apparent to me, One the rules should be numbered in an ordered list so i can refer to them as numbers and not by &amp;ldquo;the rules&amp;rdquo;. Two, when I hide a comment, it still rederns in the html as a comment_ div. I will need to fix that sometime soon, its looking like a bug that will get resolved in probably 5 weeks as finals is coming up.&lt;/p&gt;
+&lt;p&gt;Thank you my friend :)&lt;/p&gt;
+&lt;p&gt;Google Translate, do your thang:&lt;/p&gt;
+&lt;p&gt;Здравствуйте, МихаилРС, спасибо, что посетили сайт. Это, безусловно, Интернет, вы можете делать на моем сайте все, что захотите. Я могу просто уничтожить этот сайт и запустить его заново. Но, пожалуйста, в будущем не повторяйте свой пост, поскольку он нарушает правила (без спама), перечисленные в заголовках выше.&lt;/p&gt;
+&lt;p&gt;Хотя я ценю вашу обратную связь, поскольку вы объяснили мне некоторые вещи, во-первых, правила должны быть пронумерованы в упорядоченном списке, чтобы я мог называть их числами, а не «правилами». Во-вторых, когда я скрываю комментарий, он все равно отображается в HTML как div comment_. Мне нужно будет это исправить в ближайшее время, это похоже на ошибку, которая будет исправлена, вероятно, через 5 недель, когда приближается финал.&lt;/p&gt;
+&lt;p&gt;Спасибо, мой друг :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And post it  to the comment board.&lt;/p&gt;
+&lt;p&gt;I then try to push the changes to the git repository and run into an authentication error. Why is that? maybe its because I don&amp;rsquo;t have my ssh keys on the server. Why is that? because its publicly accessible and prone to Russian dudes poking my server. And why don&amp;rsquo;t i want my ssh keys on the server? because they are used to authenticate to my GitHub. I at some point used my brain in this convoluted process.&lt;/p&gt;
+&lt;p&gt;No biggie, let me just git pull origin and uncommit all of these stupid changes. LOL. it overwrote the database. All comments lost, Im not back at the tracked testing version of &lt;code&gt;comments.db&lt;/code&gt;. About 6 months worth of commenting gold lost in the wind. Only to be held in my memory. This can never happen again.&lt;/p&gt;
+&lt;p&gt;So I go on a bug fixing protocol making rampage, &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/comment.unorthodoxdev.net/commit/0d2f47ceeaa5a3707381337f36b96ff5ae91b9cf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;I resolve the bug causing empty divs to show when i hide a comment&lt;/a&gt; and fix a number of spelling errors along the way. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/comment.unorthodoxdev.net/blob/df2c54671ded81ddad69100df2e3d53f6426e8b9/backup.sh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;I also create a backup solution to never do this again&lt;/a&gt;. And with that, I hopefully never make changes on prod again.&lt;/p&gt;
+&lt;p&gt;To over view heres a list of ways that I fucked up:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make changes on prod.&lt;/li&gt;
+&lt;li&gt;Commit changes on prod.&lt;/li&gt;
+&lt;li&gt;Roll back changes on prod.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t back changes up on prod.&lt;/li&gt;
+&lt;li&gt;Keep your database in the same folder as your source (shhh we didn&amp;rsquo;t talk about this).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Other than that, the kind stranger &lt;strong&gt;MikhailRS&lt;/strong&gt; taught me a few things though. List your rules as numbers so you can refer to them as Rule #4 instead of Rulez. You also pointed out a bug in the templating that I had. Finally, you also reminded me that I need to create a admin panel of sorts to hide comments lol.&lt;/p&gt;
+&lt;p&gt;Overall, there is my report on what the went wrong, November 28th, 2023.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Simple File Parsing Takes Three Hours</title>
+        <link>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
+        <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
+        <description>&lt;p&gt;NMAP really needs some kind of file output option that isnt leetcode, xml, or gibberish. I would kill for a csv output from nmap. Regardless, lets solve this problem. I chose to ues python because I figured it would be quick and easy and would take no time. I was in fact wrong; Im not quite as comfortable with python as I am with rust at this point, but thats ok. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/noparser/blob/main/noparser.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;It took about 2-3 hours to build and test a simple program&lt;/a&gt;. This stupid script, took a little over 40 minutes trying to figure out how to build a stupid CLI interface and I immediately realized I miss rusts built in fail handling. Your telling me that I have to try, except &lt;strong&gt;everything???&lt;/strong&gt;. Oh well it doesnt matter anyways this doesnt actually compile down to machine code there are no assembly jumps or calls, lets just do it&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;God I hate this I decided to just cave and research a few CLI libraries and landed on plac, which has some very terrible documentation. For example, they do not explicilty provide a way for you to accept a file path or string lol. I just had to play around with the program until I found something that works, but this library could literally kill for some more english in the documentation. After I got that going it was easy peasy lemon squeezy. Except, when you error out, it doesnt really tell you why if your in a try catch loop. So I have to effectively comment out the try catch loop, and lower my code a indentation bracket figure out what the hell is breaking my code, just to realize I forgot to pass a variable to a function but was referencing it anyways&amp;hellip;. Another downside to try catch. Why the hell is my program failing. Otherwise, this program is less than 40 lines without all the stupid comments.&lt;/p&gt;
+&lt;p&gt;All I could think about was those intro to CS classes in college where your just recycling CSV parsing code over and over again for a whole semester and building stupid text UI. All those hours of code, ammounted to a waste of three hours at work trying to get a CSV. But was it worth the three hours one might ask? well, the fact that I can run and scan the network using NMAP, and imemdiately convert it to a csv file to later open in XSLX or another stupid app to make a report later in my day in seconds, I would say that yes. Yes spending the three hours fighting with try, catch loops was worth it.&lt;/p&gt;
+&lt;p&gt;TLDR, noob gets wrekt by pythons immaculate error handling. Check out my project, &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/noparser/tree/main&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;noparser&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Vacation</title>
+        <link>http://localhost:1313/p/2023-09-07-vacation/</link>
+        <pubDate>Thu, 07 Sep 2023 10:32:58 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-09-07-vacation/</guid>
+        <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg" alt="Featured image of post Vacation" /&gt;&lt;p&gt;Im back!&lt;/p&gt;
+&lt;p&gt;Ive been gone for a little while now. I went on vacation to mexico for about 21 days to visit friends. I had a blast. Everything there is vastly different than here in the states. Where I live, &lt;a class=&#34;link&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S0277953600000046&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;if you need anything other than beer&lt;/a&gt; you need to drive about 5-20 minutes to get whatever you need. In Druango Durango Mexico, If I need to go to the store, its about a 5 minute walk to a Ley; The equivalent of a walmart or meijers. If im in the mood for some chips and a soda, theres a conveince store, or Oxxo within 2 to 5 minutes. Hungry for a burger, theres a place that sells hamburgesas down the street. Come on lets walk its only 10 minutes away! I will tell you though, I was a little dissapointed in the hamburgessa. I was expecting a &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=MULhB5_COAU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;american hamburger&lt;/a&gt; but instead found, carne asada, a salchica split in two, hamon, lettuce tomatoe, onion, pickles, mayo, mustrard, ketchup all on a bun. It was decent, but wasnt what I was looking for.&lt;/p&gt;
+&lt;p&gt;Across the street from where I stayed was a community center. A place where the community can host classes to teach all kinds of things. On Tuesdays and Thursdays theres karate class. On fridays theres dance class teaching you how to perform traditional Aztecan and Mayan dances. On Mondays and Wednesdays theres Singing Class. Tuesday evening they show you how to use a sowing machine and make dresses. Theres a park, with soccer goals, baskeball hoops, playground equipment, etc available all the time. Theres washers and dryers available for those who need them, etc. Over all the community center is something very strange to me. There arent many things like that in america. The closest I could think of is boys and girls club, but im not even sure thats everywhere in the states and Its most definetly not as flexiable as the community center.&lt;/p&gt;
+&lt;p&gt;Over all I really enjoyed my trip and cant wait to go back. But for now, ive got school and work to focus on. Ill attach a few photos below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/church.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;church.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/paraguas.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;paraguas.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;scorpion-hand.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain-two.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;terrain-two.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/terrain.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;terrain.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/theater.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;theater.jpeg&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/train-car.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;train-car.jpeg&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Advent of Code</title>
+        <link>http://localhost:1313/p/2023-08-09-advent-of-code/</link>
+        <pubDate>Wed, 09 Aug 2023 15:07:00 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-08-09-advent-of-code/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1606482512676-255bf02be7cf" alt="Featured image of post Advent of Code" /&gt;&lt;p&gt;Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.&lt;/p&gt;
+&lt;p&gt;Struggling to learn C, I decided to go through the AoC content from 2015 to current and complete each of the challenges with at a minimum, attempting to use C. The nice thing about doing the older problems, well really any problem, is that there are plenty of resources around online to help me work through and solve the problems.&lt;/p&gt;
+&lt;p&gt;I plan to go through at least one problem a day on my lunch break if not more given time permits and upload it to my &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/AoC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github repository&lt;/a&gt;. Depending on how I feel I may produce a write up of the problem, challenges I faced, my resolutions, how I could optimize, etc&amp;hellip; I think that this will be a fun exercise and prep me for when the 2023 AoC comes around.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fun Fact! I did not know that people could prestige programming problems but I recently learned, that people have prestige AoC. I guess at the end of the day, it is a game :)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Network Troubleshooting Methodology</title>
+        <link>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</link>
+        <pubDate>Wed, 09 Aug 2023 14:17:19 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</guid>
+        <description>&lt;p&gt;This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I &lt;strong&gt;STOP&lt;/strong&gt;, and &lt;strong&gt;SLOWN DOWN&lt;/strong&gt; and think about the changes. Something else I enjoy about these instructions is they force me to think more about &lt;em&gt;change&lt;/em&gt; management. Something I need more practice with.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gather as much information as possible. If possible, duplicate the problem.&lt;/li&gt;
+&lt;li&gt;Break the problem down into meaningful bytes. What steps need to occur and in what order? a lot of people use this step as an opportunity to begin working their way &lt;strong&gt;up&lt;/strong&gt; or &lt;strong&gt;down&lt;/strong&gt; the OSI Model identifying the processes that take place.&lt;/li&gt;
+&lt;li&gt;Generate a few different hypothesis&amp;rsquo;s and the steps needed to take to resolve these issues. Document these issues somewhere publicly where you and your peers can look back at them.&lt;/li&gt;
+&lt;li&gt;When you begin making changes, document the steps taken to test your hypothesis and perform one change at a time. After you have completed the change, assess the situation and determine if the change has produced a favorable result.&lt;/li&gt;
+&lt;li&gt;Once you have confirmed that you have resolved the issue, reach out the customer and confirm that they are seeing the same behavior as you are.&lt;/li&gt;
+&lt;li&gt;Document, Document, Document everything.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>Finding Things to Do</title>
+        <link>http://localhost:1313/p/2023-08-07-finding-things-to-do/</link>
+        <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-08-07-finding-things-to-do/</guid>
+        <description>&lt;p&gt;I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something. Sometimes, I may already have the end goal of my project or problem determined, but my issue is then, finding a way to complete it. Maybe not all the tools are there for me that I hope there would have been.&lt;/p&gt;
+&lt;p&gt;Lately I have been learning C. Not C++, not C#&amp;hellip; C. One thing I learned very quickly with C is that there is no hand holding. If you do not manage your memory, you&amp;rsquo;ve blown your program up. You don&amp;rsquo;t know how to do something, you&amp;rsquo;ve made your project 100 times harder now trying to include some foreign library, versus developing the solution your self. My initial Idea was to create a program, that pulls the API information from the local Transit station, and parses out the information into a pleasant way. This program in rust, hypothetically would be pretty quick, and i&amp;rsquo;ve already got an idea on how I would do it!&lt;/p&gt;
+&lt;p&gt;I would start by using &lt;a class=&#34;link&#34; href=&#34;github.com/actix/actix&#34; &gt;actix&lt;/a&gt; to pull the API get request. parse the JSON response using &lt;a class=&#34;link&#34; href=&#34;serde.rs&#34; &gt;serde&lt;/a&gt;. Then use  &lt;a class=&#34;link&#34; href=&#34;https://github.com/ratatui-org/ratatui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rata-tui&lt;/a&gt; to generate a beautiful text UI for it. All together, given I didn&amp;rsquo;t run into any hiccups, this project would probably be done in maybe~ 2 to 3 days If I used rust.&lt;/p&gt;
+&lt;p&gt;After almost a month of running through C projects and experiments. Ive found that, I am absolutely destroyed by the lack of features with C. My first challenge was making a get request to the Transit web api. I eventually resolved that issue using &lt;a class=&#34;link&#34; href=&#34;https://curl.se/libcurl/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;libcurl&lt;/a&gt; which is very terribly documented, and everything is just a pain in the ass to read an understand. But one other issue with using libcurl, is that it requires that the system the program is running on, &lt;strong&gt;contains&lt;/strong&gt; the application curl. That is an issue that I haven&amp;rsquo;t really ran into before when programming with rust. Everything is just code, that compiles to assembler that compiles to binary, that the machine understands and executes. Now i have to add another contingent, an application I cant/don&amp;rsquo;t want to package with my application.&lt;/p&gt;
+&lt;p&gt;Now I understand why applications ship with  DLLs. Or why the applications have underlying conditions when installing them. Regardless of how I felt about including libcurl, I moved forth and began to deal with my newly found string that contains the response from my API. After many &lt;code&gt;segfault&lt;/code&gt;&amp;rsquo;s I&amp;rsquo;ve got to parse this JSON string. Like I stated above, I would simply just use the serde library. But because C doesn&amp;rsquo;t have a JSON library (C was made way before the web, or JSON existed) I need to create my own parser.&lt;/p&gt;
+&lt;p&gt;The above two issues, is reason enough for me to understand why some hardcore C developers keep every piece of code they have. Because when they run into the same JSON parsing issue, they can look at the function, or file that they made last time, and implement the same function or file into the new program.Rust and most modern languages have provided such a standard, containing large standard libraries and easy to import and manage 3rd party libraries that It was hard for me to think of a time where that wasn&amp;rsquo;t an option.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/4exi8f.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;based&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The thing I like the most about C is that it forces me to think. To use my &lt;em&gt;smooth&lt;/em&gt; brain on how to parse a JSON element, what are the rules that JSON employs? How can I connect to a HTTP Web server, on port 80? How can I save the response? All of these thoughts come from a &lt;em&gt;rough&lt;/em&gt; brain. One with ridges and valleys and peaks. Not mine.&lt;/p&gt;
+&lt;p&gt;While, I think the Transit app i was planning on building with C was a bit too big for me to handle right now, my plan now is to finish it in Rust, and then In preparation for the 2023 Advent of Code, i would like to begin practicing my C solving those problems. Problems which are small and manageable, and I&amp;rsquo;m sure have plenty of resources online for the language that I will be using. Shoot, I&amp;rsquo;ve even found &lt;a class=&#34;link&#34; href=&#34;https://github.com/betaveros/noulith&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;a guy who created an entire language, for solving the Advent of Code problems&lt;/a&gt; conveniently in&amp;hellip;. Rust. So while i&amp;rsquo;ve completely changed the way I will handle my next app. I have added a completely other thing that I have dedicated my self to. Finding more things to do, when there is already so much.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/56pjdz.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;smooth brain&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>In dire need of comments</title>
+        <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</link>
+        <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</guid>
+        <description>&lt;p&gt;I recently migrated my website from &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ghost blog&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo&lt;/a&gt; which is a static site generator compared to the all in one package you get with &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ghost blog&lt;/a&gt;. One of the reasons I decided to make this change was honestly, I had no need for all of the many features that ghost blog provided. Something like Hugo was simple, and effective. It also allowed me to write my documents in mark down, and store the entirety of it in a git repository. Making the portability of my website insanely simple, compared to managing the ghost blog.&lt;/p&gt;
+&lt;p&gt;One of the features I missed from ghost blog though, was the comment feature. Something I really enjoyed. With some Hugo blogs, they do enable you to add a comment feature, but requires that you have some kind of third party application that you sign up for. That pretty much was a no go for me. I don&amp;rsquo;t want to have my self or readers sign up for some ooey gooey third party provider. So because i&amp;rsquo;m lazy, I decided to create my own comment board.&lt;/p&gt;
+&lt;p&gt;Ive been learning rust for some time now so I settled on that language. It would be a good proof of concept and really help me get my foot in the door when it comes to getting confidence in the language.&lt;/p&gt;
+&lt;h2 id=&#34;planning&#34;&gt;&lt;a href=&#34;#planning&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Planning
+&lt;/h2&gt;&lt;p&gt;Lets break down how we are going to do this.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;User must reach URL.&lt;/li&gt;
+&lt;li&gt;User inputs the following, username, comment.&lt;/li&gt;
+&lt;li&gt;User submits comment.&lt;/li&gt;
+&lt;li&gt;Program submits comment to database after running it through some checks.&lt;/li&gt;
+&lt;li&gt;Comment board is updated.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now that we have a general road map there are quite a few things we can extrapolate from this. One, I can already imagine how my data will look. Two, we can create a general rest API from this point forward. Lets start with our data template&lt;/p&gt;
+&lt;h3 id=&#34;data&#34;&gt;&lt;a href=&#34;#data&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Data
+&lt;/h3&gt;&lt;p&gt;I decided to go with sqlite because Im not sure that this website will ever get enough use that I will need to migrate away from an sqlite file. Although if it ever did, im sure it wouldn&amp;rsquo;t be too much more complicated to migrate to a MariaDB or a full fledged Sql database.&lt;/p&gt;
+&lt;p&gt;In general lets get what our data structure will look like&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Comment&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;id&lt;/span&gt;: &lt;span class=&#34;nb&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ip&lt;/span&gt;: &lt;span class=&#34;nb&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;username&lt;/span&gt;: &lt;span class=&#34;nb&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;timestamp&lt;/span&gt;: &lt;span class=&#34;nb&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;visible&lt;/span&gt;: &lt;span class=&#34;nc&#34;&gt;int32&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;You&amp;rsquo;ll notice there are a few things here that I have added besides the username and comment. One of them being ID. That will be our entry&amp;rsquo;s primary key. I plan on keeping the IP for governance reasons (issue bans, etc), as well as a timestamp, for historical records. The visible key, will be a simple 1 or 0. If it is 1 then it is visible. If it is 0 then it is hidden. Say I get a derogatory or inappropriate comment, I would&amp;rsquo;t want to necessarily delete it these comments should be kept to be referenced to for example for a ban appeal.I would want to especially keep them if it were to say be life threatening etc. So to prevent displaying it, I will switch the visible to 0 and contact or inform the police of said threat. This way, I still have the comment but its not visible.&lt;/p&gt;
+&lt;h3 id=&#34;api&#34;&gt;&lt;a href=&#34;#api&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;API
+&lt;/h3&gt;&lt;p&gt;From the requirements above, theres a few things we can already build out API wise.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;/comment/new&lt;/li&gt;
+&lt;li&gt;/comment/id/&lt;id&gt;&lt;/li&gt;
+&lt;li&gt;/comment/ip/&lt;ip&gt;&lt;/li&gt;
+&lt;li&gt;/comment/username/&lt;username&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Building out the API this way also allows us to tailor, how and what we write when we begin to create our program. I now know that I will need quite a few get functions that return data based off of 3 unique queries. I can also identify that I only need one query to create any data.&lt;/p&gt;
+&lt;p&gt;I hope that by now you can very clearly see the benefit of planning your program out, before actually typing any code. This will help you keep from getting lost while creating your program.&lt;/p&gt;
+&lt;p&gt;Thats about it for the theory on how this comment board will work. In the future, when i&amp;rsquo;ve got everything figured out. I may look into creating either a tutorial series on what i&amp;rsquo;ve done so far, or create youtube videos (as there are not many tutorials out on youtube for rust quite yet).&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ublock Origin and More</title>
+        <link>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</link>
+        <pubDate>Wed, 19 Jul 2023 21:00:06 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9" alt="Featured image of post Ublock Origin and More" /&gt;&lt;p&gt;Everybody knows about &lt;a class=&#34;link&#34; href=&#34;https://ublockorigin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;uBlock Origin&lt;/a&gt;. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.&lt;/p&gt;
+&lt;p&gt;Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you. These are really the same lists that DNS filters like pi-hole use.&lt;/p&gt;
+&lt;p&gt;A good website that has some of these lists are &lt;a class=&#34;link&#34; href=&#34;https://easylist.to&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://easylist.to&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Browse to the website, and find what ever list you want and then select the button &lt;strong&gt;add it to your blocker.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This will open a new tab, and then uBlock will prompt you to subscribe it it. Select &amp;lsquo;Subscribe&amp;rsquo; and then you will be live with that list.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Digital Gardens</title>
+        <link>http://localhost:1313/p/2023-07-19-digital-gardens/</link>
+        <pubDate>Wed, 19 Jul 2023 20:59:39 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-07-19-digital-gardens/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1550948390-6eb7fa773072" alt="Featured image of post Digital Gardens" /&gt;&lt;h2 id=&#34;outline&#34;&gt;&lt;a href=&#34;#outline&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Outline
+&lt;/h2&gt;&lt;h3 id=&#34;what-is-a-digital-garden&#34;&gt;&lt;a href=&#34;#what-is-a-digital-garden&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;What is a Digital Garden?
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;A place for ideas to grow.&lt;/li&gt;
+&lt;li&gt;A place for critiques.&lt;/li&gt;
+&lt;li&gt;An exercise in learning in public.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;learn-in-public&#34;&gt;&lt;a href=&#34;#learn-in-public&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Learn In Public
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Humility.&lt;/li&gt;
+&lt;li&gt;Honesty.&lt;/li&gt;
+&lt;li&gt;Generate Resources that you wish you had.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;work-in-public&#34;&gt;&lt;a href=&#34;#work-in-public&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Work In Public
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Document Your Self.&lt;/li&gt;
+&lt;li&gt;Document Your Steps&lt;/li&gt;
+&lt;li&gt;Working In Public Forces you to Work your Metacognitive Mind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;resources&#34;&gt;&lt;a href=&#34;#resources&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Resources
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;What is a digital garden? &lt;a class=&#34;link&#34; href=&#34;https://notes.joschua.io/50&amp;#43;Slipbox/Digital&amp;#43;garden&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://notes.joschua.io/50+Slipbox/Digital+garden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Work In Public &lt;a class=&#34;link&#34; href=&#34;https://nesslabs.com/work-in-public&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://nesslabs.com/work-in-public&lt;/a&gt;
+Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-in-public&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.swyx.io/learn-in-public&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pick Up What They Put Down &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/puwtpd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.swyx.io/puwtpd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Learn In Private &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-in-private&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.swyx.io/learn-in-private&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How do Rocket Scientists Learn &lt;a class=&#34;link&#34; href=&#34;https://www.govloop.com/community/blog/how-do-rocket-scientists-learn-aka-knowledge-management-lessons-learned-at-goddard-nasa/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.govloop.com/community/blog/how-do-rocket-scientists-learn-aka-knowledge-management-lessons-learned-at-goddard-nasa/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;what-is-a-digital-garden-1&#34;&gt;&lt;a href=&#34;#what-is-a-digital-garden-1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;What is a Digital Garden?
+&lt;/h1&gt;&lt;p&gt;A digital garden to me is a place for for my ideas, projects, and thoughts to be planted in, and sprout and grow in the future. Besides a personal journal on my computer Ive decided to make it a publicly facing blog. Ive decided to so for a few reasons. A digital garden allows space for critiques from others. I don&amp;rsquo;t know everything, nor do I know the best way to do one thing. Posting things publicly allows for a criticism from netizens.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;As I grow, my notes will grow. They will mature from that seed to a full grown plant later in the future.&amp;rdquo; &lt;a class=&#34;link&#34; href=&#34;https://notes.joschua.io/50&amp;#43;Slipbox/Digital&amp;#43;garden&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(Digital Garden, Joschua)&lt;/a&gt; This is a practice of Working in Public.&lt;/p&gt;
+&lt;h2 id=&#34;working-in-public&#34;&gt;&lt;a href=&#34;#working-in-public&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Working In Public
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://s18798.pcdn.co/motivationlab/wp-content/uploads/sites/6235/2023/02/two-routes-to-the-sr-oof-mot-and-goals.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Studies show that statistically, people are more likely to do stuff if they keep their intentions in private.&lt;/a&gt; But at times though that statement can seem counter intuitive. Often, people share their weight loss publicly on Facebook or Twitter or Instagram. Many report that doing so is a great way to stay motivated.&lt;/p&gt;
+&lt;p&gt;When you think about it, some of the reason, people post things online is because it provides a way for you to receive praise along the way. A quote that sticks with me is&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Become a documentarian of what you do&amp;rdquo; - Austin Kleon, Author of Show Your Work&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Becoming a documentarian means that you will develop very quickly&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Metacognition&lt;/li&gt;
+&lt;li&gt;Quick Feedback Loops on Content&lt;/li&gt;
+&lt;li&gt;Increased Creativity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By documenting your self, you are working your Metacognition. You are working on thinking of your thoughts. Should I have done that? Should I have done this instead. Why did I take that route? Was it because of an experience I had? Working your metacognition and &lt;em&gt;thinking&lt;/em&gt; about your thinking allows for you to quickly determine fallacies in your thought pattern. It also helps you explain in better depth, what you are working on.&lt;/p&gt;
+&lt;p&gt;Working in public also forces you to document not only your thoughts, but also your steps taken to get there. Doing this its self can help you identify un necessary steps and find better work flows.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Migrating Ghost Blog Domain Names</title>
+        <link>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</link>
+        <pubDate>Wed, 19 Jul 2023 12:20:21 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435" alt="Featured image of post Migrating Ghost Blog Domain Names" /&gt;&lt;blockquote&gt;
+&lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&amp;rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways. Or at least, double book blog posts somewhere just in case! (Truthfully most posts end up in my notebook to begin with, and end up polished on the website). Below are my steps to migrate my blogs DNS record.&lt;/p&gt;
+&lt;p&gt;Set your new DNS record, a day in advanced to the IP address of your server. In my case I was migrating from &lt;a class=&#34;link&#34; href=&#34;https://blog.unorthodoxdev.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.unorthodoxdev.net&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://unorthodoxdev.net&lt;/a&gt;. I created a ANAME record and allowed it to propagate overnight. In the morning, I did the below steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ghost config url {new_url}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm /etc/nginx/sites-enabled/*.conf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ghost setup ssl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ghost restart&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally you want to visit your website and check your cert and go from there!&lt;/p&gt;
+&lt;p&gt;I would also like to throw in that you might want to remove your ANAME record for whatever your website was before and upgrade it to a CNAME record. CNAME records are really just a redirect to whatever ANAME record you provide it.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
