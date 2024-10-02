@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Deserts on Unorthodoxdev</title>
-        <link>http://localhost:1313/recipes/deserts/</link>
+        <link>https://unorthodoxdev.net/recipes/deserts/</link>
         <description>Recent content in Deserts on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Jul 2023 18:26:44 -0400</lastBuildDate><atom:link href="http://localhost:1313/recipes/deserts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Jul 2023 18:26:44 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/recipes/deserts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Gorilla Balls</title>
-        <link>http://localhost:1313/recipes/deserts/gorilla-balls/</link>
+        <link>https://unorthodoxdev.net/recipes/deserts/gorilla-balls/</link>
         <pubDate>Wed, 19 Jul 2023 18:26:44 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/deserts/gorilla-balls/</guid>
+        <guid>https://unorthodoxdev.net/recipes/deserts/gorilla-balls/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 cup packed brown sugar.&lt;/li&gt;
@@ -75,10 +75,10 @@
         </item>
         <item>
         <title>Cowboy Cookies</title>
-        <link>http://localhost:1313/recipes/deserts/cowboy-cookies/</link>
+        <link>https://unorthodoxdev.net/recipes/deserts/cowboy-cookies/</link>
         <pubDate>Wed, 19 Jul 2023 14:06:29 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/deserts/cowboy-cookies/</guid>
+        <guid>https://unorthodoxdev.net/recipes/deserts/cowboy-cookies/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cups flour&lt;/li&gt;
@@ -147,10 +147,10 @@
         </item>
         <item>
         <title>Bannana Bread</title>
-        <link>http://localhost:1313/recipes/deserts/bannana-bread/</link>
+        <link>https://unorthodoxdev.net/recipes/deserts/bannana-bread/</link>
         <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/deserts/bannana-bread/</guid>
+        <guid>https://unorthodoxdev.net/recipes/deserts/bannana-bread/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 3 1/2 cups of sifted all purpose flour&lt;/li&gt;

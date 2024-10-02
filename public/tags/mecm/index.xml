@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>MECM on Unorthodoxdev</title>
-        <link>http://localhost:1313/tags/mecm/</link>
+        <link>https://unorthodoxdev.net/tags/mecm/</link>
         <description>Recent content in MECM on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 17 Nov 2023 15:33:30 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/mecm/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Nov 2023 15:33:30 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/mecm/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Navigating the Challenges of Asset Inventory Management</title>
-        <link>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
+        <link>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</link>
         <pubDate>Fri, 17 Nov 2023 15:33:30 -0500</pubDate>
         
-        <guid>http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
+        <guid>https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post Navigating the Challenges of Asset Inventory Management" /&gt;&lt;p&gt;Asset Inventory Management systems present challenges for many organizations. The daily task of managing, finding, and tracking devices can be time-consuming. Various ideas emerge to simplify device tracking, such as naming devices after their serial numbers. However, this approach often provides limited insight in case of issues.&lt;/p&gt;
 &lt;p&gt;Consider the alternative of assigning meaningful names like &lt;code&gt;BLD-FLASTNAME01&lt;/code&gt; or &lt;code&gt;lastname01&lt;/code&gt;—common practices to enhance clarity. Yet, challenges arise when dealing with staff changes or shared devices. Renaming devices becomes a necessity, and the process of re-imaging and renaming raises questions about efficiency.&lt;/p&gt;
 &lt;p&gt;Implementing an asset inventory system is the logical next step. But what&amp;rsquo;s the right approach? Perhaps hosting a solution externally? The basic requirements seem straightforward: Device Name, Manufacturer, Model Name, Model Number, Serial Number, Asset Tag, Assigned Staff, and maybe the date of imaging. A SQL server could handle this, right? A simple C or C# program could populate rows for each imaged device.&lt;/p&gt;
@@ -21,10 +21,10 @@
     &gt;this discussion&lt;/a&gt;, adds complexity. Navigating the &lt;a class=&#34;link&#34; href=&#34;https://snipe-it.readme.io/reference/api-overview&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Snipe API documentation&lt;/a&gt; reveals that simplicity is elusive.&lt;/p&gt;
 &lt;h2 id=&#34;unraveling-complexity-with-a-graph&#34;&gt;&lt;a href=&#34;#unraveling-complexity-with-a-graph&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Unraveling Complexity with a Graph
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
 	width=&#34;851&#34;
 	height=&#34;442&#34;
-	srcset=&#34;http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu17136460146830608898.png 480w, http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu7257913184179911920.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu17136460146830608898.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu7257913184179911920.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;relational database structure&#34;
@@ -42,10 +42,10 @@
         </item>
         <item>
         <title>MECM API</title>
-        <link>http://localhost:1313/p/2023-07-19-mecm-api/</link>
+        <link>https://unorthodoxdev.net/p/2023-07-19-mecm-api/</link>
         <pubDate>Wed, 19 Jul 2023 21:02:50 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/2023-07-19-mecm-api/</guid>
+        <guid>https://unorthodoxdev.net/p/2023-07-19-mecm-api/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1569653402334-2e98fbaa80ee" alt="Featured image of post MECM API" /&gt;&lt;p&gt;Currently im looking into creating an application to harvest device information using the MECM API. Since I constantly have to research where the MECM Admin service has its hooks, i thought it would be a good idea to add some general information here.&lt;/p&gt;
 &lt;h2 id=&#34;the-basics&#34;&gt;&lt;a href=&#34;#the-basics&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;The Basics
 &lt;/h2&gt;&lt;p&gt;The AdminService is a REST API that runs as a service, independent of the other web components in IIS on your site servers.&lt;/p&gt;
@@ -66,15 +66,15 @@
         </item>
         <item>
         <title>Custom Start Menu Layouts</title>
-        <link>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</link>
+        <link>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</link>
         <pubDate>Wed, 19 Jul 2023 12:31:03 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/</guid>
+        <guid>https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/</guid>
         <description>&lt;p&gt;Windows 11 and Start Menus &lt;em&gt;suck.&lt;/em&gt; Nothing works the way Microsoft says it should unless you use Intune. So to get around it, we just copy the bin. For now I&amp;rsquo;m doing both, considering sometime in the future Microsoft might get its stuff together and allow the JSON file to work.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
 	width=&#34;667&#34;
 	height=&#34;803&#34;
-	srcset=&#34;http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu18264987761281496947.png 480w, http://localhost:1313/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu7089503682470416994.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu18264987761281496947.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu7089503682470416994.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Start Menu Layouts&#34;
