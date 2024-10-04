@@ -1,3 +1,8 @@
 /*
     You can add your own custom styles here.
 */
+
+.link {color: #b57614;}
+
+/* This snippet removes that stupid header on the goodreads bit, must be in a div with the widget_container class though... */
+.widget_container {h2 {display: none;}}
