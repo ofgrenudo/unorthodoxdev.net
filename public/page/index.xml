@@ -123,6 +123,17 @@
         <description>&lt;!-- Should you be looking at the source code right now? --&gt;
 &lt;p&gt;Hello all~~~~&lt;/p&gt;
 &lt;p&gt;My name is Joshua WB (he/him)! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/ofgrenudo/ofgrenudo/refs/heads/main/test.svg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;tes&#34;
+	
+	
+&gt;
+&lt;a href=&#34;javascript:alert(String.fromCharCode(88,83,83))&#34; onmouseover=&#34;javascript:alert(String.fromCharCode(88,83,83))&#34;&gt;Click Me!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My Stats Below&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://github-readme-stats.vercel.app/api?username=ofgrenudo&amp;amp;theme=dark&amp;amp;show_icons=true&#34;
 	

@@ -18,6 +18,9 @@ Hello all~~~~
 
 My name is Joshua WB (he/him)! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019!
 
+![tes](https://raw.githubusercontent.com/ofgrenudo/ofgrenudo/refs/heads/main/test.svg)
+<a href="javascript:alert(String.fromCharCode(88,83,83))" onmouseover="javascript:alert(String.fromCharCode(88,83,83))">Click Me!</a>
+
 My Stats Below
 
 ![Joshua's GitHub stats](https://github-readme-stats.vercel.app/api?username=ofgrenudo&theme=dark&show_icons=true)
