@@ -3568,13 +3568,40 @@ You will need administrative access to the device in question. Changing a hostna
         
         <guid>https://unorthodoxdev.net/about/</guid>
         <description>&lt;!-- Should you be looking at the source code right now? --&gt;
-&lt;p&gt;Hello all!&lt;/p&gt;
-&lt;p&gt;My name is Joshua Winters-Brown! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019.&lt;/p&gt;
+&lt;p&gt;Hello all~~~~&lt;/p&gt;
+&lt;p&gt;My name is Joshua WB (he/him)! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019!&lt;/p&gt;
+&lt;p&gt;My Stats Below&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github-readme-stats.vercel.app/api?username=ofgrenudo&amp;amp;theme=dark&amp;amp;show_icons=true&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Joshua&amp;rsquo;s GitHub stats&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;h2 id=&#34;work-and-hobbies&#34;&gt;&lt;a href=&#34;#work-and-hobbies&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Work and Hobbies
-&lt;/h2&gt;&lt;p&gt;I am also a self taught software developer and have made so far many different applications. Currently I would like to say that I am taking liking to rust, and have been studying the language since 2022. The first programming language I learned was Java 7 SE, where i made a few Java applets and programs. Using Java, I did quite a bit of robotics programming for competitions. Next, I worked on some autonomous car programming in C/CPP for a competition.&lt;/p&gt;
-&lt;p&gt;Towards the end of my time competing, I began to develop a web interface to manage some of the hardware, peaking my interest in Javascript and node. After the competition was over I decided to begin working on a SaaS using Node JS. After learning that I hate the way JavaScript handles async and promises, logically I jumped to Rust.&lt;/p&gt;
-&lt;p&gt;Since then, i have fallen in absolute love with rust and programming language as a whole. Since, then I have migrated a majority of my SaaS codebase to rust,&lt;/p&gt;
-&lt;table&gt;
+&lt;/h2&gt;&lt;p&gt;I am a self-taught software developer with a deep passion for programming and problem-solving. My journey began with Java 7 SE, where I created various applets and programs, eventually leading me to robotics programming as the lead programmer for FRC teams &lt;a class=&#34;link&#34; href=&#34;https://frc-events.firstinspires.org/team/7658&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;7658&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://frc-events.firstinspires.org/team/6002&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;6002&lt;/a&gt;. I also competed in the &lt;a class=&#34;link&#34; href=&#34;https://www.squareonenetwork.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SquareOne Education Network Autonomous Innovative Vehicle Design Challenge&lt;/a&gt; for three years, where I had hands-on experience utilizing hobby electronics and microcontrollers programming autonomous cars in C/C++ for competitions. During the latter part of my time competing in SquareOne, I began to developed a web interface to manage hardware and issue commands to the microcontrollers, which is what initially sparked my interest in JavaScript and Node.js. However quickly this led me to discover Rust in 2019, a language I have since fallen in love with. I’ve migrated most of my SaaS codebase from Java and Node.js to Rust, finding it to be a more powerful and efficient tool for my needs.&lt;/p&gt;
+&lt;p&gt;In addition to programming, I’ve been working in IT since 2019, covering a wide range of roles from LAN Technician to Systems Analyst. Over the years, I’ve developed strong skills in Mobile Device Management (MDM) and thoroughly enjoy the daily interactions and challenges that come with this line of work. The variety of tasks keeps me engaged, whether it’s managing infrastructure or troubleshooting user issues.&lt;/p&gt;
+&lt;p&gt;Running my &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;own website&lt;/a&gt; and staying active with personal programming projects allow me to continuously sharpen my skills and stay on top of industry trends. I find these activities not only rewarding but also essential for staying current in a fast-paced field like IT.&lt;/p&gt;
+&lt;p&gt;More recently, I’ve been diving into the cybersecurity space, exploring new areas and expanding my knowledge in that direction. Cybersecurity feels like a natural extension of my IT and programming skills, and it’s an exciting challenge that I’m eager to pursue further.&lt;/p&gt;
+&lt;p&gt;At the moment, my top priority is finishing my education and obtaining more certifications to enhance my skill set. With school taking center stage, I’m committed to growing both academically and professionally to open up new career opportunities in the future.&lt;/p&gt;
+&lt;p&gt;Some certificates I am aiming for are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;img src=&#34;https://img.shields.io/badge/-AWS%20Certified%20Solutions%20Architect-232F3E?&amp;style=for-the-badge&amp;logo=Amazon%20AWS&amp;logoColor=white&#34; /&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;img src=&#34;https://img.shields.io/badge/-Cisco%20Certified%20Networking%20Associate-1BA0D7?&amp;style=for-the-badge&amp;logo=Cisco&amp;logoColor=white&#34; /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;programming-languages&#34;&gt;&lt;a href=&#34;#programming-languages&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Programming Languages
+&lt;/h3&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th style=&#34;text-align: left&#34;&gt;Language&lt;/th&gt;
@@ -3591,6 +3618,10 @@ You will need administrative access to the device in question. Changing a hostna
           &lt;td style=&#34;text-align: left&#34;&gt;Intermediate&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Python&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Intermediate&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Java&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Rusty&lt;/td&gt;
       &lt;/tr&gt;
@@ -3600,8 +3631,16 @@ You will need administrative access to the device in question. Changing a hostna
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;When i&amp;rsquo;m not developing, or working, I am mostly outside enjoying time with family or friends or my dog. For those who are interested, heres a photo of my dog, &lt;a class=&#34;link&#34; href=&#34;https://www.spanishdict.com/translate/Oso&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Oso&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;my-certifications&#34;&gt;&lt;a href=&#34;#my-certifications&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;My Certifications!
+&lt;/h3&gt;&lt;div&gt;
+  &lt;img src=&#34;https://img.shields.io/badge/-CompTIA%20A%2B-00529B?&amp;style=for-the-badge&amp;logo=CompTIA&amp;logoColor=white&#34; /&gt;
+  &lt;img src=&#34;https://img.shields.io/badge/-AWS%20Certified%20Cloud%20Practitioner-FF9900?&amp;style=for-the-badge&amp;logo=Amazon%20AWS&amp;logoColor=white&#34; /&gt;
+  &lt;img src=&#34;https://img.shields.io/badge/-Crestron%20Core%20Certification-003D99?&amp;style=for-the-badge&amp;logo=Crestron&amp;logoColor=white&#34; /&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;in-my-free-time&#34;&gt;&lt;a href=&#34;#in-my-free-time&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;In my free time&amp;hellip;
+&lt;/h2&gt;&lt;p&gt;When i&amp;rsquo;m not working, studying, or developing, I am mostly likely outside enjoying time with family, friends or my dog. For those who are interested, heres a photo of my dog, &lt;a class=&#34;link&#34; href=&#34;https://www.spanishdict.com/translate/Oso&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Oso&lt;/a&gt;. Hes the bestest boy, and would love to (probably) meet you one day!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.amazonaws.com/oso.jpeg&#34;
 	
 	
@@ -3612,9 +3651,9 @@ You will need administrative access to the device in question. Changing a hostna
 	
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;media&#34;&gt;&lt;a href=&#34;#media&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Media
-&lt;/h2&gt;&lt;p&gt;In general, im a fanatic for horror. It started with watching cheesy B horror / thriller movies, and slowly progressed into other media. One of my first experience with horror outside of B horror, was by reading Manga, by Junji Ito and many other artists. It then progressed into Japanese horror, and Korean horror. That being said, its not all that I consume. I am often reading books on political theory, as well as doing research on whatever else it is that i find interesting at the time. Ill leave some recommendations down below, on books and cinema that I enjoy (be warned most of it is going to be horror im sorry.)&lt;/p&gt;
-&lt;h3 id=&#34;books&#34;&gt;&lt;a href=&#34;#books&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Books
+&lt;h3 id=&#34;media&#34;&gt;&lt;a href=&#34;#media&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Media
+&lt;/h3&gt;&lt;p&gt;In general, im a fanatic for horror. It started with watching cheesy B horror / thriller movies, and slowly progressed into other media. One of my first experience with horror outside of B horror, was by reading Manga, by Junji Ito and many other artists. It then progressed into Japanese horror, and Korean horror. That being said, its not all that I consume. I am often reading books on political theory, as well as doing research on whatever else it is that i find interesting at the time. Ill leave some recommendations down below, on books and cinema that I enjoy (be warned most of it is going to be horror im sorry.)&lt;/p&gt;
+&lt;h3 id=&#34;favorite-book-recommendations&#34;&gt;&lt;a href=&#34;#favorite-book-recommendations&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Favorite Book Recommendations!
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.goodreads.com/book/show/57876868-things-have-gotten-worse-since-we-last-spoke&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Things Have Gotten Worse Since We Last Spoke - LaRocca Eric&lt;/a&gt;&lt;/li&gt;
@@ -3628,11 +3667,7 @@ You will need administrative access to the device in question. Changing a hostna
     &gt;The Pedagogy of The Oppressed - Paulo Freire&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;currently-reading&#34;&gt;&lt;a href=&#34;#currently-reading&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Currently Reading
-&lt;/h4&gt;&lt;style&gt;
-/* This snippet removes that stupid header on the goodreads bit, must be in a div with the widget_container class though... */
-.widget_container {h2 {display: none;}}
-&lt;/style&gt;
-&lt;!-- 
+&lt;/h4&gt;&lt;!-- 
 How to Generate this widget again.
 
 1. Head to https://goodreads.com/ and sign in.
@@ -3654,8 +3689,9 @@ How to Generate this widget again.
     &lt;!-- ========================================== --&gt;
     &lt;style type=&#34;text/css&#34; media=&#34;screen&#34;&gt;.gr_custom_container_1717515679{border:1px solid gray;border-radius:10px;padding:10px 5px 10px 5px;background-color:#282828;color:#fabd2f}.gr_custom_header_1717515679{border-bottom:1px solid gray;width:100%;margin-bottom:5px;text-align:center;font-size:120%}.gr_custom_each_container_1717515679{width:100%;clear:both;margin-bottom:10px;overflow:auto;padding-bottom:4px;border-bottom:1px solid #aaa}.gr_custom_book_container_1717515679{overflow:hidden;height:60px;float:left;margin-right:4px;width:39px}.gr_custom_author_1717515679{font-size:10px}.gr_custom_tags_1717515679{font-size:10px;color:gray}.gr_custom_rating_1717515679{float:right}&lt;/style&gt;&lt;div id=&#34;gr_custom_widget_1717515679&#34;&gt;&lt;div class=&#34;gr_custom_container_1717515679&#34;&gt;&lt;h2 class=&#34;gr_custom_header_1717515679&#34;&gt;&lt;a style=&#34;text-decoration: none;&#34; rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/review/list/165138572-joshua?shelf=currently-reading&amp;amp;utm_medium=api&amp;amp;utm_source=custom_widget&#34;&gt;Joshua&amp;#39;s bookshelf:currently-reading&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;gr_custom_each_container_1717515679&#34;&gt;&lt;div class=&#34;gr_custom_book_container_1717515679&#34;&gt;&lt;a title=&#34;The Revolution Has Come: Black Power, Gender, and the Black Panther Party in Oakland&#34; rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/review/show/6280877611?utm_medium=api&amp;amp;utm_source=custom_widget&#34;&gt;&lt;img alt=&#34;The Revolution Has Come: Black Power, Gender, and the Black Panther Party in Oakland&#34; border=&#34;0&#34; src=&#34;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474819862l/29362718._SX50_.jpg&#34;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_rating_1717515679&#34;&gt;&lt;span class=&#34; staticStars notranslate&#34;&gt;&lt;img src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_title_1717515679&#34;&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/review/show/6280877611?utm_medium=api&amp;amp;utm_source=custom_widget&#34;&gt;The Revolution Has Come:Black Power,Gender,and the Black Panther Party in Oakland&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_author_1717515679&#34;&gt;by&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/author/show/15043116.Robyn_C_Spencer&#34;&gt;Robyn C.Spencer&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_tags_1717515679&#34;&gt;tagged:currently-reading&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_each_container_1717515679&#34;&gt;&lt;div class=&#34;gr_custom_book_container_1717515679&#34;&gt;&lt;a title=&#34;2001: A Space Odyssey (Space Odyssey, #1)&#34; rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/review/show/6280901243?utm_medium=api&amp;amp;utm_source=custom_widget&#34;&gt;&lt;img alt=&#34;2001: A Space Odyssey&#34; border=&#34;0&#34; src=&#34;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY75_.jpg&#34;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_rating_1717515679&#34;&gt;&lt;span class=&#34; staticStars notranslate&#34;&gt;&lt;img src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_title_1717515679&#34;&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/review/show/6280901243?utm_medium=api&amp;amp;utm_source=custom_widget&#34;&gt;2001:A Space Odyssey&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_author_1717515679&#34;&gt;by&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/author/show/7779.Arthur_C_Clarke&#34;&gt;Arthur C.Clarke&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_tags_1717515679&#34;&gt;tagged:currently-reading&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_each_container_1717515679&#34;&gt;&lt;div class=&#34;gr_custom_book_container_1717515679&#34;&gt;&lt;a title=&#34;The Fear Index&#34; rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/review/show/6559614257?utm_medium=api&amp;amp;utm_source=custom_widget&#34;&gt;&lt;img alt=&#34;The Fear Index&#34; border=&#34;0&#34; src=&#34;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320541700l/11429709._SY75_.jpg&#34;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_rating_1717515679&#34;&gt;&lt;span class=&#34; staticStars notranslate&#34;&gt;&lt;img src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;img alt=&#34;&#34; src=&#34;https://s.gr-assets.com/images/layout/gr_red_star_inactive.png&#34;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_title_1717515679&#34;&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/review/show/6559614257?utm_medium=api&amp;amp;utm_source=custom_widget&#34;&gt;The Fear Index&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_author_1717515679&#34;&gt;by&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/author/show/575.Robert_Harris&#34;&gt;Robert Harris&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;gr_custom_tags_1717515679&#34;&gt;tagged:currently-reading&lt;/div&gt;&lt;/div&gt;&lt;br style=&#34;clear: both&#34;/&gt;&lt;center&gt;&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/&#34;&gt;&lt;img alt=&#34;goodreads.com&#34; style=&#34;border:0&#34; src=&#34;https://s.gr-assets.com/images/widget/widget_logo.gif&#34;/&gt;&lt;/a&gt;&lt;/center&gt;&lt;noscript&gt;Share&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/&#34;&gt;book reviews&lt;/a&gt;and ratings with Joshua,and even join a&lt;a rel=&#34;nofollow&#34; href=&#34;https://www.goodreads.com/group&#34;&gt;book club&lt;/a&gt;on Goodreads.&lt;/noscript&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&#34;https://www.goodreads.com/review/custom_widget/165138572.Joshua%20&#39;s%20bookshelf:%20currently-reading?cover_position=left&amp;cover_size=small&amp;num_books=5&amp;order=a&amp;shelf=currently-reading&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=1&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=282828&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1717515679&amp;widget_text_color=fabd2f&amp;widget_title_size=medium&amp;widget_width=full&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;div&gt;
-&lt;h3 id=&#34;cinema&#34;&gt;&lt;a href=&#34;#cinema&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Cinema
-&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&#34;cinema-recommendations&#34;&gt;&lt;a href=&#34;#cinema-recommendations&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Cinema Recommendations!
+&lt;/h3&gt;&lt;p&gt;These are must watches for horror. Id say, theres a good mix of american and asian media here!&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt1701990/?ref_=fn_al_tt_1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Detention (Comedy, Thriller, B-Movie)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.imdb.com/title/tt0133751/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520faculty&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
