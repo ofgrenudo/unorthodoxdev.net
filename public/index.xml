@@ -6,7 +6,33 @@
         <description>Recent content on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 01 Oct 2024 22:25:21 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Nov 2024 13:16:16 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Setting Up Oh My Posh</title>
+        <link>https://unorthodoxdev.net/p/2024-11-02-setting-up-oh-my-posh/</link>
+        <pubDate>Sat, 02 Nov 2024 13:16:16 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/2024-11-02-setting-up-oh-my-posh/</guid>
+        <description>&lt;p&gt;I&amp;rsquo;ve been using Oh-My-Posh for some time now, and I never really documented how I setup my environment. I had a &lt;code&gt;.ps1&lt;/code&gt; file saved but that was without instructions usless. So ill go through installing Oh-My-Posh here&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;choco install oh-my-posh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Configure Windows Terminal &lt;a class=&#34;link&#34; href=&#34;https://raw.githubusercontent.com/ofgrenudo/confs/refs/heads/main/configurations/wt_conf.json&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://raw.githubusercontent.com/ofgrenudo/confs/refs/heads/main/configurations/wt_conf.json&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;Install Agave Nerd Font (my favorite)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Edit your $PROFILE.
+&lt;ol&gt;
+&lt;li&gt;Within your $PROFILE use the following command &lt;code&gt;oh-my-posh init pwsh --config &#39;C:\Program Files (x86)\oh-my-posh\themes\darkblood.omp.json&#39; | Invoke-Expression&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Exit out of your terminal, and boom you all of a sudden have oh-my-posh configured and snazy.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Otherwise, there you have it. I realized after writing enough blog posts over the years, how akin a tech blog is to a cooking recipie you find online lol. One day, i was sitting in my kitchen pulling up a recipie on my laptop to follow along, and you know that lengthy preamble they give you before you actually get the recipie? LOL do I do that? I suppose blogs are mostly baout rambling. But it just was a general thought that popped into my head.&lt;/p&gt;
+&lt;p&gt;Tech blogs are really no better than cooking blogs. So im deciding to keep it short and straight to the point here with this post.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>GrrCON 2024</title>
         <link>https://unorthodoxdev.net/p/2024-10-01-grrcon-2024/</link>
         <pubDate>Tue, 01 Oct 2024 22:25:21 -0400</pubDate>
