@@ -16,6 +16,9 @@
     <meta name="twitter:image" content='https://images.unsplash.com/photo-1605351792643-fe0c43d18762' />
     <link rel="shortcut icon" href="/favicon.gif" />
 
+  
+
+
     </head>
     <body class="
     article-page
@@ -59,7 +62,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu12441857413987348283.png" width="300"
+                        <img src="/img/avatar_hu0e157a647bf02fa2552a62499790ea99_23064_300x0_resize_box_3.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -416,38 +419,38 @@
 </div>
 </div><p>Running the above command will prompt you to enter a bunch of information. Please follow through each of the steps and answer them completely. The following flags on the above command do as listed below</p>
 <div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Flag</th>
-          <th style="text-align: left">Description</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><code>req -x509</code></td>
-          <td style="text-align: left">This specifies that we want to use the X.509 certificate signing request managment. X.509 is a public key infrastructure standard that TLS adhears too.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><code>-nodes</code></td>
-          <td style="text-align: left">Nodes tells OpenSSL to skip the option to secure our certificate with a passphrase because we want apache to be able to read the file. A passphrase would prevent apache from being able to do so.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><code>-days 365</code></td>
-          <td style="text-align: left">This option sets the length of time that the certificate will be considered valid. Here we have set it for one year. Browsers will reject just about any certificate that is valid for longer than a year.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><code>-newkey rsa:2048</code></td>
-          <td style="text-align: left">This tells the program we want to generate a new certificate and key at the same time. the rsa:2048 makes it a RSA key that is 2048 bits long.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><code>-keyout</code></td>
-          <td style="text-align: left">This line tells the program where to place the private key file.</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><code>-out</code></td>
-          <td style="text-align: left">This line tells the program where to place the certificate that we are creating.</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>req -x509</code></td>
+<td>This specifies that we want to use the X.509 certificate signing request managment. X.509 is a public key infrastructure standard that TLS adhears too.</td>
+</tr>
+<tr>
+<td><code>-nodes</code></td>
+<td>Nodes tells OpenSSL to skip the option to secure our certificate with a passphrase because we want apache to be able to read the file. A passphrase would prevent apache from being able to do so.</td>
+</tr>
+<tr>
+<td><code>-days 365</code></td>
+<td>This option sets the length of time that the certificate will be considered valid. Here we have set it for one year. Browsers will reject just about any certificate that is valid for longer than a year.</td>
+</tr>
+<tr>
+<td><code>-newkey rsa:2048</code></td>
+<td>This tells the program we want to generate a new certificate and key at the same time. the rsa:2048 makes it a RSA key that is 2048 bits long.</td>
+</tr>
+<tr>
+<td><code>-keyout</code></td>
+<td>This line tells the program where to place the private key file.</td>
+</tr>
+<tr>
+<td><code>-out</code></td>
+<td>This line tells the program where to place the certificate that we are creating.</td>
+</tr>
+</tbody>
 </table></div>
 <p>As a general note, certificates and their keys are generally recommended to be put in the <code>/etc/ssl/private</code> (for keys) and <code>/etc/ssl/certs/</code> (for certificates). It is a best practice that we should employ.</p>
 <p>To recap we have just created a key and a certificate.</p>

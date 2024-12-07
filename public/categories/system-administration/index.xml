@@ -6,7 +6,67 @@
         <description>Recent content in System Administration on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 15 Feb 2024 06:48:01 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/system-administration/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 07 Dec 2024 11:23:21 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/system-administration/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How I Passed the AWS Solutions Architect Associates in Three Months!</title>
+        <link>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</link>
+        <pubDate>Sat, 07 Dec 2024 11:23:21 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</guid>
+        <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.us-east-1.amazonaws.com/posts-headers/alan-hardman-SU1LFoeEUkk-unsplash.jpg" alt="Featured image of post How I Passed the AWS Solutions Architect Associates in Three Months!" /&gt;&lt;p&gt;To start, the exam isn’t that bad!!&lt;/p&gt;
+&lt;p&gt;Overall, the exam asks a lot of questions centered around the best way to set up a system in AWS. These questions require a shift in how I think about solving problems. For years, I’ve been tasked with standing up or setting up systems according to specific requirements that aren’t flexible. In the Solutions Architect Associate exam, the questions are more like &lt;strong&gt;&amp;ldquo;What’s the AWS way to do this?&amp;rdquo;&lt;/strong&gt;—even if it means fundamentally changing how the application works. The idea is to design solutions that eliminate inefficiencies. &lt;em&gt;This is a huge change from how my job looks day-to-day right now.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this post, I’d like to cover the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finding ways to relate to the content.&lt;/li&gt;
+&lt;li&gt;What resources I used to study.&lt;/li&gt;
+&lt;li&gt;What I should have done better when taking notes.&lt;/li&gt;
+&lt;li&gt;What key topics you should focus on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;finding-ways-to-relate-to-the-content&#34;&gt;&lt;a href=&#34;#finding-ways-to-relate-to-the-content&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Finding Ways to Relate to the Content
+&lt;/h2&gt;&lt;p&gt;When I started studying for the exam, I struggled to find ways to relate to the content. I had a hard time conceptualizing systems that needed a distributed pattern and low-latency interconnectivity. I just couldn’t think of anything I manage that requires that kind of throughput. But I pushed forward and kept learning more and more about what AWS offers.&lt;/p&gt;
+&lt;p&gt;At this point, I stopped and looked up the kinds of jobs that require this certification. To my surprise, one of the first listings I found was for Little Caesars. This confused me even more, as I tried to apply the content to a fast-food chain or restaurant.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I don’t really eat Little Caesars pizza, and my experiences with it haven’t been all that positive. The only vivid memory I have of Little Caesars is from a trip to Mexico. Toward the end of my stay, I started craving an all-American hamburger or maybe some Domino’s. The closest we could get to “American” food was Little Caesars. So we walked 15 minutes to the nearest location, where we found a long line wrapping around the building. We got in line, fully committed to getting a pizza, and quickly made it inside. The store had several trophies, boasting that it was the #1 fastest-serving Little Caesars in Mexico. From the end of the line to walking out with a fresh pizza took about six minutes total.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At this point, I couldn’t connect AWS concepts to Little Caesars. After about a month of studying, I paused to reflect on what I was really learning. The material felt out of scope for my day-to-day job, so I stopped studying altogether for a bit. One day, I talked about it with a friend at the testing center, explaining how I struggled to see the practical applications—especially for something like Little Caesars. To my surprise, he explained how those technologies might actually be used at Little Caesars.&lt;/p&gt;
+&lt;p&gt;He suggested downloading their app and focusing on how AWS might support it, rather than the physical restaurant. At the time, I didn’t even know Little Caesars had an app. Begrudgingly, I downloaded it onto my phone and explored it. Later that night, I ordered a pizza and was genuinely surprised at how the app worked. When I picked up my pizza, I noticed QR codes on the box for tracking, all the way to the pickup box where you enter a 4-digit code to retrieve your order.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.us-east-1.amazonaws.com/posts-headers/apex_orders_pizza_portal.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Little Caesars Pizza Portal&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;As an avid Domino’s fan, this entire experience was completely different—and honestly, I preferred it. From now on, this is the gold standard for me when ordering pizza. After living through this experience, I revisited my notes and began imagining how Little Caesars might apply AWS services like SQS/SNS to their app and ordering process. I thought about how Lambda functions could update order statuses or modify data in DynamoDB or Amazon RDS. Suddenly, everything started to make sense.&lt;/p&gt;
+&lt;p&gt;I returned to the testing center to share my experience with my friend, who encouraged me to download other apps, like McDonald’s, and try the same approach. To my surprise, the same concepts applied there as well.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If I could highlight one thing that accelerated my learning, it would be finding something practical to connect the material to.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Whether that means pausing your studying to do a case study or getting hands-on experience, find something you can apply your knowledge to. It’ll help you retain the information in the long run.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-resources-i-used-to-study&#34;&gt;&lt;a href=&#34;#what-resources-i-used-to-study&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;What Resources I Used to Study
+&lt;/h2&gt;&lt;p&gt;Now that the Little Caesars story is out of the way, what resources did I use? Primarily, I relied on &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stephane Maarek’s&lt;/a&gt; Udemy course. I’ve used his courses before, and he’s a well-rounded and fantastic instructor. If you take everything he teaches and commit it to memory, you’ll pass the exam with flying colors. The hands-on labs in his course are especially helpful and will solidify your understanding of the services.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-i-should-have-done-better-when-taking-notes&#34;&gt;&lt;a href=&#34;#what-i-should-have-done-better-when-taking-notes&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;What I Should Have Done Better When Taking Notes
+&lt;/h2&gt;&lt;p&gt;I used Obsidian for my notes, which is my go-to tool these days. But I rushed through them and didn’t take the time to properly link concepts to the services they were built on. If I’d done that, I could have easily clicked through my notes later to clarify any weak areas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-key-topics-should-you-focus-on&#34;&gt;&lt;a href=&#34;#what-key-topics-should-you-focus-on&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;What Key Topics Should You Focus On?
+&lt;/h2&gt;&lt;p&gt;Overall, you should focus on:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;AWS Serverless Functions&lt;/strong&gt; (e.g., Lambda).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt; (e.g., DynamoDB, RDS).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VPC Configurations&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;While VPCs only make up about 15–20% of the exam, you’ll almost certainly encounter at least one gateway question that could throw you off.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
         <title>Manipulating the network card with Netsh</title>
         <link>https://unorthodoxdev.net/p/2024-02-15-manipulating-the-network-card-with-netsh/</link>
         <pubDate>Thu, 15 Feb 2024 06:48:01 -0500</pubDate>
@@ -201,7 +261,7 @@
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
 	width=&#34;851&#34;
 	height=&#34;442&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu17136460146830608898.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu7257913184179911920.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hub6d5145b3d330fcfa1e95cd5e8082432_41529_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;relational database structure&#34;
@@ -334,38 +394,38 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Running the above command will prompt you to enter a bunch of information. Please follow through each of the steps and answer them completely. The following flags on the above command do as listed below&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Flag&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Description&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;req -x509&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;This specifies that we want to use the X.509 certificate signing request managment. X.509 is a public key infrastructure standard that TLS adhears too.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;-nodes&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Nodes tells OpenSSL to skip the option to secure our certificate with a passphrase because we want apache to be able to read the file. A passphrase would prevent apache from being able to do so.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;-days 365&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;This option sets the length of time that the certificate will be considered valid. Here we have set it for one year. Browsers will reject just about any certificate that is valid for longer than a year.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;-newkey rsa:2048&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;This tells the program we want to generate a new certificate and key at the same time. the rsa:2048 makes it a RSA key that is 2048 bits long.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;-keyout&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;This line tells the program where to place the private key file.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;-out&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;This line tells the program where to place the certificate that we are creating.&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Flag&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;req -x509&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This specifies that we want to use the X.509 certificate signing request managment. X.509 is a public key infrastructure standard that TLS adhears too.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-nodes&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Nodes tells OpenSSL to skip the option to secure our certificate with a passphrase because we want apache to be able to read the file. A passphrase would prevent apache from being able to do so.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-days 365&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This option sets the length of time that the certificate will be considered valid. Here we have set it for one year. Browsers will reject just about any certificate that is valid for longer than a year.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-newkey rsa:2048&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This tells the program we want to generate a new certificate and key at the same time. the rsa:2048 makes it a RSA key that is 2048 bits long.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-keyout&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This line tells the program where to place the private key file.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-out&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;This line tells the program where to place the certificate that we are creating.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;As a general note, certificates and their keys are generally recommended to be put in the &lt;code&gt;/etc/ssl/private&lt;/code&gt; (for keys) and &lt;code&gt;/etc/ssl/certs/&lt;/code&gt; (for certificates). It is a best practice that we should employ.&lt;/p&gt;
 &lt;p&gt;To recap we have just created a key and a certificate.&lt;/p&gt;
@@ -1141,7 +1201,7 @@ You will need administrative access to the device in question. Changing a hostna
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
 	width=&#34;667&#34;
 	height=&#34;803&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu18264987761281496947.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu7089503682470416994.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_480x0_resize_box_3.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu670cf9dab5e2357c73ece24347d6e12a_362363_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Start Menu Layouts&#34;
