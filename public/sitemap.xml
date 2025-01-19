@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unorthodoxdev.net/</loc>
-    <lastmod>2024-12-07T11:23:21-05:00</lastmod>
+    <lastmod>2025-01-18T20:24:24-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2025-01-18T20:24:24-05:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/second-burial/</loc>
+    <lastmod>2025-01-18T20:24:24-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/tags/aws/</loc>
     <lastmod>2024-12-07T11:23:21-05:00</lastmod>
@@ -15,9 +21,6 @@
     <lastmod>2024-12-07T11:23:21-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</loc>
-    <lastmod>2024-12-07T11:23:21-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/post/</loc>
     <lastmod>2024-12-07T11:23:21-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/categories/system-administration/</loc>
