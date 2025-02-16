@@ -7,11 +7,11 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sun, 16 Feb 2025 10:09:12 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>2025.02.16 Why Im Switching to Macos</title>
-        <link>https://unorthodoxdev.net/p/2025-02-16-2025.02.16-why-im-switching-to-macos/</link>
+        <title>Why Im Switching to Macos</title>
+        <link>https://unorthodoxdev.net/p/2025-02-16-why-im-switching-to-macos/</link>
         <pubDate>Sun, 16 Feb 2025 10:09:12 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2025-02-16-2025.02.16-why-im-switching-to-macos/</guid>
+        <guid>https://unorthodoxdev.net/p/2025-02-16-why-im-switching-to-macos/</guid>
         <description>&lt;p&gt;Ive been a windows user for many years, mostly out of necessity. Whether its engineering software, or its just out of the dire need to use Microsoft Word for school work, it has been my daily driver for many many years. For the periods that I havent been at school, ive predominately used Linux, as it is something easy to setup and use especially for development as well as something im comfortable with.&lt;/p&gt;
 &lt;p&gt;Unfortunately, since windows 11 the OS has taken a more and more invasive approach. I would say, where I draw the line, is when I am not only heavily encouraged, but almost forced into using OneDrive. You know longer have a desktop folder, you no longer have a documents folder, it is within the OneDrive directory. I find that incredibly frustrating. I in general dont even use one drive, unless I am at work. So why on my person device does this OneDrive folder exist, when I am not even using OneDrive? I want my damn files in the desktop folder, and my documents in the documents folder.&lt;/p&gt;
 &lt;p&gt;I feel as though, windows is fundamentally taking away my control over the experience of my desktop. Im forced to sign into windows with an email, and while currently, sure theres an OOBE trick to make it so i end up with a local account, it is still frustrating. When I open up the terminal, which i spend many hours a day in, my username is shown as joshu. Why can i no longer set my own user name? This is my computer? Again another aspect that windows has stripped away from the user. While this seems like a simple complaint its more about the principle. Windows used to be great. It gave you complete control over the system for the most part and how I wanted to interact with it. But now, its been riddled with ads and software.&lt;/p&gt;
