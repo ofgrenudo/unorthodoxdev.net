@@ -14,8 +14,7 @@
         <guid>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1532630174493-69e1fe9fead2" alt="Featured image of post Setting a Hostname on Linux" /&gt;&lt;blockquote&gt;
 &lt;p&gt;⚠️ Danger
-You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;
-&lt;/blockquote&gt;
+You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;A hostname is a computers human readable address that allows you to communicate with it, regardless of weather or not you know what its IP address is. Hostnames are pratcial and easy to remember. For whatever reason if you need to reset your hostname on a linux machine, you can follow the below instructions&lt;/p&gt;
 &lt;p&gt;To view your current hostname type&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

@@ -59,7 +59,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu12441857413987348283.png" width="300"
+                        <img src="/img/avatar_hu_c1e68fac07c2cd39.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -345,8 +345,7 @@
     
     
     <blockquote>
-<p>Note! I have migrated away from ghost blog and now manage my site on hugo!</p>
-</blockquote>
+<p>Note! I have migrated away from ghost blog and now manage my site on hugo!</p></blockquote>
 <p>For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways. Or at least, double book blog posts somewhere just in case! (Truthfully most posts end up in my notebook to begin with, and end up polished on the website). Below are my steps to migrate my blogs DNS record.</p>
 <p>Set your new DNS record, a day in advanced to the IP address of your server. In my case I was migrating from <a class="link" href="https://blog.unorthodoxdev.net"  target="_blank" rel="noopener"
     >https://blog.unorthodoxdev.net</a> to <a class="link" href="https://unorthodoxdev.net"  target="_blank" rel="noopener"
@@ -395,7 +394,8 @@
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.body, {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
@@ -405,6 +405,7 @@
             ignoredClasses: ["gist"]
         });})
 </script>
+
     
 </article>
 
@@ -416,6 +417,19 @@
     <h2 class="section-title">Related content</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/2025-02-16-2025.02.16-why-im-switching-to-macos/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025.02.16 Why Im Switching to Macos</h2>
+        </div>
+    </a>
+</article>
+
             
                 
 <article class="has-image">
@@ -487,19 +501,6 @@
 </article>
 
             
-                
-<article class="">
-    <a href="/recipes/dinner/ravioli/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Ravioli</h2>
-        </div>
-    </a>
-</article>
-
-            
         </div>
     </div>
 </aside>
@@ -520,7 +521,7 @@
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
 

@@ -58,7 +58,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu12441857413987348283.png" width="300"
+                        <img src="/img/avatar_hu_c1e68fac07c2cd39.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -343,8 +343,7 @@
     >comment board</a>. This is <em>unfortunately</em> the internet, and even more so a <em>comment board</em> where anyone can say and do anything (within the rules).</p>
 <p>Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive. But they did happen to comment three times, each time the same thing without any kind of variation. This was cause for concern&hellip;. (im joking). But as a webadmin, I can do whatever the hell I want and censor whatever kind of things I want to censor, so why not exercise my webadmin rights and change the visibility of the excess comments and then leave a curdious note to the user about why I had to mark their notes as hidden? Naturally, you have to hide the comment on production right?</p>
 <blockquote>
-<p>Heres where everything starts going down hill</p>
-</blockquote>
+<p>Heres where everything starts going down hill</p></blockquote>
 <p>I decided to begin by running the command <code>sqlite3 comments.db</code>. That is where i messed up first. I should have made a backup of the database. Its prone to human error (me, its prone to me, absolutely fucking it up, im the problem).</p>
 <p>I then, was sitting in the console and it has been so long since ive worked on this project, I have no idea what the hell kind of comannds I need to run to view the database scheema, I know I could look at the source code, but curiosity got me and what if i didnt have access to the source code? well you can run</p>
 <div class="highlight"><div class="chroma">
@@ -368,8 +367,7 @@
 <p>Google Translate, do your thang:</p>
 <p>Здравствуйте, МихаилРС, спасибо, что посетили сайт. Это, безусловно, Интернет, вы можете делать на моем сайте все, что захотите. Я могу просто уничтожить этот сайт и запустить его заново. Но, пожалуйста, в будущем не повторяйте свой пост, поскольку он нарушает правила (без спама), перечисленные в заголовках выше.</p>
 <p>Хотя я ценю вашу обратную связь, поскольку вы объяснили мне некоторые вещи, во-первых, правила должны быть пронумерованы в упорядоченном списке, чтобы я мог называть их числами, а не «правилами». Во-вторых, когда я скрываю комментарий, он все равно отображается в HTML как div comment_. Мне нужно будет это исправить в ближайшее время, это похоже на ошибку, которая будет исправлена, вероятно, через 5 недель, когда приближается финал.</p>
-<p>Спасибо, мой друг :)</p>
-</blockquote>
+<p>Спасибо, мой друг :)</p></blockquote>
 <p>And post it  to the comment board.</p>
 <p>I then try to push the changes to the git repository and run into an authentication error. Why is that? maybe its because I don&rsquo;t have my ssh keys on the server. Why is that? because its publicly accessible and prone to Russian dudes poking my server. And why don&rsquo;t i want my ssh keys on the server? because they are used to authenticate to my GitHub. I at some point used my brain in this convoluted process.</p>
 <p>No biggie, let me just git pull origin and uncommit all of these stupid changes. LOL. it overwrote the database. All comments lost, Im not back at the tracked testing version of <code>comments.db</code>. About 6 months worth of commenting gold lost in the wind. Only to be held in my memory. This can never happen again.</p>
@@ -422,7 +420,8 @@
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.body, {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
@@ -432,6 +431,7 @@
             ignoredClasses: ["gist"]
         });})
 </script>
+
     
 </article>
 
@@ -452,6 +452,19 @@
 
         <div class="article-details">
             <h2 class="article-title">In dire need of comments</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/2025-02-16-2025.02.16-why-im-switching-to-macos/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025.02.16 Why Im Switching to Macos</h2>
         </div>
     </a>
 </article>
@@ -514,19 +527,6 @@
 </article>
 
             
-                
-<article class="">
-    <a href="/p/2024-06-12-the-best-ebook-reader/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">The Best eBook Reader</h2>
-        </div>
-    </a>
-</article>
-
-            
         </div>
     </div>
 </aside>
@@ -547,7 +547,7 @@
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
 

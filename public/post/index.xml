@@ -6,7 +6,29 @@
         <description>Recent content in Posts on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 07 Dec 2024 11:23:21 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 16 Feb 2025 10:09:12 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2025.02.16 Why Im Switching to Macos</title>
+        <link>https://unorthodoxdev.net/p/2025-02-16-2025.02.16-why-im-switching-to-macos/</link>
+        <pubDate>Sun, 16 Feb 2025 10:09:12 -0500</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/2025-02-16-2025.02.16-why-im-switching-to-macos/</guid>
+        <description>&lt;p&gt;Ive been a windows user for many years, mostly out of necessity. Whether its engineering software, or its just out of the dire need to use Microsoft Word for school work, it has been my daily driver for many many years. For the periods that I havent been at school, ive predominately used Linux, as it is something easy to setup and use especially for development as well as something im comfortable with.&lt;/p&gt;
+&lt;p&gt;Unfortunately, since windows 11 the OS has taken a more and more invasive approach. I would say, where I draw the line, is when I am not only heavily encouraged, but almost forced into using OneDrive. You know longer have a desktop folder, you no longer have a documents folder, it is within the OneDrive directory. I find that incredibly frustrating. I in general dont even use one drive, unless I am at work. So why on my person device does this OneDrive folder exist, when I am not even using OneDrive? I want my damn files in the desktop folder, and my documents in the documents folder.&lt;/p&gt;
+&lt;p&gt;I feel as though, windows is fundamentally taking away my control over the experience of my desktop. Im forced to sign into windows with an email, and while currently, sure theres an OOBE trick to make it so i end up with a local account, it is still frustrating. When I open up the terminal, which i spend many hours a day in, my username is shown as joshu. Why can i no longer set my own user name? This is my computer? Again another aspect that windows has stripped away from the user. While this seems like a simple complaint its more about the principle. Windows used to be great. It gave you complete control over the system for the most part and how I wanted to interact with it. But now, its been riddled with ads and software.&lt;/p&gt;
+&lt;p&gt;I open the start menu and im being advertised facebook esq games and the like. Things I would never normally use. I download Okular to read PDFs and i get an AD in the start menu for a Acrobat Alternative. I download Visio for a class, and I get an ad for Project365 Plus, an alternative to Visio. The apps that I download, and the things that I do are being blatantly sold and manipulated to recommend advertisements. Its just an in-genuine feeling.&lt;/p&gt;
+&lt;h2 id=&#34;so-why-mac&#34;&gt;&lt;a href=&#34;#so-why-mac&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;So why Mac?
+&lt;/h2&gt;&lt;p&gt;Well, its a unix based&amp;hellip; kind of, and to start, I dont get ads in the start menu. I get a genuine C / CPP compiler. I can customize everything easily, pic my own user name, optionally sign in with a email, and if I do sign in with an email i actually get benefits, unlike on windows. My photos, notes, reminders, calendars, contacts, etc will be synced.&lt;/p&gt;
+&lt;p&gt;But mostly because the computer feels like its mine. With all the gotchas and little gimmicks that mac has, I feel like I own the device, and that ultimately, I can do whatever I want with it unlike with my windows laptop. Even when MacOS ends support for the laptop in some 10 years, I will still own it and can do whatever it is I want with it. It has all the great features that ive come to know and love. And say, in those 10 years MacBook discontinues support for the device. I can put linux on it, as by then people would have time to reverse engineer the hardware and provide drivers / support as there has been support for older devices like the 2017 MacBook Pro.&lt;/p&gt;
+&lt;p&gt;Besides that, i don&amp;rsquo;t feel like my data and informations really being sold. Why is that though? One reason i think that apple is less likely to do so is because you are paying a premium, for otherwise relatively basic hardware. This device is 8gb of ram and 256gb of storage, for almost $800. Where $800 dollars could get me 16gb of ram and 500gb of storage at BestBuy or Costco. Today, I would arguably never be willing to buy a device with these kinds of specs, with the exception of the MacBook. Apple has fine tuned their operating system to be so performant with the arm chips that it is a arguable purchase / deficit.&lt;/p&gt;
+&lt;p&gt;Even then, with how consistent the Apple ecosystem is, I probably would never buy a new device, unless there was a major selling point, or deep discount. I bought this device second hand from a pawnshop at a deep discount. Its a 3yr old MacBook that still holds its weight today and will for the next few years. This kind of behavior though, is something i would quite literally, &lt;em&gt;never&lt;/em&gt; do for a windows device. Because the devices vary so much in build quality and specs, that it can be kind of hard to One) find someone who can show you all of the specs, or be willing to be walked through it on the phone, or Two) find a device that is good enough that someone is willing to let go of it in favor of the next best thing. Its just not a thing in such a diverse ecosystem. Many times people will hold their devices until they&amp;rsquo;re quite literally no longer good where as with apple, you have the concept of a &amp;ldquo;FanBoy&amp;rdquo; who will literally purchase the next latest and greatest every two or so years. Leaving the second hand market full of great devices, that you can guarantee the quality and capabilities of.&lt;/p&gt;
+&lt;h2 id=&#34;cons-of-migrating-to-a-mac&#34;&gt;&lt;a href=&#34;#cons-of-migrating-to-a-mac&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Cons of Migrating to a Mac
+&lt;/h2&gt;&lt;p&gt;Games&amp;hellip;.. I can no longer play games on the go as far as I know. Ive been neck deep in homework, so theres no time for me to install steam and play around with vulkan at the moment, but when I do get that itch, I can still run games on my gaming PC which is foreseeably going to be windows until i no longer need windows only software. While we are on Windows only Software, I need to use Visio for a class I have currently. interestingly enough, having a windows PC disposable will actually aid me in this situation. Whenever there is something windows only, I can boot up &lt;a class=&#34;link&#34; href=&#34;https://rustdesk.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rustdesk&lt;/a&gt; and connect to my device remotely and run / install whatever application it is that I need. Having rust desk really works to my benefit in this situation and I envision ill be using it more than ever in comparison to when I had two windows laptops, it was almost never a need for me to connect to my home desktop other than to play some AAA game remotely.&lt;/p&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;&lt;a href=&#34;#final-thoughts&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Final Thoughts
+&lt;/h2&gt;&lt;p&gt;As a mobile workstation, a MacBook is definitely the way to go. For all the things that I do, even a MacBook Air is enough to get through my day. I would encourage it for anyone frustrated or even remotely considering buying a MacBook, to first look at the second hand market and see if you can spot something on a discounted rate and if you must buy something new, buy something that will be worth it, as you can keep it for a great deal longer than you would a windows laptop.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How I Passed the AWS Solutions Architect Associates in Three Months!</title>
         <link>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</link>
         <pubDate>Sat, 07 Dec 2024 11:23:21 -0500</pubDate>
@@ -26,8 +48,7 @@
 &lt;/h2&gt;&lt;p&gt;When I started studying for the exam, I struggled to find ways to relate to the content. I had a hard time conceptualizing systems that needed a distributed pattern and low-latency interconnectivity. I just couldn’t think of anything I manage that requires that kind of throughput. But I pushed forward and kept learning more and more about what AWS offers.&lt;/p&gt;
 &lt;p&gt;At this point, I stopped and looked up the kinds of jobs that require this certification. To my surprise, one of the first listings I found was for Little Caesars. This confused me even more, as I tried to apply the content to a fast-food chain or restaurant.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;I don’t really eat Little Caesars pizza, and my experiences with it haven’t been all that positive. The only vivid memory I have of Little Caesars is from a trip to Mexico. Toward the end of my stay, I started craving an all-American hamburger or maybe some Domino’s. The closest we could get to “American” food was Little Caesars. So we walked 15 minutes to the nearest location, where we found a long line wrapping around the building. We got in line, fully committed to getting a pizza, and quickly made it inside. The store had several trophies, boasting that it was the #1 fastest-serving Little Caesars in Mexico. From the end of the line to walking out with a fresh pizza took about six minutes total.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;I don’t really eat Little Caesars pizza, and my experiences with it haven’t been all that positive. The only vivid memory I have of Little Caesars is from a trip to Mexico. Toward the end of my stay, I started craving an all-American hamburger or maybe some Domino’s. The closest we could get to “American” food was Little Caesars. So we walked 15 minutes to the nearest location, where we found a long line wrapping around the building. We got in line, fully committed to getting a pizza, and quickly made it inside. The store had several trophies, boasting that it was the #1 fastest-serving Little Caesars in Mexico. From the end of the line to walking out with a fresh pizza took about six minutes total.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;At this point, I couldn’t connect AWS concepts to Little Caesars. After about a month of studying, I paused to reflect on what I was really learning. The material felt out of scope for my day-to-day job, so I stopped studying altogether for a bit. One day, I talked about it with a friend at the testing center, explaining how I struggled to see the practical applications—especially for something like Little Caesars. To my surprise, he explained how those technologies might actually be used at Little Caesars.&lt;/p&gt;
 &lt;p&gt;He suggested downloading their app and focusing on how AWS might support it, rather than the physical restaurant. At the time, I didn’t even know Little Caesars had an app. Begrudgingly, I downloaded it onto my phone and explored it. Later that night, I ordered a pizza and was genuinely surprised at how the app worked. When I picked up my pizza, I noticed QR codes on the box for tracking, all the way to the pickup box where you enter a 4-digit code to retrieve your order.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.us-east-1.amazonaws.com/posts-headers/apex_orders_pizza_portal.jpg&#34;
@@ -315,8 +336,7 @@ most part.&lt;/p&gt;
         <guid>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1617049483020-bf5a76956409?q=80&amp;w=2071&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Internet Addiction and Cell Phone Usage" /&gt;&lt;p&gt;The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Do you think using cell phones too much is bad for our physical or mental health? Why or why not?&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Do you think using cell phones too much is bad for our physical or mental health? Why or why not?&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I think collectively, people have gotten to accustom to being &lt;a class=&#34;link&#34; href=&#34;https://keyhole.co/social-media-glossary/chronically-online/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;chronically online&lt;/a&gt;. Personally, I believe that there are times that I come to realize I am obsessed with some internet personality, or I must contribute to my favorite page online or else I&amp;rsquo;m missing out. But eventually I realized that I substitute a lot of my time doing something meaningful with &lt;em&gt;being online&lt;/em&gt;. The unfortunate part about all addictions as they are, is that they often start out harmless, without even noticing it. You might justify it in one way or another, but &lt;em&gt;eventually&lt;/em&gt; it becomes compulsive, obsessive. To the point where you wake up and reach for that little black box, waiting to see what the algorithm has provided for you today. Many people unable to get out of bed before checking their social media likes and notifications.&lt;/p&gt;
 &lt;p&gt;When I realized that social media was becoming a problem for me, was when I started to fall down a rabbit hole of car crash accidents and near misses (really near &lt;del&gt;deaths&lt;/del&gt;). I remember I liked a post about someone &lt;a class=&#34;link&#34; href=&#34;https://www.urbandictionary.com/define.php?term=white%20lining&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -349,8 +369,7 @@ most part.&lt;/p&gt;
         <description>&lt;p&gt;As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…&lt;/p&gt;
 &lt;p&gt;To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”. In the case of this book, it is the art of teaching oppression. Immediately, you might think, who teaches oppression?&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“Who are better prepared than the oppressed, to understand the terrible significance of an oppressed society? Who suffer the effects of oppression more than the oppressed? Who can better understand the necessity of liberation?&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;“Who are better prepared than the oppressed, to understand the terrible significance of an oppressed society? Who suffer the effects of oppression more than the oppressed? Who can better understand the necessity of liberation?&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;The answer is the oppressed. Who is better prepared to oppress someone, that an oppressor? The oppressed. They already know all of the methods to exploit someone. Here for example, I think of the &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Stanford_prison_experiment&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Stanford Prison Experiment&lt;/a&gt;. When the roles reverse, and the prisoners then become the guards, they forget as though they were never oppressed before. They have switched sides now, and play their role as the oppressor, to prevent becoming the oppressed reinforcing the standard.&lt;/p&gt;
 &lt;p&gt;Who suffer the effects of oppression more than the oppressed? The Oppressor. This is because the oppressors maintain the status quo. The easiest example of this, could be again the Stanford Prison Experiment again. They have no insurance gauranting that they will receive any measure of safety when the roles reverse again. So the easiest way to maintain safety, is to continue oppression, in hope to break down their oppressors in to a useless state.&lt;/p&gt;
@@ -592,8 +611,7 @@ most part.&lt;/p&gt;
     &gt;comment board&lt;/a&gt;. This is &lt;em&gt;unfortunately&lt;/em&gt; the internet, and even more so a &lt;em&gt;comment board&lt;/em&gt; where anyone can say and do anything (within the rules).&lt;/p&gt;
 &lt;p&gt;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive. But they did happen to comment three times, each time the same thing without any kind of variation. This was cause for concern&amp;hellip;. (im joking). But as a webadmin, I can do whatever the hell I want and censor whatever kind of things I want to censor, so why not exercise my webadmin rights and change the visibility of the excess comments and then leave a curdious note to the user about why I had to mark their notes as hidden? Naturally, you have to hide the comment on production right?&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Heres where everything starts going down hill&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Heres where everything starts going down hill&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I decided to begin by running the command &lt;code&gt;sqlite3 comments.db&lt;/code&gt;. That is where i messed up first. I should have made a backup of the database. Its prone to human error (me, its prone to me, absolutely fucking it up, im the problem).&lt;/p&gt;
 &lt;p&gt;I then, was sitting in the console and it has been so long since ive worked on this project, I have no idea what the hell kind of comannds I need to run to view the database scheema, I know I could look at the source code, but curiosity got me and what if i didnt have access to the source code? well you can run&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -617,8 +635,7 @@ most part.&lt;/p&gt;
 &lt;p&gt;Google Translate, do your thang:&lt;/p&gt;
 &lt;p&gt;Здравствуйте, МихаилРС, спасибо, что посетили сайт. Это, безусловно, Интернет, вы можете делать на моем сайте все, что захотите. Я могу просто уничтожить этот сайт и запустить его заново. Но, пожалуйста, в будущем не повторяйте свой пост, поскольку он нарушает правила (без спама), перечисленные в заголовках выше.&lt;/p&gt;
 &lt;p&gt;Хотя я ценю вашу обратную связь, поскольку вы объяснили мне некоторые вещи, во-первых, правила должны быть пронумерованы в упорядоченном списке, чтобы я мог называть их числами, а не «правилами». Во-вторых, когда я скрываю комментарий, он все равно отображается в HTML как div comment_. Мне нужно будет это исправить в ближайшее время, это похоже на ошибку, которая будет исправлена, вероятно, через 5 недель, когда приближается финал.&lt;/p&gt;
-&lt;p&gt;Спасибо, мой друг :)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Спасибо, мой друг :)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;And post it  to the comment board.&lt;/p&gt;
 &lt;p&gt;I then try to push the changes to the git repository and run into an authentication error. Why is that? maybe its because I don&amp;rsquo;t have my ssh keys on the server. Why is that? because its publicly accessible and prone to Russian dudes poking my server. And why don&amp;rsquo;t i want my ssh keys on the server? because they are used to authenticate to my GitHub. I at some point used my brain in this convoluted process.&lt;/p&gt;
 &lt;p&gt;No biggie, let me just git pull origin and uncommit all of these stupid changes. LOL. it overwrote the database. All comments lost, Im not back at the tracked testing version of &lt;code&gt;comments.db&lt;/code&gt;. About 6 months worth of commenting gold lost in the wind. Only to be held in my memory. This can never happen again.&lt;/p&gt;
@@ -655,7 +672,7 @@ most part.&lt;/p&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
 	width=&#34;851&#34;
 	height=&#34;442&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu17136460146830608898.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu7257913184179911920.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu_b0bc6af49cda015c.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu_3fc96d2f5dee5823.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;relational database structure&#34;
@@ -975,8 +992,7 @@ most part.&lt;/p&gt;
 &lt;li&gt;Some information about the operating system running on the switch.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t see any information populating? Most likely your network admins have disabled your switches from transmitting CDP or LLDP traffic. In this case, im sorry this wont work for you.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t see any information populating? Most likely your network admins have disabled your switches from transmitting CDP or LLDP traffic. In this case, im sorry this wont work for you.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Have fun troubleshooting.&lt;/p&gt;
 </description>
         </item>
@@ -1075,8 +1091,7 @@ most part.&lt;/p&gt;
 &lt;p&gt;I plan to go through at least one problem a day on my lunch break if not more given time permits and upload it to my &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/AoC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;github repository&lt;/a&gt;. Depending on how I feel I may produce a write up of the problem, challenges I faced, my resolutions, how I could optimize, etc&amp;hellip; I think that this will be a fun exercise and prep me for when the 2023 AoC comes around.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Fun Fact! I did not know that people could prestige programming problems but I recently learned, that people have prestige AoC. I guess at the end of the day, it is a game :)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Fun Fact! I did not know that people could prestige programming problems but I recently learned, that people have prestige AoC. I guess at the end of the day, it is a game :)&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         <item>
@@ -1246,8 +1261,7 @@ most part.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Simple and sweet right? next, we have to edit our nginx default config. You can find that at &lt;code&gt;/etc/nginx/sites-available/default&lt;/code&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Remember! You must edit this files as sudo!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Remember! You must edit this files as sudo!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Inside of our config file, just below your ssl certificates (or your port 80 config. Who knows maybe your rocking http naked). paste the following&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1962,8 +1976,7 @@ Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-i
     &gt;Studies show that statistically, people are more likely to do stuff if they keep their intentions in private.&lt;/a&gt; But at times though that statement can seem counter intuitive. Often, people share their weight loss publicly on Facebook or Twitter or Instagram. Many report that doing so is a great way to stay motivated.&lt;/p&gt;
 &lt;p&gt;When you think about it, some of the reason, people post things online is because it provides a way for you to receive praise along the way. A quote that sticks with me is&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Become a documentarian of what you do&amp;rdquo; - Austin Kleon, Author of Show Your Work&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;Become a documentarian of what you do&amp;rdquo; - Austin Kleon, Author of Show Your Work&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Becoming a documentarian means that you will develop very quickly&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Your Metacognition&lt;/li&gt;
@@ -1982,8 +1995,7 @@ Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-i
         <guid>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1532630174493-69e1fe9fead2" alt="Featured image of post Setting a Hostname on Linux" /&gt;&lt;blockquote&gt;
 &lt;p&gt;⚠️ Danger
-You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;
-&lt;/blockquote&gt;
+You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;A hostname is a computers human readable address that allows you to communicate with it, regardless of weather or not you know what its IP address is. Hostnames are pratcial and easy to remember. For whatever reason if you need to reset your hostname on a linux machine, you can follow the below instructions&lt;/p&gt;
 &lt;p&gt;To view your current hostname type&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2301,7 +2313,7 @@ You will need administrative access to the device in question. Changing a hostna
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
 	width=&#34;667&#34;
 	height=&#34;803&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu18264987761281496947.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu7089503682470416994.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu_5998e35c508a085e.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu_8de1e884362ec2d5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Start Menu Layouts&#34;
@@ -2363,8 +2375,7 @@ You will need administrative access to the device in question. Changing a hostna
         
         <guid>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435" alt="Featured image of post Migrating Ghost Blog Domain Names" /&gt;&lt;blockquote&gt;
-&lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&amp;rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways. Or at least, double book blog posts somewhere just in case! (Truthfully most posts end up in my notebook to begin with, and end up polished on the website). Below are my steps to migrate my blogs DNS record.&lt;/p&gt;
 &lt;p&gt;Set your new DNS record, a day in advanced to the IP address of your server. In my case I was migrating from &lt;a class=&#34;link&#34; href=&#34;https://blog.unorthodoxdev.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://blog.unorthodoxdev.net&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

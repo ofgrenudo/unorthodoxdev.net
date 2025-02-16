@@ -26,8 +26,7 @@
 &lt;/h2&gt;&lt;p&gt;When I started studying for the exam, I struggled to find ways to relate to the content. I had a hard time conceptualizing systems that needed a distributed pattern and low-latency interconnectivity. I just couldn’t think of anything I manage that requires that kind of throughput. But I pushed forward and kept learning more and more about what AWS offers.&lt;/p&gt;
 &lt;p&gt;At this point, I stopped and looked up the kinds of jobs that require this certification. To my surprise, one of the first listings I found was for Little Caesars. This confused me even more, as I tried to apply the content to a fast-food chain or restaurant.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;I don’t really eat Little Caesars pizza, and my experiences with it haven’t been all that positive. The only vivid memory I have of Little Caesars is from a trip to Mexico. Toward the end of my stay, I started craving an all-American hamburger or maybe some Domino’s. The closest we could get to “American” food was Little Caesars. So we walked 15 minutes to the nearest location, where we found a long line wrapping around the building. We got in line, fully committed to getting a pizza, and quickly made it inside. The store had several trophies, boasting that it was the #1 fastest-serving Little Caesars in Mexico. From the end of the line to walking out with a fresh pizza took about six minutes total.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;I don’t really eat Little Caesars pizza, and my experiences with it haven’t been all that positive. The only vivid memory I have of Little Caesars is from a trip to Mexico. Toward the end of my stay, I started craving an all-American hamburger or maybe some Domino’s. The closest we could get to “American” food was Little Caesars. So we walked 15 minutes to the nearest location, where we found a long line wrapping around the building. We got in line, fully committed to getting a pizza, and quickly made it inside. The store had several trophies, boasting that it was the #1 fastest-serving Little Caesars in Mexico. From the end of the line to walking out with a fresh pizza took about six minutes total.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;At this point, I couldn’t connect AWS concepts to Little Caesars. After about a month of studying, I paused to reflect on what I was really learning. The material felt out of scope for my day-to-day job, so I stopped studying altogether for a bit. One day, I talked about it with a friend at the testing center, explaining how I struggled to see the practical applications—especially for something like Little Caesars. To my surprise, he explained how those technologies might actually be used at Little Caesars.&lt;/p&gt;
 &lt;p&gt;He suggested downloading their app and focusing on how AWS might support it, rather than the physical restaurant. At the time, I didn’t even know Little Caesars had an app. Begrudgingly, I downloaded it onto my phone and explored it. Later that night, I ordered a pizza and was genuinely surprised at how the app worked. When I picked up my pizza, I noticed QR codes on the box for tracking, all the way to the pickup box where you enter a 4-digit code to retrieve your order.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev-bucket-public.s3.us-east-1.amazonaws.com/posts-headers/apex_orders_pizza_portal.jpg&#34;
@@ -198,8 +197,7 @@
     &gt;comment board&lt;/a&gt;. This is &lt;em&gt;unfortunately&lt;/em&gt; the internet, and even more so a &lt;em&gt;comment board&lt;/em&gt; where anyone can say and do anything (within the rules).&lt;/p&gt;
 &lt;p&gt;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive. But they did happen to comment three times, each time the same thing without any kind of variation. This was cause for concern&amp;hellip;. (im joking). But as a webadmin, I can do whatever the hell I want and censor whatever kind of things I want to censor, so why not exercise my webadmin rights and change the visibility of the excess comments and then leave a curdious note to the user about why I had to mark their notes as hidden? Naturally, you have to hide the comment on production right?&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Heres where everything starts going down hill&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Heres where everything starts going down hill&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I decided to begin by running the command &lt;code&gt;sqlite3 comments.db&lt;/code&gt;. That is where i messed up first. I should have made a backup of the database. Its prone to human error (me, its prone to me, absolutely fucking it up, im the problem).&lt;/p&gt;
 &lt;p&gt;I then, was sitting in the console and it has been so long since ive worked on this project, I have no idea what the hell kind of comannds I need to run to view the database scheema, I know I could look at the source code, but curiosity got me and what if i didnt have access to the source code? well you can run&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -223,8 +221,7 @@
 &lt;p&gt;Google Translate, do your thang:&lt;/p&gt;
 &lt;p&gt;Здравствуйте, МихаилРС, спасибо, что посетили сайт. Это, безусловно, Интернет, вы можете делать на моем сайте все, что захотите. Я могу просто уничтожить этот сайт и запустить его заново. Но, пожалуйста, в будущем не повторяйте свой пост, поскольку он нарушает правила (без спама), перечисленные в заголовках выше.&lt;/p&gt;
 &lt;p&gt;Хотя я ценю вашу обратную связь, поскольку вы объяснили мне некоторые вещи, во-первых, правила должны быть пронумерованы в упорядоченном списке, чтобы я мог называть их числами, а не «правилами». Во-вторых, когда я скрываю комментарий, он все равно отображается в HTML как div comment_. Мне нужно будет это исправить в ближайшее время, это похоже на ошибку, которая будет исправлена, вероятно, через 5 недель, когда приближается финал.&lt;/p&gt;
-&lt;p&gt;Спасибо, мой друг :)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Спасибо, мой друг :)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;And post it  to the comment board.&lt;/p&gt;
 &lt;p&gt;I then try to push the changes to the git repository and run into an authentication error. Why is that? maybe its because I don&amp;rsquo;t have my ssh keys on the server. Why is that? because its publicly accessible and prone to Russian dudes poking my server. And why don&amp;rsquo;t i want my ssh keys on the server? because they are used to authenticate to my GitHub. I at some point used my brain in this convoluted process.&lt;/p&gt;
 &lt;p&gt;No biggie, let me just git pull origin and uncommit all of these stupid changes. LOL. it overwrote the database. All comments lost, Im not back at the tracked testing version of &lt;code&gt;comments.db&lt;/code&gt;. About 6 months worth of commenting gold lost in the wind. Only to be held in my memory. This can never happen again.&lt;/p&gt;
@@ -261,7 +258,7 @@
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree.png&#34;
 	width=&#34;851&#34;
 	height=&#34;442&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu17136460146830608898.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu7257913184179911920.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu_b0bc6af49cda015c.png 480w, https://unorthodoxdev.net/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/tree_hu_3fc96d2f5dee5823.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;relational database structure&#34;
@@ -648,8 +645,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Simple and sweet right? next, we have to edit our nginx default config. You can find that at &lt;code&gt;/etc/nginx/sites-available/default&lt;/code&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Remember! You must edit this files as sudo!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Remember! You must edit this files as sudo!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Inside of our config file, just below your ssl certificates (or your port 80 config. Who knows maybe your rocking http naked). paste the following&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -882,8 +878,7 @@
         <guid>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1532630174493-69e1fe9fead2" alt="Featured image of post Setting a Hostname on Linux" /&gt;&lt;blockquote&gt;
 &lt;p&gt;⚠️ Danger
-You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;
-&lt;/blockquote&gt;
+You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;A hostname is a computers human readable address that allows you to communicate with it, regardless of weather or not you know what its IP address is. Hostnames are pratcial and easy to remember. For whatever reason if you need to reset your hostname on a linux machine, you can follow the below instructions&lt;/p&gt;
 &lt;p&gt;To view your current hostname type&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1201,7 +1196,7 @@ You will need administrative access to the device in question. Changing a hostna
 &lt;p&gt;&lt;img src=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts.png&#34;
 	width=&#34;667&#34;
 	height=&#34;803&#34;
-	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu18264987761281496947.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu7089503682470416994.png 1024w&#34;
+	srcset=&#34;https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu_5998e35c508a085e.png 480w, https://unorthodoxdev.net/p/2023-07-19-custom-start-menu-layouts/start-menu-layouts_hu_8de1e884362ec2d5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Start Menu Layouts&#34;

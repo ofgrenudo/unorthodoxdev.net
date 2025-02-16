@@ -59,7 +59,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu12441857413987348283.png" width="300"
+                        <img src="/img/avatar_hu_c1e68fac07c2cd39.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -390,8 +390,7 @@
 </div>
 </div><p>Simple and sweet right? next, we have to edit our nginx default config. You can find that at <code>/etc/nginx/sites-available/default</code>.</p>
 <blockquote>
-<p>Remember! You must edit this files as sudo!</p>
-</blockquote>
+<p>Remember! You must edit this files as sudo!</p></blockquote>
 <p>Inside of our config file, just below your ssl certificates (or your port 80 config. Who knows maybe your rocking http naked). paste the following</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -465,7 +464,8 @@
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.body, {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
@@ -475,6 +475,7 @@
             ignoredClasses: ["gist"]
         });})
 </script>
+
     
 </article>
 
@@ -578,7 +579,7 @@
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
 

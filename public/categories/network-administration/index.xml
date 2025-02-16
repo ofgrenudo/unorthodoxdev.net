@@ -20,8 +20,7 @@
 &lt;li&gt;Some information about the operating system running on the switch.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t see any information populating? Most likely your network admins have disabled your switches from transmitting CDP or LLDP traffic. In this case, im sorry this wont work for you.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t see any information populating? Most likely your network admins have disabled your switches from transmitting CDP or LLDP traffic. In this case, im sorry this wont work for you.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Have fun troubleshooting.&lt;/p&gt;
 </description>
         </item>
