@@ -18,10 +18,6 @@ Hello all~~~~
 
 My name is Joshua WB (he/him)! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019!
 
-My Stats Below
-
-![Joshua's GitHub stats](https://github-readme-stats.vercel.app/api?username=ofgrenudo&theme=dark&show_icons=true)
-
 ## Work and Hobbies
 
 I am a self-taught software developer with a deep passion for programming and problem-solving. My journey began with Java 7 SE, where I created various applets and programs, eventually leading me to robotics programming as the lead programmer for FRC teams [7658](https://frc-events.firstinspires.org/team/7658) and [6002](https://frc-events.firstinspires.org/team/6002). I also competed in the [SquareOne Education Network Autonomous Innovative Vehicle Design Challenge](https://www.squareonenetwork.org/) for three years, where I had hands-on experience utilizing hobby electronics and microcontrollers programming autonomous cars in C/C++ for competitions. During the latter part of my time competing in SquareOne, I began to developed a web interface to manage hardware and issue commands to the microcontrollers, which is what initially sparked my interest in JavaScript and Node.js. However quickly this led me to discover Rust in 2019, a language I have since fallen in love with. I’ve migrated most of my SaaS codebase from Java and Node.js to Rust, finding it to be a more powerful and efficient tool for my needs.
@@ -36,7 +32,6 @@ At the moment, my top priority is finishing my education and obtaining more cert
 
 Some certificates I am aiming for are as follows:
 
-- <img src="https://img.shields.io/badge/-AWS%20Certified%20Solutions%20Architect-232F3E?&style=for-the-badge&logo=Amazon%20AWS&logoColor=white" />
 - <img src="https://img.shields.io/badge/-Cisco%20Certified%20Networking%20Associate-1BA0D7?&style=for-the-badge&logo=Cisco&logoColor=white" />
 
 ### Programming Languages
@@ -44,19 +39,16 @@ Some certificates I am aiming for are as follows:
 | Language   | Expertise Level |
 | ---------- | --------------- |
 | Rust       | Intermediate    |
-| Javascript | Intermediate    |
 | Python     | Intermediate    |
-| Java       | Rusty           |
-| C/CPP      | Beginner        |
+| Java       | Intermediate    |
 
 ### My Certifications!
 
-<div>
-  <img src="https://img.shields.io/badge/-CompTIA%20A%2B-00529B?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-  <img src="https://img.shields.io/badge/-AWS%20Certified%20Cloud%20Practitioner-FF9900?&style=for-the-badge&logo=Amazon%20AWS&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Crestron%20Core%20Certification-003D99?&style=for-the-badge&logo=Crestron&logoColor=white" />
-</div>
-
+<img src="https://img.shields.io/badge/AWS%20Solutions%20Architect%20Associate-Certified-0072B1?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS%20Cloud%20Practicioner-Certified-0072B1?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+<br>
+<img src="https://img.shields.io/badge/Crestron%20Core%20-Certified-0072B1?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Comptia%20A+%20-Certified-0072B1?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
 <br>
 
 ## In my free time...
