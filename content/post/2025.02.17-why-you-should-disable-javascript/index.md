@@ -48,7 +48,7 @@ I think specifically I sent them to Burger Kings website, or the NFL website. Ha
 
 ## Preventing XSS
 
-Honestly, the easiest way to prevent XSS vulnerabilities, is to filter anything and everything given to you by a user. Even images. Users for the most part are good right? righttt? Well hackers are bad. Our worst case is a hacker, so we need to anticipate these bad actors. Why leave our selves wide open to such an easy, yet drasticly impactful vulnerability?
+Honestly, the easiest way to prevent XSS vulnerabilities, is to filter anything and everything given to you by a user. Even images. Users for the most part are good right? righttt? Well hackers are bad. Our worst case is a hacker, so we need to anticipate these bad actors. Why leave our selves wide open to such an easy, yet drastically impactful vulnerability?
 
 
 
