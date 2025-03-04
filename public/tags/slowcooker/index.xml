@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Slowcooker on Unorthodoxdev</title>
-        <link>https://unorthodoxdev.net/tags/slowcooker/</link>
+        <link>http://localhost:1313/tags/slowcooker/</link>
         <description>Recent content in Slowcooker on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Jun 2024 11:31:24 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/slowcooker/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Jun 2024 11:31:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/slowcooker/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Chicken Noodle Soupless (Slow Cooker)</title>
-        <link>https://unorthodoxdev.net/recipes/dinner/chicken-noodle-soupless/</link>
+        <link>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</link>
         <pubDate>Mon, 10 Jun 2024 11:31:24 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/recipes/dinner/chicken-noodle-soupless/</guid>
+        <guid>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</guid>
         <description>&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Notice, that this recipe, requires roughly 7 hours to complete, most of which are waiting on the slowcooker.&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;

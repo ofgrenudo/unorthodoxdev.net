@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>AWS on Unorthodoxdev</title>
-        <link>https://unorthodoxdev.net/tags/aws/</link>
+        <link>http://localhost:1313/tags/aws/</link>
         <description>Recent content in AWS on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 07 Dec 2024 11:23:21 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/aws/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 07 Dec 2024 11:23:21 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How I Passed the AWS Solutions Architect Associates in Three Months!</title>
-        <link>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</link>
+        <link>http://localhost:1313/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</link>
         <pubDate>Sat, 07 Dec 2024 11:23:21 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</guid>
+        <guid>http://localhost:1313/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</guid>
         <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.us-east-1.amazonaws.com/posts-headers/alan-hardman-SU1LFoeEUkk-unsplash.jpg" alt="Featured image of post How I Passed the AWS Solutions Architect Associates in Three Months!" /&gt;&lt;p&gt;To start, the exam isn’t that bad!!&lt;/p&gt;
 &lt;p&gt;Overall, the exam asks a lot of questions centered around the best way to set up a system in AWS. These questions require a shift in how I think about solving problems. For years, I’ve been tasked with standing up or setting up systems according to specific requirements that aren’t flexible. In the Solutions Architect Associate exam, the questions are more like &lt;strong&gt;&amp;ldquo;What’s the AWS way to do this?&amp;rdquo;&lt;/strong&gt;—even if it means fundamentally changing how the application works. The idea is to design solutions that eliminate inefficiencies. &lt;em&gt;This is a huge change from how my job looks day-to-day right now.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In this post, I’d like to cover the following:&lt;/p&gt;

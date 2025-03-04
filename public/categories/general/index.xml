@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>General on Unorthodoxdev</title>
-        <link>https://unorthodoxdev.net/categories/general/</link>
+        <link>http://localhost:1313/categories/general/</link>
         <description>Recent content in General on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 16 Feb 2025 10:09:12 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/general/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 16 Feb 2025 10:09:12 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why Im Switching to MacOS</title>
-        <link>https://unorthodoxdev.net/p/2025-02-16-why-im-switching-to-macos/</link>
+        <link>http://localhost:1313/p/2025-02-16-why-im-switching-to-macos/</link>
         <pubDate>Sun, 16 Feb 2025 10:09:12 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2025-02-16-why-im-switching-to-macos/</guid>
+        <guid>http://localhost:1313/p/2025-02-16-why-im-switching-to-macos/</guid>
         <description>&lt;p&gt;Ive been a windows user for many years, mostly out of necessity. Whether its engineering software, or its just out of the dire need to use Microsoft Word for school work, it has been my daily driver for many many years. For the periods that I havent been at school, ive predominately used Linux, as it is something easy to setup and use especially for development as well as something im comfortable with.&lt;/p&gt;
 &lt;p&gt;Unfortunately, since windows 11 the OS has taken a more and more invasive approach. I would say, where I draw the line, is when I am not only heavily encouraged, but almost forced into using OneDrive. You know longer have a desktop folder, you no longer have a documents folder, it is within the OneDrive directory. I find that incredibly frustrating. I in general dont even use one drive, unless I am at work. So why on my personal device does this OneDrive folder exist, when I am not even using OneDrive? I want my damn files in the desktop folder, and my documents in the documents folder.&lt;/p&gt;
 &lt;p&gt;I feel as though, windows is fundamentally taking away my control over the experience of my desktop. Im forced to sign into windows with an email, and while currently, sure theres an OOBE trick to make it so i end up with a local account, it is still frustrating. When I open up the terminal, which i spend many hours a day in, my username is shown as joshu. Why can i no longer set my own user name? This is my computer? Again another aspect that windows has stripped away from the user. While this seems like a simple complaint its more about the principle. Windows used to be great. It gave you complete control over the system for the most part and how I wanted to interact with it. But now, its been riddled with ads and software.&lt;/p&gt;
@@ -26,14 +26,177 @@
     &gt;rustdesk&lt;/a&gt; and connect to my device remotely and run / install whatever application it is that I need. Having rust desk really works to my benefit in this situation and I envision ill be using it more than ever in comparison to when I had two windows laptops, it was almost never a need for me to connect to my home desktop other than to play some AAA game remotely.&lt;/p&gt;
 &lt;h2 id=&#34;final-thoughts&#34;&gt;&lt;a href=&#34;#final-thoughts&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Final Thoughts
 &lt;/h2&gt;&lt;p&gt;As a mobile workstation, a MacBook is definitely the way to go. For all the things that I do, even a MacBook Air is enough to get through my day. I would encourage it for anyone frustrated or even remotely considering buying a MacBook, to first look at the second hand market and see if you can spot something on a discounted rate and if you must buy something new, buy something that will be worth it, as you can keep it for a great deal longer than you would a windows laptop.&lt;/p&gt;
-</description>
+&lt;form action=&#34;http://localhost:8080/comment/new/post&#34; method=&#34;post&#34; id=&#34;new_comment&#34;&gt;
+            &lt;input type=&#34;text&#34; name=&#34;username&#34; id=&#34;username&#34; placeholder=&#34;what should we call you?&#34; maxlength=&#34;500&#34; required=&#34;&#34;&gt;
+            &lt;textarea id=&#34;comment&#34; name=&#34;comment&#34; maxlength=&#34;10000&#34; placeholder=&#34;whats on your mind....&#34; spellcheck=&#34;true&#34; required=&#34;&#34;&gt;&lt;/textarea&gt;
+            &lt;input type=&#34;hidden&#34; name=&#34;post_url&#34; id=&#34;post_url&#34; required&gt;
+            &lt;button id=&#34;submit&#34;&gt;Send!&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id=&#34;comments&#34;&gt;
+&lt;/div&gt;
+&lt;style&gt;
+button {
+    background-color: var(--code-background-color);
+    border: 2px solid var(--table-border-color);
+    cursor: pointer;
+    width: 100%;
+    color: var(--card-text-color-main);
+    padding: 12px 20px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--table-border-color);
+    background: var(--code-background-color);
+    color: var(--card-text-color-main);
+    border-radius: 4px;
+    margin: 4px 2px;
+}
+#comment_ {
+    border: 2px solid var(--table-border-color);
+    background-color: var(--code-background-color);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#comment_input {
+    max-width: 100%; /* Ensure it doesn&#39;t exceed the parent width */
+    overflow-x: auto; /* Allow horizontal scrolling for long lines */
+    overflow-y: auto;
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+    /* Hide scrollbar in WebKit-based browsers */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+#comment_input pre::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome/Safari */
+}
+#comment_input pre {
+    background-color: var(--bg1);
+}
+/* #comment_:hover {
+    transform: scale(1.05);   
+    border: 2px solid var(--orange);      
+    box-shadow: 0 0 10px var(--orange-dim);   
+} */
+#comment_end {
+    margin-top: 15px;
+    height: 1px;
+    color: var(--orange-dim);
+    background-color: var(--bg3);
+    border: none;
+}
+#comment_information {
+    color: var(--yellow-dim);
+}
+#comment_ ul { list-style-type: none; margin: 0; padding: 0;}
+#comment_ li { list-style-type: none; margin: 0; padding: 0;}
+#comment_ .article-content pre {
+    margin: 0em 0px !important;
+    width: auto !important;
+}
+
+
+&lt;/style&gt;
+&lt;script&gt;
+// generate comments on post url.
+const comments_server = &#34;http://localhost:8080/comment/get/post/raw/&#34;;
+const link = document.getElementsByClassName(&#39;article-title&#39;)[0].getElementsByTagName(&#39;a&#39;)[0];
+const href = link.getAttribute(&#39;href&#39;);
+const parts = href.split(&#34;/&#34;);
+const article_title = parts[2];
+
+const comments_on_post_url = comments_server + article_title;
+
+// Function to fetch comments from the API
+async function fetchComments() {
+    try {
+        const response = await fetch(comments_on_post_url);
+        if (!response.ok) {
+            throw new Error(&#39;Network response was not ok: &#39; + response.statusText);
+        }
+
+        const rawText = await response.text();
+        console.log(&#39;Raw Response:&#39;, rawText);
+
+        let comments = [];
+        try {
+            comments = JSON.parse(rawText);
+        } catch (jsonError) {
+            console.error(&#39;Failed to parse JSON:&#39;, jsonError);
+            return;
+        }
+        
+        if (comments.length === 0) {
+            console.log(&#39;No comments returned.&#39;);
+            return;
+        }
+
+        displayComments(comments);
+    } catch (error) {
+        console.error(&#39;There was a problem with the fetch operation:&#39;, error);
+    }
+}
+
+// Function to display comments dynamically on the webpage
+function displayComments(comments) {
+    console.log(&#34;Displaying comments:&#34;, comments);
+
+    const commentSection = document.getElementById(&#39;comments&#39;);
+    if (!commentSection) {
+        console.error(&#34;No element with id &#39;comments&#39; found.&#34;);
+        return;
+    }
+
+    commentSection.innerHTML = &#34;&#34;; // Clear existing comments
+
+    comments.forEach(comment =&gt; {
+        const commentContainer = document.createElement(&#39;div&#39;);
+        commentContainer.id = &#34;comment_&#34;;
+
+        const usernameItem = document.createElement(&#39;li&#39;);
+        usernameItem.id = &#34;comment_username&#34;;
+        usernameItem.innerHTML = `&lt;p&gt;&lt;b&gt;${comment.username}&lt;/b&gt; says...&lt;/p&gt;`;
+        commentContainer.appendChild(usernameItem);
+
+        const commentTextItem = document.createElement(&#39;li&#39;);
+        commentTextItem.id = &#34;comment_input&#34;;
+        const commentText = document.createElement(&#39;pre&#39;);
+        commentText.textContent = comment.comment;
+        commentTextItem.appendChild(commentText);
+        commentContainer.appendChild(commentTextItem);
+        
+        const separator = document.createElement(&#39;hr&#39;);
+        separator.id = &#34;comment_end&#34;;
+        commentContainer.appendChild(separator);
+        
+        const infoItem = document.createElement(&#39;li&#39;);
+        infoItem.id = &#34;comment_information&#34;;
+        infoItem.textContent = `${comment.timestamp} | ${comment.id}`;
+        commentContainer.appendChild(infoItem);
+
+        commentSection.appendChild(commentContainer);
+    });
+}
+
+window.onload = function () {
+    fetchComments();
+    //set post url
+    const post_url = document.getElementsByClassName(&#34;post_url&#34;);
+    document.getElementById(&#39;post_url&#39;).value = article_title;
+};
+&lt;/script&gt;</description>
         </item>
         <item>
         <title>How I Passed the AWS Solutions Architect Associates in Three Months!</title>
-        <link>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</link>
+        <link>http://localhost:1313/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</link>
         <pubDate>Sat, 07 Dec 2024 11:23:21 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</guid>
+        <guid>http://localhost:1313/p/2024-12-07-how-i-passed-the-aws-solutions-architect-associates-in-three-months/</guid>
         <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.us-east-1.amazonaws.com/posts-headers/alan-hardman-SU1LFoeEUkk-unsplash.jpg" alt="Featured image of post How I Passed the AWS Solutions Architect Associates in Three Months!" /&gt;&lt;p&gt;To start, the exam isn’t that bad!!&lt;/p&gt;
 &lt;p&gt;Overall, the exam asks a lot of questions centered around the best way to set up a system in AWS. These questions require a shift in how I think about solving problems. For years, I’ve been tasked with standing up or setting up systems according to specific requirements that aren’t flexible. In the Solutions Architect Associate exam, the questions are more like &lt;strong&gt;&amp;ldquo;What’s the AWS way to do this?&amp;rdquo;&lt;/strong&gt;—even if it means fundamentally changing how the application works. The idea is to design solutions that eliminate inefficiencies. &lt;em&gt;This is a huge change from how my job looks day-to-day right now.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In this post, I’d like to cover the following:&lt;/p&gt;
@@ -89,10 +252,10 @@
         </item>
         <item>
         <title>GrrCON 2024</title>
-        <link>https://unorthodoxdev.net/p/2024-10-01-grrcon-2024/</link>
+        <link>http://localhost:1313/p/2024-10-01-grrcon-2024/</link>
         <pubDate>Tue, 01 Oct 2024 22:25:21 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-10-01-grrcon-2024/</guid>
+        <guid>http://localhost:1313/p/2024-10-01-grrcon-2024/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1514480439008-da032651eb4a" alt="Featured image of post GrrCON 2024" /&gt;&lt;p&gt;GrrCON is a Cyber Security Conference based in Grand Rapids Michigan. Every year, it is hosted in
 the Devos Center. For the past three years, I have attended to help aid in my Professional Development
 as well as to keep in touch with the Cyber Security in the industry.
@@ -137,10 +300,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Being a Commute Warrior</title>
-        <link>https://unorthodoxdev.net/p/2024-07-24-being-a-commute-warrior/</link>
+        <link>http://localhost:1313/p/2024-07-24-being-a-commute-warrior/</link>
         <pubDate>Wed, 24 Jul 2024 09:13:47 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-07-24-being-a-commute-warrior/</guid>
+        <guid>http://localhost:1313/p/2024-07-24-being-a-commute-warrior/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1584278140365-2ab8bff2be82" alt="Featured image of post Being a Commute Warrior" /&gt;&lt;h2 id=&#34;bicycle-commuting-has-greatly-improved-downtown&#34;&gt;&lt;a href=&#34;#bicycle-commuting-has-greatly-improved-downtown&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Bicycle Commuting has Greatly Improved Downtown
 &lt;/h2&gt;&lt;p&gt;I think every other post ive read on reddit since they have installed the new bike lanes downtown have been relatively negative. Up until the city decided to put the bike lanes in, reaching downtown via means other than car was either impossible, or if not impossible risky/dangerous. Now with the addition of the bike lanes on Lovell, West Michigan, Stadium, Portage, North, and Westnedge, and more it makes access to the heart of the city from all sides of the city bike accessible. Before these additions, I would&amp;rsquo;nt have felt safe to bike from my home to downtown.&lt;/p&gt;
 &lt;p&gt;Let alone, riding my bike makes me feel just free. I can go anywhere and do anything. Its converting the energy in my body into momentum that can take me where I need or want to be. It allows for me to skip all the rush hour traffic and enjoy the world around me. Sure, you go faster generally in a car rather than a bike. But I legitemately have to stop a lot less when riding my bike vs when driving in a car.&lt;/p&gt;
@@ -158,10 +321,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>The Best eBook Reader</title>
-        <link>https://unorthodoxdev.net/p/2024-06-12-the-best-ebook-reader/</link>
+        <link>http://localhost:1313/p/2024-06-12-the-best-ebook-reader/</link>
         <pubDate>Wed, 12 Jun 2024 10:16:32 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-06-12-the-best-ebook-reader/</guid>
+        <guid>http://localhost:1313/p/2024-06-12-the-best-ebook-reader/</guid>
         <description>&lt;p&gt;If you didn&amp;rsquo;t know, I read quite a bit of literature. I attempt to fill the time I have that im not doing anything productive with some for of productivity. Weather its watching a video essay, argumentative essay, or studying something im always trying to fill that void with something productive. One form of that habit is reading quite a few books. I think I read too much for me to by every single book that I want, so from time to time, I either have to hit the library and rent a book out (given that they have what I want which is at times unlikely) or purchase ebooks of my preferred books and read them on my phone, tablet, or pc.&lt;/p&gt;
 &lt;p&gt;Reading ebooks isn&amp;rsquo;t always the most convenient though. It has come a long way though! In this essay, I will go over some of the requirements of a ebook reader that I want, a few options that I pursued, and finally, why I settled on google books being my #1 ebook reader.&lt;/p&gt;
 &lt;h2 id=&#34;requirements&#34;&gt;&lt;a href=&#34;#requirements&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Requirements
@@ -209,20 +372,20 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Ravioli</title>
-        <link>https://unorthodoxdev.net/recipes/dinner/ravioli/</link>
+        <link>http://localhost:1313/recipes/dinner/ravioli/</link>
         <pubDate>Mon, 10 Jun 2024 16:07:31 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/recipes/dinner/ravioli/</guid>
+        <guid>http://localhost:1313/recipes/dinner/ravioli/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1lb Ground Beef or Turkey.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cups of mozzarella, ricotta, or cottage cheese.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Spaghetti, or Marinara Sauce.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;Begin Making your &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;. Once you have set them aside to rest, begin prepping your ground beef or turkey. Season heavily, with italian seasonings.&lt;/li&gt;
+&lt;li&gt;Begin Making your &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;. Once you have set them aside to rest, begin prepping your ground beef or turkey. Season heavily, with italian seasonings.&lt;/li&gt;
 &lt;li&gt;Once your ground beef has complexly cooked through, drain grease into disposable container and kill heat on the stove.&lt;/li&gt;
 &lt;li&gt;Begin boiling water in a large pot now.&lt;/li&gt;
 &lt;li&gt;Next stir in your choice of cheese, favorably cottage cheese or ricotta cheese.&lt;/li&gt;
@@ -273,10 +436,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Home Made Noodles</title>
-        <link>https://unorthodoxdev.net/recipes/dinner/home-made-noodles/</link>
+        <link>http://localhost:1313/recipes/dinner/home-made-noodles/</link>
         <pubDate>Mon, 10 Jun 2024 15:55:05 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/recipes/dinner/home-made-noodles/</guid>
+        <guid>http://localhost:1313/recipes/dinner/home-made-noodles/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 cup of flour.&lt;/li&gt;
@@ -297,10 +460,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Whats Next</title>
-        <link>https://unorthodoxdev.net/p/2024-05-22-whats-next/</link>
+        <link>http://localhost:1313/p/2024-05-22-whats-next/</link>
         <pubDate>Wed, 22 May 2024 09:31:43 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-05-22-whats-next/</guid>
+        <guid>http://localhost:1313/p/2024-05-22-whats-next/</guid>
         <description>&lt;p&gt;Alot has happened in the past three months. Its not entirely uncommon for me to drop off the face of the earth during finals, but this year it hit me hard. I had quite a large class load, and getting everything in and done was quite a challenge. Now the semesters over, and ive graduated! For the past month or so, ive had the chance to actually breath.&lt;/p&gt;
 &lt;p&gt;So far, ive done primarily house chores in my free time. I took down the old pool in the backyard, fixed the fence up for the most part, and rebuilt the garden bed. I have also gone through and planted quite a few plants. Currently ive got as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -336,10 +499,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Internet Addiction and Cell Phone Usage</title>
-        <link>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</link>
+        <link>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</link>
         <pubDate>Mon, 26 Feb 2024 20:46:09 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
+        <guid>http://localhost:1313/p/2024-02-26-internet-addiction-and-cell-phone-usage/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1617049483020-bf5a76956409?q=80&amp;w=2071&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Internet Addiction and Cell Phone Usage" /&gt;&lt;p&gt;The below question came from a class discussion, and I really enjoyed it because it is something that I have recently been doing quite a bit of research on personally. While I did respond to the discussion, it was not in the length that I would have wanted. So I summarized the two paragraphs here and shared it with class. Otherwise, my personal response is as follows below.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Do you think using cell phones too much is bad for our physical or mental health? Why or why not?&lt;/p&gt;&lt;/blockquote&gt;
@@ -368,10 +531,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Notes on Pedagogy of the Oppressed</title>
-        <link>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
+        <link>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</link>
         <pubDate>Fri, 23 Feb 2024 23:59:14 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
+        <guid>http://localhost:1313/p/2024-02-23-notes-on-pedagogy-of-the-oppressed/</guid>
         <description>&lt;p&gt;As a warning, Pedagogy of the Oppressed is a deeply theoretical text, and at that it is a leftist text, that contains many run on and long winded paragraphs for sentences. I recommend the read to anyone who can bear it. It is a 180 pages of though provoking statements. Below are my thoughts on the text as I read through it…&lt;/p&gt;
 &lt;p&gt;To start, what is a Pedagogy? As defined by the Merriam-Webster dictionary, a Pedagogy “the art, science, or profession of teaching”. In the case of this book, it is the art of teaching oppression. Immediately, you might think, who teaches oppression?&lt;/p&gt;
 &lt;blockquote&gt;
@@ -399,10 +562,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Streamlining Your Nvim Config</title>
-        <link>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</link>
+        <link>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</link>
         <pubDate>Mon, 22 Jan 2024 15:34:58 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2024-01-22-streamlining-your-nvim-config/</guid>
+        <guid>http://localhost:1313/p/2024-01-22-streamlining-your-nvim-config/</guid>
         <description>&lt;p&gt;I console into a number of computers daily. Many running different services etc. I also have a few different devices everywhere I go, whether it be my home PC, laptop, or work laptop etc. Along with the many devices, a good chunk of my work consists of editing text files. Most of that time spent in vim. So a decent configuration is almost a neccesity to keep my productivity up.&lt;/p&gt;
 &lt;p&gt;I used to keep my nvim configuration in a configs repo on github, but as time went on, every system I touched, or every update I made to the repository meant that I would have to &lt;code&gt;git pull origin&lt;/code&gt; and copy the contents into where ever the hell my nvim config folder was.&lt;/p&gt;
 &lt;p&gt;Well, If I seperate the nvim configuration folder/files into its own repository and then clone the repository as my config, I could create an alias called &lt;code&gt;nvim-conf-update&lt;/code&gt; to &lt;code&gt;git pull origin&lt;/code&gt; in my configuration folder and automatically sync all of my configurations.&lt;/p&gt;
@@ -413,10 +576,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Fallow Devlog 02</title>
-        <link>https://unorthodoxdev.net/p/2023-12-20-fallow-devlog-02/</link>
+        <link>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</link>
         <pubDate>Wed, 20 Dec 2023 22:22:22 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-12-20-fallow-devlog-02/</guid>
+        <guid>http://localhost:1313/p/2023-12-20-fallow-devlog-02/</guid>
         <description>&lt;iframe width=&#34;100%&#34; height=&#34;620&#34; src=&#34;https://www.youtube-nocookie.com/embed/SZrikhGiqQ4?si=XrCB43I7W6U3qhyi&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;Above is a screen capture of my progress made with the game fallow. A few things so far, I have no idea what I want this game to be. The best word I have for it so far is an interactive adventure. I think of those terminal story games where you must look around, explore, get into combat, loot, go back, etc. I’m not sure how this will flush out entirely but overall I am taking this as a learning experience.&lt;/p&gt;
 &lt;p&gt;It is my first time writing any kind of game, let alone any kind of game using Godot. On top of that Godot uses GDScript, which is an interpreted language similar to python (if not exactly python).&lt;/p&gt;
@@ -437,10 +600,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Finally a Favicon</title>
-        <link>https://unorthodoxdev.net/p/2023-12-18-finally-a-favicon/</link>
+        <link>http://localhost:1313/p/2023-12-18-finally-a-favicon/</link>
         <pubDate>Mon, 18 Dec 2023 14:05:09 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-12-18-finally-a-favicon/</guid>
+        <guid>http://localhost:1313/p/2023-12-18-finally-a-favicon/</guid>
         <description>&lt;p&gt;Finals are over, so you know what that means&amp;hellip; New Favicon :). Well kind of. I&amp;rsquo;ve purposely left the favicon. Deep down, I have always wanted to make the favicon a simple spiral. But unfortunately, my obession with spirals is not strong enough, nor do i think it represents this website appropriately. So as a compromise to my self, ive left the favicon blank until i find or request someone to generate a said favicon. Well, today is the day. Browsing itch.io I came across a pixel planet generate (oh em ghee, i had to check this out) and well it does exactly what it said it would. And im in love. And so i set out on a quest to generate a million planets until I found the one that I wanted. You can find and play with the same exact program I was here &lt;a class=&#34;link&#34; href=&#34;https://deep-fold.itch.io/pixel-planet-generator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://deep-fold.itch.io/pixel-planet-generator&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It reminded me of an old program that I made a while ago, where I was experimenting with noise maps, and the rasterization of said noise map. The fun part about this experiment of mine was that it had three decimal points to it, and each decimal point was translated into a RGB color code at some point. Making at times this really magnificent image.&lt;/p&gt;
@@ -487,10 +650,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Comment Downtime 2023.11.28</title>
-        <link>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</link>
+        <link>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</link>
         <pubDate>Tue, 28 Nov 2023 12:29:55 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-11-28-comment-downtime-2023.11.28/</guid>
+        <guid>http://localhost:1313/p/2023-11-28-comment-downtime-2023.11.28/</guid>
         <description>&lt;p&gt;Today, I had an unexpected downtime of roughly 2 hours 2023.11.28 3-4 UTC. I had a Russian visiter Sunday (?) the 25th who commented essentially an ad about their website SEO skills onto the &lt;a class=&#34;link&#34; href=&#34;https://www.unorthodoxdev.net/comment/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;comment board&lt;/a&gt;. This is &lt;em&gt;unfortunately&lt;/em&gt; the internet, and even more so a &lt;em&gt;comment board&lt;/em&gt; where anyone can say and do anything (within the rules).&lt;/p&gt;
 &lt;p&gt;Normally I would have no real issues with what they have done, as it is not commit a crime, nor is it necessarilly disruptive. But they did happen to comment three times, each time the same thing without any kind of variation. This was cause for concern&amp;hellip;. (im joking). But as a webadmin, I can do whatever the hell I want and censor whatever kind of things I want to censor, so why not exercise my webadmin rights and change the visibility of the excess comments and then leave a curdious note to the user about why I had to mark their notes as hidden? Naturally, you have to hide the comment on production right?&lt;/p&gt;
@@ -540,10 +703,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Simple File Parsing Takes Three Hours</title>
-        <link>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
+        <link>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
         <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
+        <guid>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
         <description>&lt;p&gt;NMAP really needs some kind of file output option that isnt leetcode, xml, or gibberish. I would kill for a csv output from nmap. Regardless, lets solve this problem. I chose to ues python because I figured it would be quick and easy and would take no time. I was in fact wrong; Im not quite as comfortable with python as I am with rust at this point, but thats ok. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/noparser/blob/main/noparser.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;It took about 2-3 hours to build and test a simple program&lt;/a&gt;. This stupid script, took a little over 40 minutes trying to figure out how to build a stupid CLI interface and I immediately realized I miss rusts built in fail handling. Your telling me that I have to try, except &lt;strong&gt;everything???&lt;/strong&gt;. Oh well it doesnt matter anyways this doesnt actually compile down to machine code there are no assembly jumps or calls, lets just do it&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;God I hate this I decided to just cave and research a few CLI libraries and landed on plac, which has some very terrible documentation. For example, they do not explicilty provide a way for you to accept a file path or string lol. I just had to play around with the program until I found something that works, but this library could literally kill for some more english in the documentation. After I got that going it was easy peasy lemon squeezy. Except, when you error out, it doesnt really tell you why if your in a try catch loop. So I have to effectively comment out the try catch loop, and lower my code a indentation bracket figure out what the hell is breaking my code, just to realize I forgot to pass a variable to a function but was referencing it anyways&amp;hellip;. Another downside to try catch. Why the hell is my program failing. Otherwise, this program is less than 40 lines without all the stupid comments.&lt;/p&gt;
@@ -554,10 +717,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Vacation</title>
-        <link>https://unorthodoxdev.net/p/2023-09-07-vacation/</link>
+        <link>http://localhost:1313/p/2023-09-07-vacation/</link>
         <pubDate>Thu, 07 Sep 2023 10:32:58 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-09-07-vacation/</guid>
+        <guid>http://localhost:1313/p/2023-09-07-vacation/</guid>
         <description>&lt;img src="https://unorthodoxdev-bucket-public.s3.amazonaws.com/scorpion-hand.jpeg" alt="Featured image of post Vacation" /&gt;&lt;p&gt;Im back!&lt;/p&gt;
 &lt;p&gt;Ive been gone for a little while now. I went on vacation to mexico for about 21 days to visit friends. I had a blast. Everything there is vastly different than here in the states. Where I live, &lt;a class=&#34;link&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S0277953600000046&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;if you need anything other than beer&lt;/a&gt; you need to drive about 5-20 minutes to get whatever you need. In Druango Durango Mexico, If I need to go to the store, its about a 5 minute walk to a Ley; The equivalent of a walmart or meijers. If im in the mood for some chips and a soda, theres a conveince store, or Oxxo within 2 to 5 minutes. Hungry for a burger, theres a place that sells hamburgesas down the street. Come on lets walk its only 10 minutes away! I will tell you though, I was a little dissapointed in the hamburgessa. I was expecting a &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=MULhB5_COAU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -638,10 +801,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Advent of Code</title>
-        <link>https://unorthodoxdev.net/p/2023-08-09-advent-of-code/</link>
+        <link>http://localhost:1313/p/2023-08-09-advent-of-code/</link>
         <pubDate>Wed, 09 Aug 2023 15:07:00 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-09-advent-of-code/</guid>
+        <guid>http://localhost:1313/p/2023-08-09-advent-of-code/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1606482512676-255bf02be7cf" alt="Featured image of post Advent of Code" /&gt;&lt;p&gt;Advent of Code is a annual set of Christmas themed programming problem that follow an advent calendar. I have heard about Advent of Code (AoC from now on) before but never committed time or resources to it.&lt;/p&gt;
 &lt;p&gt;Struggling to learn C, I decided to go through the AoC content from 2015 to current and complete each of the challenges with at a minimum, attempting to use C. The nice thing about doing the older problems, well really any problem, is that there are plenty of resources around online to help me work through and solve the problems.&lt;/p&gt;
 &lt;p&gt;I plan to go through at least one problem a day on my lunch break if not more given time permits and upload it to my &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/AoC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -652,10 +815,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Network Troubleshooting Methodology</title>
-        <link>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</link>
+        <link>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</link>
         <pubDate>Wed, 09 Aug 2023 14:17:19 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-09-network-troubleshooting-methodology/</guid>
+        <guid>http://localhost:1313/p/2023-08-09-network-troubleshooting-methodology/</guid>
         <description>&lt;p&gt;This is a guide i&amp;rsquo;ve created with some notes I have created while working through the networking+ content. While I do plenty of networking troubleshooting experience, these instructions ensure that I &lt;strong&gt;STOP&lt;/strong&gt;, and &lt;strong&gt;SLOWN DOWN&lt;/strong&gt; and think about the changes. Something else I enjoy about these instructions is they force me to think more about &lt;em&gt;change&lt;/em&gt; management. Something I need more practice with.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Gather as much information as possible. If possible, duplicate the problem.&lt;/li&gt;
@@ -669,10 +832,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Finding Things to Do</title>
-        <link>https://unorthodoxdev.net/p/2023-08-07-finding-things-to-do/</link>
+        <link>http://localhost:1313/p/2023-08-07-finding-things-to-do/</link>
         <pubDate>Mon, 07 Aug 2023 09:36:33 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-07-finding-things-to-do/</guid>
+        <guid>http://localhost:1313/p/2023-08-07-finding-things-to-do/</guid>
         <description>&lt;p&gt;I am the ultimate procrastinator. I can never seem to commit, or consider a project done. I have a perpetual train of thought going on when I think of projects or problems. I often wont even start a project, unless I can envision the end. Some people may see this as a good trait, being that I am able to plan the project, and goals out from start to finish instead of aimlessly working on something. Sometimes, I may already have the end goal of my project or problem determined, but my issue is then, finding a way to complete it. Maybe not all the tools are there for me that I hope there would have been.&lt;/p&gt;
 &lt;p&gt;Lately I have been learning C. Not C++, not C#&amp;hellip; C. One thing I learned very quickly with C is that there is no hand holding. If you do not manage your memory, you&amp;rsquo;ve blown your program up. You don&amp;rsquo;t know how to do something, you&amp;rsquo;ve made your project 100 times harder now trying to include some foreign library, versus developing the solution your self. My initial Idea was to create a program, that pulls the API information from the local Transit station, and parses out the information into a pleasant way. This program in rust, hypothetically would be pretty quick, and i&amp;rsquo;ve already got an idea on how I would do it!&lt;/p&gt;
 &lt;p&gt;I would start by using &lt;a class=&#34;link&#34; href=&#34;github.com/actix/actix&#34; &gt;actix&lt;/a&gt; to pull the API get request. parse the JSON response using &lt;a class=&#34;link&#34; href=&#34;serde.rs&#34; &gt;serde&lt;/a&gt;. Then use  &lt;a class=&#34;link&#34; href=&#34;https://github.com/ratatui-org/ratatui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -708,10 +871,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>In dire need of comments</title>
-        <link>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments/</link>
+        <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</link>
         <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments/</guid>
+        <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</guid>
         <description>&lt;p&gt;I recently migrated my website from &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ghost blog&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo&lt;/a&gt; which is a static site generator compared to the all in one package you get with &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -766,11 +929,67 @@ most part.&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>Quotes Associated With Work</title>
+        <link>http://localhost:1313/p/2023-07-27-quotes-associated-with-work/</link>
+        <pubDate>Thu, 27 Jul 2023 09:47:54 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/2023-07-27-quotes-associated-with-work/</guid>
+        <description>&lt;p&gt;Me: It looks like someone deleted the .wim files we were using&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Me: Did anyone touch these files?&lt;/p&gt;
+&lt;p&gt;CoWorker: No one would have touched those. Maybe it was an update.&lt;/p&gt;
+&lt;p&gt;Everyone: Silence&amp;hellip;&amp;hellip;&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;Me: Ive gone ahead and recreated them. The following are on your plate to make 1,2,3&lt;/p&gt;
+&lt;p&gt;CoWorker: Ok.&lt;/p&gt;
+&lt;p&gt;CoWorker: After going through the logs, it appears I deleted the wims.&lt;/p&gt;
+&lt;p&gt;Me: You were the update.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: You cannot joke like that, they we take serious and get cofunded&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Enjoy your hell burgers (they had jalapenos in it)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Me: What did you give me What is in my mouth
+CoWorker 1: I feel like over the course of the year ive dranke one yankee candle
+CoWorker 2: (Enters Office, chatting with another CoWorker) Yeah he came out of my butt 24 years ago&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Me: Wheres the boss?
+CoWorker: Hes out doing meat stuff&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Me: Wow! I really dont read!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: Go get tea you&amp;rsquo;re an adult&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: You;ve just touched 20 years of weird hands, germs, and possible wank&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: Dont ride with him he basically maintains a blood alcohol level of 5&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Well I guess you and him can make a plan based on what they did or didnt say Plus what your CoWorker knows&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Do she go to both places? Make sure we know what came from each place&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: So any day you cant work on? (sends picture of schedule) or (sends picture thursday friday)
+Me: I will work as much as you want to schedule me I have nothing going on and no friends
+Boss: I am your friend&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker 1: The mood at the Pizza Party is like a bread line in the great depression
+CoWorker 2: (Busting into the room) Historycom has me fucked up this morning&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: Babies are cute, but I wouldnt want to touch one&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Please make work order for dong Put good notes in the josh log&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Boss: Client, \n\n We are dong&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Client to me: I think I may have a virus or something I dont know it just stopped working Y&amp;rsquo;know, things like porn creep up on you&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CoWorker: All, \n After talking internally, please hold the reset button for 15 seconds \n regards, coworker&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Ublock Origin and More</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-ublock-origin-and-more/</link>
+        <link>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</link>
         <pubDate>Wed, 19 Jul 2023 21:00:06 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-ublock-origin-and-more/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-ublock-origin-and-more/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9" alt="Featured image of post Ublock Origin and More" /&gt;&lt;p&gt;Everybody knows about &lt;a class=&#34;link&#34; href=&#34;https://ublockorigin.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;uBlock Origin&lt;/a&gt;. The browser extension that blocks ads right? Well most ads. Theres often ads from social medias sites like facebook and twitter that slip through really.&lt;/p&gt;
 &lt;p&gt;Although I recently learned that uBlock has the capability to extend those block lists. The easiset way to add capabilities to your uBlock is to find these pre made lists of URLs and it should begin to block those ads for you. These are really the same lists that DNS filters like pi-hole use.&lt;/p&gt;
@@ -782,10 +1001,10 @@ most part.&lt;/p&gt;
         </item>
         <item>
         <title>Digital Gardens</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-digital-gardens/</link>
+        <link>http://localhost:1313/p/2023-07-19-digital-gardens/</link>
         <pubDate>Wed, 19 Jul 2023 20:59:39 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-digital-gardens/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-digital-gardens/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1550948390-6eb7fa773072" alt="Featured image of post Digital Gardens" /&gt;&lt;h2 id=&#34;outline&#34;&gt;&lt;a href=&#34;#outline&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Outline
 &lt;/h2&gt;&lt;h3 id=&#34;what-is-a-digital-garden&#34;&gt;&lt;a href=&#34;#what-is-a-digital-garden&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;What is a Digital Garden?
 &lt;/h3&gt;&lt;ul&gt;
@@ -842,10 +1061,10 @@ Learn In Public &lt;a class=&#34;link&#34; href=&#34;https://www.swyx.io/learn-i
         </item>
         <item>
         <title>Migrating Ghost Blog Domain Names</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</link>
+        <link>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</link>
         <pubDate>Wed, 19 Jul 2023 12:20:21 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-migrating-ghost-blog-domain-names/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435" alt="Featured image of post Migrating Ghost Blog Domain Names" /&gt;&lt;blockquote&gt;
 &lt;p&gt;Note! I have migrated away from ghost blog and now manage my site on hugo!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;For some reason when I was looking up how to change [[domain names]] for my ghost blog, I kept running into recommendations that stated I should just reinstall ghost. I really don&amp;rsquo;t want to do that especially since so much content exists on this server already. It also reminded me that I probably need to take regular backups of the server anyways. Or at least, double book blog posts somewhere just in case! (Truthfully most posts end up in my notebook to begin with, and end up polished on the website). Below are my steps to migrate my blogs DNS record.&lt;/p&gt;

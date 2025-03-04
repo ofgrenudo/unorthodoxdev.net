@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Linux on Unorthodoxdev</title>
-        <link>https://unorthodoxdev.net/tags/linux/</link>
+        <link>http://localhost:1313/tags/linux/</link>
         <description>Recent content in Linux on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Jul 2023 20:58:46 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Jul 2023 20:58:46 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Setting a Hostname on Linux</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</link>
+        <link>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</link>
         <pubDate>Wed, 19 Jul 2023 20:58:46 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-setting-a-hostname-on-linux/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-setting-a-hostname-on-linux/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1532630174493-69e1fe9fead2" alt="Featured image of post Setting a Hostname on Linux" /&gt;&lt;blockquote&gt;
 &lt;p&gt;⚠️ Danger
 You will need administrative access to the device in question. Changing a hostname can have unintended catastrophic consequences if done without proper consideration.&lt;/p&gt;&lt;/blockquote&gt;
@@ -52,10 +52,10 @@ You will need administrative access to the device in question. Changing a hostna
         </item>
         <item>
         <title>Linux Administration Tips and Tricks</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</link>
+        <link>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</link>
         <pubDate>Wed, 19 Jul 2023 20:58:00 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-linux-administration-tips-and-tricks/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1640552435388-a54879e72b28" alt="Featured image of post Linux Administration Tips and Tricks" /&gt;&lt;p&gt;These notes should work on given any GNU / Linux based operating system. Although, should you run into any road blocks future me. Im sorry for lying to you :(.&lt;/p&gt;
 &lt;h1 id=&#34;service-monitoring&#34;&gt;&lt;a href=&#34;#service-monitoring&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Service Monitoring
 &lt;/h1&gt;&lt;p&gt;Services are a integral part of every operating system. How can I monitor and troubleshoot system services when things go wrong?&lt;/p&gt;

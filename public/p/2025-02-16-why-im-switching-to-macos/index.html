@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Kind of....">
 <title>Why Im Switching to MacOS</title>
 
-<link rel='canonical' href='https://unorthodoxdev.net/p/2025-02-16-why-im-switching-to-macos/'>
+<link rel='canonical' href='http://localhost:1313/p/2025-02-16-why-im-switching-to-macos/'>
 
-<link rel="stylesheet" href="/scss/style.min.369b76753866a603c784110863b032a6cdc169b7f9bddd50f54f71df07d1c95d.css"><meta property='og:title' content="Why Im Switching to MacOS">
+<link rel="stylesheet" href="/scss/style.min.564ec4927d4f0b1a54e645e8aa4ade4e589a0afbc082d5dad4472f0a5030cf3f.css"><meta property='og:title' content="Why Im Switching to MacOS">
 <meta property='og:description' content="Kind of....">
-<meta property='og:url' content='https://unorthodoxdev.net/p/2025-02-16-why-im-switching-to-macos/'>
+<meta property='og:url' content='http://localhost:1313/p/2025-02-16-why-im-switching-to-macos/'>
 <meta property='og:site_name' content='Unorthodoxdev'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-02-16T10:09:12-05:00'/><meta property='article:modified_time' content='2025-02-16T10:09:12-05:00'/>
 <meta name="twitter:title" content="Why Im Switching to MacOS">
@@ -383,8 +383,15 @@
 <h2 id="final-thoughts"><a href="#final-thoughts" class="header-anchor"></a>Final Thoughts
 </h2><p>As a mobile workstation, a MacBook is definitely the way to go. For all the things that I do, even a MacBook Air is enough to get through my day. I would encourage it for anyone frustrated or even remotely considering buying a MacBook, to first look at the second hand market and see if you can spot something on a discounted rate and if you must buy something new, buy something that will be worth it, as you can keep it for a great deal longer than you would a windows laptop.</p>
 
+    <form action="https://unorthodoxdev.net/comment/new/post" method="post" id="new_comment">
+        <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
+        <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
+        <input type="hidden" name="post_url" id="post_url" required>
+        <button id="submit">Send!</button>
+    </form>
+    <div id="comments">
+    </div>
 </section>
-
 
     <footer class="article-footer">
     
@@ -401,8 +408,95 @@
 
         <span>GNU General Public License v3.0</span>
     </section>
-    </footer>
-
+    <script>
+        
+        const comments_server = "https://unorthodoxdev.net/comment/get/post/raw/";
+        const link = document.getElementsByClassName('article-title')[0].getElementsByTagName('a')[0];
+        const href = link.getAttribute('href');
+        const parts = href.split("/");
+        const article_title = parts[2];
+        
+        const comments_on_post_url = comments_server + article_title;
+        
+        
+        async function fetchComments() {
+            try {
+                const response = await fetch(comments_on_post_url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+        
+                const rawText = await response.text();
+                console.log('Raw Response:', rawText);
+        
+                let comments = [];
+                try {
+                    comments = JSON.parse(rawText);
+                } catch (jsonError) {
+                    console.error('Failed to parse JSON:', jsonError);
+                    return;
+                }
+                
+                if (comments.length === 0) {
+                    console.log('No comments returned.');
+                    return;
+                }
+        
+                displayComments(comments);
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error);
+            }
+        }
+        
+        
+        function displayComments(comments) {
+            console.log("Displaying comments:", comments);
+        
+            const commentSection = document.getElementById('comments');
+            if (!commentSection) {
+                console.error("No element with id 'comments' found.");
+                return;
+            }
+        
+            commentSection.innerHTML = ""; 
+        
+            comments.forEach(comment => {
+                const commentContainer = document.createElement('div');
+                commentContainer.id = "comment_";
+        
+                const usernameItem = document.createElement('li');
+                usernameItem.id = "comment_username";
+                usernameItem.innerHTML = `<p><b>${comment.username}</b> says...</p>`;
+                commentContainer.appendChild(usernameItem);
+        
+                const commentTextItem = document.createElement('li');
+                commentTextItem.id = "comment_input";
+                const commentText = document.createElement('pre');
+                commentText.textContent = comment.comment;
+                commentTextItem.appendChild(commentText);
+                commentContainer.appendChild(commentTextItem);
+                
+                const separator = document.createElement('hr');
+                separator.id = "comment_end";
+                commentContainer.appendChild(separator);
+                
+                const infoItem = document.createElement('li');
+                infoItem.id = "comment_information";
+                infoItem.textContent = `${comment.timestamp} | ${comment.id}`;
+                commentContainer.appendChild(infoItem);
+        
+                commentSection.appendChild(commentContainer);
+            });
+        }
+        
+        window.onload = function () {
+            fetchComments();
+            
+            const post_url = document.getElementsByClassName("post_url");
+            document.getElementById('post_url').value = article_title;
+        };
+        </script>
+</footer>
 
     
         <link 
@@ -634,7 +728,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.6cd8e5b2f634b7ab507a128925479b13e615b98642155949fa5568680a2065fd.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

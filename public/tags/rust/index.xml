@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Rust on Unorthodoxdev</title>
-        <link>https://unorthodoxdev.net/tags/rust/</link>
+        <link>http://localhost:1313/tags/rust/</link>
         <description>Recent content in Rust on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 01 Aug 2023 10:07:32 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/rust/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Aug 2023 10:07:32 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>In dire need of comments</title>
-        <link>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments/</link>
+        <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</link>
         <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments/</guid>
+        <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</guid>
         <description>&lt;p&gt;I recently migrated my website from &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ghost blog&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo&lt;/a&gt; which is a static site generator compared to the all in one package you get with &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -67,10 +67,10 @@
         </item>
         <item>
         <title>Tattoo</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-tattoo/</link>
+        <link>http://localhost:1313/p/2023-07-19-tattoo/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:44 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-tattoo/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-tattoo/</guid>
         <description>&lt;p&gt;&lt;img src=&#34;https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg&#34;
 	
 	
@@ -170,10 +170,10 @@
         </item>
         <item>
         <title>Ci Pipelines With Rust</title>
-        <link>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</link>
+        <link>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:12 -0400</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</guid>
+        <guid>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1609213244695-7d6902be89da" alt="Featured image of post Ci Pipelines With Rust" /&gt;&lt;p&gt;&lt;em&gt;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;CI, Continuous onus Integration allows for each member of a team to integrate their changes into the main branch, multiple times a day.&lt;/p&gt;
 &lt;p&gt;Continuous Integration allows us to tighten the feed back loop. We are less likely to go off on your own and develop for days or weeks just to find out the approach you have taken isn&amp;rsquo;t working, or isn&amp;rsquo;t approved by peers. Continuous Integration forces you to work with your teammates earlier than when you feel is comfortable allowing for course correcting actions to be taken &lt;em&gt;before&lt;/em&gt; you have wasted your time. So how do we make Continuous Integration a reality?&lt;/p&gt;

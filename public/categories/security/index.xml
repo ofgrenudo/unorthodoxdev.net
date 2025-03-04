@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Security on Unorthodoxdev</title>
-        <link>https://unorthodoxdev.net/categories/security/</link>
+        <link>http://localhost:1313/categories/security/</link>
         <description>Recent content in Security on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 17 Feb 2025 18:10:31 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/security/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 17 Feb 2025 18:10:31 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/security/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why You Should Disable Javascript From Loading By Default</title>
-        <link>https://unorthodoxdev.net/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/</link>
+        <link>http://localhost:1313/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/</link>
         <pubDate>Mon, 17 Feb 2025 18:10:31 -0500</pubDate>
         
-        <guid>https://unorthodoxdev.net/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/</guid>
+        <guid>http://localhost:1313/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/</guid>
         <description>&lt;p&gt;Have you ever thought about how easy it is to launch a xss attempt? Or why your organization disables loading images by default in your inbox? Its because something as simple as a svg can contain javascript, that can execute some malicious code.&lt;/p&gt;
 &lt;p&gt;For example, if we wanted to create a svg file with the following contents:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -49,7 +49,7 @@
 &lt;/div&gt;&lt;p&gt;I think specifically I sent them to Burger Kings website, or the NFL website. Having this kind of vulnerability available allows for people to spoof your website or perform some kind phishing attempt.&lt;/p&gt;
 &lt;h2 id=&#34;preventing-xss&#34;&gt;&lt;a href=&#34;#preventing-xss&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Preventing XSS
 &lt;/h2&gt;&lt;p&gt;Honestly, the easiest way to prevent XSS vulnerabilities, is to filter anything and everything given to you by a user. Even images. Users for the most part are good right? righttt? Well hackers are bad. Our worst case is a hacker, so we need to anticipate these bad actors. Why leave our selves wide open to such an easy, yet drastically impactful vulnerability?&lt;/p&gt;
-&lt;script src=&#34;https://unorthodoxdev.net/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/script.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;</description>
+&lt;script src=&#34;http://localhost:1313/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/script.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;</description>
         </item>
         
     </channel>
