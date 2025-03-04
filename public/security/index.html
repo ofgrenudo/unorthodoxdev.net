@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/security/'>
 
-<link rel="stylesheet" href="/scss/style.min.369b76753866a603c784110863b032a6cdc169b7f9bddd50f54f71df07d1c95d.css"><meta property='og:title' content="Security">
+<link rel="stylesheet" href="/scss/style.min.564ec4927d4f0b1a54e645e8aa4ade4e589a0afbc082d5dad4472f0a5030cf3f.css"><meta property='og:title' content="Security">
 <meta property='og:description' content="For any important communications,\nI will communicate via this GPG key.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 -----BEGIN PGP PUBLIC KEY BLOCK----- Comment: User-ID:\tJoshua Winters-Brown Comment: Valid from:\t1/21/2024 11:43 AM Comment: Valid until:\t1/21/2027 12:00 PM Comment: Type:\t255-bit EdDSA (secret key available) Comment: Usage:\tSigning, Encryption, Certifying User-IDs Comment: Fingerprint:\t0C9A38A843F14A2878E83701D215B3C3078D0735 mDMEZa1JvxYJKwYBBAHaRw8BAQdAw5URRTbSczczNlb0xdU7ELHCL473QqMvC7T0 z5zfiOO0M0pvc2h1YSBXaW50ZXJzLUJyb3duIDxqb3NodWF3aW50ZXJzYnJvd25A Z21haWwuY29tPoiZBBMWCgBBFiEEDJo4qEPxSih46DcB0hWzwweNBzUFAmWtSb8C GwMFCQWk79EFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ0hWzwweNBzWP yAD8C0kZfpMxrWxzLhV3Xg8SNgPM5dySkvdX9XS6qtLa20UA/A2CQqT4dt9/w6gO 1UtBQeeXXrPrdDJgX+rsIbIcyiMOuDgEZa1JvxIKKwYBBAGXVQEFAQEHQOrfJ5D+ BS5Wjf7/t3OOdw6pevJ7xDvmKncp8pY9EUR9AwEIB4h+BBgWCgAmFiEEDJo4qEPx Sih46DcB0hWzwweNBzUFAmWtSb8CGwwFCQWk79EACgkQ0hWzwweNBzXPAwD+PSCH Fh69Y8BqvEk3WbSeaH0hScT07B0EMF9PFGC0rpoA/2QoAELrH2/JBK4N+1Y2iIAI jqwRYL1o6mUcXhvv06wD =6xSJ -----END PGP PUBLIC KEY BLOCK----- ">
 <meta property='og:url' content='http://localhost:1313/security/'>
 <meta property='og:site_name' content='Unorthodoxdev'>
@@ -374,14 +374,16 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
+    <form action="https://unorthodoxdev.net/comment/new/post" method="post" id="new_comment">
+        <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
+        <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
+        <input type="hidden" name="post_url" id="post_url" required>
+        <button id="submit">Send!</button>
+    </form>
+    <div id="comments">
+    </div>
 </section>
 
-    <form action="http://localhost:8080/comment/new/post" method="post" id="new_comment">
-            <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
-            <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
-            <input type="hidden" name="post_url" id="post_url" required>
-            <button id="submit">Send!</button>
-    </form>
     <footer class="article-footer">
     
 
@@ -397,8 +399,95 @@
 
         <span>Licensed under GNU General Public License v3.0</span>
     </section>
-    </footer>
-
+    <script>
+        
+        const comments_server = "https://unorthodoxdev.net/comment/get/post/raw/";
+        const link = document.getElementsByClassName('article-title')[0].getElementsByTagName('a')[0];
+        const href = link.getAttribute('href');
+        const parts = href.split("/");
+        const article_title = parts[2];
+        
+        const comments_on_post_url = comments_server + article_title;
+        
+        
+        async function fetchComments() {
+            try {
+                const response = await fetch(comments_on_post_url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+        
+                const rawText = await response.text();
+                console.log('Raw Response:', rawText);
+        
+                let comments = [];
+                try {
+                    comments = JSON.parse(rawText);
+                } catch (jsonError) {
+                    console.error('Failed to parse JSON:', jsonError);
+                    return;
+                }
+                
+                if (comments.length === 0) {
+                    console.log('No comments returned.');
+                    return;
+                }
+        
+                displayComments(comments);
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error);
+            }
+        }
+        
+        
+        function displayComments(comments) {
+            console.log("Displaying comments:", comments);
+        
+            const commentSection = document.getElementById('comments');
+            if (!commentSection) {
+                console.error("No element with id 'comments' found.");
+                return;
+            }
+        
+            commentSection.innerHTML = ""; 
+        
+            comments.forEach(comment => {
+                const commentContainer = document.createElement('div');
+                commentContainer.id = "comment_";
+        
+                const usernameItem = document.createElement('li');
+                usernameItem.id = "comment_username";
+                usernameItem.innerHTML = `<p><b>${comment.username}</b> says...</p>`;
+                commentContainer.appendChild(usernameItem);
+        
+                const commentTextItem = document.createElement('li');
+                commentTextItem.id = "comment_input";
+                const commentText = document.createElement('pre');
+                commentText.textContent = comment.comment;
+                commentTextItem.appendChild(commentText);
+                commentContainer.appendChild(commentTextItem);
+                
+                const separator = document.createElement('hr');
+                separator.id = "comment_end";
+                commentContainer.appendChild(separator);
+                
+                const infoItem = document.createElement('li');
+                infoItem.id = "comment_information";
+                infoItem.textContent = `${comment.timestamp} | ${comment.id}`;
+                commentContainer.appendChild(infoItem);
+        
+                commentSection.appendChild(commentContainer);
+            });
+        }
+        
+        window.onload = function () {
+            fetchComments();
+            
+            const post_url = document.getElementsByClassName("post_url");
+            document.getElementById('post_url').value = article_title;
+        };
+        </script>
+</footer>
 
     
         <link 
@@ -428,7 +517,6 @@
 
     
 </article>
-
 
     
 

@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/'>
 
-<link rel="stylesheet" href="/scss/style.min.369b76753866a603c784110863b032a6cdc169b7f9bddd50f54f71df07d1c95d.css"><meta property='og:title' content="Navigating the Challenges of Asset Inventory Management">
+<link rel="stylesheet" href="/scss/style.min.564ec4927d4f0b1a54e645e8aa4ade4e589a0afbc082d5dad4472f0a5030cf3f.css"><meta property='og:title' content="Navigating the Challenges of Asset Inventory Management">
 <meta property='og:description' content="Exploring the intricacies of implementing asset inventory solutions in organizations.">
 <meta property='og:url' content='http://localhost:1313/p/2023-11-17-navigating-the-challenges-of-asset-inventory-management/'>
 <meta property='og:site_name' content='Unorthodoxdev'>
@@ -402,14 +402,16 @@
 <p>The challenge of discrepancies due to typos or variations in entries—whether in spreadsheets, SQL databases, or Snipe-IT—becomes evident. Using relational databases, where entries are referenced by ID rather than name, minimizes type 0 errors.</p>
 <p>What initially seemed like a quick and easy solution now demands effort to automate device information entry into Snipe. The transition from manual entries to relational databases may pose challenges, but it ultimately addresses issues of consistency and accuracy in asset inventory management.</p>
 
+    <form action="https://unorthodoxdev.net/comment/new/post" method="post" id="new_comment">
+        <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
+        <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
+        <input type="hidden" name="post_url" id="post_url" required>
+        <button id="submit">Send!</button>
+    </form>
+    <div id="comments">
+    </div>
 </section>
 
-    <form action="http://localhost:8080/comment/new/post" method="post" id="new_comment">
-            <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
-            <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
-            <input type="hidden" name="post_url" id="post_url" required>
-            <button id="submit">Send!</button>
-    </form>
     <footer class="article-footer">
     
     <section class="article-tags">
@@ -433,8 +435,95 @@
 
         <span>Licensed under GNU General Public License v3.0</span>
     </section>
-    </footer>
-
+    <script>
+        
+        const comments_server = "https://unorthodoxdev.net/comment/get/post/raw/";
+        const link = document.getElementsByClassName('article-title')[0].getElementsByTagName('a')[0];
+        const href = link.getAttribute('href');
+        const parts = href.split("/");
+        const article_title = parts[2];
+        
+        const comments_on_post_url = comments_server + article_title;
+        
+        
+        async function fetchComments() {
+            try {
+                const response = await fetch(comments_on_post_url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+        
+                const rawText = await response.text();
+                console.log('Raw Response:', rawText);
+        
+                let comments = [];
+                try {
+                    comments = JSON.parse(rawText);
+                } catch (jsonError) {
+                    console.error('Failed to parse JSON:', jsonError);
+                    return;
+                }
+                
+                if (comments.length === 0) {
+                    console.log('No comments returned.');
+                    return;
+                }
+        
+                displayComments(comments);
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error);
+            }
+        }
+        
+        
+        function displayComments(comments) {
+            console.log("Displaying comments:", comments);
+        
+            const commentSection = document.getElementById('comments');
+            if (!commentSection) {
+                console.error("No element with id 'comments' found.");
+                return;
+            }
+        
+            commentSection.innerHTML = ""; 
+        
+            comments.forEach(comment => {
+                const commentContainer = document.createElement('div');
+                commentContainer.id = "comment_";
+        
+                const usernameItem = document.createElement('li');
+                usernameItem.id = "comment_username";
+                usernameItem.innerHTML = `<p><b>${comment.username}</b> says...</p>`;
+                commentContainer.appendChild(usernameItem);
+        
+                const commentTextItem = document.createElement('li');
+                commentTextItem.id = "comment_input";
+                const commentText = document.createElement('pre');
+                commentText.textContent = comment.comment;
+                commentTextItem.appendChild(commentText);
+                commentContainer.appendChild(commentTextItem);
+                
+                const separator = document.createElement('hr');
+                separator.id = "comment_end";
+                commentContainer.appendChild(separator);
+                
+                const infoItem = document.createElement('li');
+                infoItem.id = "comment_information";
+                infoItem.textContent = `${comment.timestamp} | ${comment.id}`;
+                commentContainer.appendChild(infoItem);
+        
+                commentSection.appendChild(commentContainer);
+            });
+        }
+        
+        window.onload = function () {
+            fetchComments();
+            
+            const post_url = document.getElementsByClassName("post_url");
+            document.getElementById('post_url').value = article_title;
+        };
+        </script>
+</footer>
 
     
         <link 
@@ -464,7 +553,6 @@
 
     
 </article>
-
 
     
 

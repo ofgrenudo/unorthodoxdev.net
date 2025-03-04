@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/recipes/deserts/gorilla-balls/'>
 
-<link rel="stylesheet" href="/scss/style.min.369b76753866a603c784110863b032a6cdc169b7f9bddd50f54f71df07d1c95d.css"><meta property='og:title' content="Gorilla Balls">
+<link rel="stylesheet" href="/scss/style.min.564ec4927d4f0b1a54e645e8aa4ade4e589a0afbc082d5dad4472f0a5030cf3f.css"><meta property='og:title' content="Gorilla Balls">
 <meta property='og:description' content="Ingredients 1 cup packed brown sugar. 1/2 c. butter (cubed). 2 tubes (12 oz each) refrigerated biscuits. 1/2 c. sugar. 1 tbsp ground cinnamon. 1 package (8oz) cream cheese, cut into 20 cubes. Directions In a small microwave-safe bowl, heat brown sugar and butter on high for one minute or until sugar is dissolved. Set aside. Flatten each biscuit into a 3 inch circle. Place cream cheese cube in center. Push the sides of the biscuit around cream cheese and form into ball so biscuit is wrapped all around cream cheese. Mix sugar (1/2 cup) with cinnamon. Roll ball in cinnamon / sugar mixture and place in 8&quot;x8&quot; pan square glass baking dish. Once all the balls are in the baking dish, sprinkle the remaining cinnamon / sugar mixture over top. Then pour evenly the brown sugar / butter mixture over balls. Bake at 350 degrees for 45 minutes or until golden brown. Once out of the oven, let cool 10-15 minutes. Enjoy.\n">
 <meta property='og:url' content='http://localhost:1313/recipes/deserts/gorilla-balls/'>
 <meta property='og:site_name' content='Unorthodoxdev'>
@@ -424,14 +424,16 @@
   </tbody>
 </table></div>
 
+    <form action="https://unorthodoxdev.net/comment/new/post" method="post" id="new_comment">
+        <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
+        <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
+        <input type="hidden" name="post_url" id="post_url" required>
+        <button id="submit">Send!</button>
+    </form>
+    <div id="comments">
+    </div>
 </section>
 
-    <form action="http://localhost:8080/comment/new/post" method="post" id="new_comment">
-            <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
-            <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
-            <input type="hidden" name="post_url" id="post_url" required>
-            <button id="submit">Send!</button>
-    </form>
     <footer class="article-footer">
     
     <section class="article-tags">
@@ -453,8 +455,95 @@
 
         <span>GNU General Public License v3.0</span>
     </section>
-    </footer>
-
+    <script>
+        
+        const comments_server = "https://unorthodoxdev.net/comment/get/post/raw/";
+        const link = document.getElementsByClassName('article-title')[0].getElementsByTagName('a')[0];
+        const href = link.getAttribute('href');
+        const parts = href.split("/");
+        const article_title = parts[2];
+        
+        const comments_on_post_url = comments_server + article_title;
+        
+        
+        async function fetchComments() {
+            try {
+                const response = await fetch(comments_on_post_url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+        
+                const rawText = await response.text();
+                console.log('Raw Response:', rawText);
+        
+                let comments = [];
+                try {
+                    comments = JSON.parse(rawText);
+                } catch (jsonError) {
+                    console.error('Failed to parse JSON:', jsonError);
+                    return;
+                }
+                
+                if (comments.length === 0) {
+                    console.log('No comments returned.');
+                    return;
+                }
+        
+                displayComments(comments);
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error);
+            }
+        }
+        
+        
+        function displayComments(comments) {
+            console.log("Displaying comments:", comments);
+        
+            const commentSection = document.getElementById('comments');
+            if (!commentSection) {
+                console.error("No element with id 'comments' found.");
+                return;
+            }
+        
+            commentSection.innerHTML = ""; 
+        
+            comments.forEach(comment => {
+                const commentContainer = document.createElement('div');
+                commentContainer.id = "comment_";
+        
+                const usernameItem = document.createElement('li');
+                usernameItem.id = "comment_username";
+                usernameItem.innerHTML = `<p><b>${comment.username}</b> says...</p>`;
+                commentContainer.appendChild(usernameItem);
+        
+                const commentTextItem = document.createElement('li');
+                commentTextItem.id = "comment_input";
+                const commentText = document.createElement('pre');
+                commentText.textContent = comment.comment;
+                commentTextItem.appendChild(commentText);
+                commentContainer.appendChild(commentTextItem);
+                
+                const separator = document.createElement('hr');
+                separator.id = "comment_end";
+                commentContainer.appendChild(separator);
+                
+                const infoItem = document.createElement('li');
+                infoItem.id = "comment_information";
+                infoItem.textContent = `${comment.timestamp} | ${comment.id}`;
+                commentContainer.appendChild(infoItem);
+        
+                commentSection.appendChild(commentContainer);
+            });
+        }
+        
+        window.onload = function () {
+            fetchComments();
+            
+            const post_url = document.getElementsByClassName("post_url");
+            document.getElementById('post_url').value = article_title;
+        };
+        </script>
+</footer>
 
     
         <link 
@@ -484,7 +573,6 @@
 
     
 </article>
-
 
     
 

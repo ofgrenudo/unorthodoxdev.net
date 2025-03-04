@@ -258,29 +258,6 @@ How to Generate this widget again.
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/comment.unorthodoxdev.net/issues/new?assignees=&amp;amp;labels=status&amp;#43;down&amp;amp;projects=&amp;amp;template=comment-service-down.md&amp;amp;title=https%3A%2F%2Funorthodoxdev.net%2Fcomment&amp;#43;is&amp;#43;down&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/ofgrenudo/comment.unorthodoxdev.net/issues/new&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;form action=&#34;http://localhost:8080/comment/new/post&#34; method=&#34;post&#34; id=&#34;new_comment&#34;&gt;
-            &lt;input type=&#34;text&#34; name=&#34;username&#34; id=&#34;username&#34; placeholder=&#34;what should we call you?&#34; maxlength=&#34;500&#34; required=&#34;&#34;&gt;
-            &lt;textarea id=&#34;comment&#34; name=&#34;comment&#34; maxlength=&#34;10000&#34; placeholder=&#34;whats on your mind....&#34; spellcheck=&#34;true&#34; required=&#34;&#34;&gt;&lt;/textarea&gt;
-            &lt;input type=&#34;text&#34; name=&#34;post_url&#34; id=&#34;post_url&#34; required=&#34;&#34; hidden&gt;
-            &lt;button id=&#34;submit&#34;&gt;Send!&lt;/button&gt;
-&lt;/form&gt;
-&lt;script&gt;
-
-  // Get the &lt;a&gt; element within the &lt;h2&gt;
-//   const link = document.querySelector(&#39;.article-title a&#39;);
-    const link = document.getElementsByClassName(&#39;article-title&#39;)[0].getElementsByTagName(&#39;a&#39;)[0];
-    // Get the href value
-    const href = link.getAttribute(&#39;href&#39;);
-    alert(href)
-    // Extract the part after &#39;/p/&#39; and before the next &#39;/&#39;
-    const valueAfterP = href.split(&#39;/p/&#39;)[1].split(&#39;/&#39;)[0];
-
-    // Show the result
-    alert(valueAfterP);
-
-    postURL = document.getElementById(&#39;post_url&#39;);
-    postURL.value = window.location.href;
-&lt;/script&gt;
 </description>
         </item>
         <item>

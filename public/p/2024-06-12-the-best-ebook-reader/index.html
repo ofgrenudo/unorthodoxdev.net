@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/p/2024-06-12-the-best-ebook-reader/'>
 
-<link rel="stylesheet" href="/scss/style.min.369b76753866a603c784110863b032a6cdc169b7f9bddd50f54f71df07d1c95d.css"><meta property='og:title' content="The Best eBook Reader">
+<link rel="stylesheet" href="/scss/style.min.564ec4927d4f0b1a54e645e8aa4ade4e589a0afbc082d5dad4472f0a5030cf3f.css"><meta property='og:title' content="The Best eBook Reader">
 <meta property='og:description' content="My journey through a number of ebook readers, and what i finally settled on!">
 <meta property='og:url' content='http://localhost:1313/p/2024-06-12-the-best-ebook-reader/'>
 <meta property='og:site_name' content='Unorthodoxdev'>
@@ -420,14 +420,16 @@
 <p>I began to polit the app on my phone, reading every now and then when I get the chance. Until a few nights ago, where I was laying in bed and reading I decided to experiment with the settings seeing if there was a red light setting. And I discovered that on the mobile application, there is a text to speech feature, where the app will read the book to me! I spend the following 30 minutes, listening the book and following along as it goes. I was entirely impressed by its pronunciation of some hard words. The book i am reading currently has a number of latin and spanish words in it, so from time to time it will butcher a sentence.  Otherwise I am generally able to understand what its trying to say to me. Its annotation feature also allows for you to export the annotations to a document within your google drive! One of the downsides to this though, is that the text to speech feature is not available on the web version. Im also unable to test wether or not its available on the iOS version.</p>
 <p>With that being said, While I know that not everyone likes google, and many people are attempting to de-google their life. If you are looking for a very solid ebook solution, Google Play Books is the way to go. It meets literally all of my requirements and more. With the added text to speech feature, its almost like you get an added ebook thrown in for free!</p>
 
+    <form action="https://unorthodoxdev.net/comment/new/post" method="post" id="new_comment">
+        <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
+        <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
+        <input type="hidden" name="post_url" id="post_url" required>
+        <button id="submit">Send!</button>
+    </form>
+    <div id="comments">
+    </div>
 </section>
 
-    <form action="http://localhost:8080/comment/new/post" method="post" id="new_comment">
-            <input type="text" name="username" id="username" placeholder="what should we call you?" maxlength="500" required="">
-            <textarea id="comment" name="comment" maxlength="10000" placeholder="whats on your mind...." spellcheck="true" required=""></textarea>
-            <input type="hidden" name="post_url" id="post_url" required>
-            <button id="submit">Send!</button>
-    </form>
     <footer class="article-footer">
     
 
@@ -443,8 +445,95 @@
 
         <span>GNU General Public License v3.0</span>
     </section>
-    </footer>
-
+    <script>
+        
+        const comments_server = "https://unorthodoxdev.net/comment/get/post/raw/";
+        const link = document.getElementsByClassName('article-title')[0].getElementsByTagName('a')[0];
+        const href = link.getAttribute('href');
+        const parts = href.split("/");
+        const article_title = parts[2];
+        
+        const comments_on_post_url = comments_server + article_title;
+        
+        
+        async function fetchComments() {
+            try {
+                const response = await fetch(comments_on_post_url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+        
+                const rawText = await response.text();
+                console.log('Raw Response:', rawText);
+        
+                let comments = [];
+                try {
+                    comments = JSON.parse(rawText);
+                } catch (jsonError) {
+                    console.error('Failed to parse JSON:', jsonError);
+                    return;
+                }
+                
+                if (comments.length === 0) {
+                    console.log('No comments returned.');
+                    return;
+                }
+        
+                displayComments(comments);
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error);
+            }
+        }
+        
+        
+        function displayComments(comments) {
+            console.log("Displaying comments:", comments);
+        
+            const commentSection = document.getElementById('comments');
+            if (!commentSection) {
+                console.error("No element with id 'comments' found.");
+                return;
+            }
+        
+            commentSection.innerHTML = ""; 
+        
+            comments.forEach(comment => {
+                const commentContainer = document.createElement('div');
+                commentContainer.id = "comment_";
+        
+                const usernameItem = document.createElement('li');
+                usernameItem.id = "comment_username";
+                usernameItem.innerHTML = `<p><b>${comment.username}</b> says...</p>`;
+                commentContainer.appendChild(usernameItem);
+        
+                const commentTextItem = document.createElement('li');
+                commentTextItem.id = "comment_input";
+                const commentText = document.createElement('pre');
+                commentText.textContent = comment.comment;
+                commentTextItem.appendChild(commentText);
+                commentContainer.appendChild(commentTextItem);
+                
+                const separator = document.createElement('hr');
+                separator.id = "comment_end";
+                commentContainer.appendChild(separator);
+                
+                const infoItem = document.createElement('li');
+                infoItem.id = "comment_information";
+                infoItem.textContent = `${comment.timestamp} | ${comment.id}`;
+                commentContainer.appendChild(infoItem);
+        
+                commentSection.appendChild(commentContainer);
+            });
+        }
+        
+        window.onload = function () {
+            fetchComments();
+            
+            const post_url = document.getElementsByClassName("post_url");
+            document.getElementById('post_url').value = article_title;
+        };
+        </script>
+</footer>
 
     
         <link 
@@ -474,7 +563,6 @@
 
     
 </article>
-
 
     
 
