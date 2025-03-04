@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Dinner on Unorthodoxdev</title>
-        <link>http://localhost:1313/tags/dinner/</link>
+        <link>https://unorthodoxdev.net/tags/dinner/</link>
         <description>Recent content in Dinner on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Jun 2024 16:07:31 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/dinner/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Jun 2024 16:07:31 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/tags/dinner/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Ravioli</title>
-        <link>http://localhost:1313/recipes/dinner/ravioli/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/ravioli/</link>
         <pubDate>Mon, 10 Jun 2024 16:07:31 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/ravioli/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/ravioli/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1lb Ground Beef or Turkey.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 2 cups of mozzarella, ricotta, or cottage cheese.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Spaghetti, or Marinara Sauce.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;directions&#34;&gt;&lt;a href=&#34;#directions&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Directions
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;Begin Making your &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;. Once you have set them aside to rest, begin prepping your ground beef or turkey. Season heavily, with italian seasonings.&lt;/li&gt;
+&lt;li&gt;Begin Making your &lt;a class=&#34;link&#34; href=&#34;https://unorthodoxdev.net/recipes/dinner/home-made-noodles/&#34; &gt;Home Made Noodles&lt;/a&gt;. Once you have set them aside to rest, begin prepping your ground beef or turkey. Season heavily, with italian seasonings.&lt;/li&gt;
 &lt;li&gt;Once your ground beef has complexly cooked through, drain grease into disposable container and kill heat on the stove.&lt;/li&gt;
 &lt;li&gt;Begin boiling water in a large pot now.&lt;/li&gt;
 &lt;li&gt;Next stir in your choice of cheese, favorably cottage cheese or ricotta cheese.&lt;/li&gt;
@@ -72,10 +72,10 @@
         </item>
         <item>
         <title>Home Made Noodles</title>
-        <link>http://localhost:1313/recipes/dinner/home-made-noodles/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/home-made-noodles/</link>
         <pubDate>Mon, 10 Jun 2024 15:55:05 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/home-made-noodles/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/home-made-noodles/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 cup of flour.&lt;/li&gt;
@@ -96,10 +96,10 @@
         </item>
         <item>
         <title>Chicken Noodle Soupless (Slow Cooker)</title>
-        <link>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/chicken-noodle-soupless/</link>
         <pubDate>Mon, 10 Jun 2024 11:31:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/chicken-noodle-soupless/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/chicken-noodle-soupless/</guid>
         <description>&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Notice, that this recipe, requires roughly 7 hours to complete, most of which are waiting on the slowcooker.&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
@@ -172,10 +172,10 @@
         </item>
         <item>
         <title>Goulash</title>
-        <link>http://localhost:1313/recipes/dinner/goulash/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/goulash/</link>
         <pubDate>Wed, 22 May 2024 15:42:37 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/goulash/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/goulash/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1lb of ground beef.&lt;/li&gt;
@@ -243,10 +243,10 @@
         </item>
         <item>
         <title>Enchiladas</title>
-        <link>http://localhost:1313/recipes/dinner/enchiladas/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/enchiladas/</link>
         <pubDate>Wed, 18 Oct 2023 15:41:38 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/enchiladas/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/enchiladas/</guid>
         <description>&lt;p&gt;Enchiladas are traditionally served stuffed with cheese or potatoes, but in america are commonly found stuffed with chicken. Realistically you can use what ever you want, ive even had carne asada enchiladas&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
@@ -320,10 +320,10 @@
         </item>
         <item>
         <title>Chicken Mack</title>
-        <link>http://localhost:1313/recipes/dinner/chicken-mack/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/chicken-mack/</link>
         <pubDate>Wed, 18 Oct 2023 15:31:25 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/chicken-mack/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/chicken-mack/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 1 16 oz. box spiral noodles or elbow noodles.&lt;/li&gt;
@@ -395,10 +395,10 @@
         </item>
         <item>
         <title>Tinga</title>
-        <link>http://localhost:1313/recipes/dinner/tinga/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/tinga/</link>
         <pubDate>Wed, 19 Jul 2023 13:57:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/tinga/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/tinga/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Large Yellow Onion.&lt;/li&gt;
@@ -480,10 +480,10 @@
         </item>
         <item>
         <title>Andrea&#39;s Chilli Recipe</title>
-        <link>http://localhost:1313/recipes/dinner/andreas-chili-recipe/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/andreas-chili-recipe/</link>
         <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/andreas-chili-recipe/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/andreas-chili-recipe/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;1 lb ground beef&lt;/li&gt;
@@ -547,10 +547,10 @@
         </item>
         <item>
         <title>Taco Salad</title>
-        <link>http://localhost:1313/recipes/dinner/taco-salad/</link>
+        <link>https://unorthodoxdev.net/recipes/dinner/taco-salad/</link>
         <pubDate>Wed, 19 Jul 2023 13:24:49 -0400</pubDate>
         
-        <guid>http://localhost:1313/recipes/dinner/taco-salad/</guid>
+        <guid>https://unorthodoxdev.net/recipes/dinner/taco-salad/</guid>
         <description>&lt;h2 id=&#34;ingredients&#34;&gt;&lt;a href=&#34;#ingredients&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Ingredients
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;1 head of lettuce, shredded&lt;/li&gt;

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Unorthodoxdev</title>
-        <link>http://localhost:1313/page/</link>
+        <link>https://unorthodoxdev.net/page/</link>
         <description>Recent content in Pages on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 01 Apr 2024 10:26:32 -0400</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Apr 2024 10:26:32 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Graduation</title>
-        <link>http://localhost:1313/graduation/</link>
+        <link>https://unorthodoxdev.net/graduation/</link>
         <pubDate>Mon, 01 Apr 2024 10:26:32 -0400</pubDate>
         
-        <guid>http://localhost:1313/graduation/</guid>
+        <guid>https://unorthodoxdev.net/graduation/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?q=80&amp;w=2071&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Graduation" /&gt;&lt;p&gt;Hello All!&lt;/p&gt;
 &lt;p&gt;I will be graduating from &lt;a class=&#34;link&#34; href=&#34;https://www.kvcc.edu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kalamazoo Valley Community College&lt;/a&gt; with my &lt;a class=&#34;link&#34; href=&#34;https://www.kvcc.edu/programs/business/cis.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -24,10 +24,10 @@
         </item>
         <item>
         <title>Plex!</title>
-        <link>http://localhost:1313/plex/</link>
+        <link>https://unorthodoxdev.net/plex/</link>
         <pubDate>Mon, 01 Apr 2024 10:26:32 -0400</pubDate>
         
-        <guid>http://localhost:1313/plex/</guid>
+        <guid>https://unorthodoxdev.net/plex/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1585647347483-22b66260dfff?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Plex!" /&gt;&lt;style&gt;
 .link {
   color: #458588;
@@ -108,18 +108,18 @@
         </item>
         <item>
         <title>School</title>
-        <link>http://localhost:1313/school/</link>
+        <link>https://unorthodoxdev.net/school/</link>
         <pubDate>Sun, 21 Jan 2024 11:53:11 -0500</pubDate>
         
-        <guid>http://localhost:1313/school/</guid>
+        <guid>https://unorthodoxdev.net/school/</guid>
         <description></description>
         </item>
         <item>
         <title>About</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://unorthodoxdev.net/about/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about/</guid>
+        <guid>https://unorthodoxdev.net/about/</guid>
         <description>&lt;!-- Should you be looking at the source code right now? --&gt;
 &lt;p&gt;Hello all~~~~&lt;/p&gt;
 &lt;p&gt;My name is Joshua WB (he/him)! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019!&lt;/p&gt;
@@ -240,18 +240,18 @@ How to Generate this widget again.
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://unorthodoxdev.net/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://unorthodoxdev.net/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Comments is under maintenance please check back soon!</title>
-        <link>http://localhost:1313/comment/</link>
+        <link>https://unorthodoxdev.net/comment/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/comment/</guid>
+        <guid>https://unorthodoxdev.net/comment/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1523861751938-121b5323b48b?q=80&amp;w=2062&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Featured image of post Comments is under maintenance please check back soon!" /&gt;&lt;blockquote&gt;
 &lt;p&gt;If you believe that this message was shown to you when it should not have been, please submit an issue here&lt;/p&gt;
 &lt;ul&gt;
@@ -262,18 +262,18 @@ How to Generate this widget again.
         </item>
         <item>
         <title>Recipes</title>
-        <link>http://localhost:1313/recipes/</link>
+        <link>https://unorthodoxdev.net/recipes/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/recipes/</guid>
+        <guid>https://unorthodoxdev.net/recipes/</guid>
         <description></description>
         </item>
         <item>
         <title>Security</title>
-        <link>http://localhost:1313/security/</link>
+        <link>https://unorthodoxdev.net/security/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/security/</guid>
+        <guid>https://unorthodoxdev.net/security/</guid>
         <description>&lt;p&gt;For any &lt;strong&gt;important&lt;/strong&gt; communications,&lt;/p&gt;
 &lt;p&gt;I will communicate via this GPG key.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -328,18 +328,18 @@ How to Generate this widget again.
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://unorthodoxdev.net/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://unorthodoxdev.net/links/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://unorthodoxdev.net/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://unorthodoxdev.net/search/</guid>
         <description></description>
         </item>
         

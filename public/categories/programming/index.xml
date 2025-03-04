@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Programming on Unorthodoxdev</title>
-        <link>http://localhost:1313/categories/programming/</link>
+        <link>https://unorthodoxdev.net/categories/programming/</link>
         <description>Recent content in Programming on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 04 Jun 2024 08:50:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/programming/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Jun 2024 08:50:15 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/programming/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How to Contribute to Open Source Software</title>
-        <link>http://localhost:1313/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
+        <link>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</link>
         <pubDate>Tue, 04 Jun 2024 08:50:15 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/2024-06-04-how-to-contribute-to-open-source-software/</guid>
+        <guid>https://unorthodoxdev.net/p/2024-06-04-how-to-contribute-to-open-source-software/</guid>
         <description>&lt;p&gt;Lots of people want to contribute to open source software. Though getting started contributing can be at first a challenge. The easiest way to get started contributing to open source though is to use open source software. With it can come times where you wish there was a feature, or you notice a wierd bug you wish was fixed. One of the first open source projects I contributed to was the creation of the Jellyfin Theater app, (now archived). Having a jellyfin server, since its invention I really desired a native client that I could stream movies and listen to music on. In having that need, I decided to sit down and dig into the jellyfin api. Over the weekend I was able to put together a functioning piece of the Jellyfin Theater App &lt;a class=&#34;link&#34; href=&#34;https://github.com/jellyfin-archive/jellyfin-desktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/jellyfin-archive/jellyfin-desktop&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Another  etc&amp;hellip;) I instance of having that &lt;em&gt;itch&lt;/em&gt; to contribute, would have been a few weeks or so ago. With the advent windows recall, I decided for any device the I dont &lt;em&gt;need&lt;/em&gt; (i know, i know, but there are instances that i &lt;em&gt;need&lt;/em&gt; to use windows for schoolwill install linux on whatever isnt needed. I started by installing Ubuntu onto my thinkpad, and then I got started customizing the operating system. In doing so, one of the common tools you will use when customizing the gnome desktop is the &lt;a class=&#34;link&#34; href=&#34;https://gitlab.gnome.org/GNOME/gnome-tweaks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -64,10 +64,10 @@
         </item>
         <item>
         <title>Simple File Parsing Takes Three Hours</title>
-        <link>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
+        <link>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</link>
         <pubDate>Thu, 21 Sep 2023 09:53:13 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
+        <guid>https://unorthodoxdev.net/p/2023-09-21-simple-file-parsing-takes-three-hours/</guid>
         <description>&lt;p&gt;NMAP really needs some kind of file output option that isnt leetcode, xml, or gibberish. I would kill for a csv output from nmap. Regardless, lets solve this problem. I chose to ues python because I figured it would be quick and easy and would take no time. I was in fact wrong; Im not quite as comfortable with python as I am with rust at this point, but thats ok. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ofgrenudo/noparser/blob/main/noparser.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;It took about 2-3 hours to build and test a simple program&lt;/a&gt;. This stupid script, took a little over 40 minutes trying to figure out how to build a stupid CLI interface and I immediately realized I miss rusts built in fail handling. Your telling me that I have to try, except &lt;strong&gt;everything???&lt;/strong&gt;. Oh well it doesnt matter anyways this doesnt actually compile down to machine code there are no assembly jumps or calls, lets just do it&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;God I hate this I decided to just cave and research a few CLI libraries and landed on plac, which has some very terrible documentation. For example, they do not explicilty provide a way for you to accept a file path or string lol. I just had to play around with the program until I found something that works, but this library could literally kill for some more english in the documentation. After I got that going it was easy peasy lemon squeezy. Except, when you error out, it doesnt really tell you why if your in a try catch loop. So I have to effectively comment out the try catch loop, and lower my code a indentation bracket figure out what the hell is breaking my code, just to realize I forgot to pass a variable to a function but was referencing it anyways&amp;hellip;. Another downside to try catch. Why the hell is my program failing. Otherwise, this program is less than 40 lines without all the stupid comments.&lt;/p&gt;
@@ -78,10 +78,10 @@
         </item>
         <item>
         <title>In dire need of comments</title>
-        <link>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</link>
+        <link>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments/</link>
         <pubDate>Tue, 01 Aug 2023 10:07:32 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/2023-08-01-in-dire-need-of-comments/</guid>
+        <guid>https://unorthodoxdev.net/p/2023-08-01-in-dire-need-of-comments/</guid>
         <description>&lt;p&gt;I recently migrated my website from &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ghost blog&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo&lt;/a&gt; which is a static site generator compared to the all in one package you get with &lt;a class=&#34;link&#34; href=&#34;https://ghost.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -137,10 +137,10 @@
         </item>
         <item>
         <title>Tattoo</title>
-        <link>http://localhost:1313/p/2023-07-19-tattoo/</link>
+        <link>https://unorthodoxdev.net/p/2023-07-19-tattoo/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:44 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/2023-07-19-tattoo/</guid>
+        <guid>https://unorthodoxdev.net/p/2023-07-19-tattoo/</guid>
         <description>&lt;p&gt;&lt;img src=&#34;https://github.com/ofgrenudo/tattoo/actions/workflows/ci.yml/badge.svg&#34;
 	
 	
@@ -240,10 +240,10 @@
         </item>
         <item>
         <title>Ci Pipelines With Rust</title>
-        <link>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</link>
+        <link>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</link>
         <pubDate>Wed, 19 Jul 2023 21:01:12 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/2023-07-19-ci-pipelines-with-rust/</guid>
+        <guid>https://unorthodoxdev.net/p/2023-07-19-ci-pipelines-with-rust/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1609213244695-7d6902be89da" alt="Featured image of post Ci Pipelines With Rust" /&gt;&lt;p&gt;&lt;em&gt;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;CI, Continuous onus Integration allows for each member of a team to integrate their changes into the main branch, multiple times a day.&lt;/p&gt;
 &lt;p&gt;Continuous Integration allows us to tighten the feed back loop. We are less likely to go off on your own and develop for days or weeks just to find out the approach you have taken isn&amp;rsquo;t working, or isn&amp;rsquo;t approved by peers. Continuous Integration forces you to work with your teammates earlier than when you feel is comfortable allowing for course correcting actions to be taken &lt;em&gt;before&lt;/em&gt; you have wasted your time. So how do we make Continuous Integration a reality?&lt;/p&gt;
