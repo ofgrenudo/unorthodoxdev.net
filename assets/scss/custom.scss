@@ -6,3 +6,67 @@
 
 /* This snippet removes that stupid header on the goodreads bit, must be in a div with the widget_container class though... */
 .widget_container {h2 {display: none;}}
+button {
+    background-color: var(--code-background-color);
+    border: 2px solid var(--table-border-color);
+    cursor: pointer;
+    width: 100%;
+    color: var(--card-text-color-main);
+    padding: 12px 20px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--table-border-color);
+    background: var(--code-background-color);
+    color: var(--card-text-color-main);
+    border-radius: 4px;
+    margin: 4px 2px;
+}
+#comment_ {
+    border: 2px solid var(--table-border-color);
+    background-color: var(--code-background-color);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#comment_input {
+    max-width: 100%; /* Ensure it doesn't exceed the parent width */
+    overflow-x: auto; /* Allow horizontal scrolling for long lines */
+    overflow-y: auto;
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+    /* Hide scrollbar in WebKit-based browsers */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+#comment_input pre::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome/Safari */
+}
+#comment_input pre {
+    background-color: var(--bg1);
+}
+/* #comment_:hover {
+    transform: scale(1.05);   
+    border: 2px solid var(--orange);      
+    box-shadow: 0 0 10px var(--orange-dim);   
+} */
+#comment_end {
+    margin-top: 15px;
+    height: 1px;
+    color: var(--orange-dim);
+    background-color: var(--bg3);
+    border: none;
+}
+#comment_information {
+    color: var(--yellow-dim);
+}
+#comment_ ul { list-style-type: none; margin: 0; padding: 0;}
+#comment_ li { list-style-type: none; margin: 0; padding: 0;}
+#comment_ .article-content pre {
+    margin: 0em 0px !important;
+    width: auto !important;
+}
