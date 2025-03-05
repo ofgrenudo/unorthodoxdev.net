@@ -18,7 +18,7 @@ draft: false
 
 Hello All!
 
-If you have recieved a linke to this page, it is because I have invited you to use my Plex Server. Plex is essentially a way that I share movies and media that I own. You will have relatively unrestricted access to an endless library of Movies, and TV Shows.
+If you have recieved a link to this page, it is because I have invited you to use my Plex Server. Plex is essentially a way that I share movies and media that I own. You will have relatively unrestricted access to an endless library of Movies, and TV Shows.
 
 Here’s how you can get started:
 
