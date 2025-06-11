@@ -3,22 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unorthodoxdev.net/</loc>
-    <lastmod>2025-02-26T10:07:43-05:00</lastmod>
+    <lastmod>2025-06-11T15:51:54-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/categories/</loc>
+    <lastmod>2025-06-11T15:51:54-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/post/</loc>
+    <lastmod>2025-06-11T15:51:54-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/categories/security/</loc>
+    <lastmod>2025-06-11T15:51:54-04:00</lastmod>
+  </url><url>
+    <loc>https://unorthodoxdev.net/p/2025-06-11-why-privacy-matters-even-if-you-have-nothing-to-hide/</loc>
+    <lastmod>2025-06-11T15:51:54-04:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/bookclub/h.con.res.14/</loc>
     <lastmod>2025-02-26T10:07:43-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/page/</loc>
     <lastmod>2025-02-26T10:07:43-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/categories/</loc>
-    <lastmod>2025-02-17T18:10:31-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/post/</loc>
-    <lastmod>2025-02-17T18:10:31-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/categories/security/</loc>
-    <lastmod>2025-02-17T18:10:31-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/</loc>
     <lastmod>2025-02-17T18:10:31-05:00</lastmod>
@@ -28,9 +31,6 @@
   </url><url>
     <loc>https://unorthodoxdev.net/p/2025-02-16-why-im-switching-to-macos/</loc>
     <lastmod>2025-02-16T10:09:12-05:00</lastmod>
-  </url><url>
-    <loc>https://unorthodoxdev.net/second-burial/</loc>
-    <lastmod>2025-01-18T20:24:24-05:00</lastmod>
   </url><url>
     <loc>https://unorthodoxdev.net/tags/aws/</loc>
     <lastmod>2024-12-07T11:23:21-05:00</lastmod>

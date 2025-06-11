@@ -14,7 +14,7 @@ menu:
 
 <!-- Should you be looking at the source code right now? -->
 
-Hello all~~~~
+Hello all,
 
 My name is Joshua WB (he/him)! I am a IT Expert specializing in Mobile Device Management tools like MECM, InTune, and Jamf. I have been working in IT since 2019!
 
@@ -36,11 +36,11 @@ Some certificates I am aiming for are as follows:
 
 ### Programming Languages
 
-| Language   | Expertise Level |
-| ---------- | --------------- |
-| Rust       | Intermediate    |
-| Python     | Intermediate    |
-| Java       | Intermediate    |
+| Language | Expertise Level |
+| -------- | --------------- |
+| Rust     | Intermediate    |
+| Python   | Intermediate    |
+| Java     | Intermediate    |
 
 ### My Certifications!
 
@@ -98,10 +98,12 @@ How to Generate this widget again.
 
 ### Cinema Recommendations!
 
-These are must watches for horror. Id say, theres a good mix of american and asian media here!
+**If you are interested in seeing [what im currently watching you can check here](https://watch.plex.tv/u/winters-brown?utm_campaign=share_user&utm_content=f354b900b02b94ea&utm_medium=Plex+Web&utm_source=dt&utm_term=23426003)**
 
-- [Detention (Comedy, Thriller, B-Movie)](https://www.imdb.com/title/tt1701990/?ref_=fn_al_tt_1)
-- [The Faculty (Thriller, B-Movie)](https://www.imdb.com/title/tt0133751/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520faculty)
+
+These are my must watches for horror. 
+- [Detention (Comedy, Thriller, B-Movie, American)](https://www.imdb.com/title/tt1701990/?ref_=fn_al_tt_1)
+- [The Faculty (Thriller, American)](https://www.imdb.com/title/tt0133751/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520faculty)
 - [Audition (Horror, Japanese)](https://www.imdb.com/title/tt0235198/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Audition)
 - [Suicide Club (Horror, Japanese)](https://www.imdb.com/title/tt0312843/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Suicide%2520Club)
 - [Battle Royal (Horror, Japanese)](https://www.imdb.com/title/tt0266308/?ref_=fn_al_tt_1)

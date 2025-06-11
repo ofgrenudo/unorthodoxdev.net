@@ -6,7 +6,142 @@
         <description>Recent content in Security on Unorthodoxdev</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 17 Feb 2025 18:10:31 -0500</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/security/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 11 Jun 2025 15:51:54 -0400</lastBuildDate><atom:link href="https://unorthodoxdev.net/categories/security/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Why Privacy Matters - Even If You Have Nothing To Hide</title>
+        <link>https://unorthodoxdev.net/p/2025-06-11-why-privacy-matters-even-if-you-have-nothing-to-hide/</link>
+        <pubDate>Wed, 11 Jun 2025 15:51:54 -0400</pubDate>
+        
+        <guid>https://unorthodoxdev.net/p/2025-06-11-why-privacy-matters-even-if-you-have-nothing-to-hide/</guid>
+        <description>&lt;p&gt;“If you do nothing wrong, why should you be worried about your privacy?” This is one of the most common arguments used to dismiss concerns about surveillance and data collection. In his article Why Privacy Matters Even If You Have ‘Nothing to Hide’, Daniel J. Solove critiques this perspective, calling it “the most common retort against privacy advocates” (Solove, 2011).&lt;/p&gt;
+&lt;p&gt;Solove challenges the simplicity of this argument through both humor and analysis. He highlights its flaws with provocative phrases such as “show me yours and I’ll show you mine,” “so do you have curtains?”, and “if you don’t have anything to hide, then you don’t have a life” (Solove, 2011). These rebuttals underscore the absurdity of equating privacy with wrongdoing.&lt;/p&gt;
+&lt;p&gt;More importantly, Solove explains that the “nothing to hide” argument falsely assumes privacy is only about hiding illegal or unethical behavior. In reality, privacy protects personal dignity, autonomy, and freedom from unjust scrutiny. Accepting this argument allows both governments and corporations to overreach, often under the guise of protecting the public.&lt;/p&gt;
+&lt;p&gt;Consider the real-life example reported in The Guardian, where a father took a photo of his son’s groin to send to a doctor for a medical consultation. The image, automatically backed up to Google Photos, was flagged as child sexual abuse material (CSAM). As a result, Google terminated the father’s account. Despite being cleared of any wrongdoing by authorities, Google refused to reinstate his access (Bhuiyan, 2022). This case demonstrates how the “nothing to hide” mindset can justify sweeping, invasive surveillance—even when it harms innocent people.&lt;/p&gt;
+&lt;p&gt;Let’s assume, for argument’s sake, that we all agree CSAM must be eliminated. A supporter of surveillance might say, “It’s good that Google scans everyone’s photos to find such content.” The opposing view argues that such scanning is an invasion of privacy, especially without user consent. In this case, Google’s refusal to reverse the account ban, even after the user was cleared, illustrates how automated systems can cause real damage—especially when due process is ignored.&lt;/p&gt;
+&lt;p&gt;Solove outlines two major ways organizations violate privacy: aggregation and exclusion. Aggregation refers to how seemingly harmless bits of data, when combined, can reveal deeply personal information (Solove, 2011). Exclusion occurs when individuals have no control over how their data is used—often without their knowledge. This leads to additional privacy harms like secondary use (using your data for unrelated purposes) and distortion (drawing incorrect conclusions from incomplete or misleading data).&lt;/p&gt;
+&lt;p&gt;I agree with Solove’s position: the “nothing to hide” argument functions like a psychological trick, used to justify mass surveillance. It minimizes legitimate privacy concerns by framing them as suspicious or paranoid. In truth, technology has evolved so rapidly—and become so deeply embedded in our lives—that protecting digital privacy requires far greater scrutiny than in the past. As Christensen and Jansson (2014) write, “while surveillance as an apparatus of state and capitalism is nothing new, the intense level of mediatization… render[s] current forms of surveillance significantly different in character.” This means we need modern laws and safeguards to defend privacy in a digital world.&lt;/p&gt;
+&lt;h2 id=&#34;privacy-and-social-media&#34;&gt;&lt;a href=&#34;#privacy-and-social-media&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Privacy and Social Media
+&lt;/h2&gt;&lt;p&gt;Social media platforms play a major role in this debate. As Levinson-Waldman, Panduranga, and Patel (2022) note, social media is now a primary way people engage with news, public discourse, and one another. At the same time, over nine U.S. federal agencies were actively monitoring social media as of 2022, using it for investigations, threat detection, situational awareness, and immigration screening.&lt;/p&gt;
+&lt;p&gt;This raises constitutional concerns. Does social media surveillance violate the First Amendment, which protects free speech? Legally, you are protected from being targeted for exercising your constitutional rights. Yet in practice, this protection is often ignored. Private companies also collect data at massive scale. Facebook, for example, built a database of faces that can recognize users even if they don’t have a Facebook account or didn’t upload the photo themselves (Meta, 2018; Graf, 2023). This is chilling when paired with government surveillance. After 9/11, intelligence funding ballooned to $44 billion annually, and private companies became heavily involved in national security operations (Boghosian, 2013). Imagine the government requesting access to a company’s facial recognition database to build a legal case—without your knowledge or consent. Something as innocent as a photo shared with friends could be repurposed as evidence.&lt;/p&gt;
+&lt;h2 id=&#34;the-state-and-their-exploitative-use-of-social-media-and-the-internet&#34;&gt;&lt;a href=&#34;#the-state-and-their-exploitative-use-of-social-media-and-the-internet&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;The State and Their Exploitative Use of Social Media and the Internet
+&lt;/h2&gt;&lt;p&gt;Take the case of Mahmoud Khalil, arrested for participating in pro-Palestine rallies at Columbia University (News, 2025). His identity and activities were made public by a pro-Israel doxxing website and a Zionist group on social media. One tweet accused him—without evidence—of supporting violence and claimed he appeared on ICE’s deportation list (Worldwide, 2025). In this case, social media didn’t just reflect public discourse; it enabled law enforcement to identify and locate Khalil, ultimately contributing to his arrest.&lt;/p&gt;
+&lt;p&gt;Surveillance also raises Fourth Amendment issues. The amendment protects against “unreasonable searches and seizures,” including digital data when there’s a reasonable expectation of privacy. However, content posted publicly online is typically not considered private, meaning law enforcement doesn’t need a warrant to access it (Levinson-Waldman, Panduranga, &amp;amp; Patel, 2022). What’s more, while you can legally protect your phone’s PIN under the Fifth Amendment, your fingerprint can legally be compelled—raising new ethical questions about consent and self-incrimination (Purdue Global Law School, 2022).&lt;/p&gt;
+&lt;p&gt;The core ethical dilemma in surveillance often boils down to consent and purpose. Do individuals know they’re being watched? Is the data being used responsibly? Is it secure? These questions must be addressed as surveillance becomes more pervasive.&lt;/p&gt;
+&lt;h1 id=&#34;surveillance-today-in-kalamazoo&#34;&gt;&lt;a href=&#34;#surveillance-today-in-kalamazoo&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Surveillance Today In Kalamazoo
+&lt;/h1&gt;&lt;p&gt;These issues though, are not abstract. They are not a distant problem only experienced in other places. They even happen here in your own back yard. For example, do you own a car? Do you drive it places?  Id like to look at the recent discovery of Grand Rapids Public Safety using Kalamazoo Public Safety&amp;rsquo;s Automatic License Plate Readers. There are currently 49 known Automatic License Plate Reader in Kalamazoo. June 6th, 2025 Kalamazoo Public Safety determined that “outside agencies” (GRPD) were accessing data from Kalamazoo Public Safety’s Automatic License Plate Readers (ALPR) with the reason of “immigration-related violations” (Tunison, 2025). The Flock ALPR systems allow for officers to type in a license plate number within a time frame, and search for any entries. If the plate was read during the provided timeframe, it shows the intersection where it was captured, as well as the date and time, though no information is provided about the driver or the vehicle registration (Tunison, 2025).  Why does GRPD have access to Kalamazoo&amp;rsquo;s ALPR system? And why would they need it? We are two cities with a 52 mile gap between us. With that being said, how many police or immigrant arrests were contributed to GRPD and others accessing the Flock ALPR system?&lt;/p&gt;
+&lt;p&gt;I think now it is more than ever important to outline some kind of data policy applied to our government and police departments. To defend our rights, we must advocate for clear, ethical limits on both corporate and governmental data practices, before the expectation of privacy disappears entirely. And we can start with some of the policies outlined by the ACLU:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;License Plate Readers should be used by Law Enforcement, and Law Enforcement Only.&lt;/li&gt;
+&lt;li&gt;The government must not store data about innocent people.&lt;/li&gt;
+&lt;li&gt;People should be able to find out if plate data of vehicles registered to them.&lt;/li&gt;
+&lt;li&gt;Law Enforcement agencies should not share license plate reader data.&lt;/li&gt;
+&lt;li&gt;Any entity that uses license plate readers should be required to report.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Privacy is not about secrecy. It is about autonomy, dignity, and protecting data from misuse, misinterpretation, and overreach—whether by governments, corporations, or automated systems. From facial recognition databases to license plate readers, we are witnessing a slow erosion of privacy through normalization and lack of oversight. We must preserve our rights, we must demand transparency, accountability, and robust limitations on data collection and sharing. Privacy is a necessity foundation of a free society.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;P.S: If you are generally interested in seeing the places that you are being tracked by Automatic License Plate Readers you can find them listed below as of Today June 11th 2025, &lt;a class=&#34;link&#34; href=&#34;https://deflock.me&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;or find a more recent map at https://deflock.me&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ALPR Cameras and Locations in Kalamazoo&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;North and West Dunkley Street, Facing North&lt;/li&gt;
+&lt;li&gt;North and West Dunkley Street, Facing South&lt;/li&gt;
+&lt;li&gt;East Patterson and North Brudick Street Facing West&lt;/li&gt;
+&lt;li&gt;West Patterson and North Burdick Street Facing East&lt;/li&gt;
+&lt;li&gt;Gull Road and Riverview Drive Facing East Facing North East on Gull Road&lt;/li&gt;
+&lt;li&gt;Gull Street and Rever Street Facing South West&lt;/li&gt;
+&lt;li&gt;West North Street and Douglas Avenue, Facing North West Towards Dayshas&lt;/li&gt;
+&lt;li&gt;East Main Street and Phelps Avenue Facing North East&lt;/li&gt;
+&lt;li&gt;East Main Street and Horace Avenue Facing South West&lt;/li&gt;
+&lt;li&gt;Mill Street After Soisson Field Facing North&lt;/li&gt;
+&lt;li&gt;North Westnedge Avenue and West Michigan Avenue by Citgo Facing South&lt;/li&gt;
+&lt;li&gt;North Drake Road when Entering The Strip Mall with Lowes and Hardings&lt;/li&gt;
+&lt;li&gt;South Howard Street Before Goldsworth Valley Drive Facing North&lt;/li&gt;
+&lt;li&gt;South Howard Street After Sutherland Avenue Facing South East&lt;/li&gt;
+&lt;li&gt;Portage Street and Stockbridge Facing North&lt;/li&gt;
+&lt;li&gt;Portage Street and Stockbridge Facing South&lt;/li&gt;
+&lt;li&gt;Portage Steet and Stockbridge Facing East&lt;/li&gt;
+&lt;li&gt;Portage Street and Stockbridge Facing West&lt;/li&gt;
+&lt;li&gt;West KL Avenue and South Drake Road Facing East&lt;/li&gt;
+&lt;li&gt;West KL Avenue and South Drake Road Facing West&lt;/li&gt;
+&lt;li&gt;West KL Avenue and West Michigan Avenue Facing East&lt;/li&gt;
+&lt;li&gt;West Michigan Avenue Before Century Avenue Facing South West&lt;/li&gt;
+&lt;li&gt;South 11th Street and Coddington Lane Facing South&lt;/li&gt;
+&lt;li&gt;West Michigan Avenue and South 11th Street Facing North East&lt;/li&gt;
+&lt;li&gt;South 11th Street and Stadium Drive Facing North&lt;/li&gt;
+&lt;li&gt;Stadium Drive and Rambling Road Facing East&lt;/li&gt;
+&lt;li&gt;Stadium Drive and Before Biggby’s Facing West&lt;/li&gt;
+&lt;li&gt;Miller Road and Fulford Street Facing South&lt;/li&gt;
+&lt;li&gt;Whites Road and Bronson Boulevard Facing West&lt;/li&gt;
+&lt;li&gt;East Cork Street and East Cork Street Court Facing North East and West&lt;/li&gt;
+&lt;li&gt;Campus Drive Before College Circle Facing South West&lt;/li&gt;
+&lt;li&gt;Campus Drive After College Circle Facing North West&lt;/li&gt;
+&lt;li&gt;South Westnedge Avenue and Denway Drive Facing North&lt;/li&gt;
+&lt;li&gt;South Westnedge Avenue and Denway Drive Facing South&lt;/li&gt;
+&lt;li&gt;West Kilgore Road and Oakland Drive Facing East&lt;/li&gt;
+&lt;li&gt;Oakland Drive and West Kilgore Road Facing South&lt;/li&gt;
+&lt;li&gt;South Westnedge Avenue and West Kilgore Road Facing South&lt;/li&gt;
+&lt;li&gt;Lovers Lane and East Kilgore Road Facing North&lt;/li&gt;
+&lt;li&gt;Lovers Lane and East Kilgore Road Facing South&lt;/li&gt;
+&lt;li&gt;Portage Road and Airview Boulevard Facing North&lt;/li&gt;
+&lt;li&gt;South Westnedge Avenue and East Millham Avenue Facing North&lt;/li&gt;
+&lt;li&gt;West Milham Road and Oakland Drive Facing East&lt;/li&gt;
+&lt;li&gt;West Milham Road and South 12th Street Facing West&lt;/li&gt;
+&lt;li&gt;Romence Road and South Westnedge Avenue Facing South&lt;/li&gt;
+&lt;li&gt;Sprinkle Road and Romance Road East&lt;/li&gt;
+&lt;li&gt;East Centre Avenue and Sprinkle Road&lt;/li&gt;
+&lt;li&gt;West Centre Avenue and Angling Road Facing South East&lt;/li&gt;
+&lt;li&gt;East Centre Avenue and Lovers Lane Facing East&lt;/li&gt;
+&lt;li&gt;East Centre Avenue and Lovers Lane Facing North&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;&lt;a href=&#34;#bibliography&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Bibliography
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;American Civil Liberties Union. (2013). You Are Being Tracked. New York: ACLU.&lt;/li&gt;
+&lt;li&gt;deflock. (n.d.). You&amp;rsquo;re Being Tracked. Retrieved from deflock: &lt;a class=&#34;link&#34; href=&#34;https://deflock.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://deflock.me/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Flock Safety. (n.d.). Flock Safety. Retrieved from Flock Safety: &lt;a class=&#34;link&#34; href=&#34;https://www.flocksafety.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.flocksafety.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tunison, J. (2025, June 6th). Questions arise over license plate readers and immigration checks in Grand Rapids, Kalamazoo. Retrieved from - MLive: &lt;a class=&#34;link&#34; href=&#34;https://www.mlive.com/news/grand-rapids/2025/06/questions-arise-over-license-plate-readers-and-immigration-checks-in-grand-rapids-kalamazoo.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.mlive.com/news/grand-rapids/2025/06/questions-arise-over-license-plate-readers-and-immigration-checks-in-grand-rapids-kalamazoo.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Weidmayer, M. (2021, October 21). 35 police-run cameras capturing license plate photos on Kalamazoo streets. Retrieved from MLive: &lt;a class=&#34;link&#34; href=&#34;https://www.mlive.com/news/kalamazoo/2021/10/35-police-run-cameras-capturing-license-plate-photos-on-kalamazoo-streets.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.mlive.com/news/kalamazoo/2021/10/35-police-run-cameras-capturing-license-plate-photos-on-kalamazoo-streets.html&lt;/a&gt;
+Bhuiyan, J. (2022, August 22). Google Refuses to Reinstate Man&amp;rsquo;s Account After He Took Medical Images of Son&amp;rsquo;s Groin. Retrieved from The - Guardian: &lt;a class=&#34;link&#34; href=&#34;https://www.theguardian.com/technology/2022/aug/22/google-csam-account-blocked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.theguardian.com/technology/2022/aug/22/google-csam-account-blocked&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Boghosian, H. (2013). Spying On Democracy, Government Surveillance, Corporate Power, and Public Resistance. San Francisco: City Lights Books.&lt;/li&gt;
+&lt;li&gt;Canary Mission. (2025, March 13th). Mahmoud Khalil. Retrieved from Canary Mission: archive.ph/0JWzC&lt;/li&gt;
+&lt;li&gt;Christensen, M., &amp;amp; Jansson, A. (2014). Media, Surveillance And Identity. New York: Peter Lang Publishing.&lt;/li&gt;
+&lt;li&gt;CTech. (2025, 03 20). From Unit 8200 to Wiz&amp;rsquo;s $32B Exit: The blueprint for Israeli cyber success. Retrieved from CTech: &lt;a class=&#34;link&#34; href=&#34;https://www.calcalistech.com/ctechnews/article/sjltwsk2kg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.calcalistech.com/ctechnews/article/sjltwsk2kg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cyphers, B. (2022, August 31). How Law Enforcement Around the Country Buys Cell Phone Location Data. Retrieved from EFF: &lt;a class=&#34;link&#34; href=&#34;https://tech.yahoo.com/general/articles/android-phones-getting-better-unwanted-154417656.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://tech.yahoo.com/general/articles/android-phones-getting-better-unwanted-154417656.html&lt;/a&gt;
+Eisner Gorin LLP. (n.d.). Computer Hacking Charges - 18 U.S.C Code 1030. Retrieved from Eisner Gorin LLP, State and Federal Criminal Defense: - &lt;a class=&#34;link&#34; href=&#34;https://www.egattorneys.com/federal-computer-hacking#:~:text=If%20you%20are%20charged%20with,hacking%20resulted%20in%20someone%27s%20death&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.egattorneys.com/federal-computer-hacking#:~:text=If%20you%20are%20charged%20with,hacking%20resulted%20in%20someone&#39;s%20death&lt;/a&gt;.
+Graf, J. (2023, September 22). Investigating Shadow Profiles: The Data Of Others. Retrieved from TechXplore: &lt;a class=&#34;link&#34; href=&#34;https://techxplore.com/news/-&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://techxplore.com/news/-&lt;/a&gt; 2023-09-shadow-profiles.html&lt;/li&gt;
+&lt;li&gt;HBO. (2019, April 13th). Wyatt Cenac&amp;rsquo;s Problem Areas: Surveillance (Season 2 Episode 2 Clip) | HBO. Retrieved from Youtube: &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=hU-cPVD95pM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=hU-cPVD95pM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hoback, C. (Director). (2013). Terms and Conditions May Apply [Motion Picture].&lt;/li&gt;
+&lt;li&gt;Levinson-Waldman, R., Panduranga, H., &amp;amp; Patel, F. (2022, January 7th). Social Media Surveillance by the U.S. Government. Retrieved from Brennan Center For Justice.
+Maizland, L. (2022, September 22). China&amp;rsquo;s Repression of Uyghurs in XinJiang. Retrieved from Council on Foreign Relations: &lt;a class=&#34;link&#34; href=&#34;https://www.cfr.org/-&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.cfr.org/-&lt;/a&gt; backgrounder/china-xinjiang-uyghurs-muslims-repression-genocide-human-rights&lt;/li&gt;
+&lt;li&gt;Meta. (2018, April 16). Hard Questions: What Data Does Facebook Collect When I&amp;rsquo;m Not Using Facebook, and Why? Retrieved from Meta: &lt;a class=&#34;link&#34; href=&#34;https://about.fb.com/news/2018/04/data-off-facebook/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://about.fb.com/news/2018/04/data-off-facebook/&lt;/a&gt;
+Mingyu, G., Hideaki, H., Ali, B., Tran Cao, S., Paolo, T., Matteo, B., . . . Amit K., C. (2016). Revenue Maximizing Markets for Zero-Day - Exploits. PRIMA 2016 (pp. 247-260). Phuket: Principles and Practice of Multi-Agent Systems.&lt;/li&gt;
+&lt;li&gt;News, N. (Director). (2025). ACLU releases video of Mahmoud Khalil&amp;rsquo;s arrest [Motion Picture].&lt;/li&gt;
+&lt;li&gt;Perlroth, N., &amp;amp; Shane, S. (2019, May 25). In Baltimore and Beyond, a Stolen N.S.A. Tool Wreaks Havoc. Retrieved from The New York Times: &lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/2019/05/25/us/nsa-hacking-tool-baltimore.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.nytimes.com/2019/05/25/us/nsa-hacking-tool-baltimore.html&lt;/a&gt;
+Purdue Global Law School. (2022, March 2nd). Does the Fifth Amendment Protect Biometrics? Retrieved from Purdue Global Law School: https://www.- purduegloballawschool.edu/blog/constitutional-law/fifth-amendment-biometrics&lt;/li&gt;
+&lt;li&gt;Siegal, T. (2020, August 8th). The Dark Side of Israeli Cybersecurity firms. Retrieved from The Jerusalem Post: &lt;a class=&#34;link&#34; href=&#34;https://www.jpost.com/jpost-tech/the-dark-side-of-israeli-cybersecurity-firms-637933&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.jpost.com/jpost-tech/the-dark-side-of-israeli-cybersecurity-firms-637933&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Solove, D. J. (2011, May 15). Why Privacy Matters Even if You Have &amp;lsquo;Nothing To Hide&amp;rsquo;. Retrieved from The Chronicle of Higher Education: &lt;a class=&#34;link&#34; href=&#34;https://www.chronicle.com/article/why-privacy-matters-even-if-you-have-nothing-to-hide/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.chronicle.com/article/why-privacy-matters-even-if-you-have-nothing-to-hide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Valentino-DeVries, J., Singer, N., Keller, M. H., &amp;amp; Krolik, A. (2018, December 10th). Your Apps Know Where You Were Last Night, and They&amp;rsquo;re Not Keeping It A Secret. Retrieved from New York Times: &lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Worldwide, B. (2025, January 30th). Twitter. Mohammad Khalil says Zionists don&amp;rsquo;t deserve to live while he&amp;rsquo;s on a visa. Twitter.&lt;/li&gt;
+&lt;li&gt;Wright, A. (2024, December 12th). Android Phones Are Getting Better Unwanted Tracker Detection. Retrieved from Yahoo!Tech: &lt;a class=&#34;link&#34; href=&#34;https://tech.yahoo.com/general/articles/android-phones-getting-better-unwanted-154417656.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://tech.yahoo.com/general/articles/android-phones-getting-better-unwanted-154417656.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Why You Should Disable Javascript From Loading By Default</title>
         <link>https://unorthodoxdev.net/p/2025-02-17-why-you-should-disable-javascript-from-loading-by-default/</link>
         <pubDate>Mon, 17 Feb 2025 18:10:31 -0500</pubDate>
